@@ -1,0 +1,9 @@
+{
+  "name": "morning-brief",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "brief": "node scripts/generate.mjs",
+    "render": "node scripts/generate.mjs --render-only"
+  }
+}
