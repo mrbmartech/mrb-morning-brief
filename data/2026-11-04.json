@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-04",
+  "longDate": "Wednesday 4 November 2026",
+  "clock": "10:14 am AEDT",
+  "generatedAt": "2026-11-03T23:14:55.421Z",
+  "model": "claude-sonnet-5-5",
+  "headline": "Good morning — here’s your brief for Wednesday 4 November 2026.",
+  "highlights": [],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Break up long sitting with a short walk",
+        "body": "Set a reminder to stand up and walk for two to five minutes after every 30 to 60 minutes at your desk. Walk to refill your water bottle, take a call on your feet, or climb a flight of stairs. Research suggests these short breaks can help blood sugar control and ease stiffness, and they count towards the Australian guidelines on moving more and sitting less."
+      },
+      "quote": {
+        "text": "A journey of a thousand miles begins with a single step.",
+        "author": "Laozi"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce–Braze deal keeps reshaping the martech market",
+          "url": "https://www.martechtherapy.com/who-gets-to-own-the-customer-loop/",
+          "source": "Martech Therapy",
+          "summary": "Analysis published in the last day looks at Salesforce's agreement, announced on 20 October, to buy Braze for $5.66 billion. It also covers Hightouch moving into message sending, and why the consolidation matters for ESP and CDP renewals."
+        },
+        {
+          "title": "Salesforce agrees to buy Cresta, in a 3 November martech roundup",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/",
+          "source": "The Agile Brand Guide",
+          "summary": "The roundup of 2 November news says Salesforce has agreed to buy Cresta, which sells voice agents. It also reports 6sense data that the favourite going into a B2B deal wins 82% of the time, and SEON data showing 68% weekly use of AI agents, though I haven't checked those figures against the original releases."
+        },
+        {
+          "title": "EU governments settle their position on cookie consent changes",
+          "url": "https://ppc.land/eu-council-agrees-4-month-cookie-re-ask-wait-for-digital-omnibus-talks/",
+          "source": "PPC Land",
+          "summary": "The EU Council has fixed its position on the Digital Omnibus. It lists six cookie uses that would not need consent, including measuring contextual ads, and would bar sites from asking again for at least four months after a refusal. These are negotiating positions rather than law, so current consent rules still apply."
+        },
+        {
+          "title": "AI agent launches keep coming, including a Sprinklr beta",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech",
+          "summary": "MarTech's latest roundup lists new agentic releases, among them Sprinklr's beta of six connected marketing agents, Demandbase's B2B agents and Follow Inc.'s email-operations agent. The list shows vendors competing to put governed AI agents into everyday campaign work."
+        },
+        {
+          "title": "Adobe Journey Optimizer audience editing hit by service degradation",
+          "url": "https://martechnotes.com/adobe-journey-optimizer-audience-editing-hit-by-november-3-service-degradation",
+          "source": "Martech Notes",
+          "summary": "Martech Notes reports that audience editing in Adobe Journey Optimizer was affected by a service degradation on 3 November. Teams building journeys in the tool should check Adobe's status page before launching campaigns that depend on new audiences."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce agrees to buy voice-AI company Cresta for Service Cloud",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce announced on 2 November that it has signed a deal to acquire Cresta, whose voice agents handle customer calls and coach human reps in real time. It will be folded into Service Cloud and Agentforce, and the deal is expected to close in the first quarter of Salesforce's fiscal 2028, subject to regulatory approvals. Salesforce hasn't disclosed a price, though media reports put it at about $2.7 billion, which is unconfirmed."
+        },
+        {
+          "title": "Cresta is the third Salesforce acquisition announced in about two weeks",
+          "url": "https://www.salesforceben.com/salesforce-acquires-cresta-buying-spree-continues-with-voice-agent-company/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben notes that the Cresta deal follows the Rune Technologies and Braze announcements, which points to an aggressive spending push to strengthen Agentforce. For admins and partners, it signals a fast-growing product portfolio that will need to be integrated."
+        },
+        {
+          "title": "Salesforce buys defence-tech firm Rune Technologies",
+          "url": "https://www.salesforceben.com/salesforce-acquires-rune-technologies-in-biggest-national-security-buy-to-date/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce is acquiring Rune Technologies to expand its Missionforce national security business. Salesforce says its defence business is growing 80% year on year, and the deal is expected to close in the fourth quarter of its fiscal 2027."
+        },
+        {
+          "title": "What the Braze takeover could mean for Marketing Cloud users",
+          "url": "https://www.salesforceben.com/what-happens-to-salesforce-marketing-cloud-after-the-braze-acquisition/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce is buying Braze in a deal worth about US$5.66 billion, and Braze's engagement tech is slated to link with Data 360, Customer 360 and Agentforce. Marketing Cloud professionals now face questions about how the two products will fit together without adding complexity for customers."
+        },
+        {
+          "title": "Investors uneasy as Salesforce keeps buying AI companies",
+          "url": "https://invezz.com/sg/news/2026/11/03/why-is-salesforce-stock-falling-today/",
+          "source": "Invezz",
+          "summary": "Salesforce shares fell after the Cresta announcement, with some on Wall Street concerned about the premiums paid in its run of AI acquisitions. The company has pointed to those deals as contributing to its revenue outlook, so how it integrates them will be closely watched."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "issues",
+      "statusNote": "One Marketing Cloud Next provisioning disruption, which listed AP instances, was resolved on 2–3 Nov; I found no ongoing AU-specific outage and no listed maintenance for the next 7 days, though I couldn't view the full Trust calendar.",
+      "items": [
+        {
+          "title": "Marketing Cloud Next setup and provisioning disruption hit AP instances, now fixed",
+          "url": "https://status.salesforce.com/incidents/20004557",
+          "source": "Salesforce Trust Status",
+          "summary": "Some Marketing Cloud Growth and Advanced Edition customers couldn't select a data space, which blocked Marketing Cloud Next setup and new org provisioning. Salesforce says it reverted the change and restored service at 23:29 UTC on 2 November (about 10:29 am AEDT on 3 November). The Trust homepage listing includes AP52, AP53 and AP54, so APAC orgs were in scope. A Known Issue article remains for anyone still seeing problems."
+        },
+        {
+          "title": "Aggregators logged several Salesforce disruptions on 2–3 Nov, all since resolved",
+          "url": "https://incidenthub.cloud/status/salesforce",
+          "source": "IncidentHub",
+          "summary": "IncidentHub's tracker shows feature disruptions starting 2 Nov (about 10 hours) and 3 Nov (about 1.5 hours), both marked resolved, and no current issues. Its snippets don't say which products or regions were affected, so check your own instance on Trust to see whether they touched you."
+        },
+        {
+          "title": "Personalization and Account Engagement list no November maintenance",
+          "url": "https://status.salesforce.com/products/MCPersonalization",
+          "source": "Salesforce Trust Status",
+          "summary": "The Trust page for Marketing Cloud Personalization, which includes the australia-3 instance, shows zero maintenance items for November. The Account Engagement page also shows none. I couldn't check the Sales/Service Cloud, Data Cloud or Marketing Cloud Engagement AU calendars, so confirm those in My Trust Center."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "RBA lifts cash rate to 4.85%, an 18-year high, on a split vote",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050",
+          "source": "ABC News",
+          "summary": "The Reserve Bank raised the cash rate by 0.25 percentage points to 4.85 per cent on Melbourne Cup Day. It was the fifth rise this year and the highest rate since late 2008. The board split 6–3, with three members voting to hold, and the bank has left the door open to more hikes."
+        },
+        {
+          "title": "Albanese promises spending savings after rate rise, rejects blame for it",
+          "url": "https://www.abc.net.au/news/2026-11-04/federal-politics-live-blog-angus-taylor-rates/107342840",
+          "source": "ABC News",
+          "summary": "Speaking from the Commonwealth summit in Antigua, the Prime Minister said he doesn't accept that government policy caused the rate rise. He said the government will look for savings, and he attacked the Coalition for opposing measures such as the private health insurance rebate change. The cost-of-living fight with Opposition Leader Angus Taylor is now the main federal political contest ahead of next month's mid-year budget update."
+        },
+        {
+          "title": "Victorian election enters caretaker period with Labor still trailing",
+          "url": "https://www.abc.net.au/news/2026-11-01/victorian-election-labor-liberal-tough-battle/107331376",
+          "source": "ABC News",
+          "summary": "Caretaker mode began after the Melbourne Cup. Premier Ben Carroll, Liberal leader Jess Wilson and a surging One Nation are heading into the 28 November poll. The analysis says Labor has slipped further in polling since Carroll replaced Jacinta Allan, and the leaders are still arguing over whether One Nation should be in any debate. This piece is from 1 November, as it was the most recent Victorian election analysis I found."
+        },
+        {
+          "title": "Point Of Law wins Melbourne Cup as Ciaron Maher takes the trifecta",
+          "url": "https://www.abc.net.au/news/2026-11-03/melbourne-cup-2026-finishing-order-from-first-to-last/107340766",
+          "source": "ABC News",
+          "summary": "Race favourite Point Of Law, ridden by Ethan Brown, won the 166th Melbourne Cup at Flemington. Trainer Ciaron Maher also had the second- and third-placed horses, Zahrann and Juja Kibo. The horse was formerly owned by King Charles."
+        },
+        {
+          "title": "Albanese seeks tighter British backpacker visa rules in talks with Burnham",
+          "url": "https://www.abc.net.au/news/2026-11-02/albanese-to-discuss-british-backpacker-changes-with-burnham/107208084",
+          "source": "ABC News",
+          "summary": "The Prime Minister took up changes to the UK free trade deal's backpacker provisions with UK Prime Minister Andy Burnham at the Commonwealth meeting in Antigua. The deal currently lets British backpackers stay up to three years without specific work requirements. This is a shift from Albanese's August position, and the Opposition has called it 'desperate'. On Wednesday Albanese said he had advocated for a change."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Opposition's symbolic move to impeach Chief Election Commissioner fuels row with BJP",
+          "url": "https://aninews.in/news/national/politics/rahul-gandhi-will-be-pm-only-in-mock-parliament-assam-cm-sarma-mocks-india-blocs-impeachment-motion-against-cec20261103140443/",
+          "source": "ANI",
+          "summary": "The INDIA bloc held a mock Parliament on 31 October and passed a symbolic motion to impeach Chief Election Commissioner Gyanesh Kumar. On 3 November Assam Chief Minister Himanta Biswa Sarma mocked the exercise, and the clash over the Election Commission's voter-roll revision (SIR) is now a central fight between the BJP and the opposition."
+        },
+        {
+          "title": "Sensex and Nifty rally for a fourth straight session",
+          "url": "https://www.business-standard.com/markets/news/stock-market-live-november-3-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110300101_1.html",
+          "source": "Business Standard",
+          "summary": "On 3 November the Sensex gained 1,225 points (1.62%) to close at 76,917.85, and the Nifty rose 1.58% to 23,810.85. Reports link the gains to strong quarterly earnings, easing crude prices and renewed foreign buying, with FMCG the top-performing sector."
+        },
+        {
+          "title": "Supreme Court asks Centre to probe open firecracker sales in Delhi",
+          "url": "https://www.deccanherald.com/india/delhi/supreme-court-flags-open-sale-of-all-firecrackers-in-delhi-markets-asks-centre-to-probe-4205608",
+          "source": "Deccan Herald",
+          "summary": "A bench of Justices M M Sundresh and Prasanna B Varale noted a newspaper report that all kinds of crackers were on open sale in Delhi markets, despite its order the day before. The court told the Centre to examine the alleged violations, and a full ban is due to return from 9 November."
+        },
+        {
+          "title": "Supreme Court defers main Election Commission SIR petitions to 17 November",
+          "url": "https://www.nationpathindia.com/politics/supreme-court-eci-sir-case-form-6-hearing-november-17-202",
+          "source": "NationPath",
+          "summary": "The Supreme Court has pushed the next hearing on petitions challenging the Election Commission's SIR decisions to 17 November 2026. The delay gives petitioners time to answer the poll body's affidavit defending its decisions; this report is a few days old, but the date is the next milestone in the dispute."
+        },
+        {
+          "title": "Supreme Court gives states a final chance in prison caste-discrimination case",
+          "url": "https://www.livelaw.in/top-stories",
+          "source": "LiveLaw",
+          "summary": "On 3 November the Supreme Court said it was disappointed that 23 states and Union Territories had not yet answered the Union Home Ministry's request for information in the suo motu case on caste-based discrimination in prisons. It gave them one last opportunity to respond, which keeps the national review of prison practices moving."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Severe Cyclone Murasu hits the south Andhra coast near Ongole",
+          "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486",
+          "source": "ETV Bharat",
+          "summary": "Murasu made landfall near Ongole shortly after 1 am on Tuesday 3 November, with torrential rain and winds reportedly up to 150 km/h. Two cyclone-related deaths have been reported, and the government cancelled staff leave as 15 districts got heavy rain."
+        },
+        {
+          "title": "TDP-led alliance sweeps Andhra Pradesh urban local body polls",
+          "url": "https://www.indiatvnews.com/news/india/andhra-pradesh-urban-local-body-election-results-2026-live-updates-on-municipal-corporations-municipalities-nagar-panchayats-visuals-reactions-2026-11-03-1058535",
+          "source": "India TV News",
+          "summary": "Counting on 3 November covered 13 corporations, 77 municipalities and 10 nagar panchayats, and the NDA alliance led by a wide margin, with the TDP the largest winner. The tallies are partial and changing, but they point to a strong endorsement of the Naidu government and a heavy blow to the YSRCP."
+        },
+        {
+          "title": "NDA takes a commanding lead in Vijayawada civic body count",
+          "url": "https://www.indiatvnews.com/news/india/vijayawada-municipal-corporation-election-results-live-updates-andhra-pradesh-tdp-jsp-bjp-ysrcp-congress-candidates-winners-1058537",
+          "source": "India TV News",
+          "summary": "In the 86-ward Vijayawada Municipal Corporation, the alliance had won 42 wards at the time of reporting, split between the TDP, Jana Sena and the BJP, while the YSRCP had won six. The count was still under way, so the figures are preliminary; the result matters because Vijayawada is next to the Amaravati capital region."
+        },
+        {
+          "title": "Cyclone Murasu brings down trees and power poles as heavy rain warnings continue",
+          "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-cyclone-murasu-disrupts-power-in-andhra-pradesh-heavy-rain-alert-for-telangana-colder-nights-forecast-in-north-india",
+          "source": "Down To Earth",
+          "summary": "Thousands of trees and hundreds of electricity poles have reportedly come down in coastal Andhra Pradesh, disrupting power and transport. The IMD says the storm is weakening but still warns of heavy to very heavy rain in Andhra Pradesh and Telangana, so restoration and flooding risks remain."
+        },
+        {
+          "title": "Andhra clears Rs 5,194 crore steel expansion by SEIL and Vizag Profiles",
+          "url": "https://www.thehansindia.com/news/cities/visakhapatnam/expansion-project-of-seil-vizag-profiles-to-generate-3000-jobs-1137718",
+          "source": "The Hans India",
+          "summary": "The state cabinet under Chandrababu Naidu approved incentives for a Rs 5,194 crore expansion by Steel Exchange India Limited and Vizag Profiles. The project is expected to create about 3,000 jobs and lift production capacity to one million tonnes, which strengthens the state's steel and industrial base. The report is from a few days ago rather than the last 24 hours."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,568.92",
+          "change": "+0.36%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "25,372.01",
+          "change": "+0.83%"
+        },
+        {
+          "label": "Dow Jones Industrial Average",
+          "value": "51,786.72",
+          "change": "-0.38%"
+        },
+        {
+          "label": "US 10-year Treasury yield (intraday, approx.)",
+          "value": "4.96%",
+          "change": "+6 bp"
+        }
+      ],
+      "items": [
+        {
+          "title": "Chip stocks bounce on Election Day, ending the S&P 500's three-day slide",
+          "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+          "source": "CNBC",
+          "summary": "The S&P 500 and Nasdaq finished Tuesday's session higher as buyers returned to chipmakers, while the Dow slipped about 0.4% with Apple weighing on it. The rebound followed Monday's sell-off, which had dragged the Nasdaq down by more than 1%."
+        },
+        {
+          "title": "AMD and Super Micro jump after the bell on strong results and upbeat guidance",
+          "url": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-after-hours-anet-amd-smci-swks.html",
+          "source": "CNBC",
+          "summary": "AMD rose about 7% in extended trading after beating third-quarter expectations, while Super Micro gained more than 5% after beating on both earnings and revenue. AMD guided fourth-quarter revenue to roughly US$17 billion, above the US$16.29 billion analysts expected, which could extend Tuesday's chip rebound into Wednesday's session. These after-hours moves are preliminary."
+        },
+        {
+          "title": "Apple and Palantir slip even after earnings beats",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-futures-130822524.html",
+          "source": "Yahoo Finance",
+          "summary": "Apple fell about 2% in mid-afternoon trade after reporting better-than-expected numbers but flagging weaker margins. Palantir dropped as much as 7% early in the session despite topping estimates and issuing a strong forecast, then pared its loss to about 1.5%. Together the two helped drag the Dow lower."
+        },
+        {
+          "title": "Strong jobs-openings data pushes yields up and keeps a December Fed hike in play",
+          "url": "https://www.cnbc.com/2026/11/03/us-treasury-yields-bonds.html",
+          "source": "CNBC",
+          "summary": "The 10-year Treasury yield rose more than 6 basis points to 4.96% after September's JOLTS job openings report beat expectations. One market-pricing tracker put the odds of a quarter-point Fed hike at the 8–9 December meeting at about 76%, so firm labour data is keeping rate pressure on growth stocks."
+        },
+        {
+          "title": "Wall Street waits on midterm results, with a busy data run to follow",
+          "url": "https://www.asiae.co.kr/en/article/2026110406293945303",
+          "source": "The Asia Business Daily",
+          "summary": "JPMorgan warned that AI-related stocks could face heavier selling if markets haven't priced in a Democratic sweep of both chambers. ADP employment and ISM services figures are due Wednesday, with October payrolls and unemployment expected on Friday, which will shape Fed expectations."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Tue close)",
+          "value": "8,886.8",
+          "change": "+0.34%"
+        },
+        {
+          "label": "ASX 200 futures (SPI, ~8:10am AEDT)",
+          "value": "8,855 (down 42 points)",
+          "change": "-0.47%"
+        },
+        {
+          "label": "AUD/USD (early Wed)",
+          "value": "about 69.64 US cents",
+          "change": "-0.49%"
+        }
+      ],
+      "items": [
+        {
+          "title": "RBA lifts the cash rate to 4.85% in a split vote",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216",
+          "source": "ABC News",
+          "summary": "The Reserve Bank raised the cash rate by 25 basis points to 4.85%, the highest since 2008 and the fifth rise this year. Six board members voted for the hike and three voted to hold, so mortgage holders and rate-sensitive stocks will be watching for any sign this is the last increase."
+        },
+        {
+          "title": "ASX shrugs off the rate rise as property stocks lead and energy slips",
+          "url": "https://marketindex.com.au/news/evening-wrap-asx-200",
+          "source": "Market Index",
+          "summary": "The ASX 200 closed 30.3 points higher at 8,886.8. Real estate was the standout sector, up 2.8%, as investors read the RBA statement as dovish and bought rate-sensitive stocks."
+        },
+        {
+          "title": "Qantas and Virgin jump as oil falls, while Woodside, Ampol and Viva drop",
+          "url": "https://www.capitalbrief.com/briefing/australian-shares-to-open-higher-ahead-of-rba-rate-call-c848442e-3c54-4de8-bb17-5f0cde043e63/",
+          "source": "Capital Brief",
+          "summary": "Energy stocks led the losers after crude retreated overnight. Woodside fell 3.5%, Santos 1.8%, Viva Energy 6.6% and Ampol 5.0%. Cheaper fuel helped the airlines, with Virgin Australia up about 8% and Qantas up about 6.7% at the close, according to Investing.com."
+        },
+        {
+          "title": "AMP the worst performer in the ASX 200 on Tuesday, down more than 9%",
+          "url": "https://www.investing.com/news/stock-market-news/australia-stocks-higher-at-close-of-trade-spasx-200-up-034-4993512",
+          "source": "Investing.com",
+          "summary": "AMP fell 9.15% to $2.14, the biggest drop in the index. Viva Energy and Yancoal also dropped sharply, while Netwealth rose 7.35%. The source doesn't give a reason for AMP's fall."
+        },
+        {
+          "title": "Futures point lower as the market awaits the US midterm results and the AUD slips",
+          "url": "https://www.capitalbrief.com/briefing/australian-shares-to-open-lower-as-wall-st-awaits-midterm-verdict-a5a3a553-6ab9-4148-bfa1-1be2a628fcab/",
+          "source": "Capital Brief",
+          "summary": "Futures were pointing to a lower open even though a chip-led rebound lifted the Nasdaq about 0.9% overnight. Investors are waiting on the US midterm election results today, and the Australian dollar fell to about 69.6 US cents after the split RBA decision. I couldn't find any major local economic data scheduled for today."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "RBA lifts cash rate to 4.85% on Cup Day in a split vote",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216",
+          "source": "ABC News",
+          "summary": "The Reserve Bank raised the cash rate by 25 basis points to 4.85 per cent on 3 November. It was the fifth hike this year and took the rate to its highest since 2008, with six board members voting for the rise and three for a hold. Mortgage holders face higher repayments, and Governor Michele Bullock has signalled the board may now pause to take stock."
+        },
+        {
+          "title": "Home values fall for a seventh straight month, at the fastest pace in 40 years",
+          "url": "https://www.cotality.com/au/insights/articles/housing-downturn-broadens-as-brisbane-and-perth-lead-the-decline",
+          "source": "Cotality",
+          "summary": "Cotality's national index fell 1.2 per cent in October and now sits 6.7 per cent below its March peak, about $63,400 on the median dwelling. Brisbane (down 2.0 per cent) and Perth (down 1.7 per cent) overtook Sydney as the weakest markets, and Cotality expects conditions to stay subdued into 2027 given low confidence and the risk of more rate rises."
+        },
+        {
+          "title": "Sydney auction clearance rate sinks to 49% as withdrawals mount",
+          "url": "https://www.domain.com.au/auction-results/sydney/",
+          "source": "Domain",
+          "summary": "Domain's results for the week to 31 October show Sydney clearing 49 per cent of reported auctions, against 68 per cent a year earlier. Of the auctions reported, 204 were withdrawn, which shows how hard vendors are finding it to get a result in a market where Cotality says combined-capitals clearance rates have stayed below 50 per cent."
+        },
+        {
+          "title": "Equifax warns 5%-deposit buyers could slip into negative equity",
+          "url": "https://www.mpamag.com/au/news/general/price-falls-could-push-some-first-home-buyers-toward-negative-equity/595730",
+          "source": "Mortgage Professional Australia",
+          "summary": "Equifax says first-home buyers who used the 5 per cent deposit scheme are exposed because many started with loan-to-value ratios of around 95 per cent, so even modest price falls could erase their equity. It also reports that mortgage demand fell 19.2 per cent year on year in September, with first-home buyer demand down 22.1 per cent."
+        },
+        {
+          "title": "Liberals split over letting first-home buyers use super for a deposit",
+          "url": "https://www.abc.net.au/news/2026-11-03/federal-politics-live-blog-albanese-interest-rates-nov-3/107338214",
+          "source": "ABC News",
+          "summary": "Liberal MP Garth Hamilton says he has convinced a majority of the party room to rule out early super access for first-home buyers. Tim Wilson and Andrew Bragg are pushing back and say the idea is still under review. The outcome will shape the Coalition's housing policy at a time of falling prices and rising rates."
+        }
+      ]
+    }
+  },
+  "usage": {
+    "inputTokens": 633778,
+    "outputTokens": 21651,
+    "searches": 42
+  }
+}
