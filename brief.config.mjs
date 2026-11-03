@@ -4,7 +4,7 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  title: "Morning Brief",
+  title: "Hello Mr.Bhaskar (MrB)",
   city: "Melbourne",
   timezone: "Australia/Melbourne",
   footer:
