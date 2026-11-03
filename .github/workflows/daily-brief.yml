@@ -1,0 +1,39 @@
+name: mrb-morning-brief
+
+on:
+  schedule:
+    # 20:00 UTC = 7:00am Melbourne in summer (AEDT), 6:00am in winter (AEST).
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morning-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Write today's brief
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate.mjs
+
+      - name: Publish (Vercel redeploys automatically)
+        run: |
+          git config user.name "${{ github.repository_owner }}"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+          git add data public
+          if git diff --cached --quiet; then echo "Nothing new to publish"; exit 0; fi
+          git commit -m "Morning brief $(TZ=Australia/Melbourne date +%F)"
+          git push
