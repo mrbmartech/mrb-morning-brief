@@ -1,30 +1,30 @@
 {
   "date": "2026-11-05",
   "longDate": "Thursday 5 November 2026",
-  "clock": "9:34 am AEDT",
-  "generatedAt": "2026-11-04T22:34:58.445Z",
+  "clock": "9:45 am AEDT",
+  "generatedAt": "2026-11-04T22:45:10.985Z",
   "model": "Claude Code (subscription)",
-  "headline": "Good morning — the RBA has lifted the cash rate to 4.85%, while Wall Street surged after Democrats won Congress in the US midterms.",
+  "headline": "Good morning — the RBA has lifted the cash rate to 4.85 per cent, an 18-year high, while home values fall for a seventh month and Cyclone Murasu batters Andhra Pradesh.",
   "highlights": [
     {
-      "label": "RBA hikes",
-      "text": "The Reserve Bank raised the cash rate 25 basis points to 4.85% in a 6-3 split vote, the highest in 18 years."
+      "label": "RBA hike",
+      "text": "The Reserve Bank raised the cash rate 25 basis points to 4.85 per cent, its fifth increase this year."
     },
     {
-      "label": "Wall Street surge",
-      "text": "The Dow jumped about 3% and oil fell sharply after Democrats won Congress in the US midterms."
+      "label": "Housing slide",
+      "text": "Cotality's national home value index fell 1.2 per cent in October, a seventh straight monthly decline."
     },
     {
       "label": "Cyclone Murasu",
-      "text": "Andhra Pradesh is assessing damage after Murasu made landfall, and the state has asked the Centre for about Rs 4,500 crore."
+      "text": "Cyclone Murasu made landfall near Ongole in Andhra Pradesh, cancelling flights and closing schools across coastal districts."
     }
   ],
   "sections": {
     "health": {
       "ok": true,
       "tip": {
-        "title": "Take a ten-minute walk after a meal",
-        "body": "A short, easy walk after lunch or dinner is a simple way to add movement to a desk-bound day. It can also help with digestion and break up long periods of sitting. Even a lap around the block counts."
+        "title": "Take a two-minute movement break each hour",
+        "body": "Stand up and walk, climb a flight of stairs or do a few bodyweight squats once an hour. Short, regular breaks interrupt long periods of sitting and help with stiffness and energy through the afternoon. Set a recurring reminder so it becomes automatic."
       },
       "quote": {
         "text": "It does not matter how slowly you go as long as you do not stop.",
@@ -35,22 +35,34 @@
       "ok": true,
       "items": [
         {
-          "title": "Salesforce to buy voice AI firm Cresta",
-          "url": "https://martech.org/",
-          "source": "MarTech.org",
-          "summary": "Salesforce has agreed to acquire Cresta, a voice AI company for customer experience, with coverage framing it as a way to add voice agents tied to CRM data. Marketers and service teams should watch how voice interactions feed customer profiles."
+          "title": "Salesforce's Braze deal puts marketers at an ecosystem crossroads",
+          "url": "https://digiday.com/marketing/salesforces-5-7-billion-braze-deal-puts-marketers-at-an-ecosystem-crossroads/",
+          "source": "Digiday",
+          "summary": "Salesforce has agreed to acquire customer engagement platform Braze in a deal valued at about US$5.7 billion, pending approvals. Marketers now have to weigh closer ties to one vendor's ecosystem against independent alternatives."
         },
         {
-          "title": "Weekly roundup of new AI martech releases",
-          "url": "https://martech.org/this-weeks-roundup-of-the-latest-ai-martech-products-and-news/",
-          "source": "MarTech.org",
-          "summary": "The roundup covers recent launches such as Airship's on-device decisioning AI, Akeneo's product information agents and Canto's digital asset assistant. It shows AI agents spreading across personalisation and content operations. Latest dated items were from late October."
+          "title": "Braze rivals stress independence after Salesforce deal",
+          "url": "https://www.martechtherapy.com/who-gets-to-own-the-customer-loop/",
+          "source": "Martech Therapy",
+          "summary": "Commentary on the Salesforce-Braze deal looks at what it means for email and customer engagement providers. Competitors are emphasising their independence, which may shape vendor selection and renewals."
         },
         {
-          "title": "Building marketing workflows around AI agents",
-          "url": "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents",
-          "source": "MarTech.org",
-          "summary": "A MarTech piece looks at how marketing teams are restructuring workflows around AI agents as teammates. It ties into a MarTech Conference session on the topic held on 4 November."
+          "title": "HubSpot introduces AI spend caps and pay-as-you-go billing",
+          "url": "https://www.fool.com/investing/2026/10/22/why-hubspot-stock-rallied-today/",
+          "source": "The Motley Fool",
+          "summary": "HubSpot shares rallied on 22 October amid speculation about software M&A. Separately, HubSpot reportedly added AI spend controls and usage-based billing in mid-October, which affects how marketers budget for AI features. This is older than 48 hours."
+        },
+        {
+          "title": "Adobe Journey Optimizer adds action-level email overrides",
+          "url": "https://martechnotes.com/adobe-journey-optimizer-adds-action-level-email-configuration-overrides",
+          "source": "Martech Notes",
+          "summary": "Adobe added the ability to override email configuration at the individual action level in Journey Optimizer. It gives teams finer control over sender settings inside a journey. This is older than 48 hours."
+        },
+        {
+          "title": "Martech consolidation and infrastructure in focus",
+          "url": "https://newsletter.chiefmartec.com/p/martech-consolidation-infrastructure-and-the-braze-salesforce-deal",
+          "source": "Chiefmartec",
+          "summary": "Analysis of the Braze-Salesforce deal places it in a wider wave of martech consolidation. It suggests marketing stacks may increasingly be built around fewer, larger platforms."
         }
       ]
     },
@@ -58,41 +70,53 @@
       "ok": true,
       "items": [
         {
-          "title": "Salesforce signs deal to acquire Cresta",
-          "url": "https://salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta",
+          "title": "Salesforce agrees to buy AI service startup Cresta",
+          "url": "https://www.tradingview.com/news/invezz:5bd9ec5f3094b:0-why-is-salesforce-stock-falling-today/",
+          "source": "TradingView News",
+          "summary": "Salesforce announced a deal to acquire AI customer-service startup Cresta, reportedly for about US$2.7 billion, and shares fell on the day. Price details are as reported and not independently confirmed."
+        },
+        {
+          "title": "Salesforce signs deal to acquire Loops",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/",
           "source": "Salesforce Newsroom",
-          "summary": "Salesforce announced a definitive agreement to acquire Cresta, a voice-first customer experience platform, on 2 November. The price was not disclosed by Salesforce; one report puts it at about US$2.7 billion, which is not confirmed by the company."
+          "summary": "Salesforce signed a definitive agreement to acquire Loops, an AI analytics platform tied to Tableau. A listing note indicates the deal closed on 2 November 2026."
         },
         {
-          "title": "Acquisition spree and share price pressure",
-          "url": "https://247wallst.com/investing/2026/11/03/the-selloff-didnt-stop-salesforce-from-spending-2-7-billion-on-an-ai-startup/",
-          "source": "24/7 Wall St.",
-          "summary": "The analysis notes Salesforce continues to buy AI companies despite a weak share price, with the stock reported down about 14% for the year as of 3 November. Execution risk from the pace of deals is flagged as a concern."
+          "title": "Salesforce to acquire Braze for US$5.66 billion",
+          "url": "https://www.martechnotes.com/salesforce-to-acquire-braze-for-5-66-billion-to-boost-customer-engagement/",
+          "source": "Martech Notes",
+          "summary": "Salesforce announced on 20 October that it will buy Braze to strengthen customer engagement. The deal still needs regulatory and shareholder approval."
         },
         {
-          "title": "Dreamforce 2026 announcements recap",
-          "url": "https://www.salesforce.com/blog/dreamforce-2026-announcements/",
-          "source": "Salesforce Blog",
-          "summary": "Salesforce's roundup of 21 Dreamforce 2026 announcements includes Koa, described as its first CRM reasoning model for Agentforce. This is older than 48 hours but remains the main product roadmap reference."
+          "title": "Agentforce deployments surge amid 'pilot purgatory' concerns",
+          "url": "https://www.itiger.com/news/2588001475",
+          "source": "Tiger Brokers News",
+          "summary": "Salesforce reported a sharp rise in Agentforce deployments to counter fears that AI projects stall at pilot stage. This is an older story with no firm 48-hour date."
         },
         {
-          "title": "Agentforce Coworker usage climbs sharply",
-          "url": "https://www.salesforce.com/news/",
-          "source": "Salesforce Newsroom",
-          "summary": "The newsroom reports Agentforce Coworker usage rose 21 times in three months, with more than 185,000 users listed. Figures are company-reported and not independently verified."
+          "title": "Dreamforce 2026 highlights: job-specific agents and CRM reasoning model",
+          "url": "https://cyntexa.com/blog/dreamforce-2026-highlights/",
+          "source": "Cyntexa",
+          "summary": "A partner blog summarises Dreamforce announcements including seven job-specific agents and a reasoning model. This is a secondary source and older than 48 hours, so check Salesforce's newsroom before relying on details."
         }
       ]
     },
     "sfstatus": {
       "ok": true,
-      "status": "clear",
-      "statusNote": "A third-party tracker showed no active Salesforce incidents, with the latest incident resolved on 31 October; status.salesforce.com could not be checked directly.",
+      "status": "unknown",
+      "statusNote": "No November 2026 incident reports were found and status.salesforce.com could not be checked directly, so current status is unconfirmed.",
       "items": [
         {
-          "title": "No active incidents on Salesforce tracker",
-          "url": "https://pingoru.io/providers/salesforce",
-          "source": "Pingoru",
-          "summary": "The tracker, which draws on Salesforce's status page, showed no current incidents and the last one resolved on 31 October. No planned APAC maintenance was found; confirm on status.salesforce.com."
+          "title": "Marketing Cloud Engagement feature degradation on 5 October",
+          "url": "https://uptimerobot.com/is-it-down/salesforce/2026-10-05/",
+          "source": "UptimeRobot",
+          "summary": "A brief Marketing Cloud Engagement degradation of about 19 minutes was logged on 5 October. This is older than 48 hours and shown for context only."
+        },
+        {
+          "title": "Marketing Cloud Engagement database outage on 18 September",
+          "url": "https://uptimerobot.com/is-it-down/salesforce/2026-09-18/",
+          "source": "UptimeRobot",
+          "summary": "A Marketing Cloud Engagement database became unreachable and was restored after a restart, with about 3 hours of impact reported. This is older and shown for context only."
         }
       ]
     },
@@ -100,34 +124,34 @@
       "ok": true,
       "items": [
         {
-          "title": "RBA lifts rates to 18-year high in split vote",
-          "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050",
+          "title": "Opposition says PM and Treasurer 'in denial' after RBA hike",
+          "url": "https://www.abc.net.au/news/2026-11-04/federal-politics-live-blog-angus-taylor-rates/107342840",
           "source": "ABC News",
-          "summary": "The Reserve Bank raised the cash rate by 25 basis points to 4.85%, its fifth hike this year, with three of nine board members wanting a hold. It adds pressure to mortgage holders and keeps the door open to further increases."
+          "summary": "Opposition leader Angus Taylor blamed the government for the RBA's rate rise to an 18-year high. Albanese rejected that and pointed to the Coalition's refusal to back savings measures."
         },
         {
-          "title": "Wall Street soars after Democrats win midterms",
-          "url": "https://www.abc.net.au/news/2026-11-05/asx-markets-business-live-news-november-5-2026/107347286",
-          "source": "ABC News",
-          "summary": "US markets rallied sharply after Democrats won the midterm elections, with oil prices dropping. The move matters for Australian shares and fuel costs."
+          "title": "Albanese arrives at CHOGM in Antigua and Barbuda",
+          "url": "https://www.sbs.com.au/news/podcast-episode/albanese-arrives-at-chogm-evening-news-bulletin-1-november-2026/zxfw0qrr4",
+          "source": "SBS News",
+          "summary": "The prime minister is at the Commonwealth Heads of Government Meeting. The Coalition has questioned the trip while households face cost-of-living pressure."
         },
         {
-          "title": "Minister hopes fuel prices ease after US midterms",
-          "url": "https://www.abc.net.au/news/2026-11-05/federal-politics-live-blog-screen-limits-nov-5/107346422",
+          "title": "US midterm results and the risk to Australia's shaky economy",
+          "url": "https://abc.net.au/news/2026-11-05/david-speers-us-midterms-australian-economy/107345626",
           "source": "ABC News",
-          "summary": "A federal minister said the government hopes fuel prices will fall following the US midterm outcome. Pump prices remain a cost-of-living pressure alongside higher interest rates."
+          "summary": "David Speers examines whether the Democratic midterm result could flow through to Australia's already fragile economy. It adds to uncertainty around trade and markets."
         },
         {
-          "title": "Education ministers agree to school system overhaul",
-          "url": "https://www.abc.net.au/news/2026-11-05/education-ministers-agree-to-biggest-shake-up-in-years-of-school/107348312",
-          "source": "ABC News",
-          "summary": "Education ministers have agreed to what ABC describes as the biggest shake-up of the school system in years. Details were not confirmed in the summary reviewed."
+          "title": "Albanese defends regional work rule for British backpackers",
+          "url": "https://www.scmp.com/week-asia/politics/article/3373253/australian-pm-albanese-takes-swipe-ex-uk-leader-liz-truss-over-backpacker-visa-rules",
+          "source": "South China Morning Post",
+          "summary": "Albanese defended reinstating a regional work requirement for British backpackers, saying numbers were affecting local jobs. The comments came during the CHOGM trip."
         },
         {
-          "title": "Meta lets Australians opt out of AI training",
-          "url": "https://www.abc.net.au/news/2026-11-05/meta-facebook-instagram-changes-using-data-to-train-ai/107335708",
-          "source": "ABC News",
-          "summary": "Australians can now opt out of Meta using their Facebook and Instagram data to train its AI. The change is relevant to privacy and to marketers using Meta platforms."
+          "title": "Government signals no spending is off limits in search for savings",
+          "url": "https://www.australianconveyancer.com.au/article/albanese-throws-spending-spotlight-back-on-opposition",
+          "source": "Australian Conveyancer",
+          "summary": "The government says no area of spending is exempt as it looks for budget savings to help fight inflation. The Coalition is being pressed to say where it would cut."
         }
       ]
     },
@@ -135,16 +159,34 @@
       "ok": true,
       "items": [
         {
-          "title": "Cabinet clears Rs 14,500 crore energy storage scheme",
-          "url": "https://www.businesstoday.in/india/story/cabinet-approves-rs-14500-cr-energy-storage-scheme-rs-4371-cr-vistar-plan-850-fast-track-courts-cleared-565711-2026-11-04",
-          "source": "Business Today",
-          "summary": "The Union Cabinet approved a viability gap funding scheme for 92 GWh of grid-scale storage on 4 November, reported at Rs 14,500 crore (one outlet cites a different figure). It supports grid reliability and renewable integration."
+          "title": "Delhi wakes to smog as Diwali shopping rush builds",
+          "url": "https://www.business-standard.com/india-news",
+          "source": "Business Standard",
+          "summary": "Delhi's air quality index read about 373 on the morning of 4 November, with Punjabi Bagh near 452. Gurugram and Noida also reported very poor air. Figures are from a live news page."
         },
         {
-          "title": "Andhra seeks Rs 4,500 crore Centre aid after cyclones",
-          "url": "https://theprint.in/india/twin-cyclone-impact-andhra-govt-seeks-rs-4500-cr-immediate-relief/3090165/",
-          "source": "ThePrint",
-          "summary": "Andhra Pradesh asked the Centre for about Rs 4,500 crore in immediate relief after cyclones Arnab and Murasu. Figures are the state's own estimates."
+          "title": "Cabinet extends fast-track courts for sexual offence cases to 2031",
+          "url": "https://www.uniindia.com/national/uni-news-digest-1900-hrs-04di19/235933",
+          "source": "UNI",
+          "summary": "The Union Cabinet extended fast-track courts for rape and child sexual abuse trials until 2031, with the target raised to 850 courts. It aims to speed up case disposal."
+        },
+        {
+          "title": "Supreme Court: foreign divorce on irretrievable breakdown not enforceable in India",
+          "url": "https://indianopinion.org/today-in-india-4-november-2026/",
+          "source": "Indian Opinion",
+          "summary": "A daily digest reports the court held that a foreign divorce granted only on irretrievable breakdown cannot be enforced in India. Details are from a summary, not the judgment."
+        },
+        {
+          "title": "DRDO test-fires Pralay missile",
+          "url": "https://indianopinion.org/today-in-india-4-november-2026/",
+          "source": "Indian Opinion",
+          "summary": "India's DRDO conducted a test-firing of the Pralay missile, per a daily digest. Not independently confirmed."
+        },
+        {
+          "title": "US midterms offer little immediate relief on trade for India",
+          "url": "https://www.uniindia.com/national/uni-news-digest-1900-hrs-04di19/235933",
+          "source": "UNI",
+          "summary": "A UNI digest item says the US midterm results bring little immediate relief for India on tariffs and trade. The item is a headline only, with limited detail."
         }
       ]
     },
@@ -152,28 +194,34 @@
       "ok": true,
       "items": [
         {
-          "title": "Cyclone Murasu makes landfall on Andhra coast",
-          "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast",
-          "source": "Al Jazeera",
-          "summary": "The severe cyclone made landfall, uprooting trees, toppling power poles and flooding low-lying areas, with heavy damage reported in Prakasam and Bapatla. Early reports indicated no deaths or injuries."
+          "title": "Cyclone Murasu makes landfall near Ongole",
+          "url": "https://www.india.com/news/india/cyclone-murasu-storm-andhra-pradesh-vijayawada-visakhapatnam-tirupati-chandrababu-naidu-imd-weather-update-indigo-spicejet-airindia-airasia-8541706/",
+          "source": "India.com",
+          "summary": "The cyclone crossed the south Andhra coast with winds of about 110 km/h, gusting to 120 km/h. At least 19 flights were cancelled across Vijayawada, Visakhapatnam and Tirupati."
         },
         {
-          "title": "State seeks Rs 4,500 crore immediate relief",
-          "url": "https://theprint.in/india/twin-cyclone-impact-andhra-govt-seeks-rs-4500-cr-immediate-relief/3090165/",
-          "source": "ThePrint",
-          "summary": "Chief Minister Chandrababu Naidu requested central aid, citing crop damage across about 52,500 hectares. The loss figures are the state government's own estimates."
+          "title": "Schools shut and red alerts issued as Murasu hits coast",
+          "url": "https://www.business-standard.com/india-news/cyclone-murasu-hits-andhra-coast-schools-shut-flights-disrupted-126110300228_1.html",
+          "source": "Business Standard",
+          "summary": "Red alerts were issued for six districts and schools were closed. Flights were delayed at major airports, with disruption expected to continue."
         },
         {
-          "title": "Modi phones Naidu on cyclone relief",
-          "url": "https://www.m9.news/politics/pm-modi-chandrababu-call-andhra-pradesh-cyclone-relief/",
-          "source": "M9 News",
-          "summary": "The Prime Minister called Naidu on 4 November to ask about the damage and praised relief efforts. It signals central backing for the state's request."
+          "title": "Naidu surveys cyclone-hit areas by air",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/cm-naidu-conducts-aerial-survey-of-murasu-hit-areas-1139265",
+          "source": "The Hans India",
+          "summary": "The chief minister inspected affected areas in Guntur, Bapatla and Prakasam and ordered waterlogging cleared in towns including Chirala and Parchur. Quick drainage is key to limiting crop and housing damage."
         },
         {
-          "title": "Flights cancelled and schools shut before landfall",
-          "url": "https://www.theweek.in/news/india/2026/11/02/cyclone-murasu-andhra-pradesh-alert-flights-cancelled-schools-shut-relief-funds.html",
-          "source": "The Week",
-          "summary": "Ahead of landfall, 19 flights were cancelled, schools closed in seven districts and Rs 37 crore was released to 17 districts. The measures aimed to limit casualties."
+          "title": "PM Modi phones Naidu on cyclone damage",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/pm-calls-naidu-discusses-cyclone-damage-1139264",
+          "source": "The Hans India",
+          "summary": "Naidu raised broader central aid for farming, roads and power, and flagged severe drought in Rayalaseema. A central team has been asked to report within 15 days."
+        },
+        {
+          "title": "Naidu tells officials to brace for another cyclone",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/naidu-directs-officials-to-brace-for-another-cyclone-1138012",
+          "source": "The Hans India",
+          "summary": "The chief minister directed readiness for a further weather system after earlier storm damage. The report may be slightly older than 48 hours."
         }
       ]
     },
@@ -181,33 +229,39 @@
       "ok": true,
       "snapshot": [
         {
-          "label": "Dow Jones",
-          "value": "53,356.12",
-          "change": "+3.03%"
-        },
-        {
           "label": "S&P 500",
-          "value": "7,688.62",
-          "change": "+1.58%"
+          "value": "7,568.92",
+          "change": "+0.36%"
         },
         {
           "label": "Nasdaq Composite",
-          "value": "25,736.51",
-          "change": "+1.44%"
+          "value": "25,372.01",
+          "change": "+0.83%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "51,786.72",
+          "change": "-0.38%"
         }
       ],
       "items": [
         {
-          "title": "Stocks surge and oil collapses after Democrats sweep midterms",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026",
-          "source": "TheStreet",
-          "summary": "US stocks rallied strongly on 4 November as oil fell sharply following the midterm results. Index levels are from secondary reports and may differ slightly from official closes."
+          "title": "Chip stocks lift the Nasdaq while Apple drags the Dow",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026",
+          "source": "Stock Titan",
+          "summary": "US shares ended mixed on 3 November, with semiconductor stocks rebounding and Apple weighing on the Dow. The Nasdaq-100 remains in correction territory, about 10 per cent below its recent high."
         },
         {
-          "title": "Dow's best day since April 2025",
-          "url": "https://vistapglobal.com/stock-market-today-november-4-2026-dow-surges-1569-points-as-oil-plunges-after-midterm-elections-aapl-cvs-docs-eprx-googl-law-modd-msft-nvda-qcom-ser-spcx-stz-tap/",
-          "source": "Vista Global",
-          "summary": "The Dow reportedly gained 1,569 points, its biggest daily gain since April 2025, while gold moved back above US$4,000 an ounce. Not independently confirmed."
+          "title": "Democrats sweep midterms; futures fall after the close",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026",
+          "source": "TheStreet",
+          "summary": "Stock futures turned lower in the evening as traders priced in strong Democratic wins. Political change may affect policy expectations for markets."
+        },
+        {
+          "title": "Markets edge higher as semiconductor stocks rebound",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/stock-market-today-nov-3-markets-edge-higher-as-semiconductor-stocks-rebound/",
+          "source": "The Motley Fool",
+          "summary": "AMD and Arista Networks jumped after the close on sales above their own forecasts. Oil also fell during the session."
         }
       ]
     },
@@ -215,39 +269,45 @@
       "ok": true,
       "snapshot": [
         {
-          "label": "ASX 200 (Wed close)",
-          "value": "8,834.5",
-          "change": "-0.59%"
+          "label": "ASX 200 (Tue close)",
+          "value": "8,886.8",
+          "change": "+0.3%"
+        },
+        {
+          "label": "ASX 200 (Wed, 2:29pm AEDT)",
+          "value": "8,823.0",
+          "change": "-0.72%"
         },
         {
           "label": "AUD/USD",
-          "value": "below 0.70",
-          "change": "n/a"
-        },
-        {
-          "label": "ASX 200 futures",
-          "value": "about 9,027",
-          "change": "n/a (unconfirmed)"
+          "value": "about 0.70",
+          "change": "little changed"
         }
       ],
       "items": [
         {
-          "title": "ASX 200 slides as miners sell off before US result",
-          "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-sags-as-mining-sell-off-intensifies-us-election-results",
-          "source": "Market Index",
-          "summary": "The ASX 200 closed lower on Wednesday, led by materials and defence stocks, ahead of the US election outcome. Selling was linked to worries about tighter AI oversight."
+          "title": "Share market ends higher after 'no-surprise' rate hike",
+          "url": "https://www.commbank.com.au/articles/newsroom/2026/11/share-market-ends-higher-after-no-surprise-rate-hike.html",
+          "source": "CommBank Newsroom",
+          "summary": "The RBA lifted the cash rate 25 basis points to 4.85 per cent on 3 November, as widely expected. The local market closed higher on hopes of a pause. Other reports differ on the exact day's move."
         },
         {
-          "title": "RBA's fifth hike weighs on shares and the dollar",
-          "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216",
-          "source": "ABC News",
-          "summary": "The RBA lifted the cash rate to 4.85% in a 6-3 split vote, with AUD/USD reported below 0.70. The next decision is on 8 December."
+          "title": "ASX 200 slides below 8,830 on US midterm jitters and RBA hike",
+          "url": "https://www.ibtimes.com.au/australian-shares-fall-us-midterm-elections-rba-rate-rise-1877885",
+          "source": "IBTimes Australia",
+          "summary": "The benchmark fell about 0.7 per cent on Wednesday afternoon, led by financials and healthcare. Investors were also watching the US midterm outcome. The figure is an intraday reading, not a close."
         },
         {
-          "title": "Futures point higher after Wall Street rally",
-          "url": "https://abc.net.au/news/2026-11-05/asx-markets-business-live-news-november-5-2026/107347286",
-          "source": "ABC News",
-          "summary": "ABC's live blog reported ASX 200 futures around 9,027 after US markets rallied. Not independently confirmed."
+          "title": "Australian dollar ticks up after RBA hike",
+          "url": "https://tradersunion.com/news/currencies/show/4092290-aud-usd-rises-0-68percent-today-after/",
+          "source": "Traders Union",
+          "summary": "The Australian dollar moved around 70 US cents after the 25 basis point increase. Reports on the day's direction vary, so check a live quote."
+        },
+        {
+          "title": "Australian shares slip after RBA hike hits banks",
+          "url": "https://finimize.com/content/australian-shares-slip-after-rba-hike-hits-banks",
+          "source": "Finimize",
+          "summary": "Banks weighed on the market after the fifth rate rise of 2026. Higher borrowing costs are a risk for lenders and borrowers alike."
         }
       ]
     },
@@ -255,28 +315,34 @@
       "ok": true,
       "items": [
         {
-          "title": "Home values fall 1.2% in October, seventh straight drop",
-          "url": "https://grafa.com/en/news/australia/australia-s-national-home-values-fall-1-2-in-october",
-          "source": "Grafa",
-          "summary": "Cotality's index shows national values fell 1.2% in October, with Sydney down 1.6% and Melbourne down 0.8%. Melbourne values are about 7.6% lower than a year ago."
+          "title": "National home values fall 1.2 per cent in October",
+          "url": "https://www.capitalbrief.com/briefing/national-home-values-fall-12-in-october-cotality-433e443c-0ded-4363-97af-5a51eb907386/",
+          "source": "Capital Brief",
+          "summary": "Cotality's index fell for a seventh straight month and sits about 6.7 per cent below its March peak. Brisbane and Perth led the declines."
         },
         {
-          "title": "Downturn lands just before RBA hike",
+          "title": "Housing downturn broadens as Brisbane and Perth lead declines",
+          "url": "https://www.cotality.com/au/insights/articles/housing-downturn-broadens-as-brisbane-and-perth-lead-the-decline",
+          "source": "Cotality",
+          "summary": "Cotality says falls are spreading across more markets amid weak consumer confidence. It expects subdued conditions through the rest of 2026."
+        },
+        {
+          "title": "Home values slide ahead of expected RBA hike",
           "url": "https://leprivatebanker.com/2026/11/01/australian-home-values-fall-for-seventh-straight-month-as-cotality-index-drops-1-2-before-expected-rba-hike/",
           "source": "The Private Banker",
-          "summary": "Cotality described the fall as the fastest downturn pace in 40 years. The RBA then lifted the cash rate to 4.85% on 3 November."
+          "summary": "The October fall came before the RBA's 3 November increase to 4.85 per cent. Further rate pressure could deepen the slowdown."
         },
         {
-          "title": "RBA hike to hit mortgage holders",
-          "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050",
-          "source": "ABC News",
-          "summary": "The cash rate is now at its highest in 18 years after a fifth hike this year. Higher repayments add pressure to an already falling market."
+          "title": "RBA decision lifts rates to an 18-year high",
+          "url": "https://au.finance.yahoo.com/news/live/rba-interest-rate-decision-live-millions-brace-as-brutal-ripple-effect-to-sweep-australia-020519560.html",
+          "source": "Yahoo Finance Australia",
+          "summary": "Mortgage holders face higher repayments after the fifth hike of the year. Lenders typically pass on rises within weeks."
         },
         {
-          "title": "Auction clearance rates weak in October",
+          "title": "Auction clearance rates remain weak",
           "url": "https://www.cotality.com/au/press-releases/final-clearance-rates-week-ending-11-october-2026",
           "source": "Cotality",
-          "summary": "Capital city clearance rates averaged 45.2% during October, with Melbourne near an 18-year low for a week before a rebound later in the month. Figures come from different weeks and sources."
+          "summary": "The combined capitals clearance rate was 44.1 per cent for the week ending 11 October. This is the latest weekly figure found and is older than 48 hours."
         }
       ]
     }
