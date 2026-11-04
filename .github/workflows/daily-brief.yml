@@ -16,7 +16,7 @@ concurrency:
 jobs:
   brief:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -24,10 +24,30 @@ jobs:
         with:
           node-version: 22
 
-      - name: Write today's brief
+      - name: Install Claude Code
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Set today's date (Melbourne)
+        run: echo "BRIEF_DATE=$(TZ=Australia/Melbourne date +%F)" >> "$GITHUB_ENV"
+
+      - name: Prepare instructions
+        run: node scripts/build-prompt.mjs > "$RUNNER_TEMP/prompt.txt"
+
+      - name: Write today's brief (uses Claude subscription)
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/generate.mjs
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          claude -p "$(cat "$RUNNER_TEMP/prompt.txt")" \
+            --model sonnet \
+            --allowedTools "WebSearch,WebFetch,Read,Write" \
+            --max-turns 200
+
+      - name: Check and build pages
+        run: |
+          node scripts/check-today.mjs
+          node scripts/generate.mjs --render-only
 
       - name: Publish (Vercel redeploys automatically)
         run: |
@@ -35,5 +55,5 @@ jobs:
           git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
           git add data public
           if git diff --cached --quiet; then echo "Nothing new to publish"; exit 0; fi
-          git commit -m "Morning brief $(TZ=Australia/Melbourne date +%F)"
+          git commit -m "Morning brief $BRIEF_DATE"
           git push
