@@ -6,58 +6,150 @@ const esc = (s) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const href = (u) => (/^https?:\/\//i.test(String(u || "")) ? esc(u) : "#");
 const shortDate = (iso) =>
-  new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-AU", { weekday: "short", day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+  new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-AU", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
+
+// "Hello Mr. Bhaskar (MrB)" → greeting "Hello Mr. Bhaskar", monogram "MrB"
+function brandParts(title) {
+  const m = String(title).match(/^(.*?)\s*\(([^)]{1,6})\)\s*$/);
+  if (m) return { name: m[1], mono: m[2] };
+  const initials = String(title).split(/\s+/).map((w) => w[0]).join("").slice(0, 3);
+  return { name: title, mono: initials };
+}
+
+// Strip a generated "Good morning — " opener; the masthead already greets.
+function cleanHeadline(h) {
+  const s = String(h || "").replace(/^good morning[,!]?\s*(mr\.?\s*\w+)?\s*[—–\-:,]\s*/i, "").trim();
+  return s ? s[0].toUpperCase() + s.slice(1) : "";
+}
+
+const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">`;
 
 const CSS = `
-:root{--bg:#F2F5F7;--surface:#FFFFFF;--ink:#18242D;--muted:#5A6A75;--rule:#D6DEE3;--accent:#1F6E8C;--sun:#B8741F;--sun-soft:#FBEFDD;--up:#2E7D4F;--down:#B4472F;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#0F171C;--surface:#162129;--ink:#E4ECF1;--muted:#97A8B3;--rule:#26343D;--accent:#79B8D3;--sun:#E7AE63;--sun-soft:#2A2117;--up:#6CC490;--down:#EE8A72;color-scheme:dark}}
+:root{
+  --paper:#F5F6F3; --surface:#FFFFFF; --ink:#172230; --muted:#56636F; --rule:#DDE1DC;
+  --brass:#97753F; --up:#2F7A5F; --down:#B23A48;
+  --hero:#14202D; --hero-ink:#EEF1EC; --hero-muted:#A3B2BF; --hero-rule:#2A3A4B;
+  --serif:"Newsreader","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#0F161E; --surface:#16212C; --ink:#E6EBE8; --muted:#9AA8B4; --rule:#26333F;
+  --brass:#CFAB6E; --up:#7DBCA3; --down:#E58591;
+  --hero:#0A1118; --hero-ink:#EEF1EC; --hero-muted:#93A3B1; --hero-rule:#223140;
+  color-scheme:dark;
+}}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Literata",Georgia,"Times New Roman",serif;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
-.wrap{max-width:46rem;margin:0 auto;padding:1.5rem 1.25rem 4rem}
-a{color:var(--accent);text-underline-offset:.18em;text-decoration-thickness:1px}
-a:hover{text-decoration-thickness:2px}
-a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
-h1,h2,h3,.brand,.jump,.hl b,.snap,.src{font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif}
-.top{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;border-bottom:1px solid var(--rule);padding-bottom:.75rem}
-.brand{font-weight:700;font-size:1.15rem;color:var(--ink);text-decoration:none}
-.nav{display:flex;gap:1rem;font-size:.95rem}
-.when{color:var(--muted);font-size:.95rem;margin:1.5rem 0 .25rem}
-h1{font-size:clamp(1.6rem,4.5vw,2.3rem);line-height:1.2;font-weight:650;letter-spacing:-.01em;margin:0 0 1.5rem}
-.hl{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin:0 0 2rem;padding:0;list-style:none}
-.hl li{border-top:3px solid var(--accent);padding-top:.6rem;font-size:.95rem;line-height:1.5}
-.hl b{display:block;font-size:1rem;margin-bottom:.2rem}
-.morning{background:var(--sun-soft);border-left:4px solid var(--sun);padding:1.4rem 1.5rem;margin:0 0 2rem;border-radius:0 10px 10px 0}
-.morning h2{font-size:1rem;color:var(--sun);margin:0 0 .75rem;font-weight:650}
-.morning blockquote{margin:0 0 1rem;font-size:1.35rem;line-height:1.45;font-style:italic}
-.morning cite{display:block;font-style:normal;font-size:.95rem;color:var(--muted);margin-top:.4rem}
-.morning h3{font-size:1.05rem;margin:0 0 .25rem}
-.morning p{margin:0}
-.jump{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 2rem;padding:0;list-style:none;font-size:.85rem}
-.jump a{display:block;padding:.3rem .65rem;border:1px solid var(--rule);border-radius:999px;text-decoration:none;color:var(--ink);background:var(--surface)}
-.jump a:hover{border-color:var(--accent)}
-section.s{margin:0 0 2.5rem;scroll-margin-top:1rem}
-section.s h2{font-size:1.35rem;font-weight:650;margin:0 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--rule)}
-ol.items{margin:0;padding-left:1.4rem}
-ol.items li{margin:0 0 1.1rem;padding-left:.25rem}
-ol.items li::marker{color:var(--muted);font-family:"Bricolage Grotesque",system-ui,sans-serif}
-ol.items a{font-weight:600}
-.src{color:var(--muted);font-size:.8rem;margin-left:.4rem}
-ol.items p{margin:.2rem 0 0}
-.snap{display:flex;flex-wrap:wrap;gap:.6rem;margin:0 0 1rem;padding:0;list-style:none}
-.snap li{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.45rem .75rem;font-size:.9rem}
-.snap .v{font-weight:650;margin:0 .35rem}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans);
+  padding-bottom:env(safe-area-inset-bottom,0)}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
+.shell{max-width:74rem;margin:0 auto;padding:0 1.5rem}
+
+/* Masthead */
+.mast{background:var(--hero);color:var(--hero-ink);padding-top:env(safe-area-inset-top,0)}
+.mast-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:1.1rem}
+.brand{display:flex;align-items:center;gap:.75rem;text-decoration:none}
+.mono{display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:50%;
+  border:1px solid var(--brass);color:var(--brass);font:italic 400 1.05rem/1 var(--serif)}
+.hello{font:400 1.2rem/1.2 var(--serif);letter-spacing:.005em}
+.daynav{display:flex;gap:1.25rem;font-size:.9rem;color:var(--hero-muted)}
+.daynav a{text-decoration:none}
+.daynav a:hover{color:var(--hero-ink);text-decoration:underline;text-underline-offset:.25em}
+
+/* Hero */
+.hero{background:var(--hero);color:var(--hero-ink);padding:3.5rem 0 3rem;border-bottom:1px solid var(--hero-rule)}
+.dateline{margin:0 0 1.25rem;color:var(--hero-muted);font-size:.95rem}
+.dateline time{color:var(--hero-ink);font-weight:500}
+.hero h1{font:400 clamp(2.1rem,4.8vw,3.6rem)/1.08 var(--serif);letter-spacing:-.015em;margin:0;max-width:26ch;
+  text-wrap:balance}
+.hl{list-style:none;margin:2.75rem 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.hl li{padding:0 1.5rem;border-left:1px solid var(--hero-rule);font-size:.95rem;line-height:1.5;color:var(--hero-muted)}
+.hl li:first-child{padding-left:0;border-left:0}
+.hl strong{display:block;color:var(--brass);font:italic 400 1.15rem/1.3 var(--serif);margin-bottom:.3rem}
+@media (prefers-reduced-motion:no-preference){
+  .hero h1{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+  .hl{animation:rise .9s .25s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(.6rem)}to{opacity:1;transform:none}}
+}
+
+/* Body grid */
+.body{display:grid;grid-template-columns:minmax(0,1fr) 20rem;gap:4.5rem;padding-block:3.5rem 2rem}
+main{min-width:0}
+
+/* Sections */
+.sec{margin:0 0 4rem;scroll-margin-top:1.5rem}
+.sec>h2{font:500 1.9rem/1.15 var(--serif);letter-spacing:-.01em;margin:0 0 1.5rem;display:flex;align-items:baseline;gap:.9rem}
+.sec>h2::after{content:"";flex:1;height:1px;background:var(--rule);transform:translateY(-.3rem)}
+.lead h3{font:500 clamp(1.35rem,2.4vw,1.6rem)/1.22 var(--serif);margin:0 0 .5rem;letter-spacing:-.005em;text-wrap:balance}
+.lead p{margin:0;max-width:62ch;color:var(--ink)}
+.lead h3 a,.more h3 a,.rail a{text-decoration:none;background-image:linear-gradient(var(--brass),var(--brass));
+  background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .25s}
+.lead h3 a:hover,.more h3 a:hover,.rail a:hover{background-size:100% 1px}
+.src{display:block;margin-top:.55rem;color:var(--muted);font-size:.82rem;font-style:italic;font-family:var(--serif)}
+.more{list-style:none;margin:2rem 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:1.75rem 2.25rem}
+.more li{padding-top:1.1rem;border-top:1px solid var(--rule)}
+.more h3{font:600 1rem/1.35 var(--sans);margin:0 0 .35rem}
+.more p{margin:0;font-size:.94rem;line-height:1.55;color:var(--muted)}
+.missing{color:var(--muted);font-family:var(--serif);font-style:italic;margin:0}
+
+/* Rail */
+.rail{display:flex;flex-direction:column;gap:1.25rem;min-width:0}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:1.4rem 1.4rem 1.5rem}
+.panel h2{font:500 1.15rem/1.2 var(--serif);margin:0 0 1rem}
+.nudge{background:transparent;border:0;border-top:2px solid var(--brass);border-radius:0;padding:1.4rem 0 .5rem}
+.nudge blockquote{margin:0;font:italic 400 1.45rem/1.32 var(--serif);text-wrap:balance}
+.nudge cite{display:block;margin-top:.6rem;font:400 .88rem/1.4 var(--sans);font-style:normal;color:var(--muted)}
+.nudge h3{font:600 .98rem/1.35 var(--sans);margin:1.4rem 0 .3rem}
+.nudge p{margin:0;font-size:.94rem;color:var(--muted)}
+.state{display:flex;gap:.65rem;align-items:baseline;margin:0 0 .4rem;font-weight:600}
+.dot{width:.6rem;height:.6rem;border-radius:50%;flex:none;background:var(--muted)}
+.dot.clear{background:var(--up);box-shadow:0 0 0 4px color-mix(in srgb,var(--up) 18%,transparent)}
+.dot.issues{background:var(--down);box-shadow:0 0 0 4px color-mix(in srgb,var(--down) 18%,transparent)}
+.note{margin:0;font-size:.9rem;color:var(--muted)}
+.incidents{list-style:none;margin:1rem 0 0;padding:0}
+.incidents li{padding:.8rem 0 0;margin-top:.8rem;border-top:1px solid var(--rule);font-size:.9rem;line-height:1.45}
+.incidents a{font-weight:600}
+.incidents span{display:block;color:var(--muted);margin-top:.2rem}
+.board{width:100%;border-collapse:collapse;font-size:.92rem;font-variant-numeric:tabular-nums}
+.board caption{text-align:left;font:italic 400 .95rem/1.3 var(--serif);color:var(--muted);padding:0 0 .4rem}
+.board td{padding:.5rem 0;border-top:1px solid var(--rule)}
+.board td:nth-child(2),.board td:nth-child(3){text-align:right;white-space:nowrap}
+.board td:nth-child(3){width:5.5rem}
+.board+.board{margin-top:1.25rem}
 .up{color:var(--up)}.down{color:var(--down)}
-.status{display:flex;gap:.6rem;align-items:baseline;margin:0 0 1rem}
-.dot{width:.7rem;height:.7rem;border-radius:50%;flex:none;transform:translateY(.05rem);background:var(--muted)}
-.st-clear .dot{background:var(--up)}.st-issues .dot{background:var(--down)}
-.empty{color:var(--muted);font-style:italic}
-.archive{list-style:none;padding:0;margin:1.5rem 0}
-.archive li{padding:.75rem 0;border-bottom:1px solid var(--rule)}
-.archive a{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:600}
-.archive p{margin:.15rem 0 0;color:var(--muted);font-size:.95rem}
-footer.f{border-top:1px solid var(--rule);margin-top:3rem;padding-top:1rem;color:var(--muted);font-size:.85rem}
-@media (max-width:640px){.hl{grid-template-columns:1fr;gap:.9rem}body{font-size:16px}.morning blockquote{font-size:1.2rem}}
+.index{list-style:none;margin:0;padding:0;columns:1;font-size:.95rem}
+.index li{padding:.3rem 0}
+.index a{color:var(--muted)}
+.index a:hover{color:var(--ink)}
+
+/* Archive */
+.arch{list-style:none;margin:0;padding:0;max-width:46rem}
+.arch li{padding:1.4rem 0;border-top:1px solid var(--rule)}
+.arch a{font:500 1.3rem/1.25 var(--serif);text-decoration:none}
+.arch a:hover{text-decoration:underline;text-underline-offset:.2em;text-decoration-color:var(--brass)}
+.arch p{margin:.35rem 0 0;color:var(--muted)}
+
+footer.f{border-top:1px solid var(--rule);margin-top:1rem;padding:1.5rem 0 3rem;color:var(--muted);font-size:.85rem;max-width:60ch}
+
+@media (max-width:960px){
+  .body{grid-template-columns:1fr;gap:2.5rem;padding-block-start:2.5rem}
+  .rail{order:-1}
+  .index-panel{display:none}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .shell{padding:0 1.15rem}
+  .hero{padding:2.25rem 0 2.25rem}
+  .hl{grid-template-columns:1fr;gap:1.1rem;margin-top:2rem}
+  .hl li,.hl li:first-child{padding:0 0 0 1rem;border-left:1px solid var(--hero-rule)}
+  .more{grid-template-columns:1fr;gap:1.25rem}
+  .hello{font-size:1.05rem}
+  .daynav{gap:.9rem;font-size:.85rem}
+  .sec>h2{font-size:1.6rem}
+}
 `;
 
 function layout({ site, title, description, body }) {
@@ -66,85 +158,112 @@ function layout({ site, title, description, body }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14202D">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,650;12..96,700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22%2314202D%22/><text x=%2250%22 y=%2264%22 font-family=%22Georgia%22 font-style=%22italic%22 font-size=%2238%22 fill=%22%23CFAB6E%22 text-anchor=%22middle%22>${encodeURIComponent(brandParts(site.title).mono)}</text></svg>">
+${FONTS}
 <style>${CSS}</style>
 </head>
-<body><div class="wrap">
+<body>
 ${body}
-<footer class="f">${esc(site.footer)}</footer>
-</div></body></html>`;
+<div class="shell"><footer class="f">${esc(site.footer)}</footer></div>
+</body></html>`;
 }
 
-function topBar(site, { prev, next }) {
+function masthead(site, { prev, next }) {
+  const { name, mono } = brandParts(site.title);
   const links = [
     prev ? `<a href="/${prev}/">← ${esc(shortDate(prev))}</a>` : "",
-    next ? `<a href="/${next}/">${esc(shortDate(next))} →</a>` : "",
     `<a href="/archive/">Archive</a>`,
+    next ? `<a href="/${next}/">${esc(shortDate(next))} →</a>` : "",
   ].join("");
-  return `<header class="top"><a class="brand" href="/">${esc(site.title)}</a><nav class="nav">${links}</nav></header>`;
+  return `<header class="mast"><div class="shell mast-in">
+<a class="brand" href="/" aria-label="${esc(site.title)}, latest brief"><span class="mono">${esc(mono)}</span><span class="hello">${esc(name)}</span></a>
+<nav class="daynav" aria-label="Other days">${links}</nav></div></header>`;
 }
 
-const changeClass = (c) => (/^\s*[-−]/.test(c || "") ? "down" : /^\s*\+/.test(c || "") ? "up" : "");
+const dir = (c) => (/^\s*[-−]/.test(c || "") ? "down" : /^\s*\+/.test(c || "") ? "up" : "");
+const arrow = (c) => (dir(c) === "up" ? "▲ " : dir(c) === "down" ? "▼ " : "");
 
-function items(list) {
-  if (!list?.length) return "";
-  return `<ol class="items">${list
-    .map((i) => `<li><a href="${href(i.url)}" rel="noopener">${esc(i.title)}</a>${i.source ? `<span class="src">${esc(i.source)}</span>` : ""}<p>${esc(i.summary)}</p></li>`)
-    .join("")}</ol>`;
+function newsSection(def, data) {
+  const head = `<h2>${esc(def.title)}</h2>`;
+  if (!data?.ok || !data.items?.length) {
+    return `<section class="sec" id="${def.id}">${head}<p class="missing">Not updated this morning. It will refresh in tomorrow’s brief.</p></section>`;
+  }
+  const [lead, ...rest] = data.items;
+  const leadHtml = `<article class="lead"><h3><a href="${href(lead.url)}" rel="noopener">${esc(lead.title)}</a></h3><p>${esc(lead.summary)}</p>${lead.source ? `<span class="src">${esc(lead.source)}</span>` : ""}</article>`;
+  const restHtml = rest.length
+    ? `<ul class="more">${rest
+        .map((i) => `<li><h3><a href="${href(i.url)}" rel="noopener">${esc(i.title)}</a></h3><p>${esc(i.summary)}</p>${i.source ? `<span class="src">${esc(i.source)}</span>` : ""}</li>`)
+        .join("")}</ul>`
+    : "";
+  return `<section class="sec" id="${def.id}">${head}${leadHtml}${restHtml}</section>`;
 }
 
-function sectionHtml(def, data) {
-  const heading = `${def.emoji ? `${def.emoji} ` : ""}${esc(def.title)}`;
-  if (!data?.ok) {
-    return `<section class="s" id="${def.id}"><h2>${heading}</h2><p class="empty">This section couldn’t be updated today. It will try again tomorrow.</p></section>`;
-  }
-  let inner = "";
-  if (def.type === "market" && data.snapshot?.length) {
-    inner += `<ul class="snap">${data.snapshot
-      .map((s) => `<li>${esc(s.label)}<span class="v">${esc(s.value)}</span><span class="${changeClass(s.change)}">${esc(s.change)}</span></li>`)
-      .join("")}</ul>`;
-  }
-  if (def.type === "status") {
-    const label = { clear: "No major issues found", issues: "Issues reported", unknown: "Status unclear" }[data.status];
-    inner += `<p class="status st-${data.status}"><span class="dot" aria-hidden="true"></span><span><strong>${label}.</strong> ${esc(data.statusNote)}</span></p>`;
-  }
-  inner += items(data.items);
-  return `<section class="s" id="${def.id}"><h2>${heading}</h2>${inner}</section>`;
+function nudgePanel(def, h) {
+  if (!def || !h?.ok) return "";
+  return `<section class="panel nudge" id="${def.id}" aria-label="${esc(def.title)}">
+<blockquote>“${esc(h.quote.text)}”<cite>${esc(h.quote.author)}</cite></blockquote>
+<h3>${esc(h.tip.title)}</h3><p>${esc(h.tip.body)}</p></section>`;
+}
+
+function statusPanel(def, s) {
+  if (!def) return "";
+  if (!s?.ok) return `<section class="panel" id="${def.id}"><h2>${esc(def.title)}</h2><p class="note">Status wasn’t checked this morning. See status.salesforce.com for live status.</p></section>`;
+  const label = { clear: "No major issues found", issues: "Issues reported", unknown: "Status unclear" }[s.status];
+  const list = s.items?.length
+    ? `<ul class="incidents">${s.items.map((i) => `<li><a href="${href(i.url)}" rel="noopener">${esc(i.title)}</a><span>${esc(i.summary)}</span></li>`).join("")}</ul>`
+    : "";
+  return `<section class="panel" id="${def.id}"><h2>${esc(def.title)}</h2>
+<p class="state"><span class="dot ${s.status}" aria-hidden="true"></span>${label}</p><p class="note">${esc(s.statusNote)}</p>${list}</section>`;
+}
+
+function marketsPanel(defs, sections) {
+  const boards = defs
+    .filter((d) => d.type === "market" && sections?.[d.id]?.ok && sections[d.id].snapshot?.length)
+    .map((d) => `<table class="board"><caption>${esc(d.title)}</caption><tbody>${sections[d.id].snapshot
+      .map((r) => `<tr><td>${esc(r.label)}</td><td>${esc(r.value)}</td><td class="${dir(r.change)}">${arrow(r.change)}${esc(String(r.change).replace(/^\s*[+\-−]/, ""))}</td></tr>`)
+      .join("")}</tbody></table>`)
+    .join("");
+  return boards ? `<section class="panel" aria-label="Markets at a glance"><h2>Markets at a glance</h2>${boards}</section>` : "";
 }
 
 function dayPage(site, defs, brief, nav) {
-  const health = brief.sections?.health;
+  const S = brief.sections || {};
   const healthDef = defs.find((d) => d.type === "health");
-  const morning =
-    healthDef && health?.ok
-      ? `<section class="morning" id="${healthDef.id}"><h2>${healthDef.emoji ? `${healthDef.emoji} ` : ""}${esc(healthDef.title)}</h2>
-<blockquote>“${esc(health.quote.text)}”<cite>${esc(health.quote.author)}</cite></blockquote>
-<h3>${esc(health.tip.title)}</h3><p>${esc(health.tip.body)}</p></section>`
-      : "";
-  const others = defs.filter((d) => d.type !== "health");
-  const jump = `<ul class="jump">${others.map((d) => `<li><a href="#${d.id}">${esc(d.title)}</a></li>`).join("")}</ul>`;
+  const statusDef = defs.find((d) => d.type === "status");
+  const newsDefs = defs.filter((d) => d.type === "news" || d.type === "market");
+  const headline = cleanHeadline(brief.headline) || `Your brief for ${brief.longDate}`;
   const hl = brief.highlights?.length
-    ? `<ul class="hl">${brief.highlights.map((h) => `<li><b>${esc(h.label)}</b>${esc(h.text)}</li>`).join("")}</ul>`
+    ? `<ul class="hl">${brief.highlights.map((h) => `<li><strong>${esc(h.label)}</strong>${esc(h.text)}</li>`).join("")}</ul>`
     : "";
-  const body = `${topBar(site, nav)}
-<p class="when">${esc(brief.longDate)}, ${esc(brief.clock)}</p>
-<h1>${esc(brief.headline)}</h1>
-${hl}${morning}${jump}
-${others.map((d) => sectionHtml(d, brief.sections?.[d.id])).join("\n")}`;
-  return layout({ site, title: `${site.title}, ${brief.longDate}`, description: brief.headline, body });
+
+  const body = `${masthead(site, nav)}
+<section class="hero"><div class="shell">
+<p class="dateline"><time datetime="${esc(brief.date)}">${esc(brief.longDate)}</time>${brief.clock ? `, prepared ${esc(brief.clock)}` : ""}</p>
+<h1>${esc(headline)}</h1>${hl}
+</div></section>
+<div class="shell body">
+<main>${newsDefs.map((d) => newsSection(d, S[d.id])).join("\n")}</main>
+<aside class="rail">
+${nudgePanel(healthDef, S[healthDef?.id])}
+${statusPanel(statusDef, S[statusDef?.id])}
+${marketsPanel(defs, S)}
+<nav class="panel index-panel" aria-label="Sections"><h2>In this brief</h2><ul class="index">${newsDefs.map((d) => `<li><a href="#${d.id}">${esc(d.title)}</a></li>`).join("")}</ul></nav>
+</aside>
+</div>`;
+  return layout({ site, title: `${brandParts(site.title).name}, ${brief.longDate}`, description: headline, body });
 }
 
 function archivePage(site, briefs) {
-  const list = [...briefs]
-    .reverse()
-    .map((b) => `<li><a href="/${b.date}/">${esc(b.longDate)}</a><p>${esc(b.headline)}</p></li>`)
+  const list = [...briefs].reverse()
+    .map((b) => `<li><a href="/${b.date}/">${esc(b.longDate)}</a><p>${esc(cleanHeadline(b.headline))}</p></li>`)
     .join("");
-  const body = `${topBar(site, {})}<h1 style="margin-top:1.5rem">Archive</h1><ul class="archive">${list || "<li>No briefs yet.</li>"}</ul>`;
-  return layout({ site, title: `${site.title} archive`, description: "Every past morning brief.", body });
+  const body = `${masthead(site, {})}
+<section class="hero"><div class="shell"><h1>Every morning’s brief</h1></div></section>
+<div class="shell" style="padding-top:2.5rem"><ul class="arch">${list || "<li><p>The first brief will appear here after the next morning run.</p></li>"}</ul></div>`;
+  return layout({ site, title: `${brandParts(site.title).name}, archive`, description: "Every past morning brief.", body });
 }
 
 async function put(file, html) {
@@ -159,7 +278,6 @@ export async function renderAll({ root, dataDir, site, sections }) {
     files = (await readdir(dataDir)).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort();
   } catch {}
   const briefs = await Promise.all(files.map(async (f) => JSON.parse(await readFile(path.join(dataDir, f), "utf8"))));
-
   for (let i = 0; i < briefs.length; i++) {
     const html = dayPage(site, sections, briefs[i], { prev: briefs[i - 1]?.date, next: briefs[i + 1]?.date });
     await put(path.join(out, briefs[i].date, "index.html"), html);
