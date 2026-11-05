@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-06",
+  "longDate": "Friday 6 November 2026",
+  "clock": "10:45 am AEDT",
+  "generatedAt": "2026-11-05T23:45:11.747Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — a chip-led rout pushed the Nasdaq into correction on Wall Street, while David Jones collapsed into administration at home.",
+  "highlights": [
+    {
+      "label": "Wall Street rout",
+      "text": "The Nasdaq fell 5.52% and entered correction territory as semiconductor stocks suffered their worst day since March 2020."
+    },
+    {
+      "label": "David Jones collapses",
+      "text": "The department store entered voluntary administration after landlord talks failed; stores keep trading for now, with closures and gift cards in question."
+    },
+    {
+      "label": "Salesforce deals",
+      "text": "Salesforce is reported to be buying Braze for about US$5.66 billion and has signed a deal to acquire voice AI firm Cresta."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Walk for ten minutes after a meal",
+        "body": "A gentle ten-minute walk after lunch or dinner is an easy way to add movement without needing a workout. Many people find it also helps them feel less sluggish in the afternoon. Keep the pace comfortable and aim to make it a habit."
+      },
+      "quote": {
+        "text": "Take care of your body. It's the only place you have to live.",
+        "author": "Jim Rohn"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce's planned Braze purchase stirs debate over overlap with Marketing Cloud",
+          "url": "https://martech.org/will-salesforces-braze-deal-bring-clarity-or-chaos/",
+          "source": "MarTech.org",
+          "summary": "Salesforce has agreed to acquire Braze for about US$5.66 billion in cash, at US$47.50 a share. Analysts are split on whether the deal clarifies or complicates Salesforce's marketing stack, and pricing plans have not been disclosed."
+        },
+        {
+          "title": "Braze deal seen as textbook martech consolidation",
+          "url": "https://newsletter.chiefmartec.com/p/martech-consolidation-infrastructure-and-the-braze-salesforce-deal",
+          "source": "Chiefmartec",
+          "summary": "Commentary frames the Salesforce–Braze deal as part of wider consolidation of martech infrastructure. Marketers on separate email and engagement platforms may need to reassess vendor roadmaps."
+        },
+        {
+          "title": "HubSpot retires Design Manager serverless functions and older Node.js runtimes",
+          "url": "https://www.martechnotes.com/hubspot-begins-phasing-out-design-manager-serverless-functions-and-node-js-20/",
+          "source": "Martech Notes",
+          "summary": "HubSpot announced on 3 November that it is sunsetting Design Manager serverless functions and older Node.js runtimes for workflow custom code actions. Existing functions remain editable until 17 November 2026, so affected teams should plan migrations."
+        },
+        {
+          "title": "HubSpot begins enforcing Marketplace platform version requirements",
+          "url": "https://www.martechnotes.com/hubspot-begins-enforcing-marketplace-platform-version-requirements/",
+          "source": "Martech Notes",
+          "summary": "HubSpot started enforcing updated platform version requirements for Marketplace apps on 2 November 2026. App developers and teams relying on third-party integrations should check compatibility."
+        },
+        {
+          "title": "Daily roundup of marketing technology and AI news, 3 November",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/",
+          "source": "The Agile Brand Guide",
+          "summary": "The roundup collects the latest martech and AI vendor announcements. Useful as a quick scan for platform updates; individual claims were not independently checked."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce signs deal to acquire voice AI firm Cresta",
+          "url": "https://salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce signed a definitive agreement on 2 November to buy Cresta, whose voice agents handle customer service calls. Salesforce has not disclosed a price, though one outlet reports US$2.7 billion."
+        },
+        {
+          "title": "Agentforce Coworker usage reported up 21 times in three months",
+          "url": "https://salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce says its Coworker assistant now has more than 185,000 users, with Teams, mobile and desktop apps and an MCP server due in November. The growth claim comes from Salesforce itself."
+        },
+        {
+          "title": "Questions raised over Coworker's 21x growth claim",
+          "url": "https://forkast.news/salesforce-expands-coworkers-reach-but-its-21x-growth-claim-has-no-baseline",
+          "source": "Forkast",
+          "summary": "Forkast notes the 21x figure is given without a baseline and that no independently validated productivity result was published. Buyers should treat the adoption numbers cautiously."
+        },
+        {
+          "title": "Braze acquisition adds speed to Salesforce, and overlap",
+          "url": "https://martech.org/braze-gives-salesforce-more-speed-and-more-overlap/",
+          "source": "MarTech.org",
+          "summary": "The planned Braze deal would complement Marketing Cloud and tie into Data 360 and Agentforce. Analysts point to product overlap that Salesforce will need to resolve."
+        },
+        {
+          "title": "Salesforce keeps spending on AI despite market selloff",
+          "url": "https://247wallst.com/investing/2026/11/03/the-selloff-didnt-stop-salesforce-from-spending-2-7-billion-on-an-ai-startup/",
+          "source": "24/7 Wall St.",
+          "summary": "The report ties the Cresta deal to a broader market selloff. Salesforce's next earnings are expected around 2 December 2026, but that date is not confirmed."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "No significant Salesforce incident was found in news searches, but status.salesforce.com could not be checked directly, so current status is unconfirmed.",
+      "items": []
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "RBA lifts cash rate to 4.85%, an 18-year high, in split decision",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050",
+          "source": "ABC News",
+          "summary": "The Reserve Bank raised the cash rate by 25 basis points on 3 November, its fifth hike this year, with a 6–3 board vote. It cited elevated inflation, the Middle East war and higher oil prices, and has left further rises open."
+        },
+        {
+          "title": "David Jones collapses into voluntary administration",
+          "url": "https://www.abc.net.au/news/2026-11-05/david-jones-collapses-into-voluntary-administration/107347878",
+          "source": "ABC News",
+          "summary": "The department store entered administration on 5 November after talks with landlords including Westfield broke down. Stores are meant to keep trading, but closures are reported likely and gift card holders face uncertainty."
+        },
+        {
+          "title": "Marles says suburbs are no place for data centres",
+          "url": "https://abc.net.au/news/2026-11-06/federal-politics-live-blog-chalmers-productivity-nov-6/107353708",
+          "source": "ABC News",
+          "summary": "Deputy Prime Minister Richard Marles said suburbs are the wrong place for data centre development, and that the US midterm results will not change how Australia deals with President Trump. The RBA governor has also pointed to the data centre building boom as an inflation factor."
+        },
+        {
+          "title": "Canavan criticises Treasurer's productivity push",
+          "url": "https://au.headtopics.com/news/live-canavan-criticises-treasurer-s-attempt-to-find-ideas-89592512",
+          "source": "ABC News (via HeadTopics)",
+          "summary": "Nationals leader Matt Canavan criticised the Treasurer's attempt to gather ideas to lift productivity. The exchange shows the policy fight over how to respond to weak growth and high inflation."
+        },
+        {
+          "title": "High Court to hear Hanson's appeal over racial vilification finding",
+          "url": "https://abc.net.au/news/2026-11-06/federal-politics-live-blog-chalmers-productivity-nov-6/107353708",
+          "source": "ABC News",
+          "summary": "The High Court has agreed to hear Pauline Hanson's appeal against a finding that she racially vilified Senator Mehreen Faruqi. The case could clarify limits of the vilification law as applied to politicians."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Cabinet clears Rs 2,814 crore critical minerals processing scheme",
+          "url": "https://businesstoday.in/latest/economy/story/why-should-india-depend-on-others-pm-modi-after-cabinet-clears-rs2814-cr-critical-minerals-processing-scheme-565753-2026-11-04",
+          "source": "BusinessToday",
+          "summary": "The Union Cabinet approved a five-year scheme offering a 30% capital subsidy for critical mineral processing facilities. The Prime Minister said it is meant to cut dependence on other countries for minerals used in EVs, batteries and defence."
+        },
+        {
+          "title": "Modi says growth is strong despite West Asia crisis",
+          "url": "https://www.business-standard.com/amp/economy/news/india-s-economic-growth-is-high-despite-ongoing-west-asia-crisis-pm-modi-126110201158_1.html",
+          "source": "Business Standard",
+          "summary": "PM Modi said on 2 November that India's growth remains high despite the ongoing West Asia crisis. These are the government's own claims and were not independently assessed."
+        },
+        {
+          "title": "Modi cites World Bank poverty data at Pune Metro launch",
+          "url": "https://www.siasat.com/india-fastest-growing-economy-reducing-poverty-pm-modi-3569129/",
+          "source": "Siasat",
+          "summary": "At the launch of Pune Metro Line 3 on 3 November, Modi called India the fastest-growing economy and cited a World Bank figure of extreme poverty at 2.6% in 2023. He also addressed drought conditions in Maharashtra."
+        },
+        {
+          "title": "Sensex surges more than 2,000 points ahead of Dhanteras",
+          "url": "https://neopolitico.com/business/sensex-surges-over-2000-points-nifty-crosses-24500-as-banking-and-auto-stocks-lead-rally/",
+          "source": "Neo Politico",
+          "summary": "Indian indices rose for a sixth straight session, with the Sensex up 2.60% to 79,310.01 and the Nifty up 2.40% to 24,536.60, led by banks and autos. Figures come from a single outlet and should be verified against exchange data."
+        },
+        {
+          "title": "Supreme Court rejects plea on rotating SC-ST reserved seats",
+          "url": "https://neopolitico.com/business/sensex-surges-over-2000-points-nifty-crosses-24500-as-banking-and-auto-stocks-lead-rally/",
+          "source": "Neo Politico",
+          "summary": "The court declined a plea seeking rotation of seats reserved for Scheduled Castes and Scheduled Tribes, saying the decision rests with Parliament. Reported in a headline list only; details were not confirmed."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "TDP-led alliance sweeps urban local body polls, wins Visakhapatnam mayoralty",
+          "url": "https://www.thedailyjagran.com/india/news/andhra-pradesh-municipal-election-results-2026-live-updates-tdp-chandrababu-naidu-ysrcp-jagan-mohan-reddy-congress-bjp-leading-trailing-win-cyclone-murasu-10334948",
+          "source": "Daily Jagran",
+          "summary": "The TDP-led NDA alliance led in most municipal corporations, with TDP's Mukka Sravani winning as Vizag mayor. Counting in Prakasam and Bapatla was delayed by bad weather."
+        },
+        {
+          "title": "Jagan calls local polls 'selection, not election'",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-municipal-election-results-2026-live-updates-jagan-criticises-chandrababu-naidu-for-turning-elections-into-selections-2001284",
+          "source": "Deccan Chronicle",
+          "summary": "YSRCP leader Jagan Mohan Reddy alleged manipulation from nominations to counting. These are his allegations; no official response was found."
+        },
+        {
+          "title": "YSRCP alleges nominations blocked in rural body polls",
+          "url": "https://www.dailyprabhat.com/not-an-election-but-selection-ysrcp-alleges-rigging-intimidation-in-andhra-pradesh-local-body-polls/",
+          "source": "Daily Prabhat",
+          "summary": "The opposition claims candidates were stopped from filing in 84 ZPTC and 2,109 MPTC seats. Rural polls were held on 5 November, with some cyclone-hit areas likely to be postponed."
+        },
+        {
+          "title": "Cabinet clears Rs 3,125 crore farmer payout and Amaravati works",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/cabinet-nod-for-rs-3125-cr-payout-to-farmers-today-1137250",
+          "source": "The Hans India",
+          "summary": "The late-October cabinet reportedly cleared 48 proposals, including the farmer payout, Rs 1,900 crore of Amaravati tenders and land for Quantum Valley. Details come from press reports because the model code of conduct limited official disclosure."
+        },
+        {
+          "title": "Cabinet reportedly approves land for Adani data centre in Visakhapatnam",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/cabinet-nod-for-rs-3125-cr-payout-to-farmers-today-1137250",
+          "source": "The Hans India",
+          "summary": "The same cabinet meeting is reported to have allotted 5.84 acres for an Adani data centre in Visakhapatnam. This is an older story (about 30 October) and was not officially confirmed."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,353.73",
+          "change": "-4.36%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "24,315.00",
+          "change": "-5.52%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "51,523.06",
+          "change": "-3.44%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Nasdaq has its worst day in 18 months as AI trade comes under fire",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/",
+          "source": "Motley Fool",
+          "summary": "The Nasdaq fell into correction territory on 5 November, erasing Wednesday's rally. The selloff centred on AI-linked and chip stocks."
+        },
+        {
+          "title": "Chip stocks tumble: semiconductor ETF has worst day since March 2020",
+          "url": "https://cnbc.com/2026/11/05/stock-market-today-live-updates.html",
+          "source": "CNBC",
+          "summary": "Nvidia fell about 9% and Micron and AMD about 17% each, per CNBC's live coverage. Traders flagged worries about a possible slowdown in data centre construction."
+        },
+        {
+          "title": "Nvidia slides as election uncertainty weighs",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nvidia-slides-on-ai-chip-selloff-as-election-uncertainty-weighs/",
+          "source": "Motley Fool",
+          "summary": "Motley Fool linked the move to investors cutting semiconductor exposure after the Democratic midterm sweep. That explanation is one outlet's view."
+        },
+        {
+          "title": "Intel falls on weak fourth-quarter sales outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-5-222216828.html",
+          "source": "Yahoo Finance",
+          "summary": "Intel dropped about 10% after giving a soft fourth-quarter sales outlook. The result added to the pressure on chipmakers."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P/ASX 200 (Thu close)",
+          "value": "9,065.1",
+          "change": "+2.61%"
+        },
+        {
+          "label": "ASX 200 futures (Fri pre-open)",
+          "value": "-33 pts",
+          "change": "-0.40%"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX posts best day since April 2025 before the Wall Street rout",
+          "url": "https://www.capitalbrief.com/briefing/australian-shares-to-surge-as-wall-st-rallies-oil-sinks-on-democratic-sweep-33f4e939-1136-449a-b9f5-250fcd3fa271/",
+          "source": "Capital Brief",
+          "summary": "The ASX 200 rose 2.61% on Thursday, led by tech and mining stocks, while energy fell with oil. The rally followed Wall Street's gains after the US midterms."
+        },
+        {
+          "title": "ASX set to fall as US tech stocks plunge",
+          "url": "https://www.abc.net.au/news/2026-11-06/asx-markets-business-live-news/107353758",
+          "source": "ABC News",
+          "summary": "Futures pointed to a lower open after the Nasdaq fell nearly 4% in early US trade. A later snapshot showed the index down 1.14% to 8,962.2 at the open, an intraday reading rather than a close."
+        },
+        {
+          "title": "NextDC surges after Goodman and Digital Realty share raid",
+          "url": "https://www.capitalbrief.com/briefing/australian-shares-to-surge-as-wall-st-rallies-oil-sinks-on-democratic-sweep-33f4e939-1136-449a-b9f5-250fcd3fa271/",
+          "source": "Capital Brief",
+          "summary": "NextDC jumped 50.8% on Thursday after a takeover-style stake build by Goodman Group and Digital Realty. It was the market's top performer."
+        },
+        {
+          "title": "David Jones collapse dominates business news",
+          "url": "https://www.abc.net.au/news/2026-11-05/asx-markets-business-live-news-november-5-2026/107347286",
+          "source": "ABC News",
+          "summary": "The retailer's collapse into administration drew warnings it could disappear altogether. Landlords and brands face losses as a sale process begins."
+        },
+        {
+          "title": "RBA hike backdrop: cash rate 4.85%",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216",
+          "source": "ABC News",
+          "summary": "The RBA's fifth hike this year lifted the cash rate to 4.85% in a 6–3 vote. The next decision is reportedly due on 8 December. AUD/USD was not available from the sources found."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Auction clearance rate falls to multi-year low",
+          "url": "https://financialnewswire.com.au/property/average-clearance-rate-comes-in-under-50-for-seventh-week/",
+          "source": "Financial Newswire",
+          "summary": "Cotality's figure for the week to 1 November put the capital-city clearance rate at 40.7%, the seventh straight week below 50%. Early preliminary figures from other outlets were higher, so the final number is the better guide."
+        },
+        {
+          "title": "Home auction clearance rate hits six-year low",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/australia-home-auction-clearance-rate-falls-to-six-year-low",
+          "source": "Bloomberg",
+          "summary": "Some 1,735 homes went to auction across the capitals, down 7.3% on the prior week and 17.7% on a year earlier. A Melbourne public holiday also weighed on activity."
+        },
+        {
+          "title": "Borrowers face extra $6,000 a year after RBA hike",
+          "url": "https://www.domain.com.au/news/borrowers-hit-with-extra-6000-bill-as-rba-hikes-rates-1578238/",
+          "source": "Domain",
+          "summary": "Domain estimates the latest rate rise adds substantially to annual repayments for typical borrowers. Banks generally pass on increases in full to variable-rate loans."
+        },
+        {
+          "title": "What the November cash rate hike means for households",
+          "url": "https://www.abc.net.au/news/2026-11-03/what-november-cash-rate-hike-means-for-australians-money/107324538",
+          "source": "ABC News",
+          "summary": "Cotality estimates repayments are about $600 a month higher than in January and borrowing capacity for a median-income household is about $88,000 lower. Rents rose 0.5% nationally in the September quarter."
+        },
+        {
+          "title": "Rate hikes drive fastest housing downturn in 40 years",
+          "url": "https://www.australianconveyancer.com.au/article/interest-rate-hikes-key-driver-of-fastest-housing-downturn-in-40-years-",
+          "source": "Australian Conveyancer",
+          "summary": "The article links this year's rate rises to a sharp housing downturn. The publication date was not confirmed, so the claim may predate the latest hike."
+        }
+      ]
+    }
+  }
+}

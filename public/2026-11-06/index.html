@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14202D">
+<title>Hello Mr.Bhaskar, Friday 6 November 2026</title>
+<meta name="description" content="A chip-led rout pushed the Nasdaq into correction on Wall Street, while David Jones collapsed into administration at home.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22%2314202D%22/><text x=%2250%22 y=%2264%22 font-family=%22Georgia%22 font-style=%22italic%22 font-size=%2238%22 fill=%22%23CFAB6E%22 text-anchor=%22middle%22>MrB</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F5F6F3; --surface:#FFFFFF; --ink:#172230; --muted:#56636F; --rule:#DDE1DC;
+  --brass:#97753F; --up:#2F7A5F; --down:#B23A48;
+  --hero:#14202D; --hero-ink:#EEF1EC; --hero-muted:#A3B2BF; --hero-rule:#2A3A4B;
+  --serif:"Newsreader","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#0F161E; --surface:#16212C; --ink:#E6EBE8; --muted:#9AA8B4; --rule:#26333F;
+  --brass:#CFAB6E; --up:#7DBCA3; --down:#E58591;
+  --hero:#0A1118; --hero-ink:#EEF1EC; --hero-muted:#93A3B1; --hero-rule:#223140;
+  color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans);
+  padding-bottom:env(safe-area-inset-bottom,0)}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
+.shell{max-width:74rem;margin:0 auto;padding:0 1.5rem}
+
+/* Masthead */
+.mast{background:var(--hero);color:var(--hero-ink);padding-top:env(safe-area-inset-top,0)}
+.mast-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:1.1rem}
+.brand{display:flex;align-items:center;gap:.75rem;text-decoration:none}
+.mono{display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:50%;
+  border:1px solid var(--brass);color:var(--brass);font:italic 400 1.05rem/1 var(--serif)}
+.hello{font:400 1.2rem/1.2 var(--serif);letter-spacing:.005em}
+.daynav{display:flex;gap:1.25rem;font-size:.9rem;color:var(--hero-muted)}
+.daynav a{text-decoration:none}
+.daynav a:hover{color:var(--hero-ink);text-decoration:underline;text-underline-offset:.25em}
+
+/* Hero */
+.hero{background:var(--hero);color:var(--hero-ink);padding:3.5rem 0 3rem;border-bottom:1px solid var(--hero-rule)}
+.dateline{margin:0 0 1.25rem;color:var(--hero-muted);font-size:.95rem}
+.dateline time{color:var(--hero-ink);font-weight:500}
+.hero h1{font:400 clamp(2.1rem,4.8vw,3.6rem)/1.08 var(--serif);letter-spacing:-.015em;margin:0;max-width:26ch;
+  text-wrap:balance}
+.hl{list-style:none;margin:2.75rem 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.hl li{padding:0 1.5rem;border-left:1px solid var(--hero-rule);font-size:.95rem;line-height:1.5;color:var(--hero-muted)}
+.hl li:first-child{padding-left:0;border-left:0}
+.hl strong{display:block;color:var(--brass);font:italic 400 1.15rem/1.3 var(--serif);margin-bottom:.3rem}
+@media (prefers-reduced-motion:no-preference){
+  .hero h1{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+  .hl{animation:rise .9s .25s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(.6rem)}to{opacity:1;transform:none}}
+}
+
+/* Body grid */
+.body{display:grid;grid-template-columns:minmax(0,1fr) 20rem;gap:4.5rem;padding-block:3.5rem 2rem}
+main{min-width:0}
+
+/* Sections */
+.sec{margin:0 0 4rem;scroll-margin-top:1.5rem}
+.sec>h2{font:500 1.9rem/1.15 var(--serif);letter-spacing:-.01em;margin:0 0 1.5rem;display:flex;align-items:baseline;gap:.9rem}
+.sec>h2::after{content:"";flex:1;height:1px;background:var(--rule);transform:translateY(-.3rem)}
+.lead h3{font:500 clamp(1.35rem,2.4vw,1.6rem)/1.22 var(--serif);margin:0 0 .5rem;letter-spacing:-.005em;text-wrap:balance}
+.lead p{margin:0;max-width:62ch;color:var(--ink)}
+.lead h3 a,.more h3 a,.rail a{text-decoration:none;background-image:linear-gradient(var(--brass),var(--brass));
+  background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .25s}
+.lead h3 a:hover,.more h3 a:hover,.rail a:hover{background-size:100% 1px}
+.src{display:block;margin-top:.55rem;color:var(--muted);font-size:.82rem;font-style:italic;font-family:var(--serif)}
+.more{list-style:none;margin:2rem 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:1.75rem 2.25rem}
+.more li{padding-top:1.1rem;border-top:1px solid var(--rule)}
+.more h3{font:600 1rem/1.35 var(--sans);margin:0 0 .35rem}
+.more p{margin:0;font-size:.94rem;line-height:1.55;color:var(--muted)}
+.missing{color:var(--muted);font-family:var(--serif);font-style:italic;margin:0}
+
+/* Rail */
+.rail{display:flex;flex-direction:column;gap:1.25rem;min-width:0}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:1.4rem 1.4rem 1.5rem}
+.panel h2{font:500 1.15rem/1.2 var(--serif);margin:0 0 1rem}
+.nudge{background:transparent;border:0;border-top:2px solid var(--brass);border-radius:0;padding:1.4rem 0 .5rem}
+.nudge blockquote{margin:0;font:italic 400 1.45rem/1.32 var(--serif);text-wrap:balance}
+.nudge cite{display:block;margin-top:.6rem;font:400 .88rem/1.4 var(--sans);font-style:normal;color:var(--muted)}
+.nudge h3{font:600 .98rem/1.35 var(--sans);margin:1.4rem 0 .3rem}
+.nudge p{margin:0;font-size:.94rem;color:var(--muted)}
+.state{display:flex;gap:.65rem;align-items:baseline;margin:0 0 .4rem;font-weight:600}
+.dot{width:.6rem;height:.6rem;border-radius:50%;flex:none;background:var(--muted)}
+.dot.clear{background:var(--up);box-shadow:0 0 0 4px color-mix(in srgb,var(--up) 18%,transparent)}
+.dot.issues{background:var(--down);box-shadow:0 0 0 4px color-mix(in srgb,var(--down) 18%,transparent)}
+.note{margin:0;font-size:.9rem;color:var(--muted)}
+.incidents{list-style:none;margin:1rem 0 0;padding:0}
+.incidents li{padding:.8rem 0 0;margin-top:.8rem;border-top:1px solid var(--rule);font-size:.9rem;line-height:1.45}
+.incidents a{font-weight:600}
+.incidents span{display:block;color:var(--muted);margin-top:.2rem}
+.board{width:100%;border-collapse:collapse;font-size:.92rem;font-variant-numeric:tabular-nums}
+.board caption{text-align:left;font:italic 400 .95rem/1.3 var(--serif);color:var(--muted);padding:0 0 .4rem}
+.board td{padding:.5rem 0;border-top:1px solid var(--rule)}
+.board td:nth-child(2),.board td:nth-child(3){text-align:right;white-space:nowrap}
+.board td:nth-child(3){width:5.5rem}
+.board+.board{margin-top:1.25rem}
+.up{color:var(--up)}.down{color:var(--down)}
+.index{list-style:none;margin:0;padding:0;columns:1;font-size:.95rem}
+.index li{padding:.3rem 0}
+.index a{color:var(--muted)}
+.index a:hover{color:var(--ink)}
+
+/* Archive */
+.arch{list-style:none;margin:0;padding:0;max-width:46rem}
+.arch li{padding:1.4rem 0;border-top:1px solid var(--rule)}
+.arch a{font:500 1.3rem/1.25 var(--serif);text-decoration:none}
+.arch a:hover{text-decoration:underline;text-underline-offset:.2em;text-decoration-color:var(--brass)}
+.arch p{margin:.35rem 0 0;color:var(--muted)}
+
+footer.f{border-top:1px solid var(--rule);margin-top:1rem;padding:1.5rem 0 3rem;color:var(--muted);font-size:.85rem;max-width:60ch}
+
+@media (max-width:960px){
+  .body{grid-template-columns:1fr;gap:2.5rem;padding-block-start:2.5rem}
+  .rail{order:-1}
+  .index-panel{display:none}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .shell{padding:0 1.15rem}
+  .hero{padding:2.25rem 0 2.25rem}
+  .hl{grid-template-columns:1fr;gap:1.1rem;margin-top:2rem}
+  .hl li,.hl li:first-child{padding:0 0 0 1rem;border-left:1px solid var(--hero-rule)}
+  .more{grid-template-columns:1fr;gap:1.25rem}
+  .hello{font-size:1.05rem}
+  .daynav{gap:.9rem;font-size:.85rem}
+  .sec>h2{font-size:1.6rem}
+}
+</style>
+</head>
+<body>
+<header class="mast"><div class="shell mast-in">
+<a class="brand" href="/" aria-label="Hello Mr.Bhaskar (MrB), latest brief"><span class="mono">MrB</span><span class="hello">Hello Mr.Bhaskar</span></a>
+<nav class="daynav" aria-label="Other days"><a href="/2026-11-05/">← Thu, 5 Nov</a><a href="/archive/">Archive</a></nav></div></header>
+<section class="hero"><div class="shell">
+<p class="dateline"><time datetime="2026-11-06">Friday 6 November 2026</time>, prepared 10:45 am AEDT</p>
+<h1>A chip-led rout pushed the Nasdaq into correction on Wall Street, while David Jones collapsed into administration at home.</h1><ul class="hl"><li><strong>Wall Street rout</strong>The Nasdaq fell 5.52% and entered correction territory as semiconductor stocks suffered their worst day since March 2020.</li><li><strong>David Jones collapses</strong>The department store entered voluntary administration after landlord talks failed; stores keep trading for now, with closures and gift cards in question.</li><li><strong>Salesforce deals</strong>Salesforce is reported to be buying Braze for about US$5.66 billion and has signed a deal to acquire voice AI firm Cresta.</li></ul>
+</div></section>
+<div class="shell body">
+<main><section class="sec" id="martech"><h2>MarTech</h2><article class="lead"><h3><a href="https://martech.org/will-salesforces-braze-deal-bring-clarity-or-chaos/" rel="noopener">Salesforce&#39;s planned Braze purchase stirs debate over overlap with Marketing Cloud</a></h3><p>Salesforce has agreed to acquire Braze for about US$5.66 billion in cash, at US$47.50 a share. Analysts are split on whether the deal clarifies or complicates Salesforce&#39;s marketing stack, and pricing plans have not been disclosed.</p><span class="src">MarTech.org</span></article><ul class="more"><li><h3><a href="https://newsletter.chiefmartec.com/p/martech-consolidation-infrastructure-and-the-braze-salesforce-deal" rel="noopener">Braze deal seen as textbook martech consolidation</a></h3><p>Commentary frames the Salesforce–Braze deal as part of wider consolidation of martech infrastructure. Marketers on separate email and engagement platforms may need to reassess vendor roadmaps.</p><span class="src">Chiefmartec</span></li><li><h3><a href="https://www.martechnotes.com/hubspot-begins-phasing-out-design-manager-serverless-functions-and-node-js-20/" rel="noopener">HubSpot retires Design Manager serverless functions and older Node.js runtimes</a></h3><p>HubSpot announced on 3 November that it is sunsetting Design Manager serverless functions and older Node.js runtimes for workflow custom code actions. Existing functions remain editable until 17 November 2026, so affected teams should plan migrations.</p><span class="src">Martech Notes</span></li><li><h3><a href="https://www.martechnotes.com/hubspot-begins-enforcing-marketplace-platform-version-requirements/" rel="noopener">HubSpot begins enforcing Marketplace platform version requirements</a></h3><p>HubSpot started enforcing updated platform version requirements for Marketplace apps on 2 November 2026. App developers and teams relying on third-party integrations should check compatibility.</p><span class="src">Martech Notes</span></li><li><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/" rel="noopener">Daily roundup of marketing technology and AI news, 3 November</a></h3><p>The roundup collects the latest martech and AI vendor announcements. Useful as a quick scan for platform updates; individual claims were not independently checked.</p><span class="src">The Agile Brand Guide</span></li></ul></section>
+<section class="sec" id="salesforce"><h2>Salesforce news</h2><article class="lead"><h3><a href="https://salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta" rel="noopener">Salesforce signs deal to acquire voice AI firm Cresta</a></h3><p>Salesforce signed a definitive agreement on 2 November to buy Cresta, whose voice agents handle customer service calls. Salesforce has not disclosed a price, though one outlet reports US$2.7 billion.</p><span class="src">Salesforce Newsroom</span></article><ul class="more"><li><h3><a href="https://salesforce.com/news/stories/agentforce-coworker-surpasses-185k-users" rel="noopener">Agentforce Coworker usage reported up 21 times in three months</a></h3><p>Salesforce says its Coworker assistant now has more than 185,000 users, with Teams, mobile and desktop apps and an MCP server due in November. The growth claim comes from Salesforce itself.</p><span class="src">Salesforce Newsroom</span></li><li><h3><a href="https://forkast.news/salesforce-expands-coworkers-reach-but-its-21x-growth-claim-has-no-baseline" rel="noopener">Questions raised over Coworker&#39;s 21x growth claim</a></h3><p>Forkast notes the 21x figure is given without a baseline and that no independently validated productivity result was published. Buyers should treat the adoption numbers cautiously.</p><span class="src">Forkast</span></li><li><h3><a href="https://martech.org/braze-gives-salesforce-more-speed-and-more-overlap/" rel="noopener">Braze acquisition adds speed to Salesforce, and overlap</a></h3><p>The planned Braze deal would complement Marketing Cloud and tie into Data 360 and Agentforce. Analysts point to product overlap that Salesforce will need to resolve.</p><span class="src">MarTech.org</span></li><li><h3><a href="https://247wallst.com/investing/2026/11/03/the-selloff-didnt-stop-salesforce-from-spending-2-7-billion-on-an-ai-startup/" rel="noopener">Salesforce keeps spending on AI despite market selloff</a></h3><p>The report ties the Cresta deal to a broader market selloff. Salesforce&#39;s next earnings are expected around 2 December 2026, but that date is not confirmed.</p><span class="src">24/7 Wall St.</span></li></ul></section>
+<section class="sec" id="australia"><h2>Australia top 5</h2><article class="lead"><h3><a href="https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050" rel="noopener">RBA lifts cash rate to 4.85%, an 18-year high, in split decision</a></h3><p>The Reserve Bank raised the cash rate by 25 basis points on 3 November, its fifth hike this year, with a 6–3 board vote. It cited elevated inflation, the Middle East war and higher oil prices, and has left further rises open.</p><span class="src">ABC News</span></article><ul class="more"><li><h3><a href="https://www.abc.net.au/news/2026-11-05/david-jones-collapses-into-voluntary-administration/107347878" rel="noopener">David Jones collapses into voluntary administration</a></h3><p>The department store entered administration on 5 November after talks with landlords including Westfield broke down. Stores are meant to keep trading, but closures are reported likely and gift card holders face uncertainty.</p><span class="src">ABC News</span></li><li><h3><a href="https://abc.net.au/news/2026-11-06/federal-politics-live-blog-chalmers-productivity-nov-6/107353708" rel="noopener">Marles says suburbs are no place for data centres</a></h3><p>Deputy Prime Minister Richard Marles said suburbs are the wrong place for data centre development, and that the US midterm results will not change how Australia deals with President Trump. The RBA governor has also pointed to the data centre building boom as an inflation factor.</p><span class="src">ABC News</span></li><li><h3><a href="https://au.headtopics.com/news/live-canavan-criticises-treasurer-s-attempt-to-find-ideas-89592512" rel="noopener">Canavan criticises Treasurer&#39;s productivity push</a></h3><p>Nationals leader Matt Canavan criticised the Treasurer&#39;s attempt to gather ideas to lift productivity. The exchange shows the policy fight over how to respond to weak growth and high inflation.</p><span class="src">ABC News (via HeadTopics)</span></li><li><h3><a href="https://abc.net.au/news/2026-11-06/federal-politics-live-blog-chalmers-productivity-nov-6/107353708" rel="noopener">High Court to hear Hanson&#39;s appeal over racial vilification finding</a></h3><p>The High Court has agreed to hear Pauline Hanson&#39;s appeal against a finding that she racially vilified Senator Mehreen Faruqi. The case could clarify limits of the vilification law as applied to politicians.</p><span class="src">ABC News</span></li></ul></section>
+<section class="sec" id="india"><h2>India top 5</h2><article class="lead"><h3><a href="https://businesstoday.in/latest/economy/story/why-should-india-depend-on-others-pm-modi-after-cabinet-clears-rs2814-cr-critical-minerals-processing-scheme-565753-2026-11-04" rel="noopener">Cabinet clears Rs 2,814 crore critical minerals processing scheme</a></h3><p>The Union Cabinet approved a five-year scheme offering a 30% capital subsidy for critical mineral processing facilities. The Prime Minister said it is meant to cut dependence on other countries for minerals used in EVs, batteries and defence.</p><span class="src">BusinessToday</span></article><ul class="more"><li><h3><a href="https://www.business-standard.com/amp/economy/news/india-s-economic-growth-is-high-despite-ongoing-west-asia-crisis-pm-modi-126110201158_1.html" rel="noopener">Modi says growth is strong despite West Asia crisis</a></h3><p>PM Modi said on 2 November that India&#39;s growth remains high despite the ongoing West Asia crisis. These are the government&#39;s own claims and were not independently assessed.</p><span class="src">Business Standard</span></li><li><h3><a href="https://www.siasat.com/india-fastest-growing-economy-reducing-poverty-pm-modi-3569129/" rel="noopener">Modi cites World Bank poverty data at Pune Metro launch</a></h3><p>At the launch of Pune Metro Line 3 on 3 November, Modi called India the fastest-growing economy and cited a World Bank figure of extreme poverty at 2.6% in 2023. He also addressed drought conditions in Maharashtra.</p><span class="src">Siasat</span></li><li><h3><a href="https://neopolitico.com/business/sensex-surges-over-2000-points-nifty-crosses-24500-as-banking-and-auto-stocks-lead-rally/" rel="noopener">Sensex surges more than 2,000 points ahead of Dhanteras</a></h3><p>Indian indices rose for a sixth straight session, with the Sensex up 2.60% to 79,310.01 and the Nifty up 2.40% to 24,536.60, led by banks and autos. Figures come from a single outlet and should be verified against exchange data.</p><span class="src">Neo Politico</span></li><li><h3><a href="https://neopolitico.com/business/sensex-surges-over-2000-points-nifty-crosses-24500-as-banking-and-auto-stocks-lead-rally/" rel="noopener">Supreme Court rejects plea on rotating SC-ST reserved seats</a></h3><p>The court declined a plea seeking rotation of seats reserved for Scheduled Castes and Scheduled Tribes, saying the decision rests with Parliament. Reported in a headline list only; details were not confirmed.</p><span class="src">Neo Politico</span></li></ul></section>
+<section class="sec" id="andhra"><h2>Andhra Pradesh top 5</h2><article class="lead"><h3><a href="https://www.thedailyjagran.com/india/news/andhra-pradesh-municipal-election-results-2026-live-updates-tdp-chandrababu-naidu-ysrcp-jagan-mohan-reddy-congress-bjp-leading-trailing-win-cyclone-murasu-10334948" rel="noopener">TDP-led alliance sweeps urban local body polls, wins Visakhapatnam mayoralty</a></h3><p>The TDP-led NDA alliance led in most municipal corporations, with TDP&#39;s Mukka Sravani winning as Vizag mayor. Counting in Prakasam and Bapatla was delayed by bad weather.</p><span class="src">Daily Jagran</span></article><ul class="more"><li><h3><a href="https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-municipal-election-results-2026-live-updates-jagan-criticises-chandrababu-naidu-for-turning-elections-into-selections-2001284" rel="noopener">Jagan calls local polls &#39;selection, not election&#39;</a></h3><p>YSRCP leader Jagan Mohan Reddy alleged manipulation from nominations to counting. These are his allegations; no official response was found.</p><span class="src">Deccan Chronicle</span></li><li><h3><a href="https://www.dailyprabhat.com/not-an-election-but-selection-ysrcp-alleges-rigging-intimidation-in-andhra-pradesh-local-body-polls/" rel="noopener">YSRCP alleges nominations blocked in rural body polls</a></h3><p>The opposition claims candidates were stopped from filing in 84 ZPTC and 2,109 MPTC seats. Rural polls were held on 5 November, with some cyclone-hit areas likely to be postponed.</p><span class="src">Daily Prabhat</span></li><li><h3><a href="https://www.thehansindia.com/news/cities/amaravati/cabinet-nod-for-rs-3125-cr-payout-to-farmers-today-1137250" rel="noopener">Cabinet clears Rs 3,125 crore farmer payout and Amaravati works</a></h3><p>The late-October cabinet reportedly cleared 48 proposals, including the farmer payout, Rs 1,900 crore of Amaravati tenders and land for Quantum Valley. Details come from press reports because the model code of conduct limited official disclosure.</p><span class="src">The Hans India</span></li><li><h3><a href="https://www.thehansindia.com/news/cities/amaravati/cabinet-nod-for-rs-3125-cr-payout-to-farmers-today-1137250" rel="noopener">Cabinet reportedly approves land for Adani data centre in Visakhapatnam</a></h3><p>The same cabinet meeting is reported to have allotted 5.84 acres for an Adani data centre in Visakhapatnam. This is an older story (about 30 October) and was not officially confirmed.</p><span class="src">The Hans India</span></li></ul></section>
+<section class="sec" id="usstocks"><h2>US stocks</h2><article class="lead"><h3><a href="https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/" rel="noopener">Nasdaq has its worst day in 18 months as AI trade comes under fire</a></h3><p>The Nasdaq fell into correction territory on 5 November, erasing Wednesday&#39;s rally. The selloff centred on AI-linked and chip stocks.</p><span class="src">Motley Fool</span></article><ul class="more"><li><h3><a href="https://cnbc.com/2026/11/05/stock-market-today-live-updates.html" rel="noopener">Chip stocks tumble: semiconductor ETF has worst day since March 2020</a></h3><p>Nvidia fell about 9% and Micron and AMD about 17% each, per CNBC&#39;s live coverage. Traders flagged worries about a possible slowdown in data centre construction.</p><span class="src">CNBC</span></li><li><h3><a href="https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nvidia-slides-on-ai-chip-selloff-as-election-uncertainty-weighs/" rel="noopener">Nvidia slides as election uncertainty weighs</a></h3><p>Motley Fool linked the move to investors cutting semiconductor exposure after the Democratic midterm sweep. That explanation is one outlet&#39;s view.</p><span class="src">Motley Fool</span></li><li><h3><a href="https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-5-222216828.html" rel="noopener">Intel falls on weak fourth-quarter sales outlook</a></h3><p>Intel dropped about 10% after giving a soft fourth-quarter sales outlook. The result added to the pressure on chipmakers.</p><span class="src">Yahoo Finance</span></li></ul></section>
+<section class="sec" id="austocks"><h2>AU stocks</h2><article class="lead"><h3><a href="https://www.capitalbrief.com/briefing/australian-shares-to-surge-as-wall-st-rallies-oil-sinks-on-democratic-sweep-33f4e939-1136-449a-b9f5-250fcd3fa271/" rel="noopener">ASX posts best day since April 2025 before the Wall Street rout</a></h3><p>The ASX 200 rose 2.61% on Thursday, led by tech and mining stocks, while energy fell with oil. The rally followed Wall Street&#39;s gains after the US midterms.</p><span class="src">Capital Brief</span></article><ul class="more"><li><h3><a href="https://www.abc.net.au/news/2026-11-06/asx-markets-business-live-news/107353758" rel="noopener">ASX set to fall as US tech stocks plunge</a></h3><p>Futures pointed to a lower open after the Nasdaq fell nearly 4% in early US trade. A later snapshot showed the index down 1.14% to 8,962.2 at the open, an intraday reading rather than a close.</p><span class="src">ABC News</span></li><li><h3><a href="https://www.capitalbrief.com/briefing/australian-shares-to-surge-as-wall-st-rallies-oil-sinks-on-democratic-sweep-33f4e939-1136-449a-b9f5-250fcd3fa271/" rel="noopener">NextDC surges after Goodman and Digital Realty share raid</a></h3><p>NextDC jumped 50.8% on Thursday after a takeover-style stake build by Goodman Group and Digital Realty. It was the market&#39;s top performer.</p><span class="src">Capital Brief</span></li><li><h3><a href="https://www.abc.net.au/news/2026-11-05/asx-markets-business-live-news-november-5-2026/107347286" rel="noopener">David Jones collapse dominates business news</a></h3><p>The retailer&#39;s collapse into administration drew warnings it could disappear altogether. Landlords and brands face losses as a sale process begins.</p><span class="src">ABC News</span></li><li><h3><a href="https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216" rel="noopener">RBA hike backdrop: cash rate 4.85%</a></h3><p>The RBA&#39;s fifth hike this year lifted the cash rate to 4.85% in a 6–3 vote. The next decision is reportedly due on 8 December. AUD/USD was not available from the sources found.</p><span class="src">ABC News</span></li></ul></section>
+<section class="sec" id="property"><h2>Australian real estate top 5</h2><article class="lead"><h3><a href="https://financialnewswire.com.au/property/average-clearance-rate-comes-in-under-50-for-seventh-week/" rel="noopener">Auction clearance rate falls to multi-year low</a></h3><p>Cotality&#39;s figure for the week to 1 November put the capital-city clearance rate at 40.7%, the seventh straight week below 50%. Early preliminary figures from other outlets were higher, so the final number is the better guide.</p><span class="src">Financial Newswire</span></article><ul class="more"><li><h3><a href="https://www.bloomberg.com/news/articles/2026-11-01/australia-home-auction-clearance-rate-falls-to-six-year-low" rel="noopener">Home auction clearance rate hits six-year low</a></h3><p>Some 1,735 homes went to auction across the capitals, down 7.3% on the prior week and 17.7% on a year earlier. A Melbourne public holiday also weighed on activity.</p><span class="src">Bloomberg</span></li><li><h3><a href="https://www.domain.com.au/news/borrowers-hit-with-extra-6000-bill-as-rba-hikes-rates-1578238/" rel="noopener">Borrowers face extra $6,000 a year after RBA hike</a></h3><p>Domain estimates the latest rate rise adds substantially to annual repayments for typical borrowers. Banks generally pass on increases in full to variable-rate loans.</p><span class="src">Domain</span></li><li><h3><a href="https://www.abc.net.au/news/2026-11-03/what-november-cash-rate-hike-means-for-australians-money/107324538" rel="noopener">What the November cash rate hike means for households</a></h3><p>Cotality estimates repayments are about $600 a month higher than in January and borrowing capacity for a median-income household is about $88,000 lower. Rents rose 0.5% nationally in the September quarter.</p><span class="src">ABC News</span></li><li><h3><a href="https://www.australianconveyancer.com.au/article/interest-rate-hikes-key-driver-of-fastest-housing-downturn-in-40-years-" rel="noopener">Rate hikes drive fastest housing downturn in 40 years</a></h3><p>The article links this year&#39;s rate rises to a sharp housing downturn. The publication date was not confirmed, so the claim may predate the latest hike.</p><span class="src">Australian Conveyancer</span></li></ul></section></main>
+<aside class="rail">
+<section class="panel nudge" id="health" aria-label="Health &amp; fitness">
+<blockquote>“Take care of your body. It&#39;s the only place you have to live.”<cite>Jim Rohn</cite></blockquote>
+<h3>Walk for ten minutes after a meal</h3><p>A gentle ten-minute walk after lunch or dinner is an easy way to add movement without needing a workout. Many people find it also helps them feel less sluggish in the afternoon. Keep the pace comfortable and aim to make it a habit.</p></section>
+<section class="panel" id="sfstatus"><h2>Salesforce issues &amp; downtime</h2>
+<p class="state"><span class="dot unknown" aria-hidden="true"></span>Status unclear</p><p class="note">No significant Salesforce incident was found in news searches, but status.salesforce.com could not be checked directly, so current status is unconfirmed.</p></section>
+<section class="panel" aria-label="Markets at a glance"><h2>Markets at a glance</h2><table class="board"><caption>US stocks</caption><tbody><tr><td>S&amp;P 500</td><td>7,353.73</td><td class="down">▼ 4.36%</td></tr><tr><td>Nasdaq Composite</td><td>24,315.00</td><td class="down">▼ 5.52%</td></tr><tr><td>Dow Jones</td><td>51,523.06</td><td class="down">▼ 3.44%</td></tr></tbody></table><table class="board"><caption>AU stocks</caption><tbody><tr><td>S&amp;P/ASX 200 (Thu close)</td><td>9,065.1</td><td class="up">▲ 2.61%</td></tr><tr><td>ASX 200 futures (Fri pre-open)</td><td>-33 pts</td><td class="down">▼ 0.40%</td></tr></tbody></table></section>
+<nav class="panel index-panel" aria-label="Sections"><h2>In this brief</h2><ul class="index"><li><a href="#martech">MarTech</a></li><li><a href="#salesforce">Salesforce news</a></li><li><a href="#australia">Australia top 5</a></li><li><a href="#india">India top 5</a></li><li><a href="#andhra">Andhra Pradesh top 5</a></li><li><a href="#usstocks">US stocks</a></li><li><a href="#austocks">AU stocks</a></li><li><a href="#property">Australian real estate top 5</a></li></ul></nav>
+</aside>
+</div>
+<div class="shell"><footer class="f">Written each morning by AI from public reporting. Summaries are paraphrased and may contain errors, so check the source before acting. Market content is information, not financial advice.</footer></div>
+</body></html>
