@@ -1,68 +1,68 @@
 {
   "date": "2026-11-06",
   "longDate": "Friday 6 November 2026",
-  "clock": "11:56 am AEDT",
-  "generatedAt": "2026-11-06T00:56:03.885Z",
+  "clock": "4:10 pm AEDT",
+  "generatedAt": "2026-11-06T05:10:54.551Z",
   "model": "Claude Code (subscription)",
-  "headline": "Good morning — Wall Street's AI-led rout dragged the ASX lower, and department store David Jones has collapsed into administration.",
+  "headline": "Good morning — Wall Street's AI-driven rout dragged the ASX lower, a day after the RBA lifted the cash rate to 4.85%.",
   "highlights": [
     {
       "label": "Wall Street rout",
-      "text": "The Nasdaq fell about 5.5% and the S&P 500 about 4.4% on an AI and chip stock sell-off."
+      "text": "The Nasdaq fell 5.5% into correction on Thursday as AI and chip stocks were sold off after the US midterms."
     },
     {
-      "label": "David Jones collapse",
-      "text": "The 188-year-old retailer entered voluntary administration and receivership after talks with landlords broke down; stores keep trading for now."
+      "label": "RBA hike",
+      "text": "The RBA raised the cash rate 0.25 points to 4.85% in a 6-3 split vote, its fifth rise this year."
     },
     {
-      "label": "ASX slides",
-      "text": "The ASX 200 opened about 1.1% lower and the Australian dollar dropped to roughly 69 US cents."
+      "label": "Cyclone Murasu",
+      "text": "Andhra Pradesh's preliminary cyclone loss estimate is Rs 1,918.55 crore, with Chief Minister Naidu touring affected districts today."
     }
   ],
   "sections": {
     "health": {
       "ok": true,
       "tip": {
-        "title": "Do a short strength set before your shower",
-        "body": "Two or three rounds of bodyweight squats and wall or incline push-ups take under five minutes and need no equipment. Attaching the habit to something you already do makes it easier to repeat, and regular strength work supports muscle, bone and mood."
+        "title": "Build a short strength snack",
+        "body": "Pick one simple bodyweight move, such as sit-to-stands from a chair or wall push-ups, and do two sets of eight to ten between meetings. Short, regular bursts of resistance work add up across a week and need no equipment or change of clothes. Move at a comfortable pace and stop if anything hurts."
       },
       "quote": {
-        "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
-        "author": "Will Durant"
+        "text": "Well done is better than well said.",
+        "author": "Benjamin Franklin"
       }
     },
     "martech": {
       "ok": true,
       "items": [
         {
-          "title": "Adobe puts its CX Enterprise Coworker inside major AI assistants",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-5-2026/",
-          "source": "The Agile Brand Guide",
-          "summary": "Adobe made its CX Enterprise Coworker available inside ChatGPT, Claude, Gemini, Copilot and Databricks Genie on 4 November, with more platforms listed as coming soon. No adoption figures or pricing were disclosed, so the commercial impact is unclear."
-        },
-        {
-          "title": "HubSpot reports Q3 2026 results",
-          "url": "https://marketscreener.com/news/transcript-hubspot-inc-q3-2026-earnings-call-nov-04-2026-ce785fdfd08df32c",
-          "source": "MarketScreener",
-          "summary": "HubSpot held its third-quarter earnings call on 4 November; a secondary roundup cites revenue of about US$947.6 million, up 17%. Figures are from a secondary source and should be checked against HubSpot's release."
-        },
-        {
-          "title": "HubSpot starts enforcing marketplace platform version requirements",
-          "url": "https://www.martechnotes.com/hubspot-begins-enforcing-marketplace-platform-version-requirements/",
+          "title": "Salesforce to buy Braze for about US$5.66 billion",
+          "url": "https://www.martechnotes.com/salesforce-to-acquire-braze-for-5-66-billion-to-boost-customer-engagement/",
           "source": "Martech Notes",
-          "summary": "HubSpot began enforcing platform version requirements for marketplace apps from 2 November. Teams with connected apps should check their integrations still comply."
+          "summary": "Salesforce announced on 20 October that it will acquire the customer engagement platform Braze, aiming to strengthen cross-channel personalisation inside Marketing Cloud. The deal is still pending, so current product and licensing arrangements are unchanged for now. This item is slightly older than 48 hours."
         },
         {
-          "title": "HubSpot phasing out Design Manager serverless functions",
-          "url": "https://martechnotes.com/hubspot-begins-phasing-out-design-manager-serverless-functions-and-node-js-20",
-          "source": "Martech Notes",
-          "summary": "HubSpot is retiring Design Manager serverless functions and Node.js 20, with existing functions editable until 17 November 2026. Developers need to migrate before then."
+          "title": "Chiefmartec weighs martech consolidation after Braze deal",
+          "url": "https://newsletter.chiefmartec.com/p/martech-consolidation-infrastructure-and-the-braze-salesforce-deal",
+          "source": "Chiefmartec",
+          "summary": "Analysis of how the Braze acquisition fits a wider consolidation trend in marketing infrastructure. It is useful context for teams reviewing their engagement-platform and CDP vendor mix."
         },
         {
-          "title": "Adobe Journey Optimizer adds token resolution for AEM content fragments",
-          "url": "https://www.martechnotes.com/adobe-journey-optimizer-adds-direct-token-resolution-for-aem-content-fragments/",
+          "title": "Salesforce expands Agentforce Coworker to Teams, mobile and desktop",
+          "url": "https://martechnotes.com/salesforce-expands-agentforce-coworker-across-teams-mobile-and-desktop",
           "source": "Martech Notes",
-          "summary": "Adobe Journey Optimizer added limited-availability support for resolving personalisation tokens inside Experience Manager Content Fragments. It should reduce workarounds when personalising managed content."
+          "summary": "The 4 November expansion adds Microsoft Teams, mobile and desktop access, reusable Skills and conversation history. Scheduled tasks and a Daily Digest are expected in December 2026."
+        },
+        {
+          "title": "HubSpot begins retiring Design Manager serverless functions",
+          "url": "https://www.martechnotes.com/hubspot-begins-phasing-out-design-manager-serverless-functions-and-node-js-20/",
+          "source": "Martech Notes",
+          "summary": "HubSpot is phasing out Design Manager serverless functions and Node.js 20 for workflow custom code actions. Existing functions can be edited until 17 November, so affected teams should plan migrations."
+        },
+        {
+          "title": "Adobe Journey Optimizer adds token resolution for AEM Content Fragments",
+          "url": "https://martechnotes.com/adobe-journey-optimizer-adds-direct-token-resolution-for-aem-content-fragments",
+          "source": "Martech Notes",
+          "summary": "A limited-availability update on 5 November lets personalisation tokens resolve directly in AEM Content Fragments. It should simplify building personalised content in journeys."
         }
       ]
     },
@@ -70,51 +70,75 @@
       "ok": true,
       "items": [
         {
-          "title": "Salesforce completes acquisition of Loops",
-          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/",
+          "title": "Salesforce signs deal to acquire voice AI firm Cresta",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
           "source": "Salesforce Newsroom",
-          "summary": "An editor's note says the Loops deal closed on 2 November 2026. Loops is an AI analytics platform that Salesforce plans to fold into Tableau."
+          "summary": "Announced 2 November, the deal adds voice-first AI agents and real-time rep coaching to Service Cloud. Price was reportedly about US$2.7 billion, but Salesforce has not confirmed terms."
         },
         {
-          "title": "Dreamforce 2026 announcements roundup",
-          "url": "https://cxfoundation.com/news/dreamforce-announcements-2026",
-          "source": "CX Foundation",
-          "summary": "The recap says Hyperforce on Google Cloud is slated for general availability in North America in November 2026, and the Hunter agent is expected to reach general availability the same month. Dates are from a third-party recap."
+          "title": "Cresta is Salesforce's third deal in about two weeks",
+          "url": "https://www.salesforceben.com/salesforce-acquires-cresta-buying-spree-continues-with-voice-agent-company/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben ties Cresta to the earlier Rune Technologies and Braze announcements, signalling an active acquisition streak. It matters for customers watching how Agentforce and Marketing Cloud capabilities will be packaged."
         },
         {
-          "title": "Salesforce's agreed Braze acquisition raises questions for email platforms",
-          "url": "https://www.martechtherapy.com/who-gets-to-own-the-customer-loop/",
-          "source": "MarTech Therapy",
-          "summary": "Analysis of Salesforce's deal to buy Braze at US$47.50 a share, about US$5.66 billion, with closing expected in fiscal 2028. The commentary looks at the effect on email and engagement platforms. The deal coverage is about two weeks old."
+          "title": "Forrester says Cresta fills a service-AI gap for Salesforce",
+          "url": "https://www.forrester.com/blogs/cresta-fills-an-important-gap-in-salesforces-customer-service-ai-story/",
+          "source": "Forrester",
+          "summary": "Forrester argues Salesforce lacked a credible conversation intelligence offering before this deal. The view is analyst opinion rather than a confirmed product plan."
+        },
+        {
+          "title": "Agentforce Coworker widens reach on 4 November",
+          "url": "https://martechnotes.com/salesforce-expands-agentforce-coworker-across-teams-mobile-and-desktop",
+          "source": "Martech Notes",
+          "summary": "Coworker now reaches Teams, mobile and desktop, with Field Service, Consumer Goods Cloud and Life Sciences Cloud mobile access expected in December 2026. It extends Agentforce into everyday workflow tools."
+        },
+        {
+          "title": "Salesforce confirms Braze purchase at roughly US$5.66 billion",
+          "url": "https://www.martechnotes.com/salesforce-to-acquire-braze-for-5-66-billion-to-boost-customer-engagement/",
+          "source": "Martech Notes",
+          "summary": "The October announcement says Braze's profiles and decisioning will complement Data 360 and Agentforce. It remains pending, and older than 48 hours."
         }
       ]
     },
     "sfstatus": {
       "ok": true,
       "status": "unknown",
-      "statusNote": "Salesforce Trust could not be checked directly; a third-party tracker showed no active incidents, with the latest incident resolved on 31 October.",
+      "statusNote": "No Salesforce incidents or planned maintenance for the last 48 hours were found in search results; status.salesforce.com should be checked directly for AU instances.",
       "items": []
     },
     "australia": {
       "ok": true,
       "items": [
         {
-          "title": "David Jones collapses into voluntary administration",
-          "url": "https://www.abc.net.au/news/2026-11-05/david-jones-collapses-into-voluntary-administration/107347878",
+          "title": "RBA lifts cash rate to 4.85% in split vote",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216",
           "source": "ABC News",
-          "summary": "The department store entered administration and receivership after talks with its landlord Westfield broke down, with reports of about 6,000 jobs at risk. Stores and online sales continue while the receivers review the business."
+          "summary": "The board raised rates by 0.25 points on Cup Day, its fifth hike this year, with six members in favour and three against. It takes the cash rate to its highest since 2008 and adds to mortgage pressure."
         },
         {
-          "title": "What David Jones shoppers should know about gift cards",
-          "url": "https://www.abc.net.au/news/2026-11-04/david-jones-possible-collapse-consumer-explainer/107347080",
-          "source": "ABC News",
-          "summary": "An explainer on consumer rights as the retailer failed, with advocates arguing gift card funds should be protected. It matters for customers holding cards or pending orders."
-        },
-        {
-          "title": "ASX falls sharply as US tech stocks plunge",
+          "title": "ASX slides as US tech rout hits local shares",
           "url": "https://www.abc.net.au/news/2026-11-06/asx-markets-business-live-news/107353758",
           "source": "ABC News",
-          "summary": "The local share market dropped at the open after the Wall Street AI sell-off, with the tech sector hit hardest. Investors are weighing US midterm fallout and the RBA's recent rate decision."
+          "summary": "The ASX 200 was down about 0.8% to 8,993 mid-afternoon after Wall Street's AI sell-off. Separately, the live blog reports department store David Jones has entered administration."
+        },
+        {
+          "title": "Albanese calls alleged attack on MP Helen Haines a wake-up call",
+          "url": "https://www.odt.co.nz/news/world/albanese-warns-world-leaders-after-alleged-attack-on-aussie-mp-m3noglpx",
+          "source": "Otago Daily Times",
+          "summary": "The Prime Minister raised the alleged attack on the independent MP at the Commonwealth leaders' meeting. Haines was reportedly hit by a car on 19 October and remains in a serious condition."
+        },
+        {
+          "title": "Pressure over planned sale of Victoria Barracks",
+          "url": "https://www.news24.com.au/politics/australian-politics/anthony-albanese-warned-he-could-hemorrhage-2-million-voters-unless-he-orders-marles-to-reverse-sale-of-victoria-barracks/news-story/93b88ce0e746787e5236d938b830e154?nk=28545c4d57600c6ecd398ae6c42f5a46-1793816856",
+          "source": "News24 Australia",
+          "summary": "Critics say the Prime Minister risks a large voter backlash unless Defence Minister Richard Marles reverses the sale of the Melbourne site. The date of the report is unclear, so it may be older than 48 hours."
+        },
+        {
+          "title": "No deal yet on UK traveller work rules",
+          "url": "https://ua.news/en/dovkolo-svitu/albaniz-ne-dosiag-ugodi-z-britaniieiu-shchodo-pravil-dlia-mandrivnikiv-abc-news-australia",
+          "source": "UA.News (citing ABC)",
+          "summary": "Albanese did not secure agreement with Britain on longer regional work for backpackers. The trip coincided with the latest RBA rate rise."
         }
       ]
     },
@@ -122,34 +146,34 @@
       "ok": true,
       "items": [
         {
-          "title": "Debate over India's Muslims after jailed scholar case",
-          "url": "https://www.aljazeera.com/where/india/",
-          "source": "Al Jazeera",
-          "summary": "A jailed scholar's case has prompted debate on whether India's democracy has failed its Muslims. Listed 5 November; details not independently confirmed here."
+          "title": "Sensex surges about 2,000 points on 5 November",
+          "url": "https://www.business-standard.com/markets/news/stock-market-live-november-5-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126110500085_1.html",
+          "source": "Business Standard",
+          "summary": "The Sensex jumped 2,009 points and the Nifty closed at 24,537, adding about Rs 7 trillion to investor wealth. Trading was more mixed on 6 November."
         },
         {
-          "title": "Cyclone Murasu makes landfall on India's east coast",
-          "url": "https://www.aljazeera.com/where/india/",
-          "source": "Al Jazeera",
-          "summary": "The cyclone struck the eastern coast on 3 November. Older than 48 hours."
+          "title": "Groww shares drop nearly 7% in Friday trade",
+          "url": "https://business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html",
+          "source": "Business Standard",
+          "summary": "Early trade on 6 November was mixed, with the Nifty near 24,600 and Groww shares sharply lower. Dhanteras and Q2 results are also in focus."
         },
         {
-          "title": "Assam evictions displace thousands",
-          "url": "https://www.aljazeera.com/where/india/",
-          "source": "Al Jazeera",
-          "summary": "Thousands were reported displaced as homes were bulldozed in Assam, per a 3 November report. Older than 48 hours."
+          "title": "Supreme Court issues notice to Election Commission over voter-roll revision",
+          "url": "https://www.barandbench.com/news/delhi-protests-and-sir-what-the-supreme-court-did-today",
+          "source": "Bar and Bench",
+          "summary": "A bench led by the Chief Justice issued notice on a petition by Rahul Gandhi and INDIA bloc leaders challenging the SIR voter-list process. Counter-affidavits are awaited. This coverage dates from mid-October."
         },
         {
-          "title": "Sensex surges over 2,000 points on sixth straight gain",
-          "url": "https://neopolitico.com/business/sensex-surges-over-2000-points-nifty-crosses-24500-as-banking-and-auto-stocks-lead-rally/",
-          "source": "Neo Politico",
-          "summary": "The Sensex reportedly rose 2.60% to 79,310.01 and the Nifty closed at 24,536.60 ahead of Dhanteras. Date and figures come from a single secondary source."
+          "title": "Opposition marches to Supreme Court against election chief",
+          "url": "https://www.thedailystar.net/news/world/india/news/indian-voter-list-row-opposition-marches-sc-against-polls-chief-4297401",
+          "source": "The Daily Star",
+          "summary": "Opposition parties protested the removal of voters from rolls and demanded the Chief Election Commissioner's resignation. Heavy security was deployed in Delhi. Older than 48 hours."
         },
         {
-          "title": "Protest over removals from voter rolls in New Delhi",
-          "url": "https://www.aljazeera.com/where/india/",
-          "source": "Al Jazeera",
-          "summary": "Protesters on 1 November carried a one-kilometre banner listing people removed from voter rolls. Older than 48 hours."
+          "title": "Rahul Gandhi moves court over SIR irregularities",
+          "url": "https://tribuneindia.com/liveblog/delhi/opposition-protest-live-leaders-to-march-to-supreme-court-to-demand-end-to-vote-chori",
+          "source": "The Tribune",
+          "summary": "Live coverage showed scuffles between protesters and police as the opposition pressed its voter-roll complaints. Older than 48 hours, as few fresh national stories surfaced."
         }
       ]
     },
@@ -157,22 +181,34 @@
       "ok": true,
       "items": [
         {
-          "title": "Andhra Pradesh votes in MPTC and ZPTC local elections",
-          "url": "https://telanganatoday.com/heavy-security-deployed-as-andhra-pradesh-votes-in-mptc-and-zptc-elections",
-          "source": "Telangana Today",
-          "summary": "Voting opened on Thursday across 31,460 polling centres under heavy security. Polling was postponed in some mandals of Eluru and East Godavari because of heavy rain."
+          "title": "Naidu puts preliminary cyclone loss at Rs 1,918.55 crore",
+          "url": "https://www.uniindia.com/south-india/admin-ap-cyclone-loss-05ms50/237257",
+          "source": "UNI",
+          "summary": "The Chief Minister said 983 houses and 346 boats were damaged by Cyclone Murasu. The figure is preliminary and may be revised."
         },
         {
-          "title": "Early turnout in NTR and Krishna districts",
-          "url": "https://thehansindia.com/andhra-pradesh/over-14-polling-in-ntr-15-in-krishna-district-till-morning-1139446",
+          "title": "Naidu to tour cyclone-hit Bapatla and Guntur today",
+          "url": "https://www.thehansindia.com/andhra-pradesh/cm-chandrababu-naidu-to-visit-cyclone-affected-areas-in-bapatla-and-guntur-districts-today-1139804",
           "source": "The Hans India",
-          "summary": "Turnout stood above 14% in NTR district and 15% in Krishna district by morning. Final turnout figures were not yet available."
+          "summary": "The Chief Minister planned to inspect drain damage and talk with farmers about crop losses on 6 November. It will shape relief decisions."
         },
         {
-          "title": "Naidu reviews Amaravati capital construction",
-          "url": "https://www.newsonair.gov.in/andhra-pradesh-cm-holds-high-level-review-of-ongoing-capital-city-construction-works-at-his-camp-office-in-amaravati",
-          "source": "All India Radio",
-          "summary": "The chief minister held a high-level review of capital works in Amaravati. This is an April 2026 story used as background because nothing newer was found."
+          "title": "Cyclone Murasu reported to have killed eight",
+          "url": "https://www.socialnews.xyz/2026/11/05/andhra-cyclone-murasu-claimed-eight-lives-caused-rs-1918-crore-loss/",
+          "source": "SocialNews.XYZ",
+          "summary": "The report puts deaths at eight, mostly in Bapatla district, with crop damage over 1.43 lakh hectares. Early reports gave lower figures, so numbers are not independently confirmed."
+        },
+        {
+          "title": "Early cyclone toll: two dead, 312 houses damaged",
+          "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh",
+          "source": "The News Minute",
+          "summary": "An earlier assessment counted two deaths and 12,230 people moved to relief centres. Later reports show damage estimates rising."
+        },
+        {
+          "title": "Naidu orders faster restoration and readiness for another cyclone",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/naidu-directs-officials-to-brace-for-another-cyclone-1138012",
+          "source": "The Hans India",
+          "summary": "On 1 November the Chief Minister told officials to speed up restoration after Cyclone Arnab and prepare for another system. Slightly older than 48 hours."
         }
       ]
     },
@@ -197,28 +233,22 @@
       ],
       "items": [
         {
-          "title": "Nasdaq has its worst day in 18 months as AI trade unravels",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/",
-          "source": "Motley Fool",
-          "summary": "The Nasdaq suffered its sharpest fall in about 18 months as investors dumped AI and chip names. The sell-off followed a strong rally on 4 November."
+          "title": "Nasdaq falls into correction in worst day since April 2025",
+          "url": "https://www.foxbusiness.com/markets/stocks-nov-5-2026",
+          "source": "Fox Business",
+          "summary": "The Dow dropped more than 1,800 points as chip and AI stocks were hit, with Nvidia down about 9%. Investors fear the Democratic midterm sweep could slow data-centre build-outs."
         },
         {
-          "title": "Nvidia and AMD slump on chip sell-off",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nvidia-slides-on-ai-chip-selloff-as-election-uncertainty-weighs/",
-          "source": "Motley Fool",
-          "summary": "Nvidia fell about 9% and AMD about 17% as investors cut semiconductor exposure after the Democratic midterm sweep. Election uncertainty is cited as a driver."
+          "title": "Dow plunges as AI trade melts down",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+          "source": "Yahoo Finance",
+          "summary": "Live coverage described the selloff spreading across semiconductors and data-centre names. Weakness flowed into Asian markets on Friday."
         },
         {
-          "title": "Amazon shares slide as technology sell-off erases gains",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-amazon-shares-slide-as-technology-selloff-erases-early-gains/",
-          "source": "Motley Fool",
-          "summary": "Amazon fell as early gains vanished in the broad tech sell-off. It shows the weakness reached beyond chipmakers."
-        },
-        {
-          "title": "AI stocks wipeout sends Wall Street reeling",
-          "url": "https://bnnbloomberg.ca/markets/2026/11/05/world-shares-mostly-gain-after-us-midterm-elections-as-ai-related-stocks-sink",
-          "source": "BNN Bloomberg",
-          "summary": "AI-related stocks sank while many world shares had gained after the US midterms. Closing figures are from CNBC and Motley Fool reports."
+          "title": "What may move the market in Friday's session",
+          "url": "https://cnbc.com/2026/11/05/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+          "source": "CNBC",
+          "summary": "Traders are watching whether selling continues, with the US payrolls report due Friday. One report described US futures as mixed early."
         }
       ]
     },
@@ -226,45 +256,39 @@
       "ok": true,
       "snapshot": [
         {
-          "label": "ASX 200 (Thursday close)",
-          "value": "9,065.19",
-          "change": "+2.60%"
-        },
-        {
-          "label": "ASX 200 (Friday open, preliminary)",
-          "value": "8,962.2",
-          "change": "-1.14%"
+          "label": "ASX 200 (intraday, 2:39 pm AEDT)",
+          "value": "8,993",
+          "change": "-0.8%"
         },
         {
           "label": "AUD/USD",
-          "value": "0.6929",
-          "change": "-1.10%"
+          "value": "69.02 US cents",
+          "change": "-0.4%"
+        },
+        {
+          "label": "ASX 200 futures (overnight)",
+          "value": "-33 points",
+          "change": "-0.4%"
         }
       ],
       "items": [
         {
-          "title": "ASX opens sharply lower after Wall Street AI rout",
+          "title": "ASX falls as US tech stocks plunge on AI pullback fears",
           "url": "https://www.abc.net.au/news/2026-11-06/asx-markets-business-live-news/107353758",
           "source": "ABC News",
-          "summary": "The ASX 200 opened about 1.1% lower, with technology down roughly 1.3%. Figures are from the open and will move through the session."
+          "summary": "Materials, real estate, industrials and tech led losses, while Nine Entertainment rose over 6%. Figures are intraday, not the final close."
         },
         {
-          "title": "Australian shares set to fall after US AI rout",
-          "url": "https://www.capitalbrief.com/briefing/australian-shares-set-to-fall-after-wall-streets-ai-rout-4a39f009-c0de-4e70-91dd-f292acde27a4/",
-          "source": "Capital Brief",
-          "summary": "Futures pointed to a fall of about 0.5% before the open. The briefing also reports board unease over how the RBA signalled its rate rise."
+          "title": "Five things to watch on the ASX 200 today",
+          "url": "https://www.fool.com.au/2026/11/06/5-things-to-watch-on-the-asx-200-on-friday-06-november-2026/",
+          "source": "Motley Fool Australia",
+          "summary": "A preview of the session as futures pointed to a weaker open. Thursday's rally of about 2.6% was partly reversed."
         },
         {
-          "title": "Aussie dollar plunges amid US stock sell-off",
-          "url": "https://convera.com/blog/market-insights/fx-research/daily-market-updates/aussie-dollar-us-stock-sell-off/",
-          "source": "Convera",
-          "summary": "The Australian dollar fell about 1% to near 69 US cents on risk aversion. The RBA's split decision to lift the cash rate on 3 November also weighed."
-        },
-        {
-          "title": "ASX preview: Macquarie half-year result in focus",
-          "url": "https://www.marketscreener.com/news/asx-preview-australian-shares-to-fall-on-wall-street-sell-off-oil-surge-macquarie-group-fiscal-h1-ce785fdddd88f22d",
-          "source": "MarketScreener",
-          "summary": "Macquarie Group's first-half results are due, with shares expected to fall and oil surging. Results could swing the financials."
+          "title": "RBA hike keeps rates in focus for investors",
+          "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+          "source": "Reserve Bank of Australia",
+          "summary": "The Monetary Policy Board lifted the cash rate to 4.85% on 3 November in a 6-3 vote. Banks are passing on the rise, affecting savings and loan rates."
         }
       ]
     },
@@ -272,28 +296,34 @@
       "ok": true,
       "items": [
         {
+          "title": "Auction clearance rate hits six-year low near 41%",
+          "url": "https://financialnewswire.com.au/property/average-clearance-rate-comes-in-under-50-for-seventh-week/",
+          "source": "Financial Newswire",
+          "summary": "The capital-city weighted rate fell to 40.7%, the lowest since April 2020, with Melbourne at 44.3% and Brisbane at 23.8%. A Cup Day holiday weighed on activity."
+        },
+        {
+          "title": "Bloomberg reports auction clearances at six-year low",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/australia-home-auction-clearance-rate-falls-to-six-year-low",
+          "source": "Bloomberg",
+          "summary": "Cotality counted 1,735 auctions across the capitals, 17.7% fewer than a year earlier. Higher interest rates are thinning buyer demand."
+        },
+        {
           "title": "Home values fall 1.2% in October",
           "url": "https://tradingeconomics.com/australia/corelogic-dwelling-prices-mom/news/597255",
           "source": "Trading Economics",
-          "summary": "Cotality's index fell 1.2% in October, leaving values 6.7% below the March 2026 peak but 3.7% above a year earlier. Sydney is about 8.6% off its peak and Melbourne about 7.2%."
+          "summary": "Cotality's index shows values 6.7% below the March peak, though still 3.7% up on a year earlier. This summary was published 2 November."
         },
         {
-          "title": "CBA braces for record housing downturn",
-          "url": "https://www.mpamag.com/au/news/general/cba-braces-for-record-australian-housing-market-downturn/596044",
-          "source": "Mortgage Professional Australia",
-          "summary": "CBA expects a deep price correction and rising rental yields toward 4.75% by late 2027. The forecast is the bank's projection, not a certainty."
+          "title": "RBA raises cash rate to 4.85%",
+          "url": "https://www.sbs.com.au/news/live-blog/rba-november-2026-interest-rates-decision-live/f6csn2n1w",
+          "source": "SBS News",
+          "summary": "The fifth increase of the year takes rates to an 18-year high, adding pressure on borrowers and the housing market."
         },
         {
-          "title": "RBA rate hike hits the auction market",
-          "url": "https://www.macrobusiness.com.au/2026/10/rba-rate-hike-smashes-auction-market/",
-          "source": "MacroBusiness",
-          "summary": "Auction clearance rates dropped after the RBA lifted rates. Older than 48 hours; newer clearance data was not found."
-        },
-        {
-          "title": "Auction clearance rate sinks to three-month low",
-          "url": "https://www.abc.net.au/news/2026-10-05/auction-clearance-rate-sinks-below-50pc-to-three-month-low/107228628",
-          "source": "ABC News",
-          "summary": "The preliminary clearance rate fell to 48.2%, with unsold stock up more than 20% on a year earlier. Dated 5 October, used for background."
+          "title": "Macquarie to lift variable home loan rates",
+          "url": "https://www.macquarie.com.au/help/personal/home-loans/understanding-your-home-loan-interest-rates-and-fees/viewing-the-rba-interest-rate-decision.html",
+          "source": "Macquarie Bank",
+          "summary": "Macquarie is raising variable reference rates by 0.25% a year from 19 November. Other lenders are likely to pass on the rise."
         }
       ]
     }
