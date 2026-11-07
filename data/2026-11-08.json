@@ -1,0 +1,314 @@
+{
+  "date": "2026-11-08",
+  "longDate": "Sunday 8 November 2026",
+  "clock": "10:32 am AEDT",
+  "generatedAt": "2026-11-07T23:32:44.956Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — the RBA's latest rate rise is deepening Australia's housing slump, and Wall Street wobbled after a tech selloff and a strong US jobs report.",
+  "highlights": [
+    {
+      "label": "RBA hike",
+      "text": "The RBA lifted the cash rate by 25 basis points on 3 November, with reports putting it at 4.85% as home values keep falling."
+    },
+    {
+      "label": "Wall Street",
+      "text": "US stocks rebounded Friday after a sharp tech selloff, while a strong jobs report lifted bets on a December Fed hike."
+    },
+    {
+      "label": "Salesforce buys Cresta",
+      "text": "Salesforce agreed to acquire voice-AI firm Cresta, reportedly for about US$2.7 billion, to strengthen Service Cloud and Agentforce."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Try a short walking meeting",
+        "body": "Swap one seated call or catch-up today for a 15 to 20 minute walk. Light, steady movement helps break up long sitting periods and often makes it easier to think clearly. Wear comfortable shoes and keep the pace conversational."
+      },
+      "quote": {
+        "text": "Success is the sum of small efforts, repeated day in and day out.",
+        "author": "Robert Collier"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Supermetrics lets Claude build and edit ad campaigns",
+          "url": "https://www.prnewswire.com/news-releases/supermetrics-advances-marketing-ai-from-analysis-to-approved-campaign-action-through-claude-302927039.html",
+          "source": "PR Newswire",
+          "summary": "Supermetrics extended its Claude integration so the assistant can create and edit campaigns across six ad platforms, with new campaigns paused until a person approves them. Efficiency claims (10 hours cut to 20 minutes) are vendor-reported from one customer."
+        },
+        {
+          "title": "6sense rebrands around agentic go-to-market",
+          "url": "https://www.businesswire.com/news/home/20261103697791/en/",
+          "source": "Business Wire",
+          "summary": "6sense repositioned itself at its Breakthrough 2026 event as a partner for agentic go-to-market, with most new agents in beta and the Sales Intelligence MCP generally available. Buyer statistics come from the vendor's own research."
+        },
+        {
+          "title": "Menlo Ventures sizes enterprise AI spend at US$176.8 billion",
+          "url": "https://www.globenewswire.com/news-release/2026/11/03/3394279/0/en/menlo-ventures-2026-state-of-enterprise-ai-report-enterprise-ai-spending-hits-177b-up-5-4x-in-one-year-as-agents-take-over.html",
+          "source": "GlobeNewswire",
+          "summary": "Menlo Ventures' report estimates enterprise AI spending hit US$176.8 billion by September 2026, up 5.4 times on 2025, with agents driving much of the usage. The figures are modelled estimates, and Menlo discloses investments in Anthropic and OpenRouter."
+        },
+        {
+          "title": "Hightouch launches Match Booster for European audiences",
+          "url": "https://www.financialcontent.com/article/bizwire-2026-11-3-hightouch-launches-match-booster-in-europe-raising-match-rates-without-compromising-compliance",
+          "source": "Business Wire",
+          "summary": "Hightouch added identifiers from a GDPR-compliant identity graph during audience sync in the UK, Germany, France, Spain and Italy. Reported match-rate gains come from a single vendor-run pilot."
+        },
+        {
+          "title": "Teads adds Adelaide attention scores to its ad manager",
+          "url": "https://www.globenewswire.com/news-release/2026/11/03/3394132/0/en/teads-and-adelaide-bring-attention-based-media-quality-measurement-and-real-time-optimization-to-teads-ad-manager.html",
+          "source": "GlobeNewswire",
+          "summary": "Adelaide's predicted attention metric is now built into Teads Ad Manager, with a threshold that filters out low-scoring inventory. The release gives no performance lift figures."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce to acquire voice-AI company Cresta",
+          "url": "https://www.salesforceben.com/salesforce-acquires-cresta-buying-spree-continues-with-voice-agent-company/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce signed a definitive agreement on 2 November to buy Cresta and bring its voice agents into Service Cloud and Agentforce, with closing expected in the first quarter of fiscal 2028. Salesforce did not disclose terms; a price of about US$2.7 billion is reported but not confirmed by the company."
+        },
+        {
+          "title": "Agentforce Coworker expands to Teams, mobile and desktop",
+          "url": "https://ad-hoc-news.de/boerse/news/corporate-news/salesforce-stock-expands-agentforce-coworker-across-enterprise-apps/70465106",
+          "source": "Ad-hoc-news",
+          "summary": "Salesforce is reportedly extending Coworker beyond Slack with a per-user subscription of US$50 a month, with Teams access due in November and scheduled tasks in December. Details come from a third-party report and were not checked against Salesforce's own announcement."
+        },
+        {
+          "title": "Salesforce keeps spending despite market selloff",
+          "url": "https://247wallst.com/investing/2026/11/03/the-selloff-didnt-stop-salesforce-from-spending-2-7-billion-on-an-ai-startup/",
+          "source": "24/7 Wall St.",
+          "summary": "Coverage notes Salesforce pressed ahead with its Cresta purchase while software and tech shares were under pressure. It underlines the company's strategy of buying AI capability rather than building it."
+        },
+        {
+          "title": "Dreamforce 2026 announcements recapped",
+          "url": "https://www.salesforce.com/blog/dreamforce-2026-announcements/",
+          "source": "Salesforce",
+          "summary": "Salesforce's roundup lists the 21 announcements from Dreamforce 2026, which has several products slated for general availability in November. This is older than 48 hours but remains the reference for upcoming releases."
+        },
+        {
+          "title": "ServiceNow cuts more staff after weak Q3 reaction",
+          "url": "https://salesforceben.com/servicenow-lays-off-more-staff-after-q3-earnings-fail-to-impress-wall-street",
+          "source": "Salesforce Ben",
+          "summary": "ServiceNow announced further layoffs after its third-quarter earnings failed to impress investors. It shows the pressure on enterprise software rivals competing with Salesforce in AI."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "No Salesforce incidents dated within the last 48 hours were found, and status.salesforce.com could not be checked directly, so the current position is unconfirmed.",
+      "items": [
+        {
+          "title": "Third-party tracker lists earlier October GovCloud degradation",
+          "url": "https://uptimerobot.com/is-it-down/salesforce/2026-10-01/",
+          "source": "UptimeRobot",
+          "summary": "A tracker shows a GovCloud performance degradation opened on 1 October, possibly a stale snapshot. It is outside the 48-hour window and is included only as context; check Salesforce Trust for live status."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "RBA lifts cash rate again",
+          "url": "https://www.fxstreet.com/news/australian-dollar-sticks-to-post-rba-losses-struggles-near-two-week-low-despite-weak-usd-202611030546",
+          "source": "FXStreet",
+          "summary": "The Reserve Bank raised the cash rate by 25 basis points on 3 November, pushing the Australian dollar lower. Other reports put the new rate at 4.85%, which adds pressure to mortgage holders."
+        },
+        {
+          "title": "Victorian parties trade youth crime and major events pledges",
+          "url": "https://www.abc.net.au/news/2026-11-08/labor-youth-rehabilitation-detention-liberal-major-events/107359596",
+          "source": "ABC News",
+          "summary": "Labor and the Coalition announced fresh policies on youth crime and major events as the 28 November state election nears. Youth justice remains a central battleground."
+        },
+        {
+          "title": "Coalition holds lead in Victorian polling",
+          "url": "https://theconversation.com/coalition-retains-clear-lead-in-victorian-resolve-poll-while-federal-polls-are-mixed-291656",
+          "source": "The Conversation",
+          "summary": "Recent Victorian polls have the Coalition ahead of Labor, though one October Newspoll had the two-party result at 50-50. These polls are from October, not the last 48 hours."
+        },
+        {
+          "title": "Government reportedly scraps Victoria Barracks sale",
+          "url": "https://www.abc.net.au/news/2026-11-08/federal-politics-pm-scraps-sale-of-victoria-barracks-defence/107360530",
+          "source": "ABC News",
+          "summary": "ABC reports the prime minister has scrapped the controversial sale of Sydney's Victoria Barracks. The sale had drawn criticism from former prime ministers and veterans' groups; only the headline was seen."
+        },
+        {
+          "title": "Socceroos monitor security before Jordan friendly",
+          "url": "https://www.abc.net.au/news/2026-11-08/socceroos-monitoring-security-ahead-of-friendlies/107360560",
+          "source": "ABC News",
+          "summary": "The Socceroos are wary of security threats ahead of their friendly in Jordan. Only the headline was seen, so details are not confirmed."
+        }
+      ]
+    },
+    "india": {
+      "ok": false,
+      "error": "No reliable current India news sources found in searches; major Indian outlets could not be fetched."
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Second-phase MPTC and ZPTC vote counting under way",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/andhra-pradesh-mptc-zptc-vote-counting-today-amid-tight-security-1139994",
+          "source": "The Hans India",
+          "summary": "Counting for the second round of local council elections is scheduled across 365 centres under tight security, after 70.72 per cent turnout on 5 November. The results will signal local-level support for the ruling alliance."
+        },
+        {
+          "title": "Naidu seeks urgent interim aid after back-to-back cyclones",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/ap-cm-chandrababu-naidu-seeks-centres-interim-aid-urgently-1139989",
+          "source": "The Hans India",
+          "summary": "The chief minister asked the Centre for urgent interim assistance, with preliminary damage from Cyclone Murasu estimated at Rs 1,919.59 crore. The state is still recovering from an earlier cyclone on 27 October."
+        },
+        {
+          "title": "Ebola alert puts ports and airports on watch",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/ap-on-ebola-alert-airports-ports-under-scanner-1139771",
+          "source": "The Hans India",
+          "summary": "Andhra Pradesh stepped up screening at airports and the seaports of Visakhapatnam, Kakinada and Nellore. The measures are precautionary."
+        },
+        {
+          "title": "CII Partnership Summit set for Visakhapatnam",
+          "url": "https://telanganatoday.com/andhra-cm-chandrababu-naidu-looks-to-boost-global-business-technology-ties-through-cii-summit",
+          "source": "Telangana Today",
+          "summary": "The 31st CII Partnership Summit will be held in Visakhapatnam on 12 and 13 November. The state is using it to court global business and technology investment."
+        },
+        {
+          "title": "Relief announced for earlier cyclone victims",
+          "url": "https://thenewsmill.com/2026/10/andhra-pradesh-cm-announces-relief-to-submit-cyclone-damage-report/",
+          "source": "The News Mill",
+          "summary": "From late October, Naidu announced Rs 5 lakh compensation for families of those killed in the cyclone and a damage report for the Centre. Single-source report, older than 48 hours."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,377",
+          "change": "+0.3%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "n/a",
+          "change": "+1.1%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "n/a",
+          "change": "-0.5%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Stocks rebound after worst day since April 2025",
+          "url": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/",
+          "source": "CBS News",
+          "summary": "US shares recovered part of Thursday's tech-led losses, which pushed the Nasdaq into correction. Sources differ slightly on Friday's moves; the figures are approximate."
+        },
+        {
+          "title": "Strong jobs report raises December Fed hike odds",
+          "url": "https://247wallst.com/investing/2026/11/07/odds-of-a-december-rate-hike-jump-to-77-after-a-blowout-jobs-report/",
+          "source": "24/7 Wall St.",
+          "summary": "The US economy added 165,000 jobs in October, versus about 65,000 expected, and unemployment fell to 4.1%. Traders now put the odds of a December Fed rate hike at about 77%."
+        },
+        {
+          "title": "Chip stocks bounce after worst session since 2020",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62998202/stock-market-today-nasdaq-100-rebounds-chip-stocks-payrolls-beat",
+          "source": "Benzinga",
+          "summary": "A semiconductor ETF rose 3.8% on Friday, a day after the sector's worst session since 2020, tied to fears of slower data-centre construction. Volatility in AI-linked stocks remains elevated."
+        },
+        {
+          "title": "October CPI due Tuesday",
+          "url": "https://247wallst.com/investing/2026/11/07/odds-of-a-december-rate-hike-jump-to-77-after-a-blowout-jobs-report/",
+          "source": "24/7 Wall St.",
+          "summary": "October inflation data is due on Tuesday 10 November at 8:30 am ET (early Wednesday AEDT). It is the next major test for Fed rate expectations."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200",
+          "value": "9,020.8",
+          "change": "-0.49%"
+        },
+        {
+          "label": "AUD/USD",
+          "value": "0.6900",
+          "change": "-0.5%"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX slips on Friday but finishes week higher",
+          "url": "https://commbank.com.au/articles/newsroom/2026/11/aussie-shares-dip-but-end-week-higher-despite-risks.html",
+          "source": "CommBank",
+          "summary": "The ASX 200 fell 0.49% to 9,020.8 on Friday but gained 1.2% over the week, its second straight weekly rise. The Australian dollar was about 69 US cents."
+        },
+        {
+          "title": "ASX falls as US tech stocks plunge on AI pullback fears",
+          "url": "https://www.abc.net.au/news/2026-11-06/asx-markets-business-live-news/107353758",
+          "source": "ABC News",
+          "summary": "ABC attributes Friday's drop to a sharp US tech selloff on predictions of an AI pullback. It signals continued sensitivity to Wall Street sentiment."
+        },
+        {
+          "title": "Australian dollar weakens after RBA decision",
+          "url": "https://www.fxstreet.com/news/australian-dollar-loses-ground-with-rba-decision-us-midterm-elections-in-focus-202611021347",
+          "source": "FXStreet",
+          "summary": "The Aussie lost ground around the RBA's decision this week. Currency direction depends on further rate expectations and US data."
+        },
+        {
+          "title": "Westpac posts $6.8 billion profit as banks cut forecasts",
+          "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+          "source": "ABC News",
+          "summary": "Westpac reported a $6.8 billion profit on 2 November while banks trimmed economic forecasts ahead of the RBA meeting. Older than 48 hours. ASX futures were not found."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Home values fall for seventh straight month",
+          "url": "https://leprivatebanker.com/2026/11/01/australian-home-values-fall-for-seventh-straight-month-as-cotality-index-drops-1-2-before-expected-rba-hike/",
+          "source": "The Private Banker",
+          "summary": "Cotality's index shows national dwelling values fell 1.2% in October, the seventh consecutive monthly drop. Figures are as reported by a secondary outlet."
+        },
+        {
+          "title": "Auction clearance rate drops to 43.6%",
+          "url": "https://www.cotality.com/au/press-releases/final-clearance-rates-week-ending-25-october-2026",
+          "source": "Cotality",
+          "summary": "The combined capitals clearance rate fell to 43.6% for the week to 25 October, the lowest since late June, with Melbourne strongest at 50.2%. Volumes were well down on a year earlier. Latest weekend results were not found."
+        },
+        {
+          "title": "RBA hike deepens housing slump",
+          "url": "https://wrenews.com/australia-rba-raises-cash-rate-485-housing-slump-november-2026/",
+          "source": "WR News",
+          "summary": "The RBA reportedly raised the cash rate to 4.85% in a 6-3 vote on 3 November, its fifth hike this year. Details come from a single, lesser-known outlet and are not independently confirmed."
+        },
+        {
+          "title": "Housing slump and higher rates weigh on the Australian dollar",
+          "url": "https://www.fxempire.com/forecasts/article/australias-housing-slump-and-higher-interest-rates-what-does-it-mean-for-the-australian-dollar-1642423",
+          "source": "FX Empire",
+          "summary": "Analysis links Australia's falling home prices and rising rates to currency pressure. It shows how the property downturn is feeding into wider markets."
+        },
+        {
+          "title": "Spring auction activity stays subdued",
+          "url": "https://www.mpamag.com/au/news/general/auction-clearance-rates-stay-below-50-for-12th-time-in-13-weeks/587713",
+          "source": "Mortgage Professional Australia",
+          "summary": "Clearance rates have stayed below 50% in most recent weeks, pointing to soft buyer demand. The article may predate the last 48 hours."
+        }
+      ]
+    }
+  }
+}
