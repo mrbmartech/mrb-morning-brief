@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-09",
+  "longDate": "Monday 9 November 2026",
+  "clock": "10:10 am AEDT",
+  "generatedAt": "2026-11-08T23:10:22.555Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Wall Street's AI-driven sell-off rattled the ASX last week after the RBA's rate rise to 4.85%, while Salesforce kept up its acquisition spree with Cresta.",
+  "highlights": [
+    {
+      "label": "Markets rattled",
+      "text": "A sharp US tech sell-off dragged the ASX 200 down 0.49% on Friday to about 9,021, despite a weekly gain."
+    },
+    {
+      "label": "Salesforce deals",
+      "text": "Salesforce signed a deal to buy voice-AI firm Cresta, reportedly for about US$2.7 billion, its third acquisition in two weeks."
+    },
+    {
+      "label": "Property slump",
+      "text": "Cotality says national home values fell 1.2% in October, the seventh straight monthly decline."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Take a screen-free lunch break",
+        "body": "Step away from your desk and screens for at least ten minutes while you eat, ideally with a short walk afterwards. Eating without distraction helps you notice fullness, and the pause lowers mental fatigue for the afternoon."
+      },
+      "quote": {
+        "text": "What we do every day matters more than what we do once in a while.",
+        "author": "Gretchen Rubin"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce to buy Braze for about US$5.66 billion",
+          "url": "https://www.martechnotes.com/salesforce-to-acquire-braze-for-5-66-billion-to-boost-customer-engagement/",
+          "source": "Martech Notes",
+          "summary": "Salesforce agreed on 20 October to buy the customer engagement platform Braze at US$47.50 a share in cash, with closing expected in its fiscal 2028. The deal would add real-time profiles and journey orchestration to Marketing Cloud."
+        },
+        {
+          "title": "Adobe adds agentic customer experience tools to its AI platforms",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech.org",
+          "summary": "A MarTech roundup reports Adobe has integrated agentic customer experience capabilities and an enterprise coworker into its AI platforms. It also notes Journey Optimizer personalisation updates and a brief segmentation degradation on 3 November."
+        },
+        {
+          "title": "HubSpot posts Q3 revenue of US$947.6 million",
+          "url": "https://blog.mean.ceo/hubspot-news-november-2026",
+          "source": "Mean CEO blog",
+          "summary": "HubSpot reported third-quarter revenue up 17% and said it is phasing out Design Manager serverless functions and older Node.js versions. Teams with custom HubSpot code should check for affected functions."
+        },
+        {
+          "title": "Bloomreach adds native WhatsApp messaging",
+          "url": "https://martechnotes.com/bloomreach-launches-native-whatsapp-integration-for-interactive-messaging",
+          "source": "Martech Notes",
+          "summary": "Bloomreach Engagement now supports interactive WhatsApp messaging natively, alongside API-triggered transactional SMS. It gives marketers more owned messaging channels without extra middleware."
+        },
+        {
+          "title": "Consent and authentication increasingly drive inbox placement",
+          "url": "https://expertsender.com/blog/email-deliverability-in-2026-key-observations-trends-challenges-for-marketers/",
+          "source": "ExpertSender",
+          "summary": "A vendor deliverability review says mailbox providers such as Google and Microsoft are tightening treatment of spam-like behaviour and expecting authentication such as DMARC. This is vendor commentary rather than a new provider announcement, and is not dated to this week."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce signs deal to acquire voice-AI firm Cresta",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce signed a definitive agreement on 2 November to acquire Cresta and bring its voice agents into Service Cloud. Price was not disclosed by Salesforce; reports put it at about US$2.7 billion, which is not independently confirmed."
+        },
+        {
+          "title": "Agentforce Coworker usage up 21-fold, with Teams and mobile due this month",
+          "url": "https://newsbytes.ph/2026/11/08/salesforce-reports-21-fold-rise-in-agentforce-coworker-usage/",
+          "source": "NewsBytes",
+          "summary": "Salesforce reports a 21-fold rise in Agentforce Coworker usage, with Microsoft Teams, iOS, desktop apps and an MCP connectivity server slated for general availability in November. It signals Salesforce pushing its agents into tools staff already use."
+        },
+        {
+          "title": "Third acquisition in two weeks as Salesforce keeps buying",
+          "url": "https://www.constellationr.com/insights/news/salesforce-acquires-cresta-third-deal-two-weeks",
+          "source": "Constellation Research",
+          "summary": "Cresta follows the Rune and Braze deals, marking a rapid run of customer-experience and AI acquisitions. Analysts see Salesforce assembling a broader agentic customer stack."
+        },
+        {
+          "title": "Dreamforce 2026 announcements round-up",
+          "url": "https://www.salesforce.com/blog/dreamforce-2026-announcements/",
+          "source": "Salesforce Blog",
+          "summary": "Salesforce lists 21 announcements from Dreamforce 2026, including Hyperforce running natively on Google Cloud, with North American availability targeted for November. It outlines the product roadmap customers are likely to see over the coming months."
+        },
+        {
+          "title": "Salesforce shares an extended Experience Cloud incident resolved",
+          "url": "https://martechnotes.com/salesforce-resolves-experience-cloud-lwr-rendering-incident-after-more-than-a-week",
+          "source": "Martech Notes",
+          "summary": "Salesforce resolved an Experience Cloud LWR rendering incident that ran for more than a week. Admins running public sites on LWR should confirm pages render correctly."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "clear",
+      "statusNote": "No active major incident was found; a third-party tracker showed no open incidents, though live status should be confirmed at status.salesforce.com. APAC-specific and planned-maintenance details could not be verified.",
+      "items": [
+        {
+          "title": "Experience Cloud LWR rendering incident resolved",
+          "url": "https://martechnotes.com/salesforce-resolves-experience-cloud-lwr-rendering-incident-after-more-than-a-week",
+          "source": "Martech Notes",
+          "summary": "An Experience Cloud rendering incident lasting more than a week has been marked resolved. Sites built on LWR should be checked for lingering display problems."
+        },
+        {
+          "title": "Last major global outage was 16 September",
+          "url": "https://www.theregister.com/2026/09/16/salesforce-staggers-back-to-feet-after-global-outage/5296800",
+          "source": "The Register",
+          "summary": "A multi-hour global outage hit Salesforce during Dreamforce in September, with Salesforce later saying the impact was narrower than first thought. This is older than 48 hours and included for context only."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "RBA lifts cash rate to 4.85% on a split vote",
+          "url": "https://forexuro.com/articles/rba-rate-decision-november-2026-result",
+          "source": "Forexuro",
+          "summary": "The Reserve Bank raised the cash rate by 25 basis points to 4.85% earlier this week, with the board reportedly split 6-3. Borrowers face the highest official rate since 2008, and markets now expect a hold on 8 December."
+        },
+        {
+          "title": "Government drops Victoria Barracks sale",
+          "url": "https://au.headtopics.com/news/australia-news-live-government-abandons-victoria-barracks-89670158",
+          "source": "Headtopics (live news)",
+          "summary": "The Albanese government has abandoned plans to sell Victoria Barracks and three other defence sites after public pressure. Critics call it a backflip on its effort to raise about $3 billion."
+        },
+        {
+          "title": "Polling shows trust in Albanese sliding",
+          "url": "https://www.crikey.com.au/2026/11/09/labor-latest-polling-anthony-albanese-victoria-barracks-sale-nz-election/",
+          "source": "Crikey",
+          "summary": "New polling reported by Crikey suggests voters are losing trust in the prime minister and blame the government and its budget for cost-of-living pressure. Poll figures are as reported by the outlet."
+        },
+        {
+          "title": "Victoria's Big Build royal commission set to begin hearings",
+          "url": "https://abc.net.au/news/2026-11-09/victoria-big-build-construction-royal-commission-explainer/107352214",
+          "source": "ABC News",
+          "summary": "A royal commission into alleged corruption in Victoria's Big Build opens hearings this week. Former premiers may be called to give evidence."
+        },
+        {
+          "title": "Defence powers bill draws concern from experts",
+          "url": "https://canberratimes.com.au/story/9387498/richard-marles-defence-bill-sparks-war-preparation-fears",
+          "source": "The Canberra Times",
+          "summary": "A proposed defence bill would expand ministerial powers and secrecy provisions, prompting experts to raise oversight concerns. The debate comes as the prime minister says he will engage with Donald Trump on the Iran war."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Modi marks Diwali with security forces in Bastar",
+          "url": "https://india.com/news/india/end-of-maoist-terror-victory-of-right-policies-and-strong-political-will-pm-narendra-modi-8543217",
+          "source": "India.com",
+          "summary": "Prime Minister Modi spent Diwali with security personnel in Chhattisgarh's Bastar and called the end of Maoist violence a result of firm policy and political will. The government declared the country free of Naxalism on 31 March."
+        },
+        {
+          "title": "Sensex surges 1,718 points as Nifty reclaims 25,000",
+          "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html",
+          "source": "Business Standard",
+          "summary": "The Sensex closed at 81,028 on Friday, up 2.17%, while the Nifty 50 ended at 25,030, helped by foreign inflows and lower oil prices. The rally extended a multi-session winning run."
+        },
+        {
+          "title": "Supreme Court: OBC creamy-layer ruling won't undo past allocations",
+          "url": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-07-november-2026/",
+          "source": "The Hindu (via Legacy IAS digest)",
+          "summary": "A digest of The Hindu's 7 November coverage says the Supreme Court held its creamy-layer ruling will not alter allocations already made. It also reports the court calling vehicle and construction curbs weak tools as GRAP-III applies in Delhi."
+        },
+        {
+          "title": "Voters struck off in roll revision can seek re-inclusion",
+          "url": "https://iassquad.in/important-articles-from-the-hindu-newspaper-7-11-2026/",
+          "source": "The Hindu (via IAS Squad digest)",
+          "summary": "The Election Commission will let voters marked absent, shifted, dead or duplicate in the Special Intensive Revision re-apply by resubmitting enumeration forms. It gives affected voters a simpler path back onto the rolls."
+        },
+        {
+          "title": "Cyclone Murasu hits India's east coast",
+          "url": "https://aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast",
+          "source": "Al Jazeera",
+          "summary": "Cyclone Murasu made landfall on 3 November, the second storm in under a week to strike the eastern coast. This is older than 48 hours but remains the major ongoing disaster story."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Naidu orders immediate aid for cyclone-hit families",
+          "url": "https://www.siasat.com/naidu-orders-financial-aid-for-cyclone-murasu-hit-families-3571561/",
+          "source": "Siasat",
+          "summary": "Chief Minister Chandrababu Naidu directed officials to give immediate financial aid to families hit by Cyclone Murasu and keep essentials supplied. He also asked for steps to hold down prices."
+        },
+        {
+          "title": "Power restoration under way in 1,825 villages",
+          "url": "https://www.newsbytesapp.com/news/india/chandrababu-naidu-calls-for-rapid-power-restoration-after-cyclone-murasu/tldr",
+          "source": "NewsBytes",
+          "summary": "Naidu called for rapid power restoration, with work reported under way in 1,825 villages and 7,850 damaged poles already repaired. Crop-loss assessments were due to be completed by 9 November."
+        },
+        {
+          "title": "Cyclone Murasu kills two and disrupts rail and air services",
+          "url": "https://www.deccanherald.com/india/cyclone-murasu-kills-two-in-andhra-pradesh-disrupts-rail-and-air-services-4206212",
+          "source": "Deccan Herald",
+          "summary": "The cyclone crossed the south Andhra coast near Ongole on 3 November, killing at least two people and damaging more than 300 homes. Figures are early and may rise; this report is older than 48 hours."
+        },
+        {
+          "title": "Crops damaged across more than 52,000 hectares",
+          "url": "https://www.nationalheraldindia.com/national/cyclone-murasu-kills-two-in-andhra-pradesh-damages-crops-across-52000-hectares",
+          "source": "National Herald",
+          "summary": "Standing crops were reported destroyed across more than 52,000 hectares. The farm losses are likely to shape state relief and compensation decisions."
+        },
+        {
+          "title": "Preliminary losses estimated at about Rs 344 crore",
+          "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-murasu-leaves-2-dead-damages-312-houses-in-andhra-pradesh",
+          "source": "The News Minute",
+          "summary": "Early estimates put cyclone losses at about Rs 344 crore, with 312 houses damaged. These are preliminary figures and may be revised."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,376.86",
+          "change": "+0.31%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "24,579.42",
+          "change": "+1.09%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "Level not confirmed",
+          "change": "-0.5%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Tech wreck sends Nasdaq into correction",
+          "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
+          "source": "CNBC",
+          "summary": "CNBC's live coverage described a sharp AI-led sell-off that pushed the Nasdaq into correction territory. Other reports put Thursday's Nasdaq 100 fall at about 6.4%, its worst day since 2020."
+        },
+        {
+          "title": "Strong jobs data lifts December Fed hike odds",
+          "url": "https://mlq.ai/news/december-fed-hike-odds-near-77-after-jobs-surprise-as-ai-selloff-pressure-moves-into-credit-markets/",
+          "source": "MLQ.ai",
+          "summary": "Payrolls rose about 165,000, well above forecasts, and markets priced roughly a 77% chance of a December Fed hike. The cash rate is 3.75%–4.00%."
+        },
+        {
+          "title": "Nasdaq rebounds as Nvidia jumps 5.6%",
+          "url": "https://www.kucoin.com/news/flash/nasdaq-rebounds-1-7-as-nvidia-jumps-5-6-after-historic-ai-selloff",
+          "source": "KuCoin News",
+          "summary": "Chip and AI stocks bounced after the sell-off, led by Nvidia. Reports vary on the Nasdaq gain (about 1.1% to 1.7%), so the snapshot figure is as reported by one wrap."
+        },
+        {
+          "title": "Worst week since June for Wall Street",
+          "url": "https://www.benzinga.com/markets/market-summary/26/11/63012338/nasdaq-100-worst-day-since-2020-midterm-sweep-ai-selloff-jobs-fed-this-week-on-wall-street",
+          "source": "Benzinga",
+          "summary": "Benzinga links the week's slide to the US midterm results and AI spending worries. The S&P 500 finished the week about 2.7% lower according to one report."
+        },
+        {
+          "title": "Nvidia earnings on 17 November the next big test",
+          "url": "https://atranicapital.substack.com/p/week-45-market-update-for-november-57f",
+          "source": "Atrani Capital",
+          "summary": "A weekly update flags Nvidia's results on 17 November as the next major test for AI stocks. Earnings overall are reported running about 5.4% above estimates."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Fri 6 Nov close)",
+          "value": "9,020.8",
+          "change": "-0.49%"
+        },
+        {
+          "label": "AUD/USD (approx.)",
+          "value": "below 0.69",
+          "change": "n/a"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX retreats as Wall Street's AI sell-off bites",
+          "url": "https://sharetrader.com.au/news/2026-11-06-asx-retreats-as-wall-streets-ai-sell-off-follows-us-election-rally",
+          "source": "Sharetrader",
+          "summary": "The ASX 200 fell 0.49% to about 9,020.8 on Friday as materials weakened, though it finished the week up 1.27%. ASX futures for Monday were not found."
+        },
+        {
+          "title": "ABC live: ASX falls sharply on US tech plunge",
+          "url": "https://www.abc.net.au/news/2026-11-06/asx-markets-business-live-news/107353758",
+          "source": "ABC News",
+          "summary": "ABC's live blog reported broad losses, with 154 stocks lower against 42 higher during the session. Intraday weakness was deeper than the final close."
+        },
+        {
+          "title": "Australian dollar falls below 69 US cents despite rate rise",
+          "url": "https://sharetrader.com.au/news/2026-11-08-australian-dollar-tumbles-below-69-us-cents-despite-rate-rise-the-week-in-currencies",
+          "source": "Sharetrader",
+          "summary": "The Aussie dollar slipped under 69 US cents over the week even after the RBA hiked. A stronger US dollar and Fed hike bets weighed on it."
+        },
+        {
+          "title": "RBA hikes to 4.85% with a 6-3 split",
+          "url": "https://www.ebc.com/forex/rba-rate-hike-november-2026-aud-usd",
+          "source": "EBC",
+          "summary": "The RBA lifted the cash rate to 4.85%, the highest since 2008. The divided vote raised expectations of a pause at the next meeting on 8 December."
+        },
+        {
+          "title": "RBA signals potential pause",
+          "url": "https://www.tradingpedia.com/2026/11/06/australian-dollar-slips-as-rba-signals-potential-pause/",
+          "source": "Tradingpedia",
+          "summary": "Analysts read the RBA's updated guidance as softer on further rises. This keeps rate-sensitive sectors in focus when trading resumes today."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "National home values fall 1.2% in October",
+          "url": "https://www.capitalbrief.com/briefing/national-home-values-fall-12-in-october-cotality-433e443c-0ded-4363-97af-5a51eb907386/",
+          "source": "Capital Brief",
+          "summary": "Cotality's index shows national values down 1.2% in October, the seventh straight monthly fall, and 6.7% below the March peak. Brisbane and Perth fell faster than Sydney."
+        },
+        {
+          "title": "Auction clearance rate sinks to 40.7%",
+          "url": "https://financialnewswire.com.au/property/average-clearance-rate-comes-in-under-50-for-seventh-week/",
+          "source": "Financial Newswire",
+          "summary": "The combined capitals clearance rate was 40.7% in the week to 1 November, the seventh straight week under 50%. Sydney was the strongest capital at 45.1%; the latest weekend's result was not found."
+        },
+        {
+          "title": "Clearance rate at six-year low",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/australia-home-auction-clearance-rate-falls-to-six-year-low",
+          "source": "Bloomberg",
+          "summary": "Bloomberg reports Australia's home auction clearance rate has dropped to a six-year low. It shows buyer demand weakening as rates rise."
+        },
+        {
+          "title": "Fewer than half of spring auctions are selling",
+          "url": "https://loanworth.com.au/news/spring-auction-clearance-rates-october-2026",
+          "source": "Loanworth",
+          "summary": "A review of October results finds fewer than half of spring auctions selling. Vendors may need to be more flexible on price."
+        },
+        {
+          "title": "Cotality expects subdued conditions into 2027",
+          "url": "https://martinuzzi.com.au/breaking-down-cotalitys-october-2026-housing-chart-pack/",
+          "source": "Martinuzzi",
+          "summary": "A breakdown of Cotality's October chart pack points to a soft market through the rest of 2026 and into 2027. The RBA's latest hike adds pressure on borrowers."
+        }
+      ]
+    }
+  }
+}
