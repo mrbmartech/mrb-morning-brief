@@ -1,4 +1,5 @@
 // Turns the saved JSON briefs in data/ into static pages in public/.
+// Broadsheet newspaper design.
 import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import path from "node:path";
 
@@ -9,146 +10,148 @@ const shortDate = (iso) =>
   new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-AU", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
 
 // "Hello Mr. Bhaskar (MrB)" → greeting "Hello Mr. Bhaskar", monogram "MrB"
-function brandParts(title) {
-  const m = String(title).match(/^(.*?)\s*\(([^)]{1,6})\)\s*$/);
-  if (m) return { name: m[1], mono: m[2] };
-  const initials = String(title).split(/\s+/).map((w) => w[0]).join("").slice(0, 3);
-  return { name: title, mono: initials };
+function brandParts(site) {
+  const m = String(site.title).match(/^(.*?)\s*\(([^)]{1,6})\)\s*$/);
+  const greeting = m ? m[1] : site.title;
+  const mono = m ? m[2] : "";
+  const masthead = site.masthead || (mono ? `The ${mono} Morning Brief` : "The Morning Brief");
+  return { greeting, mono, masthead };
 }
 
-// Strip a generated "Good morning — " opener; the masthead already greets.
 function cleanHeadline(h) {
   const s = String(h || "").replace(/^good morning[,!]?\s*(mr\.?\s*\w+)?\s*[—–\-:,]\s*/i, "").trim();
   return s ? s[0].toUpperCase() + s.slice(1) : "";
 }
 
 const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">`;
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400;1,6..72,500&family=Libre+Franklin:wght@400;500;600;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">`;
 
 const CSS = `
 :root{
-  --paper:#F5F6F3; --surface:#FFFFFF; --ink:#172230; --muted:#56636F; --rule:#DDE1DC;
-  --brass:#97753F; --up:#2F7A5F; --down:#B23A48;
-  --hero:#14202D; --hero-ink:#EEF1EC; --hero-muted:#A3B2BF; --hero-rule:#2A3A4B;
-  --serif:"Newsreader","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
-  --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --desk:#E6E9E3; --paper:#FBFBF8; --ink:#16181A; --body:#34383C; --muted:#5E6469; --hair:#DCDFD8; --rule:#16181A;
+  --link:#2F5F86; --up:#0A7A3E; --down:#C3201F; --tint:#F0F2EC; --accent:#7A1F2B;
+  --head:"Newsreader","Iowan Old Style","Times New Roman",Georgia,serif;
+  --text:"Newsreader","Iowan Old Style",Georgia,serif;
+  --sans:"Libre Franklin","Franklin Gothic Medium","Helvetica Neue",Arial,sans-serif;
+  --black:"UnifrakturMaguntia","Old English Text MT",Georgia,serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root{
-  --paper:#0F161E; --surface:#16212C; --ink:#E6EBE8; --muted:#9AA8B4; --rule:#26333F;
-  --brass:#CFAB6E; --up:#7DBCA3; --down:#E58591;
-  --hero:#0A1118; --hero-ink:#EEF1EC; --hero-muted:#93A3B1; --hero-rule:#223140;
-  color-scheme:dark;
+  --desk:#0D0F10; --paper:#17191B; --ink:#ECEDEA; --body:#D0D3CF; --muted:#9EA4A8; --hair:#2C3033; --rule:#ECEDEA;
+  --link:#86B6DE; --up:#5CC48A; --down:#F0716F; --tint:#1E2124; --accent:#E08A95; color-scheme:dark;
 }}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans);
-  padding-bottom:env(safe-area-inset-bottom,0)}
-a{color:inherit}
-a:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
-.shell{max-width:74rem;margin:0 auto;padding:0 1.5rem}
+body{margin:0;background:var(--desk);color:var(--ink);font:400 17px/1.55 var(--text);padding-bottom:env(safe-area-inset-bottom,0);font-optical-sizing:auto}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--muted)}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.page{max-width:80rem;margin:1.5rem auto;padding:0 2.25rem;background:var(--paper);box-shadow:0 1px 2px rgba(20,24,28,.06),0 12px 40px -12px rgba(20,24,28,.18)}
 
 /* Masthead */
-.mast{background:var(--hero);color:var(--hero-ink);padding-top:env(safe-area-inset-top,0)}
-.mast-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:1.1rem}
-.brand{display:flex;align-items:center;gap:.75rem;text-decoration:none}
-.mono{display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:50%;
-  border:1px solid var(--brass);color:var(--brass);font:italic 400 1.05rem/1 var(--serif)}
-.hello{font:400 1.2rem/1.2 var(--serif);letter-spacing:.005em}
-.daynav{display:flex;gap:1.25rem;font-size:.9rem;color:var(--hero-muted)}
-.daynav a{text-decoration:none}
-.daynav a:hover{color:var(--hero-ink);text-decoration:underline;text-underline-offset:.25em}
+.top{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:1rem;padding:calc(env(safe-area-inset-top,0px) + 1rem) 0 .4rem;font:500 .78rem/1.4 var(--sans)}
+.top .date{font-weight:700}
+.top .date span{display:block;font-weight:400;color:var(--muted)}
+.top .hello{text-align:center;font:italic 400 .95rem/1.3 var(--head);color:var(--body)}
+.top .days{display:flex;gap:.9rem;justify-content:flex-end}
+.top .days a:hover{text-decoration:underline}
+.mast{text-align:center;margin:.2rem 0 .9rem}
+.mast a{font:400 clamp(2.4rem,6.6vw,4.6rem)/1 var(--black);color:var(--ink);letter-spacing:.005em}
+.secbar{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);position:relative;margin-bottom:3px}
+.secbar::after{content:"";position:absolute;left:0;right:0;bottom:-4px;border-bottom:1px solid var(--rule)}
+.secbar ul{list-style:none;margin:0;padding:.55rem 0;display:flex;justify-content:center;flex-wrap:wrap;gap:.35rem 1.4rem;font:500 .8rem/1.3 var(--sans)}
+.secbar a:hover{text-decoration:underline}
 
-/* Hero */
-.hero{background:var(--hero);color:var(--hero-ink);padding:3.5rem 0 3rem;border-bottom:1px solid var(--hero-rule)}
-.dateline{margin:0 0 1.25rem;color:var(--hero-muted);font-size:.95rem}
-.dateline time{color:var(--hero-ink);font-weight:500}
-.hero h1{font:400 clamp(2.1rem,4.8vw,3.6rem)/1.08 var(--serif);letter-spacing:-.015em;margin:0;max-width:26ch;
-  text-wrap:balance}
-.hl{list-style:none;margin:2.75rem 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0}
-.hl li{padding:0 1.5rem;border-left:1px solid var(--hero-rule);font-size:.95rem;line-height:1.5;color:var(--hero-muted)}
-.hl li:first-child{padding-left:0;border-left:0}
-.hl strong{display:block;color:var(--brass);font:italic 400 1.15rem/1.3 var(--serif);margin-bottom:.3rem}
-@media (prefers-reduced-motion:no-preference){
-  .hero h1{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
-  .hl{animation:rise .9s .25s cubic-bezier(.2,.7,.2,1) both}
-  @keyframes rise{from{opacity:0;transform:translateY(.6rem)}to{opacity:1;transform:none}}
-}
+/* Front page */
+.front{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr) minmax(0,.95fr);margin-top:1.4rem;border-bottom:1px solid var(--rule)}
+.front>*{padding:0 1.4rem 1.6rem;border-left:1px solid var(--hair)}
+.front>*:first-child{padding-left:0;border-left:0}
+.front>*:last-child{padding-right:0}
+.kicker{font:700 .74rem/1.3 var(--sans);margin:0 0 .5rem;color:var(--accent)}
+.top-story h1{font:700 clamp(1.9rem,3.5vw,2.8rem)/1.08 var(--head);margin:0 0 1.1rem;letter-spacing:-.018em;text-wrap:balance}
+.bullets{margin:0;padding-left:1.1rem;color:var(--body)}
+.bullets li{margin:0 0 .65rem;font-size:1rem;line-height:1.45}
+.bullets li::marker{color:var(--muted)}
+.bullets b{font:700 .95rem/1.3 var(--head);color:var(--ink)}
+.stamp{margin:1rem 0 0;font:400 .75rem/1.3 var(--sans);color:var(--muted)}
 
-/* Body grid */
-.body{display:grid;grid-template-columns:minmax(0,1fr) 20rem;gap:4.5rem;padding-block:3.5rem 2rem}
-main{min-width:0}
+.box h2{font:700 .72rem/1.3 var(--sans);margin:0 0 .6rem}
+.box+.box{margin-top:1.4rem;padding-top:1.2rem;border-top:1px solid var(--hair)}
+.status{display:flex;gap:.5rem;align-items:baseline;font:700 1.05rem/1.3 var(--head);margin:0 0 .35rem}
+.status i{width:.55rem;height:.55rem;border-radius:50%;flex:none;background:var(--muted);transform:translateY(-.05rem)}
+.status i.clear{background:var(--up)}.status i.issues{background:var(--down)}
+.note{margin:0;color:var(--body);font-size:.92rem;line-height:1.45}
+.inc{list-style:none;margin:.7rem 0 0;padding:0}
+.inc li{padding:.55rem 0;border-top:1px solid var(--hair);font-size:.88rem;line-height:1.4;color:var(--body)}
+.inc a{display:block;font:700 .95rem/1.3 var(--head);color:var(--ink);margin-bottom:.15rem}
+table.mkt{width:100%;border-collapse:collapse;font:400 .85rem/1.3 var(--sans);font-variant-numeric:tabular-nums}
+table.mkt caption{text-align:left;font:700 .78rem/1.3 var(--sans);padding:.2rem 0 .3rem;color:var(--muted)}
+table.mkt td{padding:.38rem 0;border-top:1px solid var(--hair)}
+table.mkt td:nth-child(2),table.mkt td:nth-child(3){text-align:right;white-space:nowrap}
+table.mkt td:nth-child(3){width:4.8rem;font-weight:700}
+table.mkt+table.mkt{margin-top:.8rem}
+.up{color:var(--up)}.down{color:var(--down)}
+
+.opinion{background:var(--tint)}
+.front>.opinion{padding:1.2rem 1.3rem 1.4rem;border-left:0;margin-bottom:1.6rem;align-self:start}
+.opinion blockquote{margin:0;font:italic 500 1.4rem/1.32 var(--head);text-wrap:balance}
+.opinion cite{display:block;margin:.55rem 0 0;font:500 .8rem/1.3 var(--sans);font-style:normal;color:var(--muted)}
+.opinion h3{font:700 1.05rem/1.25 var(--head);margin:1.3rem 0 .3rem;padding-top:1rem;border-top:1px solid var(--hair)}
+.opinion h3+p{margin:0;font-size:.95rem;line-height:1.5;color:var(--body)}
+.opinion .kicker{margin:0 0 .5rem}
 
 /* Sections */
-.sec{margin:0 0 4rem;scroll-margin-top:1.5rem}
-.sec>h2{font:500 1.9rem/1.15 var(--serif);letter-spacing:-.01em;margin:0 0 1.5rem;display:flex;align-items:baseline;gap:.9rem}
-.sec>h2::after{content:"";flex:1;height:1px;background:var(--rule);transform:translateY(-.3rem)}
-.lead h3{font:500 clamp(1.35rem,2.4vw,1.6rem)/1.22 var(--serif);margin:0 0 .5rem;letter-spacing:-.005em;text-wrap:balance}
-.lead p{margin:0;max-width:62ch;color:var(--ink)}
-.lead h3 a,.more h3 a,.rail a{text-decoration:none;background-image:linear-gradient(var(--brass),var(--brass));
-  background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .25s}
-.lead h3 a:hover,.more h3 a:hover,.rail a:hover{background-size:100% 1px}
-.src{display:block;margin-top:.55rem;color:var(--muted);font-size:.82rem;font-style:italic;font-family:var(--serif)}
-.more{list-style:none;margin:2rem 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:1.75rem 2.25rem}
-.more li{padding-top:1.1rem;border-top:1px solid var(--rule)}
-.more h3{font:600 1rem/1.35 var(--sans);margin:0 0 .35rem}
-.more p{margin:0;font-size:.94rem;line-height:1.55;color:var(--muted)}
-.missing{color:var(--muted);font-family:var(--serif);font-style:italic;margin:0}
-
-/* Rail */
-.rail{display:flex;flex-direction:column;gap:1.25rem;min-width:0}
-.panel{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:1.4rem 1.4rem 1.5rem}
-.panel h2{font:500 1.15rem/1.2 var(--serif);margin:0 0 1rem}
-.nudge{background:transparent;border:0;border-top:2px solid var(--brass);border-radius:0;padding:1.4rem 0 .5rem}
-.nudge blockquote{margin:0;font:italic 400 1.45rem/1.32 var(--serif);text-wrap:balance}
-.nudge cite{display:block;margin-top:.6rem;font:400 .88rem/1.4 var(--sans);font-style:normal;color:var(--muted)}
-.nudge h3{font:600 .98rem/1.35 var(--sans);margin:1.4rem 0 .3rem}
-.nudge p{margin:0;font-size:.94rem;color:var(--muted)}
-.state{display:flex;gap:.65rem;align-items:baseline;margin:0 0 .4rem;font-weight:600}
-.dot{width:.6rem;height:.6rem;border-radius:50%;flex:none;background:var(--muted)}
-.dot.clear{background:var(--up);box-shadow:0 0 0 4px color-mix(in srgb,var(--up) 18%,transparent)}
-.dot.issues{background:var(--down);box-shadow:0 0 0 4px color-mix(in srgb,var(--down) 18%,transparent)}
-.note{margin:0;font-size:.9rem;color:var(--muted)}
-.incidents{list-style:none;margin:1rem 0 0;padding:0}
-.incidents li{padding:.8rem 0 0;margin-top:.8rem;border-top:1px solid var(--rule);font-size:.9rem;line-height:1.45}
-.incidents a{font-weight:600}
-.incidents span{display:block;color:var(--muted);margin-top:.2rem}
-.board{width:100%;border-collapse:collapse;font-size:.92rem;font-variant-numeric:tabular-nums}
-.board caption{text-align:left;font:italic 400 .95rem/1.3 var(--serif);color:var(--muted);padding:0 0 .4rem}
-.board td{padding:.5rem 0;border-top:1px solid var(--rule)}
-.board td:nth-child(2),.board td:nth-child(3){text-align:right;white-space:nowrap}
-.board td:nth-child(3){width:5.5rem}
-.board+.board{margin-top:1.25rem}
-.up{color:var(--up)}.down{color:var(--down)}
-.index{list-style:none;margin:0;padding:0;columns:1;font-size:.95rem}
-.index li{padding:.3rem 0}
-.index a{color:var(--muted)}
-.index a:hover{color:var(--ink)}
+.sec{margin-top:2.2rem;padding-top:.5rem;border-top:1px solid var(--rule);scroll-margin-top:1rem}
+.sec>h2{font:700 1rem/1.3 var(--sans);margin:0 0 1rem;color:var(--accent)}
+.sec>h2 a::after{content:" ›";color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+.grid>*{padding:0 1.4rem;border-left:1px solid var(--hair)}
+.grid>*:first-child{padding-left:0;border-left:0}
+.grid>*:last-child{padding-right:0}
+.lead h3{font:700 clamp(1.45rem,2.4vw,1.85rem)/1.14 var(--head);margin:0 0 .55rem;letter-spacing:-.012em;text-wrap:balance}
+.lead p{margin:0;font-size:1.02rem;line-height:1.5;color:var(--body);max-width:60ch}
+.src{display:block;margin-top:.6rem;font:500 .72rem/1.3 var(--sans);color:var(--muted)}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:.85rem 0;border-top:1px solid var(--hair)}
+.list li:first-child{padding-top:0;border-top:0}
+.list h3{font:700 1.08rem/1.25 var(--head);margin:0 0 .3rem;letter-spacing:-.005em}
+.list p{margin:0;font-size:.9rem;line-height:1.45;color:var(--muted)}
+.missing{margin:0;color:var(--muted);font-style:italic}
+.lead a:hover,.list a:hover,.inc a:hover{color:var(--muted)}
 
 /* Archive */
-.arch{list-style:none;margin:0;padding:0;max-width:46rem}
-.arch li{padding:1.4rem 0;border-top:1px solid var(--rule)}
-.arch a{font:500 1.3rem/1.25 var(--serif);text-decoration:none}
-.arch a:hover{text-decoration:underline;text-underline-offset:.2em;text-decoration-color:var(--brass)}
-.arch p{margin:.35rem 0 0;color:var(--muted)}
+.arch{list-style:none;margin:1.5rem 0 0;padding:0;max-width:46rem}
+.arch li{padding:1.1rem 0;border-top:1px solid var(--hair)}
+.arch .d{font:700 .75rem/1.3 var(--sans);color:var(--muted)}
+.arch a{display:block;margin-top:.3rem;font:700 1.3rem/1.25 var(--head)}
+.arch-title{font:700 2rem/1.15 var(--head);margin:1.6rem 0 0}
 
-footer.f{border-top:1px solid var(--rule);margin-top:1rem;padding:1.5rem 0 3rem;color:var(--muted);font-size:.85rem;max-width:60ch}
+footer.f{margin-top:3rem;padding:1.2rem 0 3rem;border-top:1px solid var(--rule);font:400 .78rem/1.5 var(--sans);color:var(--muted)}
+footer.f .fm{font:400 1.5rem/1 var(--black);color:var(--ink);display:block;margin-bottom:.6rem}
 
-@media (max-width:960px){
-  .body{grid-template-columns:1fr;gap:2.5rem;padding-block-start:2.5rem}
-  .rail{order:-1}
-  .index-panel{display:none}
+@media (max-width:980px){
+  .page{margin:0 auto}
+  .front>.opinion{margin-bottom:1.6rem}
+  .front{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .front .top-story{grid-column:1/-1;padding:0 0 1.6rem;border-left:0;border-bottom:1px solid var(--hair);margin-bottom:1.4rem}
+  .front .markets{padding-left:0;border-left:0}
 }
-@media (max-width:640px){
-  body{font-size:16px}
-  .shell{padding:0 1.15rem}
-  .hero{padding:2.25rem 0 2.25rem}
-  .hl{grid-template-columns:1fr;gap:1.1rem;margin-top:2rem}
-  .hl li,.hl li:first-child{padding:0 0 0 1rem;border-left:1px solid var(--hero-rule)}
-  .more{grid-template-columns:1fr;gap:1.25rem}
-  .hello{font-size:1.05rem}
-  .daynav{gap:.9rem;font-size:.85rem}
-  .sec>h2{font-size:1.6rem}
+@media (max-width:680px){
+  body{font-size:15px}
+  .page{padding:0 1rem;margin:0;box-shadow:none}
+  .top{grid-template-columns:1fr auto}
+  .top .hello{display:none}
+  .mast a{font-size:min(2.35rem,8.4vw);white-space:nowrap}
+  .secbar ul{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding:.55rem .1rem;scrollbar-width:none}
+  .secbar ul::-webkit-scrollbar{display:none}
+  .secbar li{flex:none}
+  .front{grid-template-columns:1fr}
+  .front>*{padding:0 0 1.4rem;border-left:0}
+  .front>*+*{border-top:1px solid var(--hair);padding-top:1.2rem}
+  .front .top-story{margin-bottom:0}
+  .grid{grid-template-columns:1fr}
+  .grid>*{padding:0;border-left:0}
+  .grid .list{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--hair)}
 }
 `;
 
@@ -158,112 +161,118 @@ function layout({ site, title, description, body }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#14202D">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22%2314202D%22/><text x=%2250%22 y=%2264%22 font-family=%22Georgia%22 font-style=%22italic%22 font-size=%2238%22 fill=%22%23CFAB6E%22 text-anchor=%22middle%22>${encodeURIComponent(brandParts(site.title).mono)}</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2212%22 fill=%22%23121212%22/><text x=%2250%22 y=%2272%22 font-family=%22Georgia%22 font-weight=%22700%22 font-size=%2266%22 fill=%22white%22 text-anchor=%22middle%22>B</text></svg>">
 ${FONTS}
 <style>${CSS}</style>
 </head>
-<body>
+<body><div class="page">
 ${body}
-<div class="shell"><footer class="f">${esc(site.footer)}</footer></div>
-</body></html>`;
+<footer class="f"><span class="fm">${esc(brandParts(site).masthead)}</span>${esc(site.footer)}</footer>
+</div></body></html>`;
 }
 
-function masthead(site, { prev, next }) {
-  const { name, mono } = brandParts(site.title);
-  const links = [
-    prev ? `<a href="/${prev}/">← ${esc(shortDate(prev))}</a>` : "",
+function header(site, brief, nav, sectionLinks) {
+  const { greeting, masthead } = brandParts(site);
+  const days = [
+    nav.prev ? `<a href="/${nav.prev}/">‹ ${esc(shortDate(nav.prev))}</a>` : "",
     `<a href="/archive/">Archive</a>`,
-    next ? `<a href="/${next}/">${esc(shortDate(next))} →</a>` : "",
+    nav.next ? `<a href="/${nav.next}/">${esc(shortDate(nav.next))} ›</a>` : "",
   ].join("");
-  return `<header class="mast"><div class="shell mast-in">
-<a class="brand" href="/" aria-label="${esc(site.title)}, latest brief"><span class="mono">${esc(mono)}</span><span class="hello">${esc(name)}</span></a>
-<nav class="daynav" aria-label="Other days">${links}</nav></div></header>`;
+  const dateBlock = brief
+    ? `<div class="date">${esc(brief.longDate)}${brief.clock ? `<span>Prepared ${esc(brief.clock)}</span>` : ""}</div>`
+    : `<div class="date"></div>`;
+  const bar = sectionLinks?.length
+    ? `<nav class="secbar" aria-label="Sections"><ul>${sectionLinks.map((d) => `<li><a href="#${d.id}">${esc(d.title)}</a></li>`).join("")}</ul></nav>`
+    : `<div class="secbar"><ul><li>&nbsp;</li></ul></div>`;
+  return `<header>
+<div class="top">${dateBlock}<div class="hello">${esc(greeting)}</div><nav class="days" aria-label="Other days">${days}</nav></div>
+<div class="mast"><a href="/">${esc(masthead)}</a></div>
+${bar}
+</header>`;
 }
 
 const dir = (c) => (/^\s*[-−]/.test(c || "") ? "down" : /^\s*\+/.test(c || "") ? "up" : "");
-const arrow = (c) => (dir(c) === "up" ? "▲ " : dir(c) === "down" ? "▼ " : "");
+const arrow = (c) => (dir(c) === "up" ? "▲" : dir(c) === "down" ? "▼" : "");
+const srcLine = (i) => (i.source ? `<span class="src">${esc(i.source)}</span>` : "");
 
-function newsSection(def, data) {
-  const head = `<h2>${esc(def.title)}</h2>`;
+function frontPage(defs, brief) {
+  const S = brief.sections || {};
+  const health = defs.find((d) => d.type === "health");
+  const status = defs.find((d) => d.type === "status");
+  const headline = cleanHeadline(brief.headline) || `Your brief for ${brief.longDate}`;
+  const bullets = brief.highlights?.length
+    ? `<ul class="bullets">${brief.highlights.map((h) => `<li><b>${esc(h.label)}.</b> ${esc(h.text)}</li>`).join("")}</ul>`
+    : "";
+
+  const s = status && S[status.id];
+  let statusBox = "";
+  if (status) {
+    if (s?.ok) {
+      const label = { clear: "No major issues found", issues: "Issues reported", unknown: "Status unclear" }[s.status];
+      const inc = s.items?.length
+        ? `<ul class="inc">${s.items.map((i) => `<li><a href="${href(i.url)}" rel="noopener">${esc(i.title)}</a>${esc(i.summary)}</li>`).join("")}</ul>`
+        : "";
+      statusBox = `<section class="box" id="${status.id}"><h2>${esc(status.title)}</h2><p class="status"><i class="${s.status}" aria-hidden="true"></i>${label}</p><p class="note">${esc(s.statusNote)}</p>${inc}</section>`;
+    } else {
+      statusBox = `<section class="box" id="${status.id}"><h2>${esc(status.title)}</h2><p class="note">Not checked this morning. See status.salesforce.com for live status.</p></section>`;
+    }
+  }
+  const tables = defs
+    .filter((d) => d.type === "market" && S[d.id]?.ok && S[d.id].snapshot?.length)
+    .map((d) => `<table class="mkt"><caption>${esc(d.title)}</caption><tbody>${S[d.id].snapshot
+      .map((r) => `<tr><td>${esc(r.label)}</td><td>${esc(r.value)}</td><td class="${dir(r.change)}">${arrow(r.change)} ${esc(String(r.change).replace(/^\s*[+\-−]/, ""))}</td></tr>`)
+      .join("")}</tbody></table>`)
+    .join("");
+  const marketBox = tables ? `<section class="box"><h2>Markets</h2>${tables}</section>` : "";
+
+  const h = health && S[health.id];
+  const opinion = h?.ok
+    ? `<aside class="opinion" id="${health.id}"><p class="kicker">${esc(health.title)}</p>
+<blockquote>“${esc(h.quote.text)}”<cite>${esc(h.quote.author)}</cite></blockquote>
+<h3>${esc(h.tip.title)}</h3><p>${esc(h.tip.body)}</p></aside>`
+    : `<aside class="opinion"></aside>`;
+
+  return `<section class="front">
+<article class="top-story"><p class="kicker">Today’s top stories</p><h1>${esc(headline)}</h1>${bullets}</article>
+<div class="markets">${statusBox}${marketBox}</div>
+${opinion}
+</section>`;
+}
+
+function section(def, data) {
+  const head = `<h2><a href="#${def.id}">${esc(def.title)}</a></h2>`;
   if (!data?.ok || !data.items?.length) {
     return `<section class="sec" id="${def.id}">${head}<p class="missing">Not updated this morning. It will refresh in tomorrow’s brief.</p></section>`;
   }
   const [lead, ...rest] = data.items;
-  const leadHtml = `<article class="lead"><h3><a href="${href(lead.url)}" rel="noopener">${esc(lead.title)}</a></h3><p>${esc(lead.summary)}</p>${lead.source ? `<span class="src">${esc(lead.source)}</span>` : ""}</article>`;
-  const restHtml = rest.length
-    ? `<ul class="more">${rest
-        .map((i) => `<li><h3><a href="${href(i.url)}" rel="noopener">${esc(i.title)}</a></h3><p>${esc(i.summary)}</p>${i.source ? `<span class="src">${esc(i.source)}</span>` : ""}</li>`)
-        .join("")}</ul>`
-    : "";
-  return `<section class="sec" id="${def.id}">${head}${leadHtml}${restHtml}</section>`;
-}
-
-function nudgePanel(def, h) {
-  if (!def || !h?.ok) return "";
-  return `<section class="panel nudge" id="${def.id}" aria-label="${esc(def.title)}">
-<blockquote>“${esc(h.quote.text)}”<cite>${esc(h.quote.author)}</cite></blockquote>
-<h3>${esc(h.tip.title)}</h3><p>${esc(h.tip.body)}</p></section>`;
-}
-
-function statusPanel(def, s) {
-  if (!def) return "";
-  if (!s?.ok) return `<section class="panel" id="${def.id}"><h2>${esc(def.title)}</h2><p class="note">Status wasn’t checked this morning. See status.salesforce.com for live status.</p></section>`;
-  const label = { clear: "No major issues found", issues: "Issues reported", unknown: "Status unclear" }[s.status];
-  const list = s.items?.length
-    ? `<ul class="incidents">${s.items.map((i) => `<li><a href="${href(i.url)}" rel="noopener">${esc(i.title)}</a><span>${esc(i.summary)}</span></li>`).join("")}</ul>`
-    : "";
-  return `<section class="panel" id="${def.id}"><h2>${esc(def.title)}</h2>
-<p class="state"><span class="dot ${s.status}" aria-hidden="true"></span>${label}</p><p class="note">${esc(s.statusNote)}</p>${list}</section>`;
-}
-
-function marketsPanel(defs, sections) {
-  const boards = defs
-    .filter((d) => d.type === "market" && sections?.[d.id]?.ok && sections[d.id].snapshot?.length)
-    .map((d) => `<table class="board"><caption>${esc(d.title)}</caption><tbody>${sections[d.id].snapshot
-      .map((r) => `<tr><td>${esc(r.label)}</td><td>${esc(r.value)}</td><td class="${dir(r.change)}">${arrow(r.change)}${esc(String(r.change).replace(/^\s*[+\-−]/, ""))}</td></tr>`)
-      .join("")}</tbody></table>`)
-    .join("");
-  return boards ? `<section class="panel" aria-label="Markets at a glance"><h2>Markets at a glance</h2>${boards}</section>` : "";
+  const list = rest.length
+    ? `<ul class="list">${rest.map((i) => `<li><h3><a href="${href(i.url)}" rel="noopener">${esc(i.title)}</a></h3><p>${esc(i.summary)}</p>${srcLine(i)}</li>`).join("")}</ul>`
+    : "<div></div>";
+  return `<section class="sec" id="${def.id}">${head}<div class="grid">
+<article class="lead"><h3><a href="${href(lead.url)}" rel="noopener">${esc(lead.title)}</a></h3><p>${esc(lead.summary)}</p>${srcLine(lead)}</article>
+${list}</div></section>`;
 }
 
 function dayPage(site, defs, brief, nav) {
-  const S = brief.sections || {};
-  const healthDef = defs.find((d) => d.type === "health");
-  const statusDef = defs.find((d) => d.type === "status");
   const newsDefs = defs.filter((d) => d.type === "news" || d.type === "market");
-  const headline = cleanHeadline(brief.headline) || `Your brief for ${brief.longDate}`;
-  const hl = brief.highlights?.length
-    ? `<ul class="hl">${brief.highlights.map((h) => `<li><strong>${esc(h.label)}</strong>${esc(h.text)}</li>`).join("")}</ul>`
-    : "";
-
-  const body = `${masthead(site, nav)}
-<section class="hero"><div class="shell">
-<p class="dateline"><time datetime="${esc(brief.date)}">${esc(brief.longDate)}</time>${brief.clock ? `, prepared ${esc(brief.clock)}` : ""}</p>
-<h1>${esc(headline)}</h1>${hl}
-</div></section>
-<div class="shell body">
-<main>${newsDefs.map((d) => newsSection(d, S[d.id])).join("\n")}</main>
-<aside class="rail">
-${nudgePanel(healthDef, S[healthDef?.id])}
-${statusPanel(statusDef, S[statusDef?.id])}
-${marketsPanel(defs, S)}
-<nav class="panel index-panel" aria-label="Sections"><h2>In this brief</h2><ul class="index">${newsDefs.map((d) => `<li><a href="#${d.id}">${esc(d.title)}</a></li>`).join("")}</ul></nav>
-</aside>
-</div>`;
-  return layout({ site, title: `${brandParts(site.title).name}, ${brief.longDate}`, description: headline, body });
+  const body = `${header(site, brief, nav, newsDefs)}
+<main>
+${frontPage(defs, brief)}
+${newsDefs.map((d) => section(d, brief.sections?.[d.id])).join("\n")}
+</main>`;
+  const headline = cleanHeadline(brief.headline);
+  return layout({ site, title: `${brandParts(site).masthead}, ${brief.longDate}`, description: headline, body });
 }
 
 function archivePage(site, briefs) {
   const list = [...briefs].reverse()
-    .map((b) => `<li><a href="/${b.date}/">${esc(b.longDate)}</a><p>${esc(cleanHeadline(b.headline))}</p></li>`)
+    .map((b) => `<li><span class="d">${esc(b.longDate)}</span><a href="/${b.date}/">${esc(cleanHeadline(b.headline) || "Morning brief")}</a></li>`)
     .join("");
-  const body = `${masthead(site, {})}
-<section class="hero"><div class="shell"><h1>Every morning’s brief</h1></div></section>
-<div class="shell" style="padding-top:2.5rem"><ul class="arch">${list || "<li><p>The first brief will appear here after the next morning run.</p></li>"}</ul></div>`;
-  return layout({ site, title: `${brandParts(site.title).name}, archive`, description: "Every past morning brief.", body });
+  const body = `${header(site, null, {}, null)}
+<main><h1 class="arch-title">Past editions</h1><ul class="arch">${list || "<li>The first edition will appear here after the next morning run.</li>"}</ul></main>`;
+  return layout({ site, title: `${brandParts(site).masthead}, past editions`, description: "Every past morning brief.", body });
 }
 
 async function put(file, html) {
