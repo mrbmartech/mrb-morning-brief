@@ -1,0 +1,380 @@
+{
+  "date": "2026-11-10",
+  "longDate": "Tuesday 10 November 2026",
+  "clock": "1:37 pm AEDT",
+  "generatedAt": "2026-11-10T02:37:33.418Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Wall Street surged on falling oil with the S&P 500 up about 2.4%, while Victoria Police face scrutiny over a Four Corners report on workplace culture.",
+  "highlights": [
+    {
+      "label": "Wall Street rally",
+      "text": "The S&P 500 gained about 2.35% as oil prices slid, though Nvidia fell on news of a board investigation."
+    },
+    {
+      "label": "Victoria Police",
+      "text": "An ABC Four Corners report into a sergeant's 2019 suicide alleges a toxic culture inside parts of Victoria Police."
+    },
+    {
+      "label": "Vizag investment summit",
+      "text": "The CII Partnership Summit opens in Visakhapatnam on 12 November with Amit Shah and Piyush Goyal expected to attend."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Take a ten-minute walk after lunch",
+        "body": "A short, easy walk after your biggest meal helps get you moving and can break up a long stretch of sitting. Keep the pace comfortable enough to hold a conversation. Even ten minutes counts toward your weekly activity."
+      },
+      "quote": {
+        "text": "What we do every day matters more than what we do once in a while.",
+        "author": "Gretchen Rubin"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce's Braze deal reshapes the engagement market",
+          "url": "https://www.martechtherapy.com/who-gets-to-own-the-customer-loop/",
+          "source": "MarTech Therapy",
+          "summary": "Commentary on Salesforce's reported acquisition of Braze examines what it means for email and customer engagement platforms. It matters because it could put pressure on standalone engagement vendors and independent CDPs."
+        },
+        {
+          "title": "Adobe puts its CX Enterprise Coworker agent inside rival AI platforms",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-5-2026/",
+          "source": "The Agile Brand Guide",
+          "summary": "On 4 November Adobe made its agent available within ChatGPT, Claude, Databricks Genie, Gemini for business and Microsoft Copilot. No adoption figures or pricing were disclosed, so the commercial impact is unclear."
+        },
+        {
+          "title": "HubSpot doubles answer-engine optimisation limits in Marketing Hub Professional",
+          "url": "https://www.martechnotes.com/hubspot-expands-marketing-hub-professional-aeo-limits-to-50-prompts/",
+          "source": "Martech Notes",
+          "summary": "HubSpot lifted included AEO capacity from 25 to 50 daily prompts and from 2,500 to 5,000 answers a month. It signals how seriously vendors are treating visibility in AI-generated answers."
+        },
+        {
+          "title": "HubSpot phases out Node.js 20 custom code actions",
+          "url": "https://www.martechnotes.com/hubspot-begins-phasing-out-design-manager-serverless-functions-and-node-js-20/",
+          "source": "Martech Notes",
+          "summary": "New Node.js 20 actions can no longer be created, and existing ones cannot be saved after 17 November 2026. Teams relying on custom workflow code should plan migrations."
+        },
+        {
+          "title": "Latest AI-powered martech releases roundup",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech.org",
+          "summary": "MarTech.org keeps a running list of AI-related product launches across the martech vendor landscape. Useful for tracking agent and automation features, though individual entries were not independently reviewed."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce expands Agentforce Coworker",
+          "url": "https://ad-hoc-news.de/boerse/news/corporate-news/salesforce-aktie-agentforce-coworker-wird-deutlich-ausgebaut/70481122",
+          "source": "ad-hoc-news.de",
+          "summary": "On 9 November Salesforce announced a broader rollout of Agentforce Coworker, saying usage rose 21-fold in three months to more than 185,000 users. A price of US$50 per user per month is reportedly planned; secondary source."
+        },
+        {
+          "title": "Salesforce agrees to buy voice AI firm Cresta",
+          "url": "https://ad-hoc-news.de/boerse/news/corporate-news/salesforce-stock-deepens-voice-ai-push-with-cresta-deal/70481550",
+          "source": "ad-hoc-news.de",
+          "summary": "Salesforce agreed on 2 November to acquire Cresta, a voice-first customer experience platform, with closing expected in fiscal 2028 subject to regulatory approval. It deepens the company's voice AI capabilities for service."
+        },
+        {
+          "title": "Salesforce reported to pay US$5.66 billion for Braze",
+          "url": "https://hackernoon.com/salesforce-pays-$566b-for-braze-buying-the-rival-that-outran-marketing-cloud",
+          "source": "HackerNoon",
+          "summary": "Reports value the Braze deal at about US$5.66 billion, or US$47.50 a share, with closing expected in fiscal 2028. Publication date not confirmed here and the deal was not verified on a Salesforce release."
+        },
+        {
+          "title": "Salesforce shares remain well down for the year",
+          "url": "https://247wallst.com/investing/2026/11/09/is-salesforce-a-falling-knife-or-is-the-worst-over",
+          "source": "24/7 Wall St.",
+          "summary": "The stock trades near US$213.70, about 19% lower year to date against roughly 8% gains for the S&P 500. Investors are weighing whether the AI-agent push will lift growth."
+        },
+        {
+          "title": "Trailblazer Community forums to move to Slack",
+          "url": "https://sfupdates.com/",
+          "source": "SF Updates",
+          "summary": "The migration of Trailblazer Community forums to Slack is slated to begin in November 2026. Admins and developers have raised concerns about preserving years of archived discussions."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "issues",
+      "statusNote": "Aggregators show recurring partial disruptions including Asia Pacific Marketing Cloud Growth and Advanced editions; dates are inconsistent, so check Salesforce Trust directly.",
+      "items": [
+        {
+          "title": "Partial outage flagged for APAC Marketing Cloud instances",
+          "url": "https://statusgator.com/services/salesforce",
+          "source": "StatusGator",
+          "summary": "StatusGator reports confirmed issues on AUS102, AUS20S and AUS26S Marketing Cloud Growth and Advanced editions, with warnings most days from 2 to 9 November and a one-hour down event on 7 November. Unconfirmed against Salesforce's own status page."
+        },
+        {
+          "title": "Data Cloud and Marketing Cloud Engagement degradations on 6-7 November",
+          "url": "https://incidenthub.cloud/status/salesforce",
+          "source": "IncidentHub",
+          "summary": "IncidentHub lists Data Cloud feature disruptions lasting from about one minute to 55 minutes, plus a Marketing Cloud Engagement degradation, all resolved. No root cause analysis was found."
+        },
+        {
+          "title": "Salesforce Trust status page shows Marketing Cloud feature disruption",
+          "url": "https://status.salesforce.com/",
+          "source": "Salesforce Trust",
+          "summary": "The page listed an ongoing Marketing Cloud Growth and Advanced feature disruption and a closed 4 November Data Cloud scratch org creation issue. The start time of the ongoing item could not be confirmed."
+        },
+        {
+          "title": "Earlier October disruption linked to a routing misconfiguration",
+          "url": "https://isdown.app/status/salesforce/incidents/679206-service-disruption",
+          "source": "IsDown",
+          "summary": "A roughly 9.5-hour October disruption was attributed to a misconfigured network routing path and affected long-term file storage connectivity. Older than 48 hours and not specific to Marketing or Data Cloud."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Victoria Police culture questioned after Four Corners report",
+          "url": "https://www.abc.net.au/news/2026-11-09/victoria-police-culture-exposed-officers-sucide-four-corners/107342438",
+          "source": "ABC News",
+          "summary": "Four Corners examined the 2019 suicide of Sergeant Shona O'Connor and alleges bullying and sexual harassment inside parts of the force, with her family seeking a reopened coronial inquiry. The Chief Commissioner has acknowledged an unacceptable culture in parts of the organisation."
+        },
+        {
+          "title": "RBA lifts cash rate to 4.85 per cent",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216",
+          "source": "ABC News",
+          "summary": "The Reserve Bank raised rates by 0.25 points on 3 November, the fifth increase this year, in a split 6-3 vote. It is the highest cash rate in 18 years and keeps pressure on mortgage holders (story is a week old)."
+        },
+        {
+          "title": "What the November rate rise means for households",
+          "url": "https://www.abc.net.au/news/2026-11-03/what-november-cash-rate-hike-means-for-australians-money/107324538",
+          "source": "ABC News",
+          "summary": "ABC estimates the five 2026 increases have added about $456 a month to repayments on a $600,000 loan. The impact is likely to feed into household spending and political pressure on the government."
+        },
+        {
+          "title": "ANZ posts $7.3 billion profit but shares slide",
+          "url": "https://www.abc.net.au/news/2026-11-09/asx-markets-business-live-news/107361534",
+          "source": "ABC News",
+          "summary": "ANZ reported a profit of about $7.3 billion for FY26 but its shares fell around 3% amid concerns about margins. The result weighed on banks while miners lifted the ASX."
+        },
+        {
+          "title": "House prices fall for a seventh straight month",
+          "url": "https://www.abc.net.au/news/2026-11-02/house-prices-fall-in-october-biggest-downturn-40-years-cotality/107325214",
+          "source": "ABC News",
+          "summary": "Cotality data shows national home values fell again in October, with commentators warning of the largest downturn in 40 years. The slide, combined with rising rates, is a major economic and political risk (story is eight days old)."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Parliament left un-prorogued for a record 88 days",
+          "url": "https://www.deccanherald.com/india/parliament-sees-new-prorogation-record-cong-says-its-done-to-pass-destructive-delimitation-bills-4212584",
+          "source": "Deccan Herald",
+          "summary": "The Monsoon Session has not been prorogued for 88 days, a record, and Congress alleges this is to pass delimitation bills at short notice. The claim is an opposition allegation and the government's response was not found."
+        },
+        {
+          "title": "Legal roundup flags RBI tightening and DA hike",
+          "url": "https://www.scconline.com/blog/post/2026/11/09/legislation-roundup-october-2026-key-legal-and-regulatory-developments/",
+          "source": "SCC Online",
+          "summary": "A monthly roundup says the RBI raised the repo rate to 5.50% and moved to a calibrated tightening stance, and that dearness allowance rose 3 points to 63%. Another outlet gave a different repo figure, so check the RBI release."
+        },
+        {
+          "title": "ED reportedly raids crypto exchanges in Bengaluru",
+          "url": "https://neopolitico.com/india/ed-raids-coindcx-delta-exchange-in-bengaluru-over-alleged-cross-border-crypto-transactions-worth-thousands-of-crores",
+          "source": "Neo Politico",
+          "summary": "The Enforcement Directorate is reported to have searched CoinDCX and Delta Exchange over alleged cross-border crypto transactions worth thousands of crores. Date and details not independently confirmed."
+        },
+        {
+          "title": "Delhi air 'very poor' after Diwali; India ranks 38th on innovation index",
+          "url": "https://indianopinion.org/today-in-india-9-november-2026/",
+          "source": "Indian Opinion",
+          "summary": "Diwali celebrations left Delhi's air in the 'very poor' category, while WIPO's Global Innovation Index placed India 38th of 139 economies. The roundup is a secondary digest."
+        },
+        {
+          "title": "Painter Arpita Singh dies in Delhi aged 89",
+          "url": "https://bankersadda.com/daily-current-affairs-and-gk-updates-9th-november-2026",
+          "source": "Bankersadda",
+          "summary": "The eminent modernist painter died on 9 November. The same digest reports India's oilmeal exports fell 28.51% year on year in April-August FY2027."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Amit Shah and Piyush Goyal to attend Vizag CII Partnership Summit",
+          "url": "https://www.theweek.in/wire-updates/business/2026/11/09/amit-shah-piyush-goyal-to-attend-cii-partnership-summit-in-visakhapatnam.html",
+          "source": "The Week (PTI)",
+          "summary": "The summit runs 12-13 November in Visakhapatnam, with Shah due to inaugurate it. It is the state's biggest investment showcase of the year."
+        },
+        {
+          "title": "AP targets global investments, with 194 MoUs from regional summits",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/ap-eyes-global-investments-at-partnership-summit-1140565",
+          "source": "The Hans India",
+          "summary": "Six preparatory regional summits produced 194 MoUs covering proposed investments of Rs 86,522 crore and 1.47 lakh potential jobs. These are proposals rather than realised investment."
+        },
+        {
+          "title": "NDA sweeps Greater Visakhapatnam civic polls",
+          "url": "https://www.indiatvnews.com/news/india/greater-visakhapatnam-municipal-corporation-election-results-live-updates-andhra-pradesh-urban-body-tdp-jsp-bjp-ysrcp-congress-candidates-winners-1058533",
+          "source": "India TV",
+          "summary": "Counting on 3 November showed the NDA ahead in over 70 of 120 wards, with the TDP leading. The report was a live blog, so final tallies may differ."
+        },
+        {
+          "title": "Naidu to seek Centre's nod for Vizag Metro and Beach Corridor",
+          "url": "https://english.dainikjagranmpcg.com/national/naidu-to-meet-pm-modi-seek-nod-for-vizag-metro/article-36882",
+          "source": "Dainik Jagran English",
+          "summary": "The chief minister planned to press the Centre for approval of major Visakhapatnam transport projects ahead of the summit. Approval would be a significant boost to the city's infrastructure."
+        },
+        {
+          "title": "Parliament passes Andhra Pradesh Reorganisation (Amendment) Bill confirming Amaravati as capital",
+          "url": "https://www.newsonair.gov.in/cm-n-chandrababu-naidu-welcomes-unanimous-passage-of-andhra-pradesh-reorganisation-bill-2026-in-both-houses-of-parliament-of-india/",
+          "source": "All India Radio",
+          "summary": "Both houses passed the bill unanimously, which Naidu said settles Amaravati as the sole capital. Older story from April 2026, included as little newer Amaravati news was found."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,549.94",
+          "change": "+2.35%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "25,253.14",
+          "change": "+2.74%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "52,389.75",
+          "change": "+2.15%"
+        }
+      ],
+      "items": [
+        {
+          "title": "S&P 500 posts best day since April as oil slides",
+          "url": "https://theweekendspread.substack.com/p/the-close-monday-november-9-2026",
+          "source": "The Weekend Spread",
+          "summary": "All 11 sectors rose and the VIX fell about 22% to near 20 on Monday. The index is still about 3.4% below its October record after the prior week's worst result since April 2025."
+        },
+        {
+          "title": "Nasdaq and S&P 500 jump on oil backslide and tech comeback",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202",
+          "source": "TheStreet",
+          "summary": "Cheaper oil and a rebound in tech drove the broad rally. Figures vary slightly between sources, with one reporting an S&P close of 7,556."
+        },
+        {
+          "title": "Nvidia drops on board investigation",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026",
+          "source": "StockTitan",
+          "summary": "Nvidia fell on news of a board investigation, cutting roughly US$192 billion from its market value. Other chip stocks rallied regardless."
+        },
+        {
+          "title": "AMD surges on Oppenheimer upgrade",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-9-223002825.html",
+          "source": "Yahoo Finance",
+          "summary": "AMD jumped more than 13% after an Oppenheimer upgrade and a Google Cloud chip selection. It shows investors rotating within AI hardware."
+        },
+        {
+          "title": "AI data-centre worries tied to earlier selloff",
+          "url": "https://www.washingtonpost.com/business/2026/11/09/wall-street-stocks-dow-nasdaq/d2094ae0-dc83-11f1-912c-4fbb80d73f7f_story.html",
+          "source": "The Washington Post",
+          "summary": "Coverage linked last week's decline to concern that Democratic midterm wins could slow data-centre construction. US CPI data is due next, per FXStreet, and could sway rate expectations."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Mon close)",
+          "value": "9,029.7",
+          "change": "+0.10%"
+        },
+        {
+          "label": "ASX 200 futures (pre-open)",
+          "value": "about 9,135",
+          "change": "+1.0%"
+        },
+        {
+          "label": "AUD/USD",
+          "value": "about 69.2 US cents",
+          "change": "about -0.1% to +0.9% (sources differ)"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX edges higher as miners offset weak banks",
+          "url": "https://www.abc.net.au/news/2026-11-09/asx-markets-business-live-news/107361534",
+          "source": "ABC News",
+          "summary": "The ASX 200 finished 8.9 points higher after dipping below 9,000 intraday. Miners led while financials fell 1.11%."
+        },
+        {
+          "title": "ASX claws back from sub-9,000 plunge",
+          "url": "https://sharetrader.com.au/news/2026-11-09-asx-200-claws-back-from-sub-9000-plunge-in-sharp-afternoon-turnaround",
+          "source": "Sharetrader",
+          "summary": "The index recovered from an intraday low of 8,968.5 in a sharp afternoon turnaround. It shows how fragile sentiment was before the Wall Street rebound."
+        },
+        {
+          "title": "ANZ falls 3.2% after full-year result",
+          "url": "https://au.finance.yahoo.com/news/australian-shares-close-flat-anz-052337260.html",
+          "source": "Yahoo Finance Australia",
+          "summary": "ANZ closed at $39.05 after a result that sources describe differently: statutory profit of about $7.27 billion versus cash profit of $7.59 billion. Margin pressure was a key concern."
+        },
+        {
+          "title": "Gold, critical minerals and base metals lift the ASX",
+          "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-notches-gain-as-gold-critical-minerals-and-base-metals",
+          "source": "Market Index",
+          "summary": "Resource stocks rallied while the ANZ result dragged banks lower. Resources remain the market's main support."
+        },
+        {
+          "title": "ASX tipped to rise about 1% after Wall Street rally",
+          "url": "https://www.abc.net.au/news/2026-11-10/asx-markets-business-live-news-november-10-2026/107363300",
+          "source": "ABC News",
+          "summary": "Futures pointed to a lift of about 87 points to 9,135, with the ASX reaching its highest level since August in live coverage. Falling oil and hopes of a US-Iran deal supported sentiment, and US CPI is the next big data point."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Home values fall for a seventh month, 'largest downturn in 40 years' in view",
+          "url": "https://www.abc.net.au/news/2026-11-02/house-prices-fall-in-october-biggest-downturn-40-years-cotality/107325214",
+          "source": "ABC News",
+          "summary": "Cotality says the national dwelling index fell 1.2% in October, with sales over three months 23% below a year earlier. Published 2 November, the latest monthly reading available."
+        },
+        {
+          "title": "Downturn broadens as Brisbane and Perth lead declines",
+          "url": "https://propertyupdate.com.au/housing-downturn-broadens-as-brisbane-and-perth-lead-the-decline-latest-cotality-home-index-report/",
+          "source": "Property Update",
+          "summary": "The Cotality home index report shows declines spreading across more markets. Weakness is no longer confined to the most expensive cities."
+        },
+        {
+          "title": "Fewer than half of spring auctions are selling",
+          "url": "https://loanworth.com.au/news/spring-auction-clearance-rates-october-2026",
+          "source": "Loanworth",
+          "summary": "Spring clearance rates have tracked below 50%, with a final combined-capitals rate of 45.4% for the week ending 4 October. No November weekend figures were found."
+        },
+        {
+          "title": "Rental vacancy rate hits five-year high",
+          "url": "https://www.macrobusiness.com.au/2026/11/rental-vacancy-rates-hit-5-year-high/",
+          "source": "MacroBusiness",
+          "summary": "Cotality's October data reportedly shows capital-city vacancy at 2.4%, with annual rent growth easing to 5.2%. Measures vary by provider, with PropTrack at 1.5% for September."
+        },
+        {
+          "title": "Fifth rate rise adds hundreds to monthly repayments",
+          "url": "https://www.abc.net.au/news/2026-11-03/what-november-cash-rate-hike-means-for-australians-money/107324538",
+          "source": "ABC News",
+          "summary": "The RBA's latest hike takes the cash rate to 4.85%, adding about $456 a month in total to a $600,000 loan this year. Higher repayments are expected to further constrain buyers."
+        }
+      ]
+    }
+  }
+}
