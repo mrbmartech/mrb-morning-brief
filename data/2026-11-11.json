@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-11",
+  "longDate": "Wednesday 11 November 2026",
+  "clock": "11:30 am AEDT",
+  "generatedAt": "2026-11-11T00:30:27.024Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — the RBA's fifth hike of 2026 is deepening the housing slump, while Adobe and Salesforce push agentic AI further into marketing and government.",
+  "highlights": [
+    {
+      "label": "Housing slump",
+      "text": "Cotality's national home values fell 1.2% in October, a seventh straight monthly drop, after the RBA lifted the cash rate to 4.85%."
+    },
+    {
+      "label": "Adobe agents",
+      "text": "Adobe made its CX Enterprise Coworker available inside ChatGPT, Claude, Gemini and Copilot, taking marketing agents into third-party assistants."
+    },
+    {
+      "label": "Salesforce deals",
+      "text": "Salesforce has reportedly agreed to buy Cresta and Rune Technologies, and its Missionforce unit gained Pentagon marketplace status."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Do a five-minute wind-down",
+        "body": "Set a reminder 30 to 60 minutes before bed to dim the lights and put work devices away. Use the time for something calming, such as stretching, a shower or reading. A consistent wind-down cue helps the body shift towards sleep."
+      },
+      "quote": {
+        "text": "The secret of getting ahead is getting started.",
+        "author": "Mark Twain"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Adobe puts its CX agent inside ChatGPT, Claude, Gemini and Copilot",
+          "url": "https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms",
+          "source": "Adobe Newsroom",
+          "summary": "Adobe announced on 4 November that its CX Enterprise Coworker can be used inside several third-party AI assistants, with more integrations listed as coming soon. Pricing and data-handling details were not disclosed, and some integrations are Adobe-stated only."
+        },
+        {
+          "title": "6sense rebrands around agentic go-to-market",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "At its Breakthrough 2026 conference on 3 November, 6sense repositioned itself around agentic go-to-market, with a BDR Agent entering beta this month. It shows B2B platforms racing to productise AI agents for sales and marketing."
+        },
+        {
+          "title": "Yext closes acquisition of Flamel.ai",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Yext reportedly completed its purchase of Flamel.ai on 2 November. Consolidation continues as vendors buy AI capability to stay visible in AI-generated answers."
+        },
+        {
+          "title": "Smartly launches forecasting and incrementality product",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Smartly released a product on 2 November that combines forecasting tools with an incrementality measurement layer. It targets advertisers wanting clearer proof of what paid media actually drives."
+        },
+        {
+          "title": "Survey: many US shoppers plan to use AI assistants this holiday season",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-4-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "A Talkdesk survey published on 4 November found a large share of US shoppers intend to use AI assistants during the holidays. Marketers may need to plan for product discovery happening inside assistants rather than on their own sites."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce's Missionforce unit gains Pentagon marketplace status",
+          "url": "https://salesforce.com/news/press-releases/2026/11/10/missionforce-achieves-awardable-status",
+          "source": "Salesforce Newsroom",
+          "summary": "Missionforce National Security achieved 'Awardable' status for its recruiting capabilities in the CDAO's Tradewinds marketplace on 10 November. It eases the path for defence agencies to buy Salesforce tools."
+        },
+        {
+          "title": "Salesforce agrees to acquire Cresta",
+          "url": "https://www.salesforce.com/news/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce signed a definitive agreement to acquire Cresta on 2 November, according to its newsroom. Closing status is unclear, as one tracker reports the deal as closed; not independently confirmed."
+        },
+        {
+          "title": "Rune Technologies purchase and new Koa Decisions model",
+          "url": "https://www.salesforceben.com/category/news/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben reports the Rune Technologies acquisition as Salesforce's largest national security purchase so far, alongside a new Koa Decisions AI model on 9 November. Together they signal a push into defence and decision-focused AI."
+        },
+        {
+          "title": "Agentforce Coworker usage up 21x in three months",
+          "url": "https://www.salesforce.com/news/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce said on 3 November that use of its Agentforce Coworker has grown 21-fold over three months. The figure is company-reported and not independently verified."
+        },
+        {
+          "title": "Salesforce adds Quick Pages for custom page building",
+          "url": "https://www.salesforceben.com/category/news/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben reported on 6 November that Quick Pages lets teams build custom pages more simply. It is a small but practical update for admins."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "No major Salesforce incident was found for the last 48 hours, but live Trust status pages could not be checked directly.",
+      "items": []
+    },
+    "australia": {
+      "ok": false,
+      "error": "Search returned no reliable current Australian headlines"
+    },
+    "india": {
+      "ok": false,
+      "error": "Search returned no reliable current Indian headlines"
+    },
+    "andhra": {
+      "ok": false,
+      "error": "Search returned no reliably dated Andhra Pradesh stories"
+    },
+    "usstocks": {
+      "ok": false,
+      "error": "Could not find the 10 November 2026 US market close"
+    },
+    "austocks": {
+      "ok": false,
+      "error": "Could not find a current ASX 200 close"
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "RBA lifts cash rate to 4.85%",
+          "url": "https://www.cotality.com/au/press-releases/housing-markets-set-to-weaken-further-as-rba-hikes-again-in-november",
+          "source": "Cotality",
+          "summary": "The RBA raised the cash rate by 25 basis points on 3 November, the fifth rise of 2026, with a 6–3 vote. Cotality expects it to weaken housing further, with the next decision due 8 December."
+        },
+        {
+          "title": "Home values fall for a seventh straight month",
+          "url": "https://www.openagent.com.au/news/national-property-market-update-october-2026",
+          "source": "OpenAgent",
+          "summary": "Cotality's national index fell 1.2% in October, leaving values 6.7% below the March peak. Annual values are down 2.8%."
+        },
+        {
+          "title": "Borrowing power shrinks after rate hike",
+          "url": "https://www.cotality.com/au/insights/articles/rba-rate-hike-deepens-housing-market-headwinds-as-borrowing-power-shrinks",
+          "source": "Cotality",
+          "summary": "Cotality says the latest hike cuts borrowing capacity and weakens serviceability and sentiment. That limits what buyers can pay and adds to downward price pressure."
+        },
+        {
+          "title": "Listings hit a five-year high as homes sell slowly",
+          "url": "https://propertyinvestmentprofessionals.com.au/market/week-of-november-8-2026",
+          "source": "Property Investment Professionals",
+          "summary": "Stock on the market has reached a five-year high while homes take longer to sell. More supply against weak demand favours buyers."
+        },
+        {
+          "title": "Rate hike hits the auction market",
+          "url": "https://www.macrobusiness.com.au/2026/10/rba-rate-hike-smashes-auction-market/",
+          "source": "MacroBusiness",
+          "summary": "MacroBusiness reports auction results fell sharply after the RBA's rate rise. Weak clearance rates have historically pointed to softer prices."
+        }
+      ]
+    }
+  }
+}

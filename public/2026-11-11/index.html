@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The MrB Morning Brief, Wednesday 11 November 2026</title>
+<meta name="description" content="The RBA&#39;s fifth hike of 2026 is deepening the housing slump, while Adobe and Salesforce push agentic AI further into marketing and government.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2212%22 fill=%22%23121212%22/><text x=%2250%22 y=%2272%22 font-family=%22Georgia%22 font-weight=%22700%22 font-size=%2266%22 fill=%22white%22 text-anchor=%22middle%22>B</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400;1,6..72,500&family=Libre+Franklin:wght@400;500;600;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#E6E9E3; --paper:#FBFBF8; --ink:#16181A; --body:#34383C; --muted:#5E6469; --hair:#DCDFD8; --rule:#16181A;
+  --link:#2F5F86; --up:#0A7A3E; --down:#C3201F; --tint:#F0F2EC; --accent:#7A1F2B;
+  --head:"Newsreader","Iowan Old Style","Times New Roman",Georgia,serif;
+  --text:"Newsreader","Iowan Old Style",Georgia,serif;
+  --sans:"Libre Franklin","Franklin Gothic Medium","Helvetica Neue",Arial,sans-serif;
+  --black:"UnifrakturMaguntia","Old English Text MT",Georgia,serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --desk:#0D0F10; --paper:#17191B; --ink:#ECEDEA; --body:#D0D3CF; --muted:#9EA4A8; --hair:#2C3033; --rule:#ECEDEA;
+  --link:#86B6DE; --up:#5CC48A; --down:#F0716F; --tint:#1E2124; --accent:#E08A95; color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--desk);color:var(--ink);font:400 17px/1.55 var(--text);padding-bottom:env(safe-area-inset-bottom,0);font-optical-sizing:auto}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--muted)}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.page{max-width:80rem;margin:1.5rem auto;padding:0 2.25rem;background:var(--paper);box-shadow:0 1px 2px rgba(20,24,28,.06),0 12px 40px -12px rgba(20,24,28,.18)}
+
+/* Masthead */
+.top{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:1rem;padding:calc(env(safe-area-inset-top,0px) + 1rem) 0 .4rem;font:500 .78rem/1.4 var(--sans)}
+.top .date{font-weight:700}
+.top .date span{display:block;font-weight:400;color:var(--muted)}
+.top .hello{text-align:center;font:italic 400 .95rem/1.3 var(--head);color:var(--body)}
+.top .days{display:flex;gap:.9rem;justify-content:flex-end}
+.top .days a:hover{text-decoration:underline}
+.mast{text-align:center;margin:.2rem 0 .9rem}
+.mast a{font:400 clamp(2.4rem,6.6vw,4.6rem)/1 var(--black);color:var(--ink);letter-spacing:.005em}
+.secbar{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);position:relative;margin-bottom:3px}
+.secbar::after{content:"";position:absolute;left:0;right:0;bottom:-4px;border-bottom:1px solid var(--rule)}
+.secbar ul{list-style:none;margin:0;padding:.55rem 0;display:flex;justify-content:center;flex-wrap:wrap;gap:.35rem 1.4rem;font:500 .8rem/1.3 var(--sans)}
+.secbar a:hover{text-decoration:underline}
+
+/* Front page */
+.front{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr) minmax(0,.95fr);margin-top:1.4rem;border-bottom:1px solid var(--rule)}
+.front>*{padding:0 1.4rem 1.6rem;border-left:1px solid var(--hair)}
+.front>*:first-child{padding-left:0;border-left:0}
+.front>*:last-child{padding-right:0}
+.kicker{font:700 .74rem/1.3 var(--sans);margin:0 0 .5rem;color:var(--accent)}
+.top-story h1{font:700 clamp(1.9rem,3.5vw,2.8rem)/1.08 var(--head);margin:0 0 1.1rem;letter-spacing:-.018em;text-wrap:balance}
+.bullets{margin:0;padding-left:1.1rem;color:var(--body)}
+.bullets li{margin:0 0 .65rem;font-size:1rem;line-height:1.45}
+.bullets li::marker{color:var(--muted)}
+.bullets b{font:700 .95rem/1.3 var(--head);color:var(--ink)}
+.stamp{margin:1rem 0 0;font:400 .75rem/1.3 var(--sans);color:var(--muted)}
+
+.box h2{font:700 .72rem/1.3 var(--sans);margin:0 0 .6rem}
+.box+.box{margin-top:1.4rem;padding-top:1.2rem;border-top:1px solid var(--hair)}
+.status{display:flex;gap:.5rem;align-items:baseline;font:700 1.05rem/1.3 var(--head);margin:0 0 .35rem}
+.status i{width:.55rem;height:.55rem;border-radius:50%;flex:none;background:var(--muted);transform:translateY(-.05rem)}
+.status i.clear{background:var(--up)}.status i.issues{background:var(--down)}
+.note{margin:0;color:var(--body);font-size:.92rem;line-height:1.45}
+.inc{list-style:none;margin:.7rem 0 0;padding:0}
+.inc li{padding:.55rem 0;border-top:1px solid var(--hair);font-size:.88rem;line-height:1.4;color:var(--body)}
+.inc a{display:block;font:700 .95rem/1.3 var(--head);color:var(--ink);margin-bottom:.15rem}
+table.mkt{width:100%;border-collapse:collapse;font:400 .85rem/1.3 var(--sans);font-variant-numeric:tabular-nums}
+table.mkt caption{text-align:left;font:700 .78rem/1.3 var(--sans);padding:.2rem 0 .3rem;color:var(--muted)}
+table.mkt td{padding:.38rem 0;border-top:1px solid var(--hair)}
+table.mkt td:nth-child(2),table.mkt td:nth-child(3){text-align:right;white-space:nowrap}
+table.mkt td:nth-child(3){width:4.8rem;font-weight:700}
+table.mkt+table.mkt{margin-top:.8rem}
+.up{color:var(--up)}.down{color:var(--down)}
+
+.opinion{background:var(--tint)}
+.front>.opinion{padding:1.2rem 1.3rem 1.4rem;border-left:0;margin-bottom:1.6rem;align-self:start}
+.opinion blockquote{margin:0;font:italic 500 1.4rem/1.32 var(--head);text-wrap:balance}
+.opinion cite{display:block;margin:.55rem 0 0;font:500 .8rem/1.3 var(--sans);font-style:normal;color:var(--muted)}
+.opinion h3{font:700 1.05rem/1.25 var(--head);margin:1.3rem 0 .3rem;padding-top:1rem;border-top:1px solid var(--hair)}
+.opinion h3+p{margin:0;font-size:.95rem;line-height:1.5;color:var(--body)}
+.opinion .kicker{margin:0 0 .5rem}
+
+/* Sections */
+.sec{margin-top:2.2rem;padding-top:.5rem;border-top:1px solid var(--rule);scroll-margin-top:1rem}
+.sec>h2{font:700 1rem/1.3 var(--sans);margin:0 0 1rem;color:var(--accent)}
+.sec>h2 a::after{content:" ›";color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+.grid>*{padding:0 1.4rem;border-left:1px solid var(--hair)}
+.grid>*:first-child{padding-left:0;border-left:0}
+.grid>*:last-child{padding-right:0}
+.lead h3{font:700 clamp(1.45rem,2.4vw,1.85rem)/1.14 var(--head);margin:0 0 .55rem;letter-spacing:-.012em;text-wrap:balance}
+.lead p{margin:0;font-size:1.02rem;line-height:1.5;color:var(--body);max-width:60ch}
+.src{display:block;margin-top:.6rem;font:500 .72rem/1.3 var(--sans);color:var(--muted)}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:.85rem 0;border-top:1px solid var(--hair)}
+.list li:first-child{padding-top:0;border-top:0}
+.list h3{font:700 1.08rem/1.25 var(--head);margin:0 0 .3rem;letter-spacing:-.005em}
+.list p{margin:0;font-size:.9rem;line-height:1.45;color:var(--muted)}
+.missing{margin:0;color:var(--muted);font-style:italic}
+.lead a:hover,.list a:hover,.inc a:hover{color:var(--muted)}
+
+/* Archive */
+.arch{list-style:none;margin:1.5rem 0 0;padding:0;max-width:46rem}
+.arch li{padding:1.1rem 0;border-top:1px solid var(--hair)}
+.arch .d{font:700 .75rem/1.3 var(--sans);color:var(--muted)}
+.arch a{display:block;margin-top:.3rem;font:700 1.3rem/1.25 var(--head)}
+.arch-title{font:700 2rem/1.15 var(--head);margin:1.6rem 0 0}
+
+footer.f{margin-top:3rem;padding:1.2rem 0 3rem;border-top:1px solid var(--rule);font:400 .78rem/1.5 var(--sans);color:var(--muted)}
+footer.f .fm{font:400 1.5rem/1 var(--black);color:var(--ink);display:block;margin-bottom:.6rem}
+
+@media (max-width:980px){
+  .page{margin:0 auto}
+  .front>.opinion{margin-bottom:1.6rem}
+  .front{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .front .top-story{grid-column:1/-1;padding:0 0 1.6rem;border-left:0;border-bottom:1px solid var(--hair);margin-bottom:1.4rem}
+  .front .markets{padding-left:0;border-left:0}
+}
+@media (max-width:680px){
+  body{font-size:15px}
+  .page{padding:0 1rem;margin:0;box-shadow:none}
+  .top{grid-template-columns:1fr auto}
+  .top .hello{display:none}
+  .mast a{font-size:min(2.35rem,8.4vw);white-space:nowrap}
+  .secbar ul{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding:.55rem .1rem;scrollbar-width:none}
+  .secbar ul::-webkit-scrollbar{display:none}
+  .secbar li{flex:none}
+  .front{grid-template-columns:1fr}
+  .front>*{padding:0 0 1.4rem;border-left:0}
+  .front>*+*{border-top:1px solid var(--hair);padding-top:1.2rem}
+  .front .top-story{margin-bottom:0}
+  .grid{grid-template-columns:1fr}
+  .grid>*{padding:0;border-left:0}
+  .grid .list{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--hair)}
+}
+</style>
+</head>
+<body><div class="page">
+<header>
+<div class="top"><div class="date">Wednesday 11 November 2026<span>Prepared 11:30 am AEDT</span></div><div class="hello">Hello Mr.Bhaskar</div><nav class="days" aria-label="Other days"><a href="/2026-11-10/">‹ Tue, 10 Nov</a><a href="/archive/">Archive</a></nav></div>
+<div class="mast"><a href="/">The MrB Morning Brief</a></div>
+<nav class="secbar" aria-label="Sections"><ul><li><a href="#martech">MarTech</a></li><li><a href="#salesforce">Salesforce news</a></li><li><a href="#australia">Australia top 5</a></li><li><a href="#india">India top 5</a></li><li><a href="#andhra">Andhra Pradesh top 5</a></li><li><a href="#usstocks">US stocks</a></li><li><a href="#austocks">AU stocks</a></li><li><a href="#property">Australian real estate top 5</a></li></ul></nav>
+</header>
+<main>
+<section class="front">
+<article class="top-story"><p class="kicker">Today’s top stories</p><h1>The RBA&#39;s fifth hike of 2026 is deepening the housing slump, while Adobe and Salesforce push agentic AI further into marketing and government.</h1><ul class="bullets"><li><b>Housing slump.</b> Cotality&#39;s national home values fell 1.2% in October, a seventh straight monthly drop, after the RBA lifted the cash rate to 4.85%.</li><li><b>Adobe agents.</b> Adobe made its CX Enterprise Coworker available inside ChatGPT, Claude, Gemini and Copilot, taking marketing agents into third-party assistants.</li><li><b>Salesforce deals.</b> Salesforce has reportedly agreed to buy Cresta and Rune Technologies, and its Missionforce unit gained Pentagon marketplace status.</li></ul></article>
+<div class="markets"><section class="box" id="sfstatus"><h2>Salesforce issues &amp; downtime</h2><p class="status"><i class="unknown" aria-hidden="true"></i>Status unclear</p><p class="note">No major Salesforce incident was found for the last 48 hours, but live Trust status pages could not be checked directly.</p></section></div>
+<aside class="opinion" id="health"><p class="kicker">Health &amp; fitness</p>
+<blockquote>“The secret of getting ahead is getting started.”<cite>Mark Twain</cite></blockquote>
+<h3>Do a five-minute wind-down</h3><p>Set a reminder 30 to 60 minutes before bed to dim the lights and put work devices away. Use the time for something calming, such as stretching, a shower or reading. A consistent wind-down cue helps the body shift towards sleep.</p></aside>
+</section>
+<section class="sec" id="martech"><h2><a href="#martech">MarTech</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms" rel="noopener">Adobe puts its CX agent inside ChatGPT, Claude, Gemini and Copilot</a></h3><p>Adobe announced on 4 November that its CX Enterprise Coworker can be used inside several third-party AI assistants, with more integrations listed as coming soon. Pricing and data-handling details were not disclosed, and some integrations are Adobe-stated only.</p><span class="src">Adobe Newsroom</span></article>
+<ul class="list"><li><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/" rel="noopener">6sense rebrands around agentic go-to-market</a></h3><p>At its Breakthrough 2026 conference on 3 November, 6sense repositioned itself around agentic go-to-market, with a BDR Agent entering beta this month. It shows B2B platforms racing to productise AI agents for sales and marketing.</p><span class="src">Agile Brand Guide</span></li><li><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/" rel="noopener">Yext closes acquisition of Flamel.ai</a></h3><p>Yext reportedly completed its purchase of Flamel.ai on 2 November. Consolidation continues as vendors buy AI capability to stay visible in AI-generated answers.</p><span class="src">Agile Brand Guide</span></li><li><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/" rel="noopener">Smartly launches forecasting and incrementality product</a></h3><p>Smartly released a product on 2 November that combines forecasting tools with an incrementality measurement layer. It targets advertisers wanting clearer proof of what paid media actually drives.</p><span class="src">Agile Brand Guide</span></li><li><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-4-2026/" rel="noopener">Survey: many US shoppers plan to use AI assistants this holiday season</a></h3><p>A Talkdesk survey published on 4 November found a large share of US shoppers intend to use AI assistants during the holidays. Marketers may need to plan for product discovery happening inside assistants rather than on their own sites.</p><span class="src">Agile Brand Guide</span></li></ul></div></section>
+<section class="sec" id="salesforce"><h2><a href="#salesforce">Salesforce news</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://salesforce.com/news/press-releases/2026/11/10/missionforce-achieves-awardable-status" rel="noopener">Salesforce&#39;s Missionforce unit gains Pentagon marketplace status</a></h3><p>Missionforce National Security achieved &#39;Awardable&#39; status for its recruiting capabilities in the CDAO&#39;s Tradewinds marketplace on 10 November. It eases the path for defence agencies to buy Salesforce tools.</p><span class="src">Salesforce Newsroom</span></article>
+<ul class="list"><li><h3><a href="https://www.salesforce.com/news/" rel="noopener">Salesforce agrees to acquire Cresta</a></h3><p>Salesforce signed a definitive agreement to acquire Cresta on 2 November, according to its newsroom. Closing status is unclear, as one tracker reports the deal as closed; not independently confirmed.</p><span class="src">Salesforce Newsroom</span></li><li><h3><a href="https://www.salesforceben.com/category/news/" rel="noopener">Rune Technologies purchase and new Koa Decisions model</a></h3><p>Salesforce Ben reports the Rune Technologies acquisition as Salesforce&#39;s largest national security purchase so far, alongside a new Koa Decisions AI model on 9 November. Together they signal a push into defence and decision-focused AI.</p><span class="src">Salesforce Ben</span></li><li><h3><a href="https://www.salesforce.com/news/" rel="noopener">Agentforce Coworker usage up 21x in three months</a></h3><p>Salesforce said on 3 November that use of its Agentforce Coworker has grown 21-fold over three months. The figure is company-reported and not independently verified.</p><span class="src">Salesforce Newsroom</span></li><li><h3><a href="https://www.salesforceben.com/category/news/" rel="noopener">Salesforce adds Quick Pages for custom page building</a></h3><p>Salesforce Ben reported on 6 November that Quick Pages lets teams build custom pages more simply. It is a small but practical update for admins.</p><span class="src">Salesforce Ben</span></li></ul></div></section>
+<section class="sec" id="australia"><h2><a href="#australia">Australia top 5</a></h2><p class="missing">Not updated this morning. It will refresh in tomorrow’s brief.</p></section>
+<section class="sec" id="india"><h2><a href="#india">India top 5</a></h2><p class="missing">Not updated this morning. It will refresh in tomorrow’s brief.</p></section>
+<section class="sec" id="andhra"><h2><a href="#andhra">Andhra Pradesh top 5</a></h2><p class="missing">Not updated this morning. It will refresh in tomorrow’s brief.</p></section>
+<section class="sec" id="usstocks"><h2><a href="#usstocks">US stocks</a></h2><p class="missing">Not updated this morning. It will refresh in tomorrow’s brief.</p></section>
+<section class="sec" id="austocks"><h2><a href="#austocks">AU stocks</a></h2><p class="missing">Not updated this morning. It will refresh in tomorrow’s brief.</p></section>
+<section class="sec" id="property"><h2><a href="#property">Australian real estate top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.cotality.com/au/press-releases/housing-markets-set-to-weaken-further-as-rba-hikes-again-in-november" rel="noopener">RBA lifts cash rate to 4.85%</a></h3><p>The RBA raised the cash rate by 25 basis points on 3 November, the fifth rise of 2026, with a 6–3 vote. Cotality expects it to weaken housing further, with the next decision due 8 December.</p><span class="src">Cotality</span></article>
+<ul class="list"><li><h3><a href="https://www.openagent.com.au/news/national-property-market-update-october-2026" rel="noopener">Home values fall for a seventh straight month</a></h3><p>Cotality&#39;s national index fell 1.2% in October, leaving values 6.7% below the March peak. Annual values are down 2.8%.</p><span class="src">OpenAgent</span></li><li><h3><a href="https://www.cotality.com/au/insights/articles/rba-rate-hike-deepens-housing-market-headwinds-as-borrowing-power-shrinks" rel="noopener">Borrowing power shrinks after rate hike</a></h3><p>Cotality says the latest hike cuts borrowing capacity and weakens serviceability and sentiment. That limits what buyers can pay and adds to downward price pressure.</p><span class="src">Cotality</span></li><li><h3><a href="https://propertyinvestmentprofessionals.com.au/market/week-of-november-8-2026" rel="noopener">Listings hit a five-year high as homes sell slowly</a></h3><p>Stock on the market has reached a five-year high while homes take longer to sell. More supply against weak demand favours buyers.</p><span class="src">Property Investment Professionals</span></li><li><h3><a href="https://www.macrobusiness.com.au/2026/10/rba-rate-hike-smashes-auction-market/" rel="noopener">Rate hike hits the auction market</a></h3><p>MacroBusiness reports auction results fell sharply after the RBA&#39;s rate rise. Weak clearance rates have historically pointed to softer prices.</p><span class="src">MacroBusiness</span></li></ul></div></section>
+</main>
+<footer class="f"><span class="fm">The MrB Morning Brief</span>Written each morning by AI from public reporting. Summaries are paraphrased and may contain errors, so check the source before acting. Market content is information, not financial advice.</footer>
+</div></body></html>
