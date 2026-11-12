@@ -1,0 +1,350 @@
+{
+  "date": "2026-11-12",
+  "longDate": "Thursday 12 November 2026",
+  "clock": "12:51 pm AEDT",
+  "generatedAt": "2026-11-12T01:51:20.538Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Salesforce's buying spree (Braze, Cresta, Rune) dominates martech, while Wall Street rallied on AI stocks and Victoria's election campaign heats up.",
+  "highlights": [
+    {
+      "label": "Salesforce deals",
+      "text": "Salesforce has agreed to buy Braze, Cresta and Rune in about two weeks, reshaping its marketing and service stack."
+    },
+    {
+      "label": "Wall Street rally",
+      "text": "The S&P 500 rose 1.31% and the Nasdaq 1.60% as AI stocks surged after CoreWeave's earnings beat."
+    },
+    {
+      "label": "Victorian election",
+      "text": "The Victorian Liberals dumped a Williamstown candidate over offensive posts ahead of the 28 November state election."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Stand up for your calls",
+        "body": "Take one or two routine calls or meetings on your feet today, or pace while you listen. Breaking up long stretches of sitting supports circulation and energy levels, and it costs no extra time."
+      },
+      "quote": {
+        "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+        "author": "Will Durant"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce's $5.66B Braze deal still awaiting approvals",
+          "url": "https://www.martechnotes.com/salesforce-to-acquire-braze-for-5-66-billion-to-boost-customer-engagement/",
+          "source": "Martech Notes",
+          "summary": "Salesforce announced on 20 October that it will buy Braze for about US$5.66 billion, subject to shareholder and regulatory approval. Braze says no decisions have been made on how it fits with Marketing Cloud, leaving customers watching closely."
+        },
+        {
+          "title": "Braze named a Leader in first Gartner email marketing quadrant",
+          "url": "https://martechseries.com/sales-marketing/customer-experience-management/braze-named-a-leader-in-the-inaugural-gartner-magic-quadrant-for-email-marketing-platforms",
+          "source": "MarTech Series",
+          "summary": "Braze announced on 10 November that it was placed as a Leader in Gartner's inaugural Magic Quadrant for Email Marketing Platforms. The recognition lands as the vendor heads toward Salesforce ownership."
+        },
+        {
+          "title": "HubSpot doubles AEO prompt limits in Marketing Hub Professional",
+          "url": "https://www.martechnotes.com/hubspot-expands-marketing-hub-professional-aeo-limits-to-50-prompts/",
+          "source": "Martech Notes",
+          "summary": "HubSpot lifted the included answer-engine optimisation allowance for Marketing Hub Professional from 25 to 50 daily prompts. It reflects growing demand for tracking brand visibility in AI-generated answers."
+        },
+        {
+          "title": "Salesforce Catalog gives AI agents structured org context",
+          "url": "https://martechnotes.com/salesforce-launches-catalog-to-ground-agents-in-org-metadata",
+          "source": "Martech Notes",
+          "summary": "Salesforce announced Catalog on 10 November, a Data 360-powered metadata index that supplies agents with structured context about an org. It aims to make agent actions more accurate and governable."
+        },
+        {
+          "title": "Adobe puts CX Enterprise Coworker inside major AI assistants",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-5-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Adobe said on 4 November that its agentic CX orchestration system is available within ChatGPT, Claude, Gemini, Copilot and Databricks Genie. Older than 48 hours, but it is the most recent coverage of the launch found."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce agrees to buy voice AI firm Cresta",
+          "url": "https://www.salesforceben.com/salesforce-acquires-cresta-buying-spree-continues-with-voice-agent-company/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce signed a deal around 2 November to acquire Cresta, with reports putting the price near US$2.7 billion (not confirmed by Salesforce). Cresta's voice agents are expected to be folded into Service Cloud."
+        },
+        {
+          "title": "Third deal in two weeks: Rune Technologies defence acquisition",
+          "url": "https://magica.com/news/salesforce-acquire-rune-technologies-defense-ai",
+          "source": "Magica",
+          "summary": "Salesforce agreed to buy defence logistics software company Rune Technologies for a reported US$375 million in cash and stock. It extends Salesforce's push into national security work."
+        },
+        {
+          "title": "Braze acquisition analysis: what it means for Marketing Cloud",
+          "url": "https://dataconomy.com/2026/11/10/salesforce-to-acquire-braze-for-566-billion",
+          "source": "Dataconomy",
+          "summary": "Coverage notes Braze shares jumped about 51% after the announcement while Salesforce shares fell around 3%. Integration into Data 360 and Agentforce is planned, but the deal has not closed."
+        },
+        {
+          "title": "Agentforce Coworker usage reportedly up 21x in three months",
+          "url": "https://www.salesforceben.com/salesforces-next-big-bet-agentforce-coworker-usage-grew-21x-in-3-months/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben reports rapid growth in usage of Agentforce Coworker since its May announcement. Adoption figures are vendor-sourced."
+        },
+        {
+          "title": "Salesforce Catalog launched to ground agents",
+          "url": "https://martechnotes.com/salesforce-launches-catalog-to-ground-agents-in-org-metadata",
+          "source": "Martech Notes",
+          "summary": "Catalog, announced 10 November, indexes org metadata through Data 360 so agents have better context. It matters for admins building reliable Agentforce workflows."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "No significant Salesforce incident was found for the last 48 hours, but status.salesforce.com could not be checked directly, so APAC and planned-maintenance detail is unconfirmed.",
+      "items": [
+        {
+          "title": "Reference: global outage during Dreamforce in September",
+          "url": "https://www.theregister.com/2026/09/16/salesforce-staggers-back-to-feet-after-global-outage/5296800",
+          "source": "The Register",
+          "summary": "A global disruption on 16 September affected logins and APIs across many instances. Older than 48 hours and included only as context for recent reliability."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Victorian Liberals drop Williamstown candidate over posts",
+          "url": "https://www.abc.net.au/news/2026-11-12/victoria-election-blog/107374690",
+          "source": "ABC News",
+          "summary": "The Liberals apologised after dumping their Williamstown candidate over offensive social media comments, and declined the ABC's election debate invitation. Victoria votes on 28 November."
+        },
+        {
+          "title": "Government urged to tighten AI safeguards after OpenAI incident",
+          "url": "https://www.theaustraliatoday.com.au/albanese-government-urged-to-strengthen-ai-safeguards-after-openai-cyber-incident/",
+          "source": "The Australia Today",
+          "summary": "The government accepted all 18 recommendations of a rapid review of an incident affecting government websites. It has proposed mandatory safety requirements for AI companies enforced by a new regulator."
+        },
+        {
+          "title": "Record slump in new home loans; David Jones to close half its stores",
+          "url": "https://www.abc.net.au/news/2026-11-11/asx-markets-business-live-news-nov-11/107370848",
+          "source": "ABC News",
+          "summary": "ABC's business blog reported a record fall in investor-led new home lending and plans by David Jones to shutter half its stores. CBA's profit also rose."
+        },
+        {
+          "title": "Albanese heads to COP31 as Treasurer speculation swirls",
+          "url": "https://thenightly.com.au/politics/australian-politics-live-updates-albanese-flies-to-cop31-in-turkey-chalmers-restricts-treasury-access-c-23138492",
+          "source": "The Nightly",
+          "summary": "The Prime Minister travelled to COP31 in Turkey after backing Jim Chalmers to remain Treasurer through to the next election. The government insists it remains united despite leaks."
+        },
+        {
+          "title": "Senate inquiry grills TikTok on Digital Duty of Care laws",
+          "url": "https://www.abc.net.au/news/2026-11-09/federal-politics-live-blog-digital-duty-of-care-/107362100",
+          "source": "ABC News",
+          "summary": "TikTok executives were questioned over reports of self-harm content as the Senate examined proposed Digital Duty of Care legislation. Dated 9 November, slightly older than 48 hours."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Cabinet extends Stand-Up India and micro-unit credit guarantee",
+          "url": "https://jkadworld.com/next-exam/daily-current-affairs-11th-nov-2026/",
+          "source": "JK Adworld (current affairs digest)",
+          "summary": "The Union Cabinet extended the Stand-Up India scheme and the Credit Guarantee Fund for Micro Units to 31 March 2031. It also approved Rabi 2026-27 nutrient-based fertiliser subsidy rates."
+        },
+        {
+          "title": "India re-elected president of International Solar Alliance",
+          "url": "https://c4scourses.in/current-affairs/daily-current-affairs-dca-11-november-2026/",
+          "source": "C4S Courses (current affairs digest)",
+          "summary": "India won a third consecutive term as ISA president for 2026-2028 at the alliance's session in New Delhi. It reinforces India's role in global clean-energy diplomacy."
+        },
+        {
+          "title": "President presents Swachh Survekshan awards",
+          "url": "https://english.dainikjagranmpcg.com/national/november-11-events-national-education-day-bhai-dooj/article-43640",
+          "source": "Dainik Jagran English",
+          "summary": "President Droupadi Murmu presented the 2025-26 cleanliness survey awards in New Delhi. The ranking highlights urban sanitation performance under Swachh Bharat Mission-Urban."
+        },
+        {
+          "title": "PM Modi to visit Karnataka and Gujarat on 13-14 November",
+          "url": "https://cracktarget.com/current-affairs-11-november-2026/",
+          "source": "CrackTarget (current affairs digest)",
+          "summary": "The PMO announced the two-state visit. Details of the programme were not confirmed in the sources found."
+        },
+        {
+          "title": "Sensex and Nifty edge higher as Diwali session pauses",
+          "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-make-maginal-gains/",
+          "source": "Kotak Neo",
+          "summary": "Benchmarks closed slightly higher on 9 November, with Nifty above 25,000. Markets were shut on 10 November for a holiday; this is the latest confirmed 2026 close found."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "AP Cabinet clears Rs 4,563 crore cyclone damage estimate",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cabinet-clears-rs-4563-crore-cyclone-damage-estimate-2000027",
+          "source": "Deccan Chronicle",
+          "summary": "The cabinet accepted a preliminary Rs 4,563 crore estimate of crop and property losses, with farmers getting immediate relief and a central team due to assess damage. The figure is preliminary."
+        },
+        {
+          "title": "Cabinet approves Amaravati government complex contract",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cabinet-clears-rs-4563-crore-cyclone-damage-estimate-2000027",
+          "source": "Deccan Chronicle",
+          "summary": "The same meeting cleared a Rs 1,925.32 crore contract for systems at the Amaravati government complex and land for a hyperscale data centre park in Visakhapatnam district."
+        },
+        {
+          "title": "Lokesh announces Rs 4,000 crore LFP battery materials plant",
+          "url": "https://www.thehansindia.com/news/cities/visakhapatnam/india-korea-teams-to-make-battery-cathode-materials-in-ap-1141203",
+          "source": "The Hans India",
+          "summary": "Minister Nara Lokesh announced an integrated battery materials plant at Naidupeta in Tirupati district, involving Indian and Korean partners. It supports the state's manufacturing push."
+        },
+        {
+          "title": "Naidu: Amaravati to become a deep tech capital",
+          "url": "https://telanganatoday.com/amaravati-will-be-developed-as-deep-tech-capital-says-chandrababu-naidu",
+          "source": "Telangana Today",
+          "summary": "Chief Minister Chandrababu Naidu outlined a deep-tech vision for Amaravati on 4 November. The vision depends on construction timelines holding."
+        },
+        {
+          "title": "Naidu: Amaravati to be inclusive, world-class capital",
+          "url": "https://telanganatoday.com/amaravati-to-be-an-inclusive-and-world-class-capital-says-naidu",
+          "source": "Telangana Today",
+          "summary": "Naidu restated the capital's ambitions on 27 October. Older than 48 hours; little newer Andhra coverage was found."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,619.38",
+          "change": "+1.31%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "25,466.19",
+          "change": "+1.60%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "52,486.49",
+          "change": "+0.49%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Tech leads rally after CoreWeave earnings beat",
+          "url": "https://www.thestreet.com/stock-market/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026",
+          "source": "TheStreet",
+          "summary": "Nasdaq and the S&P 500 gained after CoreWeave beat earnings expectations, and Apple hit a record. AI and chip stocks drove the session."
+        },
+        {
+          "title": "How major US indexes fared on Wednesday",
+          "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-wednesday-11-11-2026",
+          "source": "WTOP / AP",
+          "summary": "Closing levels show broad gains, with the S&P 500 within about 2.6% of its record. Some sources differ slightly on exact figures."
+        },
+        {
+          "title": "Nvidia board probes reported foreign intelligence targeting of CEO",
+          "url": "https://fortune.com/2026/11/09/nvidia-power-built-around-jensen-huang-scandal-testing-formula/",
+          "source": "Fortune",
+          "summary": "Nvidia's board opened an investigation on 8 November while saying it has confidence in Jensen Huang. One report said shares fell after hours; unconfirmed."
+        },
+        {
+          "title": "Tech closes higher, Nvidia falls after hours",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-11-2026",
+          "source": "StockTitan",
+          "summary": "This tracker highlights tech strength during the session and weakness in Nvidia after hours. Its index figures differ from other sources, so treat them cautiously."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Wed close)",
+          "value": "9,153.2",
+          "change": "+0.27%"
+        },
+        {
+          "label": "ASX 200 futures",
+          "value": "9,148",
+          "change": "-0.5%"
+        },
+        {
+          "label": "AUD/USD",
+          "value": "0.6849",
+          "change": "-1%"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX recovers early losses despite hot US inflation",
+          "url": "https://ibtimes.com.au/asx-200-recovers-tech-gains-offset-mining-sell-off-1878327",
+          "source": "IBTimes Australia",
+          "summary": "The ASX 200 closed up on Wednesday as tech gains offset weakness in some miners. Source details differ slightly across outlets."
+        },
+        {
+          "title": "Markets live: ASX opens lower on Thursday",
+          "url": "https://abc.net.au/news/2026-11-12/asx-markets-business-news-live-updates-thursday-12-november/107374826",
+          "source": "ABC News",
+          "summary": "The ASX 200 opened about 0.3% lower after futures pointed down 0.5%. The blog also flagged reports about Nvidia's board."
+        },
+        {
+          "title": "Wednesday wrap: home loan slump, David Jones, CBA profit",
+          "url": "https://www.abc.net.au/news/2026-11-11/asx-markets-business-live-news-nov-11/107370848",
+          "source": "ABC News",
+          "summary": "ABC reported the ASX 200 finished 0.3% higher after a 1.1% rally the day before. A record fall in investor lending was a key theme."
+        },
+        {
+          "title": "Australian dollar slips under 0.6850 as Fed-RBA divergence widens",
+          "url": "https://www.fxstreet.com/news/australian-dollar-dips-under-06850-as-fed-rba-policy-divergence-widens-202611112303",
+          "source": "FXStreet",
+          "summary": "The Aussie dollar eased as markets priced an 87% chance of a December Fed hike and expected the RBA to pause. Market odds can change quickly."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Home values fall 1.2% in October, seventh straight drop",
+          "url": "https://leprivatebanker.com/2026/11/01/australian-home-values-fall-for-seventh-straight-month-as-cotality-index-drops-1-2-before-expected-rba-hike/",
+          "source": "The Private Banker",
+          "summary": "Cotality's index shows national values 6.7% below the March peak, with the median at $884,855. The next index is due 1 December."
+        },
+        {
+          "title": "RBA hike deepens housing headwinds as borrowing power shrinks",
+          "url": "https://www.cotality.com/au/insights/articles/rba-rate-hike-deepens-housing-market-headwinds-as-borrowing-power-shrinks",
+          "source": "Cotality",
+          "summary": "The RBA lifted the cash rate to 4.85% on 3 November, with big-four variable rates rising from 13 November. Cotality expects downward pressure on values to continue."
+        },
+        {
+          "title": "Weekend auctions: Melbourne firms, Sydney eases",
+          "url": "https://propertyupdate.com.au/this-weekends-auction-results-what-happened-in-sydney-melbourne-brisbane-adelaide-canberra/",
+          "source": "Property Update",
+          "summary": "Preliminary results show Melbourne near 62% and Sydney near 53%, with national volumes well below last year. Figures vary by data provider and are preliminary."
+        },
+        {
+          "title": "Record slump in new home loans led by investors",
+          "url": "https://www.abc.net.au/news/2026-11-11/asx-markets-business-live-news-nov-11/107370848",
+          "source": "ABC News",
+          "summary": "New home lending dropped to a record low, led by investors. It underlines how higher rates are cooling demand."
+        },
+        {
+          "title": "Australia's worst auction market since 2020",
+          "url": "https://www.macrobusiness.com.au/2026/10/australias-worst-auction-market-since-2020/",
+          "source": "MacroBusiness",
+          "summary": "Analysis from October describes the weakest auction conditions in years. Older than 48 hours, included for context."
+        }
+      ]
+    }
+  }
+}
