@@ -1,0 +1,355 @@
+{
+  "date": "2026-11-13",
+  "longDate": "Friday 13 November 2026",
+  "clock": "11:58 am AEDT",
+  "generatedAt": "2026-11-13T00:58:07.201Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Nvidia's CEO resignation rattled global markets and a Microsoft outage disrupted Outlook and Teams across Australia.",
+  "highlights": [
+    {
+      "label": "Nvidia shock",
+      "text": "Jensen Huang's resignation as Nvidia CEO dragged Wall Street lower and pushed the ASX down at the open."
+    },
+    {
+      "label": "Microsoft outage",
+      "text": "Outlook and other Microsoft services are being restored after hours of disruption in Australia; no sign of a cyber attack."
+    },
+    {
+      "label": "Housing slide",
+      "text": "Cotality's October index showed national home values down 1.2%, a seventh straight monthly fall."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Eat one meal away from your screen",
+        "body": "Step away from your desk for at least one meal today and eat without scrolling or working. Slowing down helps you notice fullness cues and gives your eyes and mind a proper break. Even ten minutes counts."
+      },
+      "quote": {
+        "text": "Don't watch the clock; do what it does. Keep going.",
+        "author": "Sam Levenson"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Braze named a Leader in first Gartner email marketing Magic Quadrant",
+          "url": "https://martechseries.com/sales-marketing/customer-experience-management/braze-named-a-leader-in-the-inaugural-gartner-magic-quadrant-for-email-marketing-platforms/",
+          "source": "MarTech Series",
+          "summary": "Braze says it was named a Leader in Gartner's inaugural Magic Quadrant for Email Marketing Platforms, announced 10 November. The report gives marketers a new benchmark when comparing email vendors."
+        },
+        {
+          "title": "Adobe and Google deepen AI partnership",
+          "url": "https://martechseries.com/video/adobe-and-google-deepen-partnership-to-bring-leading-ai-models-and-integrated-workflows-to-creatives-and-enterprises/",
+          "source": "MarTech Series",
+          "summary": "Adobe and Google expanded their partnership, bringing Google AI models and Acrobat integration into Google Workspace. It signals tighter AI-driven content workflows for enterprise marketing teams."
+        },
+        {
+          "title": "HubSpot sales tools incident hit quote templates",
+          "url": "https://martechnotes.com/hubspot-sales-tools-incident-disrupted-quote-templates-on-november-10",
+          "source": "Martech Notes",
+          "summary": "HubSpot's Sales Tools suffered a partial incident on 10 November that disrupted quote templates for some customers. Teams relying on HubSpot quoting should check for affected documents."
+        },
+        {
+          "title": "Salesforce's Braze acquisition and what it means for email platforms",
+          "url": "https://www.martechtherapy.com/who-gets-to-own-the-customer-loop/",
+          "source": "MarTech Therapy",
+          "summary": "Commentary examines Salesforce's Braze deal and its impact on email and customer engagement vendors. Deal status and dates were not confirmed from a primary source and the piece may predate this week."
+        },
+        {
+          "title": "Latest AI-powered martech news and releases",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech.org",
+          "summary": "MarTech.org's running roundup tracks AI product launches across the martech stack. Useful for catching vendor updates; individual item dates were not verified."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce disables two connected apps over suspicious token use",
+          "url": "https://salesforceben.com/connected-app-warnings-return-as-salesforce-disables-two-integrations",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce disabled the GoFundMe Pro and Talent Rover connected apps after spotting suspicious use of access tokens, with advisories posted 10 and 11 November. Admins using either integration should review access and reauthorise only once cleared."
+        },
+        {
+          "title": "New Agentforce and AI releases: Coworker AI Skills, Quick Pages, Koa Decisions",
+          "url": "https://www.salesforceben.com/category/news/",
+          "source": "Salesforce Ben",
+          "summary": "Recent coverage lists AI Skills in Agentforce Coworker, user-built Quick Pages and a cheaper, faster AI decisions model called Koa Decisions. Exact release dates were not confirmed."
+        },
+        {
+          "title": "Salesforce acquires Cresta and Rune Technologies",
+          "url": "https://www.salesforceben.com/category/news/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben reports acquisitions of voice-agent company Cresta and Rune Technologies, described as its biggest national security deal so far. Terms were not verified here."
+        },
+        {
+          "title": "Global disruption during Dreamforce 2026 (earlier, September)",
+          "url": "https://www.salesforceben.com/salesforce-hit-by-global-service-disruption-during-dreamforce-2026/",
+          "source": "Salesforce Ben",
+          "summary": "A global outage hit logins and APIs during Dreamforce in September. Older story, included because the follow-up reliability discussion continues."
+        },
+        {
+          "title": "Upcoming Salesforce community events",
+          "url": "https://www.salesforceben.com/salesforce-events/",
+          "source": "Salesforce Ben",
+          "summary": "Mexico Dreamin' runs 19 November and West Africa Dreamin' on 20 November, plus a 17 November webinar on AI document workflows. Handy for planning learning and networking."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "clear",
+      "statusNote": "No significant Marketing Cloud, Sales/Service Cloud or Data Cloud incidents found for the last 48 hours; status.salesforce.com could not be checked directly and no planned maintenance was found.",
+      "items": [
+        {
+          "title": "Two connected apps disabled over token misuse",
+          "url": "https://salesforceben.com/connected-app-warnings-return-as-salesforce-disables-two-integrations",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce disabled GoFundMe Pro and Talent Rover integrations on 10-11 November after suspicious token activity. Not an outage, but orgs using those apps may see integration failures."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Microsoft outage disrupts Outlook, Teams and Copilot in Australia",
+          "url": "https://abc.net.au/news/2026-11-13/microsoft-outage-teams-outlook-copilot/107381196",
+          "source": "ABC News",
+          "summary": "Microsoft is restoring services after hours of disruption, saying there is no indication of a cyber attack. The National Cyber Security Coordinator is investigating."
+        },
+        {
+          "title": "ASX opens lower as Nvidia plunges after CEO exit",
+          "url": "https://www.abc.net.au/news/2026-11-13/asx-markets-business-news-live-updates-nov-13/107337368",
+          "source": "ABC News",
+          "summary": "Australian shares opened roughly 0.5% lower after Wall Street wavered and Nvidia fell following Jensen Huang's resignation. Tech and miners are in focus."
+        },
+        {
+          "title": "Missing teenager found alive in Gippsland bushland",
+          "url": "https://www.abc.net.au/news/2026-11-13/gippsland-local-news-briefing/107381016",
+          "source": "ABC News",
+          "summary": "A 17-year-old missing six days near Walhalla East was found alive and is being taken to a Melbourne hospital with a suspected torn oesophagus. The search had gripped the Victorian community."
+        },
+        {
+          "title": "Sydney Swans players won't face charges over alleged assault",
+          "url": "https://www.abc.net.au/news/2026-11-13/gippsland-local-news-briefing/107381016",
+          "source": "ABC News",
+          "summary": "ABC reports players involved in a police investigation into an alleged sexual assault at a Melbourne hotel will not be charged. Source link is a general briefing page; details not independently confirmed."
+        },
+        {
+          "title": "Lamarre-Condon cross-examination continues in murder trial",
+          "url": "https://www.abc.net.au/news/2026-11-13/gippsland-local-news-briefing/107381016",
+          "source": "ABC News",
+          "summary": "Beau Lamarre-Condon remains under Crown cross-examination after nearly a week in the Jesse Baird case. Details drawn from ABC live coverage summaries."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Modi says government absorbed most of fuel price shock",
+          "url": "https://www.aninews.in/news/national/politics/pm-modi-says-west-asia-conflict-pushed-crude-oil-prices-to-usd-122-per-barrel-govt-absorbed-diesel-price-burden-to-protect-farmers20261112220940/",
+          "source": "ANI",
+          "summary": "Modi said West Asia conflict lifted crude to US$122 a barrel and the government raised diesel by only Rs 7 a litre, absorbing about Rs 14,000 crore a month. Figures are the PM's claims."
+        },
+        {
+          "title": "Modi: farming must evolve with markets and technology",
+          "url": "https://english.punjabkesari.com/india/pm-modi-filling-granaries-not-enough-agriculture-must-evolve-with-markets-technology",
+          "source": "Punjab Kesari",
+          "summary": "At the Bharat Agriculture Conference 2026, Modi argued that filling granaries is no longer enough. He pushed for modernised, market-linked agriculture."
+        },
+        {
+          "title": "Modi visits Bengaluru and Mysuru for Rs 15,000 crore of projects",
+          "url": "https://hiindia.com/pm-modi-announces-ktaka-visit-projects-worth-rs-15000-crore-to-be-launched-tomorrow/",
+          "source": "HiIndia",
+          "summary": "The PM is due to inaugurate and lay foundations for projects worth over Rs 15,000 crore in Karnataka on 13 November. He then travels to Manila for ASEAN-India and East Asia summits from 16-18 November."
+        },
+        {
+          "title": "Modi urges media to promote India's story abroad",
+          "url": "https://www.business-standard.com/india-news/take-the-india-story-to-the-world-says-pm-narendra-modi-to-media-126111201327_1.html",
+          "source": "Business Standard",
+          "summary": "At a Diwali Milan with journalists, Modi urged the media to showcase India's achievements and the 2047 developed-nation vision. He also called for awareness on drug abuse."
+        },
+        {
+          "title": "Opposition alleges delimitation push and special session",
+          "url": "https://www.uniindia.com/national/uni-news-digest-1900-hrs-nov-12/243381",
+          "source": "UNI",
+          "summary": "Jairam Ramesh accused Amit Shah of reviving delimitation and claimed a special Parliament session is coming. Allegation only; not confirmed by the government."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Naidu: Amaravati to become a deep-tech capital",
+          "url": "https://telanganatoday.com/amaravati-will-be-developed-as-deep-tech-capital-says-chandrababu-naidu",
+          "source": "Telangana Today",
+          "summary": "Chief Minister Chandrababu Naidu said Amaravati will be developed as a deep-tech capital. Dated around 4 November, so older than 48 hours."
+        },
+        {
+          "title": "Naidu says no one can alter Amaravati's capital status",
+          "url": "https://thesouthfirst.com/news/statutory-status-for-amaravati-naidu-says-no-one-can-alter-capital/",
+          "source": "The South First",
+          "summary": "Naidu has stressed Amaravati's statutory capital status following legislative action. Older story; exact date not verified."
+        },
+        {
+          "title": "CM pushes for speedy Amaravati capital works",
+          "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/cm-pushes-for-speedy-amaravati-capital-works-1987300",
+          "source": "Deccan Chronicle",
+          "summary": "The Chief Minister urged officials to speed up capital construction. Date not confirmed; included as nothing fresher was found."
+        },
+        {
+          "title": "Latest Andhra Pradesh headlines, including flooded canals and crop losses",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh",
+          "source": "Deccan Chronicle",
+          "summary": "Reports from 11 November describe overflowing canals inundating temples, an RTC complex and farmland, with farmers reporting heavy crop losses. Tirupati is also preparing for a national DGP-IGP conference."
+        },
+        {
+          "title": "Andhra Pradesh coverage: cyclone damage and Visakhapatnam refinery fire",
+          "url": "https://www.thenewsminute.com/andhra-pradesh",
+          "source": "The News Minute",
+          "summary": "Listings mention a cyclone leaving two dead and damaging 312 houses, and a fire at the HPCL Visakhapatnam refinery with no casualties reported. Dates not confirmed."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,592.40",
+          "change": "-0.35%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "52,297.09",
+          "change": "-0.36%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "25,366.09",
+          "change": "-0.39%"
+        },
+        {
+          "label": "10-yr Treasury yield",
+          "value": "5.10% (reported)",
+          "change": "n/a"
+        }
+      ],
+      "items": [
+        {
+          "title": "Wall Street slips on Thursday",
+          "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-thursday-11-12-2026",
+          "source": "AP via WTOP",
+          "summary": "Major US indexes closed lower on 12 November after recovering from steeper early losses. Figures above are from aggregated reports; one source differs slightly."
+        },
+        {
+          "title": "Nvidia falls after CEO Jensen Huang resigns",
+          "url": "https://eurasiabusinessnews.com/2026/11/13/stock-market-today-november-12-2026-dow-sp-500-and-nasdaq-fall-after-jensen-huang-resigns/",
+          "source": "Eurasia Business News",
+          "summary": "Nvidia plunged sharply on the resignation then pared losses, closing about 4.3% lower. Its weight in the S&P 500 made it a major drag."
+        },
+        {
+          "title": "Yields at 5.10%, oil up",
+          "url": "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/",
+          "source": "Vista P Global",
+          "summary": "Treasury yields reportedly hit 5.10% and oil rose after Trump said he was no longer interested in an Iran deal. Higher rates pressured growth stocks."
+        },
+        {
+          "title": "Rate-hike odds weigh on growth stocks",
+          "url": "https://247wallst.com/cards/rate-hike-odds-are-doing-the-damage-and-the-nasdaq-s-0-61-gspc-market-bell-01m78s60347w0kk4y4pfd5e2p6",
+          "source": "24/7 Wall St.",
+          "summary": "Market commentary points to rising odds of a Fed rate hike weighing on tech. Its closing figures differ slightly from other sources."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Thu close)",
+          "value": "9,146.80",
+          "change": "-0.07%"
+        },
+        {
+          "label": "ASX 200 futures",
+          "value": "Not found; ABC reports a ~0.5% lower open Friday",
+          "change": "-0.5%"
+        },
+        {
+          "label": "AUD/USD",
+          "value": "Not found",
+          "change": "n/a"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX 200 edges lower as miners drag",
+          "url": "https://www.sharecafe.com.au/2026/11/12/asx-200-finishes-flat-amid-global-pressures/",
+          "source": "Sharecafe",
+          "summary": "The index finished almost flat on Thursday, with materials down about 2% and financials up about 1.1%. Gold and lithium miners were the main drag."
+        },
+        {
+          "title": "Xero jumps on A$1b buyback and upgraded outlook",
+          "url": "https://www.abc.net.au/news/2026-11-12/asx-markets-business-news-live-updates-thursday-12-november/107374826",
+          "source": "ABC News",
+          "summary": "Xero rose about 6.1% after announcing a A$1 billion buyback and lifting its full-year outlook. It was the standout large-cap gainer."
+        },
+        {
+          "title": "ASX set to fall on Nvidia shock and rising yields",
+          "url": "https://au.finance.yahoo.com/news/morning-catch-asx-set-fall-224700547.html",
+          "source": "Yahoo Finance Australia",
+          "summary": "Futures pointed lower on Nvidia's leadership news, rising yields and weaker gold. Persistent inflation expectations remain a concern."
+        },
+        {
+          "title": "Markets live: ASX opens lower after Huang exit",
+          "url": "https://www.abc.net.au/news/2026-11-13/asx-markets-business-news-live-updates-nov-13/107337368",
+          "source": "ABC News",
+          "summary": "The ASX opened about 0.5% lower on Friday as Nvidia shares dived. No major scheduled data was identified for today."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Australian home values fall for a seventh straight month",
+          "url": "https://wealth-through-property.com.au/cotality-home-value-index-falls-airbnb-buyers/",
+          "source": "Wealth Through Property",
+          "summary": "Cotality's October index showed national values down 1.2%, about 6.7% below the March peak. The national median is $884,855."
+        },
+        {
+          "title": "Home value forecasts downgraded again",
+          "url": "https://www.macrobusiness.com.au/2026/11/australian-home-values-downgraded-again/",
+          "source": "MacroBusiness",
+          "summary": "Revised figures show steeper falls, with Brisbane and Perth among the largest downgrades. Combined capitals fell about 4.5% over the October quarter."
+        },
+        {
+          "title": "Cotality home value index tracker: October -1.2%",
+          "url": "https://propertyinvestmentprofessionals.com.au/research-insights/home-value-index-tracker",
+          "source": "Property Investment Professionals",
+          "summary": "The tracker confirms the October fall and notes Sydney sits about 10% below its February peak. The next monthly index is due early December."
+        },
+        {
+          "title": "Auction clearance rates slump",
+          "url": "https://www.yourpropertyguide.com.au/guides/auction-clearance-rates-slump-2026",
+          "source": "Your Property Guide",
+          "summary": "Clearance rates have fallen well below the decade average as buyers face tight borrowing capacity and higher rates. Latest weekly figures were not found."
+        },
+        {
+          "title": "Weak auction results amid rate pressure (older, August)",
+          "url": "https://www.cotality.com/au/press-releases/final-clearance-rates---week-ending-2-august-2026",
+          "source": "Cotality",
+          "summary": "For the week ending 2 August the weighted clearance rate was 48.9% versus 67.1% a year earlier. Older data, included as nothing newer was found."
+        }
+      ]
+    }
+  }
+}
