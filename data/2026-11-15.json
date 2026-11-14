@@ -1,0 +1,352 @@
+{
+  "date": "2026-11-15",
+  "longDate": "Sunday 15 November 2026",
+  "clock": "10:47 am AEDT",
+  "generatedAt": "2026-11-14T23:47:03.355Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Nvidia's leadership shock dragged Wall Street's tech stocks lower, while Australian home values and auction results keep sliding.",
+  "highlights": [
+    {
+      "label": "Nvidia shock",
+      "text": "Nvidia fell below US$4 trillion in market value after CEO Jensen Huang's exit, pulling the Nasdaq down 0.91% on Friday."
+    },
+    {
+      "label": "Property slump",
+      "text": "Cotality reported national home values fell 1.2% in October, the seventh straight monthly decline, with auction clearance rates still weak."
+    },
+    {
+      "label": "Kia in Andhra",
+      "text": "Kia India announced a roughly US$2 billion new plant in Andhra Pradesh at the Visakhapatnam investment summit."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Give your eyes a 20-20-20 break",
+        "body": "Every 20 minutes of screen work, look at something about 20 feet (6 metres) away for around 20 seconds. It is a simple way to ease eye strain and doubles as a prompt to loosen your shoulders and neck. Pair it with a sip of water to make it stick."
+      },
+      "quote": {
+        "text": "You must do the thing you think you cannot do.",
+        "author": "Eleanor Roosevelt"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce–Braze deal reshapes the engagement market",
+          "url": "https://www.martechtherapy.com/who-gets-to-own-the-customer-loop/",
+          "source": "MarTech Therapy",
+          "summary": "Analysis of Salesforce's agreement to buy Braze looks at what it means for email and customer engagement platforms as vendors consolidate the messaging layer. The deal is not yet closed, so marketers should watch how Marketing Cloud and Braze roadmaps are combined."
+        },
+        {
+          "title": "Weekly martech roundup: Adobe, Sprout Social, TrueDialog",
+          "url": "https://solutionsreview.com/crm/2026/11/13/top-martech-news-from-the-week-of-november-13th/",
+          "source": "Solutions Review",
+          "summary": "The weekly digest collects product updates from several martech vendors including Adobe, Sprout Social and TrueDialog. It is a quick way to catch the week's launches in one place."
+        },
+        {
+          "title": "Microsoft 365 outage disrupts HubSpot's Outlook tools",
+          "url": "https://www.martechnotes.com/hubspot-outlook-inbox-and-calendar-tools-hit-by-microsoft-365-outage-on-november-12/",
+          "source": "Martech Notes",
+          "summary": "A Microsoft 365 outage on 12 November partly disrupted the Outlook inbox and calendar features in HubSpot's sales tools. Teams relying on email-sync logging may see gaps in activity records."
+        },
+        {
+          "title": "Email deliverability enforcement keeps tightening",
+          "url": "https://unspam.email/articles/email-deliverability-trends",
+          "source": "Unspam",
+          "summary": "The vendor analysis says Gmail's sender thresholds are unchanged since 2024 but enforcement has moved from filtering to outright SMTP rejections. It also flags new reverse DNS and HELO expectations; this is a vendor blog and not independently confirmed."
+        },
+        {
+          "title": "Latest AI-powered martech releases",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech",
+          "summary": "MarTech's running list tracks new AI features from marketing platforms, including agentic tools from vendors such as Adobe. It helps marketers see which AI capabilities are shipping rather than just announced."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce to buy Braze in roughly US$5.7 billion deal",
+          "url": "https://hackernoon.com/salesforce-pays-$566b-for-braze-buying-the-rival-that-outran-marketing-cloud",
+          "source": "HackerNoon",
+          "summary": "Salesforce agreed in late October to acquire Braze, reported at about US$5.66 billion in enterprise value, with closing expected in its fiscal 2028. It targets Marketing Cloud's real-time engagement gap."
+        },
+        {
+          "title": "Salesforce plans to acquire voice AI firm Cresta",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/salesforce-stock-sharpens-voice-ai-push-with-planned-cresta-deal/70498353",
+          "source": "Ad-hoc-news",
+          "summary": "Salesforce announced on 2 November that it will buy Cresta, with completion expected in the first quarter of fiscal 2028 subject to regulatory approval. It strengthens the company's voice AI offering for service teams."
+        },
+        {
+          "title": "Agentforce Coworker expands to Teams, mobile and desktop",
+          "url": "https://www.wazzup.ph/salesforce-agentforce-coworker-expansion-teams-pricing/",
+          "source": "Wazzup",
+          "summary": "Agentforce Coworker is reported to be arriving in Microsoft Teams, on iOS and as a desktop app this month. Details come from a secondary outlet and should be confirmed on Salesforce's newsroom."
+        },
+        {
+          "title": "Salesforce sets 2 December date for Q3 earnings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-announces-date-third-quarter-213000861.html",
+          "source": "Yahoo Finance",
+          "summary": "Salesforce will release fiscal third-quarter 2027 results on Wednesday 2 December 2026 after the US market close. That is early Thursday 3 December in Melbourne."
+        },
+        {
+          "title": "Dreamforce 2026 announcements recap",
+          "url": "https://www.salesforceben.com/biggest-dreamforce-26-announcements-everything-in-a-nutshell/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben summarises the biggest launches from Dreamforce 2026. Several are slated to reach general availability this month, so admins should check release timing."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "issues",
+      "statusNote": "A Marketing Cloud feature disruption on Australian instances was listed as ongoing at last update on 10 November; check status.salesforce.com for the latest.",
+      "items": [
+        {
+          "title": "Marketing Cloud email content stuck publishing on AU instances",
+          "url": "https://status.salesforce.com/incidents/20004579",
+          "source": "Salesforce Trust Status",
+          "summary": "A feature disruption affects Marketing Cloud Growth and Advanced editions on several Australian instances, with a fix deployed to most and the rest expected by 12 November. The page was last updated 10 November, so current status is unconfirmed."
+        },
+        {
+          "title": "Marketing Cloud Next setup issue resolved",
+          "url": "https://status.salesforce.com/incidents/20004557",
+          "source": "Salesforce Trust Status",
+          "summary": "Customers could not select a data space, blocking Marketing Cloud Next provisioning, until Salesforce reverted a configuration change on 2 November. It is resolved but is outside the 48-hour window."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Analysis: Albanese government seen as floundering",
+          "url": "https://www.abc.net.au/news/2026-11-14/government-floundering-albanese-salad-days-wilted/107382680",
+          "source": "ABC News",
+          "summary": "An ABC analysis argues the government is struggling amid poor polling and a grants controversy. Albanese has insisted the government remains united and that Jim Chalmers stays as Treasurer."
+        },
+        {
+          "title": "Backlash over $3 billion Microsoft contracts after outage",
+          "url": "https://www.canberratimes.com.au/story/9391342/albanese-government-faces-backlash-over-3b-microsoft-deals/",
+          "source": "The Canberra Times",
+          "summary": "Critics are questioning single-vendor IT contracts worth about $3 billion after a global outage reportedly locked nearly 200,000 public servants out of email on Friday. It renews scrutiny of government technology procurement."
+        },
+        {
+          "title": "Albanese heads to COP31 in Turkey amid political noise",
+          "url": "https://thenightly.com.au/politics/australian-politics-live-updates-albanese-flies-to-cop31-in-turkey-chalmers-restricts-treasury-access-c-23138492",
+          "source": "The Nightly",
+          "summary": "The Prime Minister is travelling to the COP31 climate summit while leaks and Treasury tensions dominate domestic coverage. Critics also question the cost of Australia's summit preparations."
+        },
+        {
+          "title": "Victorian budget update cuts growth forecast ahead of election",
+          "url": "https://www.newsbeep.com/au/961287/",
+          "source": "Australia News Beep",
+          "summary": "The update lowers Victoria's growth forecast to 1% and lifts expected unemployment to 5.25%, with Treasury citing weaker population growth and rate rises. The state election is on 28 November."
+        },
+        {
+          "title": "RBA lifts cash rate to 4.85%, an 18-year high",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216",
+          "source": "ABC News",
+          "summary": "The RBA raised the cash rate on 3 November, saying the economy is slowing and unemployment has risen. This story is older than 48 hours but remains the main driver of borrowers' costs."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Retail inflation reported above RBI's tolerance band",
+          "url": "https://iassquad.in/important-articles-from-the-hindu-newspaper-13-11-2026/",
+          "source": "IAS Squad (The Hindu digest)",
+          "summary": "A digest of The Hindu's 13 November edition cites October retail inflation of 6.1%, above the RBI's upper limit. Not independently confirmed against official data."
+        },
+        {
+          "title": "Government weighs special Parliament session on delimitation",
+          "url": "https://iassquad.in/important-articles-from-the-hindu-newspaper-13-11-2026/",
+          "source": "IAS Squad (The Hindu digest)",
+          "summary": "The same digest reports the government is considering a special session to pass a delimitation Bill. Details are from a headline list and not confirmed."
+        },
+        {
+          "title": "India–Bangladesh talks postponed over Hasina issue",
+          "url": "https://iassquad.in/important-articles-from-the-hindu-newspaper-13-11-2026/",
+          "source": "IAS Squad (The Hindu digest)",
+          "summary": "Bilateral talks were reported postponed amid a rift linked to former Bangladesh leader Sheikh Hasina. Earlier reporting said India could give no timeline on her extradition request."
+        },
+        {
+          "title": "NHRC raises concerns over Meta funding to UNICEF",
+          "url": "https://iassquad.in/important-articles-from-the-hindu-newspaper-13-11-2026/",
+          "source": "IAS Squad (The Hindu digest)",
+          "summary": "The rights commission featured in the day's headlines over Meta's funding to UNICEF. Only the headline was available, so details are unconfirmed."
+        },
+        {
+          "title": "Supreme Court stays UGC Equity Regulations 2026",
+          "url": "https://en.wikipedia.org/wiki/2026_in_India",
+          "source": "Wikipedia",
+          "summary": "The Supreme Court is listed as staying implementation of the UGC Equity Regulations, 2026. The date is unclear, so this may be older than 48 hours."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Kia India to invest about US$2 billion in Andhra Pradesh",
+          "url": "https://www.thehansindia.com/news/cities/visakhapatnam/kia-india-announces-2-bn-investment-in-ap-1141616",
+          "source": "The Hans India",
+          "summary": "Kia India announced a new manufacturing plant in the state at the CII Partnership Summit in Visakhapatnam. Job and capacity figures come from a single outlet and are unconfirmed."
+        },
+        {
+          "title": "Summit day one yields Rs 5.84 lakh crore in pledges",
+          "url": "https://www.thehansindia.com/news/cities/visakhapatnam/cii-partnership-summit-day-1-ap-clinches-rs-584l-cr-investment-pledges-1141599",
+          "source": "The Hans India",
+          "summary": "The state reported 88 agreements and orders on the opening day with potential for about 1.08 lakh jobs. These are preliminary tallies and may change."
+        },
+        {
+          "title": "Reliance and Greenko among major summit investors",
+          "url": "https://www.etvbharat.com/en/state/visakhapatnam-investment-summit-andhra-govt-secures-over-rs-five-lakh-crore-investments-73-mous-signed-enn26111302267",
+          "source": "ETV Bharat",
+          "summary": "Reliance is reported as the largest named investor with a proposed Rs 2.73 lakh crore in East Godavari. Greenko also signed on among 73 MoUs."
+        },
+        {
+          "title": "Cabinet approves AVGC-XR, robotics policies and big investments",
+          "url": "https://www.thehansindia.com/andhra-pradesh/ap-cabinet-approves-major-decisions-1140821",
+          "source": "The Hans India",
+          "summary": "The 10 November cabinet cleared new animation and gaming and robotics and physical AI policies, plus a 512 MW AI data centre near Visakhapatnam. It also approved a battery materials plant at Naidupeta."
+        },
+        {
+          "title": "Naidu's Tamil Nadu remark sparks investment rivalry",
+          "url": "https://www.newsbytesapp.com/news/politics/andhra-tamil-nadu-investment-rivalry-intensifies/story",
+          "source": "NewsBytes",
+          "summary": "Chief Minister Naidu's 'masala versus results' comment drew a response from Tamil Nadu's TVK, which challenged Andhra to compare records on investment and jobs. It shows growing competition between the southern states for industry."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,561.67",
+          "change": "-0.40%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "25,136.27",
+          "change": "-0.91%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "52,347.55",
+          "change": "+0.10%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Wall Street ends lower as Nvidia drama weighs on tech",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026",
+          "source": "TheStreet",
+          "summary": "The S&P 500 and Nasdaq slipped on Friday while the Dow edged up. Despite the fall, the S&P 500 gained about 2.5% for the week."
+        },
+        {
+          "title": "Nvidia drops below US$4 trillion market value",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+          "source": "CNBC",
+          "summary": "Nvidia closed under US$4 trillion for the first time since July 2025 after CEO Jensen Huang's departure. CFO Colette Kress is interim CEO."
+        },
+        {
+          "title": "Huang announces resignation as Nvidia CEO",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+          "source": "CNBC",
+          "summary": "Nvidia shares fell more than 4% on Thursday after Huang stepped down as CEO and director. Reports linked the exit to personal conduct matters, and accounts of the circumstances vary."
+        },
+        {
+          "title": "Nvidia earnings on 17 November are next test",
+          "url": "https://www.fool.com/investing/2026/11/14/nvidia-stock-falls-below-usd165-after-its-ceo-resigns-is-it-a-bargain-buy/",
+          "source": "The Motley Fool",
+          "summary": "Analysts have downgraded the stock after the leadership shake-up, though many still rate it a buy. The earnings report on 17 November is the next catalyst."
+        },
+        {
+          "title": "Wholesale inflation near four-year annual high",
+          "url": "https://www.washingtonpost.com/business/2026/11/13/wall-street-stocks-dow-nasdaq/f15a10e2-dfa7-11f1-912c-4fbb80d73f7f_story.html",
+          "source": "The Washington Post",
+          "summary": "One market recap says producer prices cooled on the month but reached a near four-year high annually, adding to caution. Not independently confirmed here."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Fri close)",
+          "value": "9,082.2",
+          "change": "-0.71%"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX falls as materials and property retreat",
+          "url": "https://sharetrader.com.au/news/2026-11-13-asx-falls-as-materials-and-property-retreat-trimming-weekly-gain",
+          "source": "ShareTrader",
+          "summary": "The ASX 200 fell 64.6 points on Friday, with eight of 11 sectors lower and materials down 1.61%. It still gained about 0.68% over the week."
+        },
+        {
+          "title": "Five things to watch on the ASX 200",
+          "url": "https://www.fool.com.au/2026/11/13/5-things-to-watch-on-the-asx-200-on-friday-13-november-2026/",
+          "source": "The Motley Fool Australia",
+          "summary": "The preview noted the index had slipped almost 0.1% to 9,146.8 on Thursday. It outlines the movers investors were watching going into Friday."
+        },
+        {
+          "title": "RBA hikes cash rate to 4.85%",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216",
+          "source": "ABC News",
+          "summary": "The 3 November increase to an 18-year high keeps rate-sensitive sectors under pressure. This is older than 48 hours but remains the key backdrop for the market."
+        },
+        {
+          "title": "ASX daily market briefing for 13 November",
+          "url": "https://swingfolio.com/daily/2026-11-13",
+          "source": "Swingfolio",
+          "summary": "A daily briefing covers Friday's session. No AUD/USD rate or ASX futures figure was found, and no major data is confirmed for today."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Home values fall for seventh straight month",
+          "url": "https://www.abc.net.au/news/2026-11-02/house-prices-fall-in-october-biggest-downturn-40-years-cotality/107325214",
+          "source": "ABC News",
+          "summary": "Cotality data showed national dwelling values fell 1.2% in October, putting the index about 6.7% below its March peak. The ABC framed it as a potential largest downturn in 40 years; this is older than 48 hours."
+        },
+        {
+          "title": "Capital city auction results for 8–14 November",
+          "url": "https://www.domain.com.au/auction-results/",
+          "source": "Domain",
+          "summary": "Preliminary Domain figures show Melbourne at 58%, Sydney 44%, Adelaide 39% and Brisbane just 17%. Final numbers may differ."
+        },
+        {
+          "title": "Auction clearance rates at lowest in six years",
+          "url": "https://www.domain.com.au/news/australian-auction-clearance-rates-plunge-to-lowest-level-in-six-years-1580211/",
+          "source": "Domain",
+          "summary": "Domain reports clearance rates plunging to a six-year low as buyers hold back. The article's date is not confirmed."
+        },
+        {
+          "title": "Sydney home values fell 1.6% in October",
+          "url": "https://loanlounge.au/resources/sydney-home-values-october-2026/",
+          "source": "Loan Lounge",
+          "summary": "Sydney dropped 1.6% in October, with Brisbane down 2% and Perth 1.7%. Figures are from Cotality's October index."
+        },
+        {
+          "title": "Weekly Australian property market update",
+          "url": "https://propertyupdate.com.au/australian-property-market/",
+          "source": "Property Update",
+          "summary": "A running market update tracks auction volumes and prices across the capitals. Earlier weekly data put the national clearance rate at 45.6%, well below last year's 67.7%."
+        }
+      ]
+    }
+  }
+}
