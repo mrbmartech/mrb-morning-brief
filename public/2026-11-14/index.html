@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The MrB Morning Brief, Saturday 14 November 2026</title>
+<meta name="description" content="Nvidia&#39;s leadership turmoil and a bond sell-off rattled markets, while the RBA&#39;s rate hike keeps pressure on Australian households and the property market.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2212%22 fill=%22%23121212%22/><text x=%2250%22 y=%2272%22 font-family=%22Georgia%22 font-weight=%22700%22 font-size=%2266%22 fill=%22white%22 text-anchor=%22middle%22>B</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400;1,6..72,500&family=Libre+Franklin:wght@400;500;600;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#E6E9E3; --paper:#FBFBF8; --ink:#16181A; --body:#34383C; --muted:#5E6469; --hair:#DCDFD8; --rule:#16181A;
+  --link:#2F5F86; --up:#0A7A3E; --down:#C3201F; --tint:#F0F2EC; --accent:#7A1F2B;
+  --head:"Newsreader","Iowan Old Style","Times New Roman",Georgia,serif;
+  --text:"Newsreader","Iowan Old Style",Georgia,serif;
+  --sans:"Libre Franklin","Franklin Gothic Medium","Helvetica Neue",Arial,sans-serif;
+  --black:"UnifrakturMaguntia","Old English Text MT",Georgia,serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --desk:#0D0F10; --paper:#17191B; --ink:#ECEDEA; --body:#D0D3CF; --muted:#9EA4A8; --hair:#2C3033; --rule:#ECEDEA;
+  --link:#86B6DE; --up:#5CC48A; --down:#F0716F; --tint:#1E2124; --accent:#E08A95; color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--desk);color:var(--ink);font:400 17px/1.55 var(--text);padding-bottom:env(safe-area-inset-bottom,0);font-optical-sizing:auto}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--muted)}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.page{max-width:80rem;margin:1.5rem auto;padding:0 2.25rem;background:var(--paper);box-shadow:0 1px 2px rgba(20,24,28,.06),0 12px 40px -12px rgba(20,24,28,.18)}
+
+/* Masthead */
+.top{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:1rem;padding:calc(env(safe-area-inset-top,0px) + 1rem) 0 .4rem;font:500 .78rem/1.4 var(--sans)}
+.top .date{font-weight:700}
+.top .date span{display:block;font-weight:400;color:var(--muted)}
+.top .hello{text-align:center;font:italic 400 .95rem/1.3 var(--head);color:var(--body)}
+.top .days{display:flex;gap:.9rem;justify-content:flex-end}
+.top .days a:hover{text-decoration:underline}
+.mast{text-align:center;margin:.2rem 0 .9rem}
+.mast a{font:400 clamp(2.4rem,6.6vw,4.6rem)/1 var(--black);color:var(--ink);letter-spacing:.005em}
+.secbar{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);position:relative;margin-bottom:3px}
+.secbar::after{content:"";position:absolute;left:0;right:0;bottom:-4px;border-bottom:1px solid var(--rule)}
+.secbar ul{list-style:none;margin:0;padding:.55rem 0;display:flex;justify-content:center;flex-wrap:wrap;gap:.35rem 1.4rem;font:500 .8rem/1.3 var(--sans)}
+.secbar a:hover{text-decoration:underline}
+
+/* Front page */
+.front{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr) minmax(0,.95fr);margin-top:1.4rem;border-bottom:1px solid var(--rule)}
+.front>*{padding:0 1.4rem 1.6rem;border-left:1px solid var(--hair)}
+.front>*:first-child{padding-left:0;border-left:0}
+.front>*:last-child{padding-right:0}
+.kicker{font:700 .74rem/1.3 var(--sans);margin:0 0 .5rem;color:var(--accent)}
+.top-story h1{font:700 clamp(1.9rem,3.5vw,2.8rem)/1.08 var(--head);margin:0 0 1.1rem;letter-spacing:-.018em;text-wrap:balance}
+.bullets{margin:0;padding-left:1.1rem;color:var(--body)}
+.bullets li{margin:0 0 .65rem;font-size:1rem;line-height:1.45}
+.bullets li::marker{color:var(--muted)}
+.bullets b{font:700 .95rem/1.3 var(--head);color:var(--ink)}
+.stamp{margin:1rem 0 0;font:400 .75rem/1.3 var(--sans);color:var(--muted)}
+
+.box h2{font:700 .72rem/1.3 var(--sans);margin:0 0 .6rem}
+.box+.box{margin-top:1.4rem;padding-top:1.2rem;border-top:1px solid var(--hair)}
+.status{display:flex;gap:.5rem;align-items:baseline;font:700 1.05rem/1.3 var(--head);margin:0 0 .35rem}
+.status i{width:.55rem;height:.55rem;border-radius:50%;flex:none;background:var(--muted);transform:translateY(-.05rem)}
+.status i.clear{background:var(--up)}.status i.issues{background:var(--down)}
+.note{margin:0;color:var(--body);font-size:.92rem;line-height:1.45}
+.inc{list-style:none;margin:.7rem 0 0;padding:0}
+.inc li{padding:.55rem 0;border-top:1px solid var(--hair);font-size:.88rem;line-height:1.4;color:var(--body)}
+.inc a{display:block;font:700 .95rem/1.3 var(--head);color:var(--ink);margin-bottom:.15rem}
+table.mkt{width:100%;border-collapse:collapse;font:400 .85rem/1.3 var(--sans);font-variant-numeric:tabular-nums}
+table.mkt caption{text-align:left;font:700 .78rem/1.3 var(--sans);padding:.2rem 0 .3rem;color:var(--muted)}
+table.mkt td{padding:.38rem 0;border-top:1px solid var(--hair)}
+table.mkt td:nth-child(2),table.mkt td:nth-child(3){text-align:right;white-space:nowrap}
+table.mkt td:nth-child(3){width:4.8rem;font-weight:700}
+table.mkt+table.mkt{margin-top:.8rem}
+.up{color:var(--up)}.down{color:var(--down)}
+
+.opinion{background:var(--tint)}
+.front>.opinion{padding:1.2rem 1.3rem 1.4rem;border-left:0;margin-bottom:1.6rem;align-self:start}
+.opinion blockquote{margin:0;font:italic 500 1.4rem/1.32 var(--head);text-wrap:balance}
+.opinion cite{display:block;margin:.55rem 0 0;font:500 .8rem/1.3 var(--sans);font-style:normal;color:var(--muted)}
+.opinion h3{font:700 1.05rem/1.25 var(--head);margin:1.3rem 0 .3rem;padding-top:1rem;border-top:1px solid var(--hair)}
+.opinion h3+p{margin:0;font-size:.95rem;line-height:1.5;color:var(--body)}
+.opinion .kicker{margin:0 0 .5rem}
+
+/* Sections */
+.sec{margin-top:2.2rem;padding-top:.5rem;border-top:1px solid var(--rule);scroll-margin-top:1rem}
+.sec>h2{font:700 1rem/1.3 var(--sans);margin:0 0 1rem;color:var(--accent)}
+.sec>h2 a::after{content:" ›";color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+.grid>*{padding:0 1.4rem;border-left:1px solid var(--hair)}
+.grid>*:first-child{padding-left:0;border-left:0}
+.grid>*:last-child{padding-right:0}
+.lead h3{font:700 clamp(1.45rem,2.4vw,1.85rem)/1.14 var(--head);margin:0 0 .55rem;letter-spacing:-.012em;text-wrap:balance}
+.lead p{margin:0;font-size:1.02rem;line-height:1.5;color:var(--body);max-width:60ch}
+.src{display:block;margin-top:.6rem;font:500 .72rem/1.3 var(--sans);color:var(--muted)}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:.85rem 0;border-top:1px solid var(--hair)}
+.list li:first-child{padding-top:0;border-top:0}
+.list h3{font:700 1.08rem/1.25 var(--head);margin:0 0 .3rem;letter-spacing:-.005em}
+.list p{margin:0;font-size:.9rem;line-height:1.45;color:var(--muted)}
+.missing{margin:0;color:var(--muted);font-style:italic}
+.lead a:hover,.list a:hover,.inc a:hover{color:var(--muted)}
+
+/* Archive */
+.arch{list-style:none;margin:1.5rem 0 0;padding:0;max-width:46rem}
+.arch li{padding:1.1rem 0;border-top:1px solid var(--hair)}
+.arch .d{font:700 .75rem/1.3 var(--sans);color:var(--muted)}
+.arch a{display:block;margin-top:.3rem;font:700 1.3rem/1.25 var(--head)}
+.arch-title{font:700 2rem/1.15 var(--head);margin:1.6rem 0 0}
+
+footer.f{margin-top:3rem;padding:1.2rem 0 3rem;border-top:1px solid var(--rule);font:400 .78rem/1.5 var(--sans);color:var(--muted)}
+footer.f .fm{font:400 1.5rem/1 var(--black);color:var(--ink);display:block;margin-bottom:.6rem}
+
+@media (max-width:980px){
+  .page{margin:0 auto}
+  .front>.opinion{margin-bottom:1.6rem}
+  .front{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .front .top-story{grid-column:1/-1;padding:0 0 1.6rem;border-left:0;border-bottom:1px solid var(--hair);margin-bottom:1.4rem}
+  .front .markets{padding-left:0;border-left:0}
+}
+@media (max-width:680px){
+  body{font-size:15px}
+  .page{padding:0 1rem;margin:0;box-shadow:none}
+  .top{grid-template-columns:1fr auto}
+  .top .hello{display:none}
+  .mast a{font-size:min(2.35rem,8.4vw);white-space:nowrap}
+  .secbar ul{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding:.55rem .1rem;scrollbar-width:none}
+  .secbar ul::-webkit-scrollbar{display:none}
+  .secbar li{flex:none}
+  .front{grid-template-columns:1fr}
+  .front>*{padding:0 0 1.4rem;border-left:0}
+  .front>*+*{border-top:1px solid var(--hair);padding-top:1.2rem}
+  .front .top-story{margin-bottom:0}
+  .grid{grid-template-columns:1fr}
+  .grid>*{padding:0;border-left:0}
+  .grid .list{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--hair)}
+}
+</style>
+</head>
+<body><div class="page">
+<header>
+<div class="top"><div class="date">Saturday 14 November 2026<span>Prepared 11:49 am AEDT</span></div><div class="hello">Hello Mr.Bhaskar</div><nav class="days" aria-label="Other days"><a href="/2026-11-13/">‹ Fri, 13 Nov</a><a href="/archive/">Archive</a></nav></div>
+<div class="mast"><a href="/">The MrB Morning Brief</a></div>
+<nav class="secbar" aria-label="Sections"><ul><li><a href="#martech">MarTech</a></li><li><a href="#salesforce">Salesforce news</a></li><li><a href="#australia">Australia top 5</a></li><li><a href="#india">India top 5</a></li><li><a href="#andhra">Andhra Pradesh top 5</a></li><li><a href="#usstocks">US stocks</a></li><li><a href="#austocks">AU stocks</a></li><li><a href="#property">Australian real estate top 5</a></li></ul></nav>
+</header>
+<main>
+<section class="front">
+<article class="top-story"><p class="kicker">Today’s top stories</p><h1>Nvidia&#39;s leadership turmoil and a bond sell-off rattled markets, while the RBA&#39;s rate hike keeps pressure on Australian households and the property market.</h1><ul class="bullets"><li><b>Nvidia turmoil.</b> Nvidia&#39;s CEO reportedly resigned, dragging chip stocks and the Nasdaq lower on Friday as US 10-year yields hit about 5.17%.</li><li><b>ASX slips.</b> The ASX 200 fell 0.7% to 9,082.2 on Friday, though it still finished the week higher.</li><li><b>Vizag investment summit.</b> Andhra Pradesh&#39;s CII Partnership Summit in Visakhapatnam reported 303 new MoUs, lifting claimed investment intent since mid-2024 to Rs 32.49 lakh crore.</li></ul></article>
+<div class="markets"><section class="box" id="sfstatus"><h2>Salesforce issues &amp; downtime</h2><p class="status"><i class="issues" aria-hidden="true"></i>Issues reported</p><p class="note">Only minor performance degradations were found for 6 and 10 November; no major outage or APAC-specific incident was confirmed, and no planned maintenance was located.</p><ul class="inc"><li><a href="https://isdown.app/status/salesforce/incidents/684356-performance-degradation" rel="noopener">Performance degradation on 10 November</a>A degradation lasting about two hours was posted, later updated to add more affected instances. Third-party aggregator; instances and dates not independently confirmed, so check status.salesforce.com.</li><li><a href="https://isdown.app/status/salesforce/incidents/684993-service-disruption" rel="noopener">Service disruption posting updated</a>Salesforce revised an incident posting, saying the impact differed from its first assessment. Timing and affected services are unclear from the aggregator listing.</li></ul></section><section class="box"><h2>Markets</h2><table class="mkt"><caption>US stocks</caption><tbody><tr><td>S&amp;P 500</td><td>7,561.67</td><td class="down">▼ 0.40%</td></tr><tr><td>Nasdaq Composite</td><td>25,136.27</td><td class="down">▼ 0.91%</td></tr><tr><td>Dow Jones</td><td>52,347.55</td><td class="up">▲ 0.10%</td></tr><tr><td>US 10-year yield (approx.)</td><td>about 5.17%</td><td class=""> n/a</td></tr></tbody></table><table class="mkt"><caption>AU stocks</caption><tbody><tr><td>ASX 200</td><td>9,082.2</td><td class="down">▼ 0.70%</td></tr><tr><td>All Ordinaries</td><td>9,204.5</td><td class=""> n/a</td></tr><tr><td>Small Ordinaries</td><td>3,231.7</td><td class="down">▼ 1.24% (week)</td></tr></tbody></table></section></div>
+<aside class="opinion" id="health"><p class="kicker">Health &amp; fitness</p>
+<blockquote>“Nothing will work unless you do.”<cite>Maya Angelou</cite></blockquote>
+<h3>Take three slow breaths before big tasks</h3><p>Before your next meeting or demanding task, pause for three slow breaths, making each exhale longer than the inhale. It takes under a minute and can help settle a busy mind. Repeat it whenever you notice tension building.</p></aside>
+</section>
+<section class="sec" id="martech"><h2><a href="#martech">MarTech</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-13-2026/" rel="noopener">HubSpot names co-founder Halligan as CEO</a></h3><p>Brian Halligan returns as HubSpot CEO from 12 November, replacing Yamini Rangan, with the company reaffirming its earlier guidance. A leadership change at a major CRM and marketing vendor matters to customers watching product direction and pricing.</p><span class="src">The Agile Brand Guide</span></article>
+<ul class="list"><li><h3><a href="https://martechseries.com/sales-marketing/customer-experience-management/braze-named-a-leader-in-the-inaugural-gartner-magic-quadrant-for-email-marketing-platforms/" rel="noopener">Braze named a Leader in first Gartner email marketing quadrant</a></h3><p>Braze announced it was placed as a Leader in Gartner&#39;s inaugural Magic Quadrant for Email Marketing Platforms. This is a vendor-issued announcement, but the new report gives buyers a fresh benchmark for platform shortlists.</p><span class="src">MarTech Series</span></li><li><h3><a href="https://solutionsreview.com/crm/2026/11/13/top-martech-news-from-the-week-of-november-13th/" rel="noopener">Adobe adds a conversational AI layer to GenStudio</a></h3><p>Adobe plans to bring its CX Enterprise Coworker into GenStudio to coordinate AI agents across content planning, production and activation. It reflects the push towards agent-driven marketing workflows.</p><span class="src">Solutions Review</span></li><li><h3><a href="https://martechseries.com/video/adobe-and-google-deepen-partnership-to-bring-leading-ai-models-and-integrated-workflows-to-creatives-and-enterprises" rel="noopener">Adobe and Google deepen partnership, including Gmail integration</a></h3><p>The expanded partnership brings leading AI models into Adobe tools and Acrobat into Google Workspace, including Gmail. Marketers should watch how it affects creative production and email workflows.</p><span class="src">MarTech Series</span></li><li><h3><a href="https://martech.org/the-latest-ai-powered-martech-news-and-releases/" rel="noopener">Klaviyo&#39;s AI agent builds email flows from prompts</a></h3><p>Klaviyo&#39;s email marketing agent reached general availability at the end of October, creating multi-message flows from text prompts. Date taken from a roundup listing; older than 48 hours.</p><span class="src">MarTech.org</span></li></ul></div></section>
+<section class="sec" id="salesforce"><h2><a href="#salesforce">Salesforce news</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.salesforce.com/ap/news/press-releases/2026/11/05/sg-salesforces-agentforce-coworker-usage-soars-21x-in-three-months-as-enterprises-delegate-real-work-to-ai/" rel="noopener">Agentforce Coworker usage jumps 21-fold in three months</a></h3><p>Salesforce says Coworker has passed 185,000 users and added Google Workspace and Microsoft 365 connections, plus a $50-per-user monthly option. Several pieces are slated for general availability this month; these are company targets. Published 5 November.</p><span class="src">Salesforce Newsroom</span></article>
+<ul class="list"><li><h3><a href="https://www.salesforceben.com/biggest-dreamforce-26-announcements-everything-in-a-nutshell/" rel="noopener">Dreamforce 2026 announcements recap, including AIforce</a></h3><p>Salesforce introduced AIforce, a layer exposing its data and workflows to outside AI interfaces, with North American availability targeted for November. Older than 48 hours, but still the main product direction for admins to track.</p><span class="src">Salesforce Ben</span></li><li><h3><a href="https://stockhouse.com/news/press-releases/2026/11/10/salesforce-announces-date-of-third-quarter-fiscal-2027-earnings-release-and" rel="noopener">Salesforce sets Q3 fiscal 2027 earnings date</a></h3><p>Salesforce announced the date for its third-quarter fiscal 2027 results release and webcast on 10 November. Check the release for the exact date, as it will be a key read on Agentforce demand.</p><span class="src">Stockhouse (press release)</span></li><li><h3><a href="https://salesforceben.com/connected-app-warnings-return-as-salesforce-disables-two-integrations" rel="noopener">Salesforce disables two connected apps over suspicious token activity</a></h3><p>Salesforce disabled the GoFundMe Pro and Talent Rover integrations after suspicious access token activity; Talent Rover has since been restored while GoFundMe Pro remains disabled. Admins should review connected app access.</p><span class="src">Salesforce Ben</span></li><li><h3><a href="https://salesforceben.com/salesforce-spring-27-release-what-to-expect-and-how-to-prepare-part-2" rel="noopener">Spring &#39;27 release: sharing recalculation and OAuth flow changes</a></h3><p>A sharing recalculation change is to be enforced in January 2027, and the OAuth User-Agent and Hybrid User-Agent flows are due to be retired from 20 February 2027. Teams should plan integration updates early.</p><span class="src">Salesforce Ben</span></li></ul></div></section>
+<section class="sec" id="australia"><h2><a href="#australia">Australia top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.indailysa.com.au/news/just-in/2026/11/03/rba-delivers-fifth-interest-rate-hike-in-bid-to-battle-inflation" rel="noopener">RBA lifts cash rate to 4.85%, highest since 2008</a></h3><p>The RBA raised rates by 0.25 points on 3 November, its fifth hike this year, with the board split six to three. Major banks have been passing on the rise; this story is older than 48 hours but still shapes the week.</p><span class="src">InDaily</span></article>
+<ul class="list"><li><h3><a href="https://www.abc.net.au/news/2026-11-14/government-floundering-albanese-salad-days-wilted/107382680" rel="noopener">Albanese government under pressure amid grants row and leaks</a></h3><p>An ABC analysis says the government is struggling, pointing to a $6 million Marrickville Golf Club grant and weak polling. It follows damaging leaks that Albanese says will not change the Treasurer.</p><span class="src">ABC News</span></li><li><h3><a href="https://www.canberratimes.com.au/story/9391342/albanese-government-faces-backlash-over-3b-microsoft-deals/" rel="noopener">Microsoft outage raises questions over $3b government IT contracts</a></h3><p>A global outage reportedly shut roughly 200,000 public servants out of email, prompting scrutiny of single-seller deals worth about $3 billion. Senator Pocock wants procurement rules updated to strengthen sovereign capability.</p><span class="src">The Canberra Times</span></li><li><h3><a href="https://www.abc.net.au/listen/programs/pm/victorian-police-end-sydney-swans-investigation/107384636" rel="noopener">Victoria Police end Sydney Swans players investigation</a></h3><p>Police found insufficient evidence to charge four players over an alleged August incident at a Melbourne hotel. The decision closes a high-profile Victorian investigation.</p><span class="src">ABC News</span></li><li><h3><a href="https://www.abc.net.au/news/2026-11-14/melbourne-crime-fears-challenge-liveability-reputation/107381360" rel="noopener">Melbourne&#39;s liveability reputation questioned after fatal stabbing</a></h3><p>A fatal stabbing has reignited debate about crime and safety in Melbourne. It adds to public concern about the city&#39;s reputation as a liveable place.</p><span class="src">ABC News</span></li></ul></div></section>
+<section class="sec" id="india"><h2><a href="#india">India top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335416&amp;reg=48&amp;lang=2" rel="noopener">Retail inflation climbs to 6.09% in October</a></h3><p>Provisional CPI inflation for October was 6.09%, above the RBI&#39;s 6% upper limit, with food inflation at 8.94% and rural inflation at 6.63%. It adds pressure on the central bank after its recent rate rise.</p><span class="src">PIB</span></article>
+<ul class="list"><li><h3><a href="https://www.pmindia.gov.in/en/news-updates/" rel="noopener">Union Cabinet extends Stand-Up India and sets Rabi fertiliser subsidy</a></h3><p>The Cabinet approved continuing Stand-Up India to 31 March 2031, continuing the credit guarantee fund for micro units and fixing Rabi-season fertiliser subsidy rates. The decisions were reported around 11 November.</p><span class="src">PMO India</span></li><li><h3><a href="https://ddnews.gov.in/en/" rel="noopener">Modi to visit Philippines for ASEAN-India and East Asia summits</a></h3><p>The Prime Minister is due in the Philippines on 16-17 November for the ASEAN-India and East Asia Summits. The trip is a focus for India&#39;s Indo-Pacific diplomacy.</p><span class="src">DD News</span></li><li><h3><a href="https://www.pmindia.gov.in/en/news-updates/" rel="noopener">India reaches 100 chess Grandmasters</a></h3><p>Modi praised the milestone after Anuj Shrivatri earned the Grandmaster title on 10 November. It marks a symbolic high for Indian chess.</p><span class="src">PMO India</span></li><li><h3><a href="https://ddnews.gov.in/en/" rel="noopener">Amit Shah holds law-and-order review at Delhi Police HQ</a></h3><p>The Home Minister held a second review covering women&#39;s safety and organised crime. Details of any decisions were not found.</p><span class="src">DD News</span></li></ul></div></section>
+<section class="sec" id="andhra"><h2><a href="#andhra">Andhra Pradesh top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.thehansindia.com/andhra-pradesh/aps-investment-flow-swells-to-rs-3249l-cr-1141901" rel="noopener">CII Partnership Summit in Visakhapatnam secures 303 MoUs</a></h3><p>The two-day summit on 12-13 November reportedly yielded 303 new MoUs with potential for about 3.48 lakh jobs, taking investment intent since June 2024 to Rs 32.49 lakh crore. These are intent figures, not completed investment.</p><span class="src">The Hans India</span></article>
+<ul class="list"><li><h3><a href="https://www.thehansindia.com/news/cities/amaravati/cabinet-nod-for-rs-31387-cr-ai-data-centre-in-vizag-district-1140914" rel="noopener">Cabinet clears Rs 31,387-crore AI data centre near Visakhapatnam</a></h3><p>The state cabinet approved a 512 MW green AI data centre at Bheemunipatnam, expected to create about 1,000 jobs. It strengthens Visakhapatnam&#39;s AI infrastructure push.</p><span class="src">The Hans India</span></li><li><h3><a href="https://www.thehansindia.com/andhra-pradesh/ap-cabinet-approves-major-decisions-1140821" rel="noopener">Cabinet approves AVGC-XR and robotics policies</a></h3><p>The same meeting approved the AVGC-XR Policy 2026-31 and a Robotics and Physical AI Policy, plus semiconductor policy amendments. The moves aim to attract emerging-technology investment.</p><span class="src">The Hans India</span></li><li><h3><a href="https://www.gulte.com/political-news/441471/babu-busy-with-investors-jagans-bad-tweet-on-ap" rel="noopener">Investors arrive in Vizag as Jagan criticises state growth</a></h3><p>Delegates from nearly 59 countries reached Visakhapatnam for the summit while YSRCP chief Jagan Mohan Reddy criticised the state&#39;s economic performance. The exchange shows the political contest over the investment narrative.</p><span class="src">Gulte</span></li><li><h3><a href="https://www.deccanchronicle.com/location/india/andhra-pradesh" rel="noopener">Elections to 23 urban local bodies set for 26 November</a></h3><p>Polls will cover 23 urban local bodies, including four municipal corporations. They will be an early test of the ruling alliance&#39;s local support.</p><span class="src">Deccan Chronicle</span></li></ul></div></section>
+<section class="sec" id="usstocks"><h2><a href="#usstocks">US stocks</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html" rel="noopener">Nvidia slides after CEO Huang resigns</a></h3><p>Nvidia fell about 12% for the week, with CFO Colette Kress interim CEO, and HSBC cut its rating to Hold. Chip peers sold off too; reports on the circumstances vary, so treat details as unconfirmed.</p><span class="src">Yahoo Finance</span></article>
+<ul class="list"><li><h3><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026" rel="noopener">Producer prices cooler than expected but annual rate high</a></h3><p>October PPI rose 0.3% on the month, under forecasts, while the annual rate was reported at 6.5%. Markets still price a likely December Fed hike.</p><span class="src">TheStreet</span></li><li><h3><a href="https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus" rel="noopener">Bond sell-off lifts 10-year yield to about 5.17%</a></h3><p>Treasury yields climbed after an oil-driven sell-off on Thursday. Higher yields weigh on growth and tech shares.</p><span class="src">Bloomberg</span></li><li><h3><a href="https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/" rel="noopener">Weekly gain despite Friday slip</a></h3><p>The S&amp;P 500 rose about 2.5% on the week, its first winning week since early October. Technology lagged on Friday.</p><span class="src">KRMG / AP</span></li><li><h3><a href="https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html" rel="noopener">Nvidia earnings next week; Anthropic IPO reportedly due to price</a></h3><p>Nvidia reports quarterly results on Tuesday with no permanent CEO named. Anthropic is reportedly expected to price its IPO next week.</p><span class="src">Yahoo Finance</span></li></ul></div></section>
+<section class="sec" id="austocks"><h2><a href="#austocks">AU stocks</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-nvidia-woes-bond-yield-spike-and-falling" rel="noopener">ASX 200 slides on Nvidia woes and bond yields</a></h3><p>The index fell 64.6 points as surging US yields and weaker commodities hit growth and cyclical stocks. Eight of 11 sectors finished lower.</p><span class="src">Market Index</span></article>
+<ul class="list"><li><h3><a href="https://sharetrader.com.au/news/2026-11-13-asx-falls-as-materials-and-property-retreat-trimming-weekly-gain" rel="noopener">Materials and property lead losses</a></h3><p>Gold, base metals and uranium miners dragged, while real estate fell 1.34%. Utilities and telcos gained.</p><span class="src">Sharetrader</span></li><li><h3><a href="https://www.sharecafe.com.au/2026/11/13/asx-200-dips-friday-secures-weekly-gain/" rel="noopener">ASX still secures weekly gain</a></h3><p>Despite Friday&#39;s dip, the benchmark finished the week higher; sources put the gain between 0.19% and 0.68%. AUD/USD and futures were not found.</p><span class="src">Sharecafe</span></li><li><h3><a href="https://smallcaps.com.au/article/weekly-wrap-2026-11-13-5a448530-7f72-4575-8407-9efae2f1f140" rel="noopener">Financials cushion ASX as small caps and miners fall</a></h3><p>Banks supported the index while small caps lost 1.24% over the week. Weakness in miners remains a drag.</p><span class="src">Smallcaps</span></li><li><h3><a href="https://www.savings.com.au/news/rba-lifts-cash-rate-to-4-85" rel="noopener">RBA hike at 4.85% still shapes rate-sensitive sectors</a></h3><p>The 3 November hike took the cash rate to its highest since 2008. Markets are watching for any further tightening.</p><span class="src">Savings.com.au</span></li></ul></div></section>
+<section class="sec" id="property"><h2><a href="#property">Australian real estate top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://discover.cotality.com/hubfs/COTALITY%20HVI%20NOV%202026%20FINAL.pdf" rel="noopener">Cotality: national home values down 1.2% in October</a></h3><p>Values are 6.7% below the March peak, and Melbourne fell 0.8% in the month and 7.6% over the year. Released 2 November.</p><span class="src">Cotality</span></article>
+<ul class="list"><li><h3><a href="https://www.bloomberg.com/news/articles/2026-11-01/australia-home-auction-clearance-rate-falls-to-six-year-low" rel="noopener">Auction clearance rate hits six-year low</a></h3><p>Clearance rates fell to a six-year low at the start of November. Older than 48 hours but a key sentiment gauge.</p><span class="src">Bloomberg</span></li><li><h3><a href="https://financialnewswire.com.au/property/average-clearance-rate-comes-in-under-50-for-seventh-week/" rel="noopener">Melbourne clearance rate lifts but remains weak</a></h3><p>Preliminary data put Melbourne at 59.1%, later reports at 51.7%, versus 65.9% a year earlier. Figures differ between releases; revised numbers are lower.</p><span class="src">Financial Newswire</span></li><li><h3><a href="https://www.mpamag.com/au/mortgage-industry/market-updates/major-aussie-banks-slap-mortgage-holders-with-higher-rates-following-rba-hike/596218" rel="noopener">Banks pass on RBA hike to mortgage holders</a></h3><p>Major lenders raised variable rates after the cash rate rose to 4.85%, with CBA&#39;s changes effective 13 November. Canstar estimates about $107 extra a month on a $700,000 loan.</p><span class="src">Mortgage Professional Australia</span></li><li><h3><a href="https://www.australianconveyancer.com.au/article/cotality-auction-clearance-rate" rel="noopener">Auction volumes well below last year</a></h3><p>Melbourne auction numbers have been about 55% below 2025 levels since reserve-price transparency rules began in mid-October. Listings are at the highest for this time of year since 2019.</p><span class="src">Australian Conveyancer</span></li></ul></div></section>
+</main>
+<footer class="f"><span class="fm">The MrB Morning Brief</span>Written each morning by AI from public reporting. Summaries are paraphrased and may contain errors, so check the source before acting. Market content is information, not financial advice.</footer>
+</div></body></html>
