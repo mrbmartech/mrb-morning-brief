@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-16",
+  "longDate": "Monday 16 November 2026",
+  "clock": "10:53 am AEDT",
+  "generatedAt": "2026-11-15T23:53:05.639Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Australia and the Philippines have signed a new defence pact, while a Bay of Bengal storm is forecast to hit Andhra Pradesh around 19–20 November.",
+  "highlights": [
+    {
+      "label": "Defence pact",
+      "text": "Australia and the Philippines signed a maritime security agreement in Manila amid South China Sea tensions."
+    },
+    {
+      "label": "Wall Street",
+      "text": "The S&P 500 and Nasdaq fell on Friday as Nvidia's leadership turmoil hit tech, though the S&P gained about 2.5% for the week."
+    },
+    {
+      "label": "Cyclone warning",
+      "text": "The IMD expects a Bay of Bengal system to become a severe cyclonic storm and reach north coastal Andhra Pradesh around 19–20 November."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Write tomorrow's top three before you log off",
+        "body": "Spend two minutes at the end of the workday listing the three most important tasks for tomorrow. Getting them out of your head makes it easier to switch off in the evening and lets you start the next day with a clear first move."
+      },
+      "quote": {
+        "text": "Do the thing and you shall have the power.",
+        "author": "Ralph Waldo Emerson"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "IAB proposes framework for crediting AI in conversions",
+          "url": "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/",
+          "source": "MarTech",
+          "summary": "The IAB has put forward a shared method for deciding how much credit AI-driven touchpoints should get for a sale. It matters because marketers currently have no common standard for attributing results to AI discovery."
+        },
+        {
+          "title": "Adobe widens its AI stack with Google models and agent tools",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech",
+          "summary": "A MarTech roundup reports Adobe is adding Google models, custom Disney models and agentic workflow tools to its AI offering. It signals Adobe's Experience Cloud push toward multi-model, agent-driven marketing workflows."
+        },
+        {
+          "title": "Marketers deploying AI agents faster than they can measure them",
+          "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
+          "source": "MarTech",
+          "summary": "Most marketers cannot yet tie AI agent conversations to campaigns, conversions and revenue. That leaves a governance and ROI gap as agent rollouts accelerate."
+        },
+        {
+          "title": "Claritas adds live optimisation to acquisition email",
+          "url": "https://martech.org/claritas-brings-live-optimization-to-acquisition-email/",
+          "source": "MarTech",
+          "summary": "A new Claritas product adjusts audiences and subject lines mid-campaign and uses holdout groups to measure lift. It is a notable email-performance tool for acquisition programs."
+        },
+        {
+          "title": "IAB backs new connected-TV ad formats for measurement",
+          "url": "https://martech.org/iab-announces-support-for-new-ctv-ad-formats/",
+          "source": "MarTech",
+          "summary": "Consistent impression measurement is being extended to pause, menu, screensaver and overlay ads on connected TV. This gives advertisers more comparable reporting across emerging CTV formats."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce launches AI Skills in Agentforce Coworker",
+          "url": "https://www.salesforceben.com/salesforce-launches-ai-skills-in-agentforce-coworker/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce has added AI Skills to Agentforce Coworker (12 November). It extends the assistant's capabilities for everyday work inside Salesforce."
+        },
+        {
+          "title": "Agentforce Coworker usage reportedly up 21x in three months",
+          "url": "https://www.salesforceben.com/salesforces-next-big-bet-agentforce-coworker-usage-grew-21x-in-3-months/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben reports rapid growth in Coworker usage over three months (11 November). It shows where Salesforce is placing its next big AI bet."
+        },
+        {
+          "title": "Salesforce unveils cheaper, quicker 'Koa Decisions' AI model",
+          "url": "https://www.salesforceben.com/salesforce-unveils-cheaper-quicker-ai-decisions-model-koa-decisions/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce has introduced Koa Decisions, described as a faster and lower-cost model for AI decisions (9 November). Lower running costs could make agent deployments easier to justify."
+        },
+        {
+          "title": "Salesforce buys voice-agent company Cresta",
+          "url": "https://www.salesforceben.com/salesforce-acquires-cresta-buying-spree-continues-with-voice-agent-company/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce has acquired Cresta, adding to a run of recent acquisitions (3 November). It strengthens its voice-agent capability in service and sales."
+        },
+        {
+          "title": "Salesforce disables two integrations as connected app warnings return",
+          "url": "https://www.salesforceben.com/connected-app-warnings-return-as-salesforce-disables-two-integrations/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce has disabled two integrations and connected app warnings are back (12 November). Admins should review third-party connected apps and their access."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "issues",
+      "statusNote": "Third-party trackers show recent Marketing Cloud and Data Cloud incidents, and a Marketing Cloud Next email publishing issue from 6 November was reportedly still being fixed; no planned maintenance or APAC-specific incident was found. Not independently confirmed on status.salesforce.com.",
+      "items": [
+        {
+          "title": "Marketing Cloud Engagement brief degradation",
+          "url": "https://isdown.app/status/salesforce/incidents/682047-marketing-cloud-engagement-feature-degradation",
+          "source": "IsDown (Salesforce status mirror)",
+          "summary": "A short Marketing Cloud Engagement incident around 5 November caused intermittent slowness or unavailability for about eight minutes. It is resolved, but shows the service is seeing minor disruptions."
+        },
+        {
+          "title": "Data Cloud scratch org creation disruption",
+          "url": "https://isdown.app/status/salesforce/incidents/681627-feature-disruption-impacting-data-cloud-enabled-scratch-orgs-creation-failure",
+          "source": "IsDown (Salesforce status mirror)",
+          "summary": "From about 3 November, some Dev Hub customers could not create scratch orgs with Data Cloud features, for over 53 hours. It mainly affects developers, and a configuration change was still rolling out at the last update."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Australia and the Philippines sign new defence pact",
+          "url": "https://euronews.com/2026/11/15/australia-and-philippines-sign-new-defence-pact-amid-south-china-sea-tensions",
+          "source": "Euronews",
+          "summary": "Anthony Albanese signed a maritime security agreement in Manila, intended to ease joint patrols, exercises and disaster relief and updating a 1995 arrangement. It deepens Australia's security ties as South China Sea tensions continue."
+        },
+        {
+          "title": "Major parties soft-launch Victorian election campaigns",
+          "url": "https://www.inkl.com/news/vic-soft-launches-for-major-party-state-election-showdown",
+          "source": "inkl / AAP",
+          "summary": "Premier Jacinta Allan and Opposition Leader Jess Wilson held soft campaign launches ahead of the 28 November state election. Allan's event focused on funding apprenticeships."
+        },
+        {
+          "title": "Wilson reshapes Victorian Liberal frontbench after Battin ousted",
+          "url": "https://aapnews.aap.com.au/news/liberal-leader-makes-frontbench-peace-offering",
+          "source": "AAP",
+          "summary": "Jess Wilson unveiled her shadow cabinet after Brad Battin was removed as opposition leader earlier in November, giving him the police and corrections portfolio. The reshuffle sets up the Coalition's pitch weeks before voters go to the polls."
+        },
+        {
+          "title": "RBA lifts cash rate to 4.85%, banks pass it on from 13 November",
+          "url": "https://propertyinvestmentprofessionals.com.au/market/week-of-november-8-2026",
+          "source": "Property Investment Professionals",
+          "summary": "The Reserve Bank raised the cash rate 25 basis points to 4.85% on a 6–3 vote, the fifth rise of 2026 and the highest since 2008. The big four banks pass the increase on from 13 November, and the next decision is 8 December."
+        },
+        {
+          "title": "ASX slides as Nvidia woes and bond yield spike hit sentiment",
+          "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-nvidia-woes-bond-yield-spike-and-falling",
+          "source": "Market Index",
+          "summary": "The ASX 200 closed about 0.7% lower on Friday as rising US bond yields and weaker commodities drove a broad sell-off. It still points to a third straight weekly gain."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "IMD warns Bay of Bengal system may become severe cyclonic storm",
+          "url": "https://indianopinion.org/today-in-india-15-november-2026/",
+          "source": "Indian Opinion (daily roundup)",
+          "summary": "The IMD says the low-pressure area may become a depression on 15 November, a cyclonic storm around 16 November and a severe cyclonic storm by 18 November. Landfall is expected on the north coastal Andhra Pradesh coast around 19–20 November."
+        },
+        {
+          "title": "Goyal says India and US agree on preferential market access",
+          "url": "https://saachibaat.com/politics/todays-top-news-15-november-2026/",
+          "source": "Saachi Baat (daily roundup)",
+          "summary": "Commerce Minister Piyush Goyal said India and the US agree on preferential access for Indian goods in America. Not independently confirmed from an original source."
+        },
+        {
+          "title": "India's October trade gap reaches $40 billion as exports hit record",
+          "url": "https://saachibaat.com/politics/todays-top-news-15-november-2026/",
+          "source": "Saachi Baat (daily roundup)",
+          "summary": "The roundup reports a $40 billion trade deficit in October alongside record exports. The widening gap matters for the rupee and the current account outlook."
+        },
+        {
+          "title": "Modi addresses Janjatiya Gaurav Diwas, launches projects worth about ₹3,000 crore",
+          "url": "https://indianopinion.org/today-in-india-15-november-2026/",
+          "source": "Indian Opinion (daily roundup)",
+          "summary": "Prime Minister Modi was scheduled to address the event by video link on Birsa Munda's 151st birth anniversary. He was also to inaugurate or lay foundations for 246 projects."
+        },
+        {
+          "title": "India beat New Zealand by 22 runs to win ODI series 3-1",
+          "url": "https://indianopinion.org/today-in-india-15-november-2026/",
+          "source": "Indian Opinion (daily roundup)",
+          "summary": "India won the fifth and final ODI, with Mohammad Siraj and Arshdeep Singh breaking New Zealand's top order. The result sealed the series 3-1."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Storm expected to make landfall on north coastal Andhra around 19–20 November",
+          "url": "https://indianopinion.org/today-in-india-15-november-2026/",
+          "source": "Indian Opinion (daily roundup)",
+          "summary": "The IMD expects a Bay of Bengal low to intensify into a severe cyclonic storm by 18 November. North coastal districts should prepare for heavy rain and wind."
+        },
+        {
+          "title": "Cyclone Murasu's early-November landfall left damage but no reported casualties",
+          "url": "https://aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast",
+          "source": "Al Jazeera",
+          "summary": "Murasu was the second storm to hit the region within a week, uprooting trees and downing power poles. This is older coverage; it gives context for the new storm threat."
+        },
+        {
+          "title": "Naidu thanks NDA cadres for local body poll wins",
+          "url": "https://theprint.in/india/andhra-cm-thanks-nda-coalition-cadres-for-victory-in-local-body-polls/3094173/",
+          "source": "ThePrint (PTI)",
+          "summary": "Chief Minister Chandrababu Naidu credited TDP, Janasena and BJP workers for the coalition's local body victories while noting losses in Anantapur and some agency areas. Publication date not confirmed."
+        },
+        {
+          "title": "Cabinet clears Rs 904 crore for Amaravati village infrastructure",
+          "url": "https://www.outlookbusiness.com/amp/story/industry/andhra-cabinet-clears-rs-904-cr-amaravati-infra-push-1200-acres-for-solar-project",
+          "source": "Outlook Business",
+          "summary": "The state cabinet approved a Rs 904 crore infrastructure programme and 1,200 acres at Mylavaram for a solar project. Article date is unclear, so treat as background."
+        },
+        {
+          "title": "Naidu cites Rs 22 lakh crore investment attracted over 28 months",
+          "url": "https://www.newkerala.com/news/a/andhra-pradesh-secured-rs-22-lakh-crore-investment-471.htm",
+          "source": "NewKerala (IANS)",
+          "summary": "The chief minister said the state has attracted Rs 22 lakh crore in investment, as reported on 23 October. The figure is a government claim and not independently verified."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,561.67",
+          "change": "-0.40%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "25,136.27",
+          "change": "-0.91%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "52,347.55",
+          "change": "+0.10%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Tech sinks on Nvidia turmoil but major indexes post weekly gains",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-tick-133734502.html",
+          "source": "Yahoo Finance",
+          "summary": "The S&P 500 and Nasdaq fell on Friday as Nvidia and other tech names slid, but the S&P gained about 2.5% for the week after four straight weekly losses. Breadth was positive, with 314 S&P stocks rising."
+        },
+        {
+          "title": "Friday close for major US indexes",
+          "url": "https://www.washingtonpost.com/business/2026/11/13/wall-street-stocks-dow-nasdaq/f15a10e2-dfa7-11f1-912c-4fbb80d73f7f_story.html",
+          "source": "The Washington Post (AP)",
+          "summary": "The standard AP table records the 13 November closes for the three main indexes, with the Dow edging higher while tech-heavy indexes dropped. Figures here come from search summaries of this and related wraps."
+        },
+        {
+          "title": "Nvidia leadership change weighs on chipmakers and data-centre stocks",
+          "url": "https://www.marketindex.com.au/news/morning-wrap-asx-200-to-fall-s-and-p-500-and-nasdaq-slip-after-nvidia-ceo",
+          "source": "Market Index",
+          "summary": "A Market Index wrap links the US slide to the Nvidia CEO's departure and higher oil lifting yields. Details of the leadership issue were reported inconsistently across sources."
+        },
+        {
+          "title": "Week ahead: Nvidia in the crosshairs as key economic data awaited",
+          "url": "https://www.fxstreet.com/analysis/the-week-ahead-nvidia-in-the-crosshairs-as-we-await-key-economic-data-202611091325",
+          "source": "FXStreet",
+          "summary": "A preview flagged Nvidia and upcoming economic data as the main drivers, with a moderate CPI reading easing expectations of a Fed hike next month. Published 9 November, so it predates Friday's session."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Fri 13 Nov close)",
+          "value": "9,082.2",
+          "change": "-0.71%"
+        },
+        {
+          "label": "AUD/USD (6 Nov, latest found)",
+          "value": "69.00 US cents",
+          "change": "n/a"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX 200 slides on Nvidia woes, bond yield spike and weaker commodities",
+          "url": "https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-nvidia-woes-bond-yield-spike-and-falling",
+          "source": "Market Index",
+          "summary": "The index closed 64.6 points lower at 9,082.2 as investors rotated into defensives. Gold and base-metal miners led the falls."
+        },
+        {
+          "title": "ASX set to open lower after Nvidia CEO exit and higher oil",
+          "url": "https://www.marketindex.com.au/news/morning-wrap-asx-200-to-fall-s-and-p-500-and-nasdaq-slip-after-nvidia-ceo",
+          "source": "Market Index",
+          "summary": "A morning wrap pointed to a weaker local open after US tech slipped and higher oil lifted bond yields. Check live futures for today's direction."
+        },
+        {
+          "title": "RBA lifts cash rate to 4.85%, highest since 2008",
+          "url": "https://www.commbank.com.au/articles/newsroom/2026/11/aussie-shares-dip-but-end-week-higher-despite-risks.html",
+          "source": "CommBank Newsroom",
+          "summary": "The Reserve Bank raised rates on 3 November, with the ASX shielded from the global tech sell-off by limited AI exposure. This is from the 6 November wrap, the latest available, and the next RBA decision is 8 December."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Preliminary auction clearance rate rises to 51.5%",
+          "url": "https://www.cotality.com/au/press-releases/combined-capitals-preliminary-auction-clearance-rate-rises-to-51-5",
+          "source": "Cotality",
+          "summary": "The combined capitals cleared a preliminary 51.5% across 1,734 auctions in the week to 8 November, with Melbourne strongest. Volumes remain well below last year, and the 14–15 November result was not yet available."
+        },
+        {
+          "title": "Final clearance rate for week to 1 November lowest since April 2020",
+          "url": "https://www.cotality.com/au/press-releases/final-clearance-rates-week-ending-1-november-2026",
+          "source": "Cotality",
+          "summary": "The final combined-capitals rate was revised down to 40.7%, reported as the weakest since mid-April 2020. It shows how fragile auction demand is after the RBA's latest rate rise."
+        },
+        {
+          "title": "Listings hit five-year high as homes take longer to sell",
+          "url": "https://propertyinvestmentprofessionals.com.au/market/week-of-november-8-2026",
+          "source": "Property Investment Professionals",
+          "summary": "SQM data shows listings up 8.8% in October to 301,201, while national values fell 1.2% in October, the seventh straight monthly fall. Buyers have more negotiating room as discounts widen to about 4.7%."
+        },
+        {
+          "title": "Melbourne leads weekly auction rebound",
+          "url": "https://www.mpamag.com/au/news/general/auction-clearance-rates-lift-melbourne-leads-weekly-rebound/596579",
+          "source": "Mortgage Professional Australia",
+          "summary": "Auction clearance rates lifted last week with Melbourne leading the recovery. It suggests some stabilisation, though volumes remain low."
+        },
+        {
+          "title": "Cagey buyers push home sales to post-pandemic low",
+          "url": "https://www.canberratimes.com.au/story/9383679/cagey-buyers-push-home-sales-rates-to-post-pandemic-low/",
+          "source": "The Canberra Times",
+          "summary": "Cautious buyers are driving sales rates to their weakest since the pandemic. Publication date not confirmed, so treat as background to the rate-rise slowdown."
+        }
+      ]
+    }
+  }
+}

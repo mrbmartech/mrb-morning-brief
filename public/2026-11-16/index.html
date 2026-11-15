@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The MrB Morning Brief, Monday 16 November 2026</title>
+<meta name="description" content="Australia and the Philippines have signed a new defence pact, while a Bay of Bengal storm is forecast to hit Andhra Pradesh around 19–20 November.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2212%22 fill=%22%23121212%22/><text x=%2250%22 y=%2272%22 font-family=%22Georgia%22 font-weight=%22700%22 font-size=%2266%22 fill=%22white%22 text-anchor=%22middle%22>B</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400;1,6..72,500&family=Libre+Franklin:wght@400;500;600;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#E6E9E3; --paper:#FBFBF8; --ink:#16181A; --body:#34383C; --muted:#5E6469; --hair:#DCDFD8; --rule:#16181A;
+  --link:#2F5F86; --up:#0A7A3E; --down:#C3201F; --tint:#F0F2EC; --accent:#7A1F2B;
+  --head:"Newsreader","Iowan Old Style","Times New Roman",Georgia,serif;
+  --text:"Newsreader","Iowan Old Style",Georgia,serif;
+  --sans:"Libre Franklin","Franklin Gothic Medium","Helvetica Neue",Arial,sans-serif;
+  --black:"UnifrakturMaguntia","Old English Text MT",Georgia,serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --desk:#0D0F10; --paper:#17191B; --ink:#ECEDEA; --body:#D0D3CF; --muted:#9EA4A8; --hair:#2C3033; --rule:#ECEDEA;
+  --link:#86B6DE; --up:#5CC48A; --down:#F0716F; --tint:#1E2124; --accent:#E08A95; color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--desk);color:var(--ink);font:400 17px/1.55 var(--text);padding-bottom:env(safe-area-inset-bottom,0);font-optical-sizing:auto}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--muted)}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.page{max-width:80rem;margin:1.5rem auto;padding:0 2.25rem;background:var(--paper);box-shadow:0 1px 2px rgba(20,24,28,.06),0 12px 40px -12px rgba(20,24,28,.18)}
+
+/* Masthead */
+.top{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:1rem;padding:calc(env(safe-area-inset-top,0px) + 1rem) 0 .4rem;font:500 .78rem/1.4 var(--sans)}
+.top .date{font-weight:700}
+.top .date span{display:block;font-weight:400;color:var(--muted)}
+.top .hello{text-align:center;font:italic 400 .95rem/1.3 var(--head);color:var(--body)}
+.top .days{display:flex;gap:.9rem;justify-content:flex-end}
+.top .days a:hover{text-decoration:underline}
+.mast{text-align:center;margin:.2rem 0 .9rem}
+.mast a{font:400 clamp(2.4rem,6.6vw,4.6rem)/1 var(--black);color:var(--ink);letter-spacing:.005em}
+.secbar{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);position:relative;margin-bottom:3px}
+.secbar::after{content:"";position:absolute;left:0;right:0;bottom:-4px;border-bottom:1px solid var(--rule)}
+.secbar ul{list-style:none;margin:0;padding:.55rem 0;display:flex;justify-content:center;flex-wrap:wrap;gap:.35rem 1.4rem;font:500 .8rem/1.3 var(--sans)}
+.secbar a:hover{text-decoration:underline}
+
+/* Front page */
+.front{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr) minmax(0,.95fr);margin-top:1.4rem;border-bottom:1px solid var(--rule)}
+.front>*{padding:0 1.4rem 1.6rem;border-left:1px solid var(--hair)}
+.front>*:first-child{padding-left:0;border-left:0}
+.front>*:last-child{padding-right:0}
+.kicker{font:700 .74rem/1.3 var(--sans);margin:0 0 .5rem;color:var(--accent)}
+.top-story h1{font:700 clamp(1.9rem,3.5vw,2.8rem)/1.08 var(--head);margin:0 0 1.1rem;letter-spacing:-.018em;text-wrap:balance}
+.bullets{margin:0;padding-left:1.1rem;color:var(--body)}
+.bullets li{margin:0 0 .65rem;font-size:1rem;line-height:1.45}
+.bullets li::marker{color:var(--muted)}
+.bullets b{font:700 .95rem/1.3 var(--head);color:var(--ink)}
+.stamp{margin:1rem 0 0;font:400 .75rem/1.3 var(--sans);color:var(--muted)}
+
+.box h2{font:700 .72rem/1.3 var(--sans);margin:0 0 .6rem}
+.box+.box{margin-top:1.4rem;padding-top:1.2rem;border-top:1px solid var(--hair)}
+.status{display:flex;gap:.5rem;align-items:baseline;font:700 1.05rem/1.3 var(--head);margin:0 0 .35rem}
+.status i{width:.55rem;height:.55rem;border-radius:50%;flex:none;background:var(--muted);transform:translateY(-.05rem)}
+.status i.clear{background:var(--up)}.status i.issues{background:var(--down)}
+.note{margin:0;color:var(--body);font-size:.92rem;line-height:1.45}
+.inc{list-style:none;margin:.7rem 0 0;padding:0}
+.inc li{padding:.55rem 0;border-top:1px solid var(--hair);font-size:.88rem;line-height:1.4;color:var(--body)}
+.inc a{display:block;font:700 .95rem/1.3 var(--head);color:var(--ink);margin-bottom:.15rem}
+table.mkt{width:100%;border-collapse:collapse;font:400 .85rem/1.3 var(--sans);font-variant-numeric:tabular-nums}
+table.mkt caption{text-align:left;font:700 .78rem/1.3 var(--sans);padding:.2rem 0 .3rem;color:var(--muted)}
+table.mkt td{padding:.38rem 0;border-top:1px solid var(--hair)}
+table.mkt td:nth-child(2),table.mkt td:nth-child(3){text-align:right;white-space:nowrap}
+table.mkt td:nth-child(3){width:4.8rem;font-weight:700}
+table.mkt+table.mkt{margin-top:.8rem}
+.up{color:var(--up)}.down{color:var(--down)}
+
+.opinion{background:var(--tint)}
+.front>.opinion{padding:1.2rem 1.3rem 1.4rem;border-left:0;margin-bottom:1.6rem;align-self:start}
+.opinion blockquote{margin:0;font:italic 500 1.4rem/1.32 var(--head);text-wrap:balance}
+.opinion cite{display:block;margin:.55rem 0 0;font:500 .8rem/1.3 var(--sans);font-style:normal;color:var(--muted)}
+.opinion h3{font:700 1.05rem/1.25 var(--head);margin:1.3rem 0 .3rem;padding-top:1rem;border-top:1px solid var(--hair)}
+.opinion h3+p{margin:0;font-size:.95rem;line-height:1.5;color:var(--body)}
+.opinion .kicker{margin:0 0 .5rem}
+
+/* Sections */
+.sec{margin-top:2.2rem;padding-top:.5rem;border-top:1px solid var(--rule);scroll-margin-top:1rem}
+.sec>h2{font:700 1rem/1.3 var(--sans);margin:0 0 1rem;color:var(--accent)}
+.sec>h2 a::after{content:" ›";color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+.grid>*{padding:0 1.4rem;border-left:1px solid var(--hair)}
+.grid>*:first-child{padding-left:0;border-left:0}
+.grid>*:last-child{padding-right:0}
+.lead h3{font:700 clamp(1.45rem,2.4vw,1.85rem)/1.14 var(--head);margin:0 0 .55rem;letter-spacing:-.012em;text-wrap:balance}
+.lead p{margin:0;font-size:1.02rem;line-height:1.5;color:var(--body);max-width:60ch}
+.src{display:block;margin-top:.6rem;font:500 .72rem/1.3 var(--sans);color:var(--muted)}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:.85rem 0;border-top:1px solid var(--hair)}
+.list li:first-child{padding-top:0;border-top:0}
+.list h3{font:700 1.08rem/1.25 var(--head);margin:0 0 .3rem;letter-spacing:-.005em}
+.list p{margin:0;font-size:.9rem;line-height:1.45;color:var(--muted)}
+.missing{margin:0;color:var(--muted);font-style:italic}
+.lead a:hover,.list a:hover,.inc a:hover{color:var(--muted)}
+
+/* Archive */
+.arch{list-style:none;margin:1.5rem 0 0;padding:0;max-width:46rem}
+.arch li{padding:1.1rem 0;border-top:1px solid var(--hair)}
+.arch .d{font:700 .75rem/1.3 var(--sans);color:var(--muted)}
+.arch a{display:block;margin-top:.3rem;font:700 1.3rem/1.25 var(--head)}
+.arch-title{font:700 2rem/1.15 var(--head);margin:1.6rem 0 0}
+
+footer.f{margin-top:3rem;padding:1.2rem 0 3rem;border-top:1px solid var(--rule);font:400 .78rem/1.5 var(--sans);color:var(--muted)}
+footer.f .fm{font:400 1.5rem/1 var(--black);color:var(--ink);display:block;margin-bottom:.6rem}
+
+@media (max-width:980px){
+  .page{margin:0 auto}
+  .front>.opinion{margin-bottom:1.6rem}
+  .front{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .front .top-story{grid-column:1/-1;padding:0 0 1.6rem;border-left:0;border-bottom:1px solid var(--hair);margin-bottom:1.4rem}
+  .front .markets{padding-left:0;border-left:0}
+}
+@media (max-width:680px){
+  body{font-size:15px}
+  .page{padding:0 1rem;margin:0;box-shadow:none}
+  .top{grid-template-columns:1fr auto}
+  .top .hello{display:none}
+  .mast a{font-size:min(2.35rem,8.4vw);white-space:nowrap}
+  .secbar ul{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding:.55rem .1rem;scrollbar-width:none}
+  .secbar ul::-webkit-scrollbar{display:none}
+  .secbar li{flex:none}
+  .front{grid-template-columns:1fr}
+  .front>*{padding:0 0 1.4rem;border-left:0}
+  .front>*+*{border-top:1px solid var(--hair);padding-top:1.2rem}
+  .front .top-story{margin-bottom:0}
+  .grid{grid-template-columns:1fr}
+  .grid>*{padding:0;border-left:0}
+  .grid .list{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--hair)}
+}
+</style>
+</head>
+<body><div class="page">
+<header>
+<div class="top"><div class="date">Monday 16 November 2026<span>Prepared 10:53 am AEDT</span></div><div class="hello">Hello Mr.Bhaskar</div><nav class="days" aria-label="Other days"><a href="/2026-11-15/">‹ Sun, 15 Nov</a><a href="/archive/">Archive</a></nav></div>
+<div class="mast"><a href="/">The MrB Morning Brief</a></div>
+<nav class="secbar" aria-label="Sections"><ul><li><a href="#martech">MarTech</a></li><li><a href="#salesforce">Salesforce news</a></li><li><a href="#australia">Australia top 5</a></li><li><a href="#india">India top 5</a></li><li><a href="#andhra">Andhra Pradesh top 5</a></li><li><a href="#usstocks">US stocks</a></li><li><a href="#austocks">AU stocks</a></li><li><a href="#property">Australian real estate top 5</a></li></ul></nav>
+</header>
+<main>
+<section class="front">
+<article class="top-story"><p class="kicker">Today’s top stories</p><h1>Australia and the Philippines have signed a new defence pact, while a Bay of Bengal storm is forecast to hit Andhra Pradesh around 19–20 November.</h1><ul class="bullets"><li><b>Defence pact.</b> Australia and the Philippines signed a maritime security agreement in Manila amid South China Sea tensions.</li><li><b>Wall Street.</b> The S&amp;P 500 and Nasdaq fell on Friday as Nvidia&#39;s leadership turmoil hit tech, though the S&amp;P gained about 2.5% for the week.</li><li><b>Cyclone warning.</b> The IMD expects a Bay of Bengal system to become a severe cyclonic storm and reach north coastal Andhra Pradesh around 19–20 November.</li></ul></article>
+<div class="markets"><section class="box" id="sfstatus"><h2>Salesforce issues &amp; downtime</h2><p class="status"><i class="issues" aria-hidden="true"></i>Issues reported</p><p class="note">Third-party trackers show recent Marketing Cloud and Data Cloud incidents, and a Marketing Cloud Next email publishing issue from 6 November was reportedly still being fixed; no planned maintenance or APAC-specific incident was found. Not independently confirmed on status.salesforce.com.</p><ul class="inc"><li><a href="https://isdown.app/status/salesforce/incidents/682047-marketing-cloud-engagement-feature-degradation" rel="noopener">Marketing Cloud Engagement brief degradation</a>A short Marketing Cloud Engagement incident around 5 November caused intermittent slowness or unavailability for about eight minutes. It is resolved, but shows the service is seeing minor disruptions.</li><li><a href="https://isdown.app/status/salesforce/incidents/681627-feature-disruption-impacting-data-cloud-enabled-scratch-orgs-creation-failure" rel="noopener">Data Cloud scratch org creation disruption</a>From about 3 November, some Dev Hub customers could not create scratch orgs with Data Cloud features, for over 53 hours. It mainly affects developers, and a configuration change was still rolling out at the last update.</li></ul></section><section class="box"><h2>Markets</h2><table class="mkt"><caption>US stocks</caption><tbody><tr><td>S&amp;P 500</td><td>7,561.67</td><td class="down">▼ 0.40%</td></tr><tr><td>Nasdaq Composite</td><td>25,136.27</td><td class="down">▼ 0.91%</td></tr><tr><td>Dow Jones</td><td>52,347.55</td><td class="up">▲ 0.10%</td></tr></tbody></table><table class="mkt"><caption>AU stocks</caption><tbody><tr><td>ASX 200 (Fri 13 Nov close)</td><td>9,082.2</td><td class="down">▼ 0.71%</td></tr><tr><td>AUD/USD (6 Nov, latest found)</td><td>69.00 US cents</td><td class=""> n/a</td></tr></tbody></table></section></div>
+<aside class="opinion" id="health"><p class="kicker">Health &amp; fitness</p>
+<blockquote>“Do the thing and you shall have the power.”<cite>Ralph Waldo Emerson</cite></blockquote>
+<h3>Write tomorrow&#39;s top three before you log off</h3><p>Spend two minutes at the end of the workday listing the three most important tasks for tomorrow. Getting them out of your head makes it easier to switch off in the evening and lets you start the next day with a clear first move.</p></aside>
+</section>
+<section class="sec" id="martech"><h2><a href="#martech">MarTech</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/" rel="noopener">IAB proposes framework for crediting AI in conversions</a></h3><p>The IAB has put forward a shared method for deciding how much credit AI-driven touchpoints should get for a sale. It matters because marketers currently have no common standard for attributing results to AI discovery.</p><span class="src">MarTech</span></article>
+<ul class="list"><li><h3><a href="https://martech.org/the-latest-ai-powered-martech-news-and-releases/" rel="noopener">Adobe widens its AI stack with Google models and agent tools</a></h3><p>A MarTech roundup reports Adobe is adding Google models, custom Disney models and agentic workflow tools to its AI offering. It signals Adobe&#39;s Experience Cloud push toward multi-model, agent-driven marketing workflows.</p><span class="src">MarTech</span></li><li><h3><a href="https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/" rel="noopener">Marketers deploying AI agents faster than they can measure them</a></h3><p>Most marketers cannot yet tie AI agent conversations to campaigns, conversions and revenue. That leaves a governance and ROI gap as agent rollouts accelerate.</p><span class="src">MarTech</span></li><li><h3><a href="https://martech.org/claritas-brings-live-optimization-to-acquisition-email/" rel="noopener">Claritas adds live optimisation to acquisition email</a></h3><p>A new Claritas product adjusts audiences and subject lines mid-campaign and uses holdout groups to measure lift. It is a notable email-performance tool for acquisition programs.</p><span class="src">MarTech</span></li><li><h3><a href="https://martech.org/iab-announces-support-for-new-ctv-ad-formats/" rel="noopener">IAB backs new connected-TV ad formats for measurement</a></h3><p>Consistent impression measurement is being extended to pause, menu, screensaver and overlay ads on connected TV. This gives advertisers more comparable reporting across emerging CTV formats.</p><span class="src">MarTech</span></li></ul></div></section>
+<section class="sec" id="salesforce"><h2><a href="#salesforce">Salesforce news</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.salesforceben.com/salesforce-launches-ai-skills-in-agentforce-coworker/" rel="noopener">Salesforce launches AI Skills in Agentforce Coworker</a></h3><p>Salesforce has added AI Skills to Agentforce Coworker (12 November). It extends the assistant&#39;s capabilities for everyday work inside Salesforce.</p><span class="src">Salesforce Ben</span></article>
+<ul class="list"><li><h3><a href="https://www.salesforceben.com/salesforces-next-big-bet-agentforce-coworker-usage-grew-21x-in-3-months/" rel="noopener">Agentforce Coworker usage reportedly up 21x in three months</a></h3><p>Salesforce Ben reports rapid growth in Coworker usage over three months (11 November). It shows where Salesforce is placing its next big AI bet.</p><span class="src">Salesforce Ben</span></li><li><h3><a href="https://www.salesforceben.com/salesforce-unveils-cheaper-quicker-ai-decisions-model-koa-decisions/" rel="noopener">Salesforce unveils cheaper, quicker &#39;Koa Decisions&#39; AI model</a></h3><p>Salesforce has introduced Koa Decisions, described as a faster and lower-cost model for AI decisions (9 November). Lower running costs could make agent deployments easier to justify.</p><span class="src">Salesforce Ben</span></li><li><h3><a href="https://www.salesforceben.com/salesforce-acquires-cresta-buying-spree-continues-with-voice-agent-company/" rel="noopener">Salesforce buys voice-agent company Cresta</a></h3><p>Salesforce has acquired Cresta, adding to a run of recent acquisitions (3 November). It strengthens its voice-agent capability in service and sales.</p><span class="src">Salesforce Ben</span></li><li><h3><a href="https://www.salesforceben.com/connected-app-warnings-return-as-salesforce-disables-two-integrations/" rel="noopener">Salesforce disables two integrations as connected app warnings return</a></h3><p>Salesforce has disabled two integrations and connected app warnings are back (12 November). Admins should review third-party connected apps and their access.</p><span class="src">Salesforce Ben</span></li></ul></div></section>
+<section class="sec" id="australia"><h2><a href="#australia">Australia top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://euronews.com/2026/11/15/australia-and-philippines-sign-new-defence-pact-amid-south-china-sea-tensions" rel="noopener">Australia and the Philippines sign new defence pact</a></h3><p>Anthony Albanese signed a maritime security agreement in Manila, intended to ease joint patrols, exercises and disaster relief and updating a 1995 arrangement. It deepens Australia&#39;s security ties as South China Sea tensions continue.</p><span class="src">Euronews</span></article>
+<ul class="list"><li><h3><a href="https://www.inkl.com/news/vic-soft-launches-for-major-party-state-election-showdown" rel="noopener">Major parties soft-launch Victorian election campaigns</a></h3><p>Premier Jacinta Allan and Opposition Leader Jess Wilson held soft campaign launches ahead of the 28 November state election. Allan&#39;s event focused on funding apprenticeships.</p><span class="src">inkl / AAP</span></li><li><h3><a href="https://aapnews.aap.com.au/news/liberal-leader-makes-frontbench-peace-offering" rel="noopener">Wilson reshapes Victorian Liberal frontbench after Battin ousted</a></h3><p>Jess Wilson unveiled her shadow cabinet after Brad Battin was removed as opposition leader earlier in November, giving him the police and corrections portfolio. The reshuffle sets up the Coalition&#39;s pitch weeks before voters go to the polls.</p><span class="src">AAP</span></li><li><h3><a href="https://propertyinvestmentprofessionals.com.au/market/week-of-november-8-2026" rel="noopener">RBA lifts cash rate to 4.85%, banks pass it on from 13 November</a></h3><p>The Reserve Bank raised the cash rate 25 basis points to 4.85% on a 6–3 vote, the fifth rise of 2026 and the highest since 2008. The big four banks pass the increase on from 13 November, and the next decision is 8 December.</p><span class="src">Property Investment Professionals</span></li><li><h3><a href="https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-nvidia-woes-bond-yield-spike-and-falling" rel="noopener">ASX slides as Nvidia woes and bond yield spike hit sentiment</a></h3><p>The ASX 200 closed about 0.7% lower on Friday as rising US bond yields and weaker commodities drove a broad sell-off. It still points to a third straight weekly gain.</p><span class="src">Market Index</span></li></ul></div></section>
+<section class="sec" id="india"><h2><a href="#india">India top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://indianopinion.org/today-in-india-15-november-2026/" rel="noopener">IMD warns Bay of Bengal system may become severe cyclonic storm</a></h3><p>The IMD says the low-pressure area may become a depression on 15 November, a cyclonic storm around 16 November and a severe cyclonic storm by 18 November. Landfall is expected on the north coastal Andhra Pradesh coast around 19–20 November.</p><span class="src">Indian Opinion (daily roundup)</span></article>
+<ul class="list"><li><h3><a href="https://saachibaat.com/politics/todays-top-news-15-november-2026/" rel="noopener">Goyal says India and US agree on preferential market access</a></h3><p>Commerce Minister Piyush Goyal said India and the US agree on preferential access for Indian goods in America. Not independently confirmed from an original source.</p><span class="src">Saachi Baat (daily roundup)</span></li><li><h3><a href="https://saachibaat.com/politics/todays-top-news-15-november-2026/" rel="noopener">India&#39;s October trade gap reaches $40 billion as exports hit record</a></h3><p>The roundup reports a $40 billion trade deficit in October alongside record exports. The widening gap matters for the rupee and the current account outlook.</p><span class="src">Saachi Baat (daily roundup)</span></li><li><h3><a href="https://indianopinion.org/today-in-india-15-november-2026/" rel="noopener">Modi addresses Janjatiya Gaurav Diwas, launches projects worth about ₹3,000 crore</a></h3><p>Prime Minister Modi was scheduled to address the event by video link on Birsa Munda&#39;s 151st birth anniversary. He was also to inaugurate or lay foundations for 246 projects.</p><span class="src">Indian Opinion (daily roundup)</span></li><li><h3><a href="https://indianopinion.org/today-in-india-15-november-2026/" rel="noopener">India beat New Zealand by 22 runs to win ODI series 3-1</a></h3><p>India won the fifth and final ODI, with Mohammad Siraj and Arshdeep Singh breaking New Zealand&#39;s top order. The result sealed the series 3-1.</p><span class="src">Indian Opinion (daily roundup)</span></li></ul></div></section>
+<section class="sec" id="andhra"><h2><a href="#andhra">Andhra Pradesh top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://indianopinion.org/today-in-india-15-november-2026/" rel="noopener">Storm expected to make landfall on north coastal Andhra around 19–20 November</a></h3><p>The IMD expects a Bay of Bengal low to intensify into a severe cyclonic storm by 18 November. North coastal districts should prepare for heavy rain and wind.</p><span class="src">Indian Opinion (daily roundup)</span></article>
+<ul class="list"><li><h3><a href="https://aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast" rel="noopener">Cyclone Murasu&#39;s early-November landfall left damage but no reported casualties</a></h3><p>Murasu was the second storm to hit the region within a week, uprooting trees and downing power poles. This is older coverage; it gives context for the new storm threat.</p><span class="src">Al Jazeera</span></li><li><h3><a href="https://theprint.in/india/andhra-cm-thanks-nda-coalition-cadres-for-victory-in-local-body-polls/3094173/" rel="noopener">Naidu thanks NDA cadres for local body poll wins</a></h3><p>Chief Minister Chandrababu Naidu credited TDP, Janasena and BJP workers for the coalition&#39;s local body victories while noting losses in Anantapur and some agency areas. Publication date not confirmed.</p><span class="src">ThePrint (PTI)</span></li><li><h3><a href="https://www.outlookbusiness.com/amp/story/industry/andhra-cabinet-clears-rs-904-cr-amaravati-infra-push-1200-acres-for-solar-project" rel="noopener">Cabinet clears Rs 904 crore for Amaravati village infrastructure</a></h3><p>The state cabinet approved a Rs 904 crore infrastructure programme and 1,200 acres at Mylavaram for a solar project. Article date is unclear, so treat as background.</p><span class="src">Outlook Business</span></li><li><h3><a href="https://www.newkerala.com/news/a/andhra-pradesh-secured-rs-22-lakh-crore-investment-471.htm" rel="noopener">Naidu cites Rs 22 lakh crore investment attracted over 28 months</a></h3><p>The chief minister said the state has attracted Rs 22 lakh crore in investment, as reported on 23 October. The figure is a government claim and not independently verified.</p><span class="src">NewKerala (IANS)</span></li></ul></div></section>
+<section class="sec" id="usstocks"><h2><a href="#usstocks">US stocks</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-tick-133734502.html" rel="noopener">Tech sinks on Nvidia turmoil but major indexes post weekly gains</a></h3><p>The S&amp;P 500 and Nasdaq fell on Friday as Nvidia and other tech names slid, but the S&amp;P gained about 2.5% for the week after four straight weekly losses. Breadth was positive, with 314 S&amp;P stocks rising.</p><span class="src">Yahoo Finance</span></article>
+<ul class="list"><li><h3><a href="https://www.washingtonpost.com/business/2026/11/13/wall-street-stocks-dow-nasdaq/f15a10e2-dfa7-11f1-912c-4fbb80d73f7f_story.html" rel="noopener">Friday close for major US indexes</a></h3><p>The standard AP table records the 13 November closes for the three main indexes, with the Dow edging higher while tech-heavy indexes dropped. Figures here come from search summaries of this and related wraps.</p><span class="src">The Washington Post (AP)</span></li><li><h3><a href="https://www.marketindex.com.au/news/morning-wrap-asx-200-to-fall-s-and-p-500-and-nasdaq-slip-after-nvidia-ceo" rel="noopener">Nvidia leadership change weighs on chipmakers and data-centre stocks</a></h3><p>A Market Index wrap links the US slide to the Nvidia CEO&#39;s departure and higher oil lifting yields. Details of the leadership issue were reported inconsistently across sources.</p><span class="src">Market Index</span></li><li><h3><a href="https://www.fxstreet.com/analysis/the-week-ahead-nvidia-in-the-crosshairs-as-we-await-key-economic-data-202611091325" rel="noopener">Week ahead: Nvidia in the crosshairs as key economic data awaited</a></h3><p>A preview flagged Nvidia and upcoming economic data as the main drivers, with a moderate CPI reading easing expectations of a Fed hike next month. Published 9 November, so it predates Friday&#39;s session.</p><span class="src">FXStreet</span></li></ul></div></section>
+<section class="sec" id="austocks"><h2><a href="#austocks">AU stocks</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.marketindex.com.au/news/evening-wrap-asx-200-slides-as-nvidia-woes-bond-yield-spike-and-falling" rel="noopener">ASX 200 slides on Nvidia woes, bond yield spike and weaker commodities</a></h3><p>The index closed 64.6 points lower at 9,082.2 as investors rotated into defensives. Gold and base-metal miners led the falls.</p><span class="src">Market Index</span></article>
+<ul class="list"><li><h3><a href="https://www.marketindex.com.au/news/morning-wrap-asx-200-to-fall-s-and-p-500-and-nasdaq-slip-after-nvidia-ceo" rel="noopener">ASX set to open lower after Nvidia CEO exit and higher oil</a></h3><p>A morning wrap pointed to a weaker local open after US tech slipped and higher oil lifted bond yields. Check live futures for today&#39;s direction.</p><span class="src">Market Index</span></li><li><h3><a href="https://www.commbank.com.au/articles/newsroom/2026/11/aussie-shares-dip-but-end-week-higher-despite-risks.html" rel="noopener">RBA lifts cash rate to 4.85%, highest since 2008</a></h3><p>The Reserve Bank raised rates on 3 November, with the ASX shielded from the global tech sell-off by limited AI exposure. This is from the 6 November wrap, the latest available, and the next RBA decision is 8 December.</p><span class="src">CommBank Newsroom</span></li></ul></div></section>
+<section class="sec" id="property"><h2><a href="#property">Australian real estate top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.cotality.com/au/press-releases/combined-capitals-preliminary-auction-clearance-rate-rises-to-51-5" rel="noopener">Preliminary auction clearance rate rises to 51.5%</a></h3><p>The combined capitals cleared a preliminary 51.5% across 1,734 auctions in the week to 8 November, with Melbourne strongest. Volumes remain well below last year, and the 14–15 November result was not yet available.</p><span class="src">Cotality</span></article>
+<ul class="list"><li><h3><a href="https://www.cotality.com/au/press-releases/final-clearance-rates-week-ending-1-november-2026" rel="noopener">Final clearance rate for week to 1 November lowest since April 2020</a></h3><p>The final combined-capitals rate was revised down to 40.7%, reported as the weakest since mid-April 2020. It shows how fragile auction demand is after the RBA&#39;s latest rate rise.</p><span class="src">Cotality</span></li><li><h3><a href="https://propertyinvestmentprofessionals.com.au/market/week-of-november-8-2026" rel="noopener">Listings hit five-year high as homes take longer to sell</a></h3><p>SQM data shows listings up 8.8% in October to 301,201, while national values fell 1.2% in October, the seventh straight monthly fall. Buyers have more negotiating room as discounts widen to about 4.7%.</p><span class="src">Property Investment Professionals</span></li><li><h3><a href="https://www.mpamag.com/au/news/general/auction-clearance-rates-lift-melbourne-leads-weekly-rebound/596579" rel="noopener">Melbourne leads weekly auction rebound</a></h3><p>Auction clearance rates lifted last week with Melbourne leading the recovery. It suggests some stabilisation, though volumes remain low.</p><span class="src">Mortgage Professional Australia</span></li><li><h3><a href="https://www.canberratimes.com.au/story/9383679/cagey-buyers-push-home-sales-rates-to-post-pandemic-low/" rel="noopener">Cagey buyers push home sales to post-pandemic low</a></h3><p>Cautious buyers are driving sales rates to their weakest since the pandemic. Publication date not confirmed, so treat as background to the rate-rise slowdown.</p><span class="src">The Canberra Times</span></li></ul></div></section>
+</main>
+<footer class="f"><span class="fm">The MrB Morning Brief</span>Written each morning by AI from public reporting. Summaries are paraphrased and may contain errors, so check the source before acting. Market content is information, not financial advice.</footer>
+</div></body></html>
