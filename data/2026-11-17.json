@@ -1,0 +1,302 @@
+{
+  "date": "2026-11-17",
+  "longDate": "Tuesday 17 November 2026",
+  "clock": "1:50 pm AEDT",
+  "generatedAt": "2026-11-17T02:50:58.208Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Wall Street slid almost 2% ahead of Nvidia's results, and a Bay of Bengal cyclone is heading for the Andhra Pradesh coast.",
+  "highlights": [
+    {
+      "label": "Wall Street slump",
+      "text": "The S&P 500 fell about 1.9% and the Nasdaq about 2.5% on Monday as chip stocks sold off before Nvidia reports."
+    },
+    {
+      "label": "Andhra cyclone",
+      "text": "A Bay of Bengal depression was forecast to strengthen into a severe cyclonic storm and approach the Andhra coast by 19 November."
+    },
+    {
+      "label": "India inflation",
+      "text": "India's retail inflation reportedly rose to 6.1% in October, above the RBI's tolerance limit, while exports hit a record high."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Prep a protein-and-veg snack",
+        "body": "Put a simple snack, such as fruit, nuts or yoghurt, where you can see it at your desk. Having a planned option makes it easier to skip a mid-afternoon vending-machine run. Notice how hungry you are before you eat."
+      },
+      "quote": {
+        "text": "Quality is not an act, it is a habit.",
+        "author": "Aristotle (commonly attributed; paraphrased by Will Durant)"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Attentive launches agentic AI marketing features",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-may-27-2026/",
+          "source": "The Agile Brand Guide",
+          "summary": "Attentive unveiled agentic AI features at its Thread 2026 customer event. Older story (27 May 2026): no fresher MarTech coverage surfaced in searches."
+        },
+        {
+          "title": "Jasper releases suite of AI marketing agents",
+          "url": "https://articles-na1.emarketer.com/topics/marketing-technology/1",
+          "source": "eMarketer",
+          "summary": "Jasper launched AI agents aimed at automating core marketing functions. Undated listing page; recency not confirmed."
+        },
+        {
+          "title": "Klaviyo acquires social commerce platform Gatsby",
+          "url": "https://articles-na1.emarketer.com/topics/marketing-technology/2",
+          "source": "eMarketer",
+          "summary": "Klaviyo bought Gatsby for an undisclosed sum, extending its reach into social commerce. Undated listing page; recency not confirmed."
+        },
+        {
+          "title": "Microsoft Advertising moves to asset-level policy review",
+          "url": "https://articles-na1.emarketer.com/topics/marketing-technology/3",
+          "source": "eMarketer",
+          "summary": "Ad headlines, descriptions and images will now be checked individually for policy compliance. Advertisers may see single assets rejected rather than whole ads. Undated listing page."
+        },
+        {
+          "title": "Kroger consolidates retail media under Kroger Precision Marketing",
+          "url": "https://articles-na1.emarketer.com/topics/marketing-technology/4",
+          "source": "eMarketer",
+          "summary": "Kroger combined retail media, consumer insights and loyalty marketing under one brand. Undated listing page; recency not confirmed."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Agentforce Coworker usage up 21x in three months",
+          "url": "https://www.salesforce.com/ap/news/press-releases/2026/11/05/sg-salesforces-agentforce-coworker-usage-soars-21x-in-three-months-as-enterprises-delegate-real-work-to-ai/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce says Coworker usage grew 21x in three months, with Google Workspace and Microsoft 365 connections added. Company-reported figures from 5 November."
+        },
+        {
+          "title": "Salesforce unveils AIforce at Dreamforce 2026",
+          "url": "https://pulse2.com/salesforce-unveils-aiforce-and-koa-expands-google-cloud-aws-and-siemens-partnerships-and-commits-27-million-to-education-at-dreamforce-2026/",
+          "source": "Pulse 2.0",
+          "summary": "AIforce is an interface layer exposing Salesforce data and permissions to external AI tools. Partnerships with Google Cloud, AWS and Siemens were also announced."
+        },
+        {
+          "title": "Biggest Dreamforce 26 announcements in a nutshell",
+          "url": "https://www.salesforceben.com/biggest-dreamforce-26-announcements-everything-in-a-nutshell/",
+          "source": "Salesforce Ben",
+          "summary": "A roundup of the main Dreamforce 2026 product news. Several items, including Teams integration and the Hunter sales agent, are targeted for November availability but not confirmed as shipped."
+        },
+        {
+          "title": "Dreamforce 2026 signals a post-CRM-interface era",
+          "url": "https://www.softwarereviews.com/vendor-technology-notes/dreamforce-2026-positions-salesforce-for-the-post-crm-interface-era",
+          "source": "SoftwareReviews",
+          "summary": "Analysis argues Salesforce is repositioning around agents and external AI interfaces rather than its own CRM screens. Useful context for roadmap planning."
+        },
+        {
+          "title": "Salesforce rolls out job-specific AI agents for sales, service and HR",
+          "url": "https://newsbytes.ph/2026/09/14/salesforce-rolls-out-job-specific-ai-agents-for-sales-service-hr/",
+          "source": "NewsBytes PH",
+          "summary": "Salesforce introduced role-specific AI agents across sales, service and HR. Older story (September 2026)."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "Live status could not be checked; a third-party tracker showed no current incidents but its timestamp is unclear. Verify at status.salesforce.com.",
+      "items": [
+        {
+          "title": "Salesforce recovers from multi-hour global outage (September)",
+          "url": "https://www.theregister.com/2026/09/16/salesforce-staggers-back-to-feet-after-global-outage/5296800",
+          "source": "The Register",
+          "summary": "A September outage caused delays, intermittent errors and inaccessible services for customers. Older than 48 hours and included for context only."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Ken Wyatt named WA's first Indigenous governor",
+          "url": "https://www.abc.net.au/news/2026-11-16/kimberley-and-pilbara-local-news-briefing/107389320",
+          "source": "ABC News",
+          "summary": "Former federal minister Ken Wyatt has been named Western Australia's first Indigenous governor. Reported via an ABC regional briefing headline."
+        },
+        {
+          "title": "Severe storms forecast for south-east Queensland",
+          "url": "https://www.abc.net.au/news/2026-11-16/gold-coast-local-news-briefing/107388910",
+          "source": "ABC News",
+          "summary": "Residents were warned of large hail, heavy rain and damaging winds from midday Monday. Sydney Airport also reportedly cancelled 104 flights due to weather."
+        },
+        {
+          "title": "Fallout from Friday's Microsoft outage continues",
+          "url": "https://www.abc.net.au/news/2026-11-16/gold-coast-local-news-briefing/107388910",
+          "source": "ABC News",
+          "summary": "The Southern Gold Coast Chamber of Commerce warned effects of Friday's Microsoft outage would last several more days. Local businesses remain affected."
+        },
+        {
+          "title": "Victorian election early voting days away",
+          "url": "https://www.abc.net.au/news/2026-11-16/central-coast-local-news-briefing/107388876",
+          "source": "ABC News",
+          "summary": "ABC briefings note the Victorian election is near, with early voting about to open. Details not confirmed from the briefing excerpt."
+        },
+        {
+          "title": "$500,000 reward in Forster missing-person case",
+          "url": "https://www.abc.net.au/news/2026-11-16/mid-north-coast-local-news-briefing/107388774",
+          "source": "ABC News",
+          "summary": "NSW Police planned to announce a reward over the disappearance of Marlon Mcdonald, last seen in Forster more than 14 years ago. A regional story included for lack of fuller national coverage."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Retail inflation reportedly 6.1% in October",
+          "url": "https://blog.lukmaanias.com/2026/11/16/daily-gist-the-hindu-16-11-2026/",
+          "source": "The Hindu (via Lukmaan IAS digest)",
+          "summary": "Retail inflation reportedly passed the RBI's upper limit to reach 6.1% in October. It raises pressure on interest-rate policy. Secondary source."
+        },
+        {
+          "title": "Exports touch record high",
+          "url": "https://www.nextias.com/ca/headlines-of-the-day/16-11-2026/89037",
+          "source": "The Hindu (via NextIAS digest)",
+          "summary": "A Hindu headline says exports hit a record as diversification pays off. Secondary source; figures not stated."
+        },
+        {
+          "title": "India to get preferential US market access, says Goyal",
+          "url": "https://iassquad.in/important-articles-from-the-hindu-newspaper-16-11-2026/",
+          "source": "The Hindu (via IAS Squad digest)",
+          "summary": "Commerce minister Piyush Goyal said India will receive preferential access to the US market. India and Egypt are also reportedly working on a trade pact."
+        },
+        {
+          "title": "CRPF pulls anti-Naxal battalion from Chhattisgarh for Manipur",
+          "url": "https://www.nextias.com/ca/headlines-of-the-day/16-11-2026/89037",
+          "source": "The Hindu (via NextIAS digest)",
+          "summary": "The CRPF withdrew a battalion from anti-Naxal duty in Chhattisgarh to deploy it in Manipur. Secondary source."
+        },
+        {
+          "title": "Bay of Bengal cyclone threatens Andhra coast",
+          "url": "https://blog.lukmaanias.com/2026/11/16/daily-gist-the-hindu-16-11-2026/",
+          "source": "The Hindu (via Lukmaan IAS digest)",
+          "summary": "A depression was forecast to become a severe cyclonic storm heading towards Andhra Pradesh. Winds could reach 145 km/h by 19 November."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Cyclonic storm Akvan forecast to hit Andhra coast",
+          "url": "https://blog.lukmaanias.com/2026/11/16/daily-gist-the-hindu-16-11-2026/",
+          "source": "The Hindu (via Lukmaan IAS digest)",
+          "summary": "A Bay of Bengal depression was expected to intensify, with winds up to 145 km/h on the coast by 19 November. Coastal districts should watch official warnings."
+        },
+        {
+          "title": "Earlier storm damage hits Konaseema crops",
+          "url": "https://iassquad.in/important-articles-from-the-hindu-newspaper-16-11-2026/",
+          "source": "The Hindu (via IAS Squad digest)",
+          "summary": "Reports cite over 73,500 coconut trees lost and paddy damage on 1.18 lakh acres in Konaseema, with at least 20 deaths. Figures are from a secondary summary."
+        },
+        {
+          "title": "Amaravati formally recognised as state capital",
+          "url": "https://scroll.in/latest/1091946/amaravati-becomes-andhra-pradesh-capital-cm-says-long-cherished-dream-fulfilled",
+          "source": "Scroll.in",
+          "summary": "Amaravati became the capital after the President assented to the AP Reorganisation Amendment Act. Older story; date not confirmed in search results."
+        },
+        {
+          "title": "Cabinet clears Rs 904 crore for Amaravati infrastructure",
+          "url": "https://www.outlookbusiness.com/amp/story/industry/andhra-cabinet-clears-rs-904-cr-amaravati-infra-push-1200-acres-for-solar-project",
+          "source": "Outlook Business",
+          "summary": "The cabinet approved Rs 904 crore for infrastructure and 1,200 acres for a solar project. Date not confirmed; may be older."
+        },
+        {
+          "title": "Naidu sets out Amaravati as economic powerhouse",
+          "url": "https://swarajyamag.com/amp/story/news-brief/naidu-sets-out-vision-for-amaravati-as-andhras-economic-powerhouse-clears-key-capital-projects",
+          "source": "Swarajya",
+          "summary": "The chief minister outlined plans for Amaravati as an economic and deep-tech hub and cleared capital projects. Date not confirmed; may be older."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,416.59",
+          "change": "-1.92%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "24,509.76",
+          "change": "-2.49%"
+        },
+        {
+          "label": "Dow Jones (approx.)",
+          "value": "~51,608",
+          "change": "-1.4%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Chip stocks drag market lower before Nvidia results",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026",
+          "source": "StockTitan",
+          "summary": "Tech led Monday's selloff as traders positioned ahead of Nvidia's earnings. It was the S&P 500's third straight loss."
+        },
+        {
+          "title": "How major US indexes fared Monday",
+          "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-monday-11-16-2026",
+          "source": "WTOP / AP",
+          "summary": "Index closes for 16 November. Sources vary slightly on exact figures, so treat the Dow level as approximate."
+        },
+        {
+          "title": "Weak breadth: 355 S&P 500 stocks fell",
+          "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+          "source": "CNBC",
+          "summary": "Only consumer staples and utilities finished higher. Nvidia reports Tuesday night US time, the next big catalyst."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": false,
+      "error": "No current ASX close or AUD/USD data found in searches"
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Capital city clearance rate 48.9% in mid-August",
+          "url": "https://www.cotality.com/au/press-releases/final-clearance-rates---week-ending-16-august-2026",
+          "source": "Cotality",
+          "summary": "The final weighted clearance rate fell to 48.9% from 67.1% a year earlier, with Sydney at 47.1%. Older data (August); no newer release surfaced."
+        },
+        {
+          "title": "Home values fall 0.7% in July",
+          "url": "https://www.cotality.com/au/press-releases/final-clearance-rates---week-ending-2-august-2026",
+          "source": "Cotality",
+          "summary": "Cotality's index recorded its steepest monthly drop since December 2022, with weak auctions pointing to more downward pressure. Older data."
+        },
+        {
+          "title": "Spring sale shortage in a soft market",
+          "url": "https://www.commbank.com.au/articles/newsroom/2026/08/house-hunters-face-spring-sale-shortage-in-market-slump.html",
+          "source": "CBA Newsroom / AAP",
+          "summary": "Buyers face fewer listings this spring amid the market slump. Older story (August)."
+        },
+        {
+          "title": "Auction volumes jump but clearance rates slip below 50%",
+          "url": "https://www.brokernews.com.au/news/breaking-news/auction-volumes-jump-but-clearance-rates-slip-below-50-290204.aspx",
+          "source": "Broker News",
+          "summary": "More homes went to auction while success rates stayed weak. Constrained borrowing capacity and affordability are limiting demand."
+        },
+        {
+          "title": "Clearance rate falls back below 50% after 12-week peak",
+          "url": "https://www.mpamag.com/au/news/general/auction-clearance-rate-falls-back-below-50-after-12-week-peak/586831",
+          "source": "MPA",
+          "summary": "The clearance rate dropped below 50% after a brief rebound, well under the decade average of about 68%. Older story."
+        }
+      ]
+    }
+  }
+}
