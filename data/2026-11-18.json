@@ -1,0 +1,266 @@
+{
+  "date": "2026-11-18",
+  "longDate": "Wednesday 18 November 2026",
+  "clock": "1:16 pm AEDT",
+  "generatedAt": "2026-11-18T02:16:50.878Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Wall Street and the ASX both slid on Tuesday, with Salesforce shares down about 9% in a software sell-off, and Cyclone Akvan is bearing down on Andhra Pradesh.",
+  "highlights": [
+    {
+      "label": "Salesforce slump",
+      "text": "Salesforce fell 9.45% to US$194.52 on Tuesday as software stocks were hit by security and AI-replacement worries."
+    },
+    {
+      "label": "ASX sell-off",
+      "text": "The ASX 200 closed down 1.79% at 8,883.2 on Tuesday, led by miners, after the RBA minutes and a weak US lead."
+    },
+    {
+      "label": "Cyclone Akvan",
+      "text": "Cyclone Akvan is forecast to cross the Andhra Pradesh coast with heavy to very heavy rain; reports differ on landfall between 18 and 20 November."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Do a two-minute desk mobility reset",
+        "body": "Stand up and slowly roll your shoulders, rotate your neck gently, and reach overhead a few times. Add ten bodyweight squats or a short hallway walk. It loosens up stiff muscles from sitting and gives your focus a quick lift."
+      },
+      "quote": {
+        "text": "The journey of a thousand miles begins beneath one's feet.",
+        "author": "Lao Tzu"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Adobe puts its CX Enterprise Coworker inside major AI assistants",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-5-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Adobe's agentic customer-experience system was reported as available inside ChatGPT, Claude, Gemini, Copilot and Databricks Genie, per a 4 November announcement. It signals marketing workflows moving into the AI assistants teams already use. Sourced from a daily roundup rather than Adobe directly."
+        },
+        {
+          "title": "6sense rebrands around agentic go-to-market and readies a BDR agent",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-4-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "At its Breakthrough 2026 conference on 3 November, 6sense repositioned itself as a partner for agentic go-to-market, with a BDR Agent entering beta this month. Buyer-behaviour statistics cited come from the vendor's own research."
+        },
+        {
+          "title": "Smartly and Sequel ship new AI marketing tools",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Smartly launched Intelligence Pro with reach forecasting and an incrementality read, while Sequel made its webinar agents generally available with human approval on each send. Both reflect AI features that keep marketers in the approval loop."
+        },
+        {
+          "title": "Yext closes Flamel.ai deal for multi-location ad localisation",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Yext completed its acquisition of Flamel.ai on 2 November, enabling one paid campaign to be localised across hundreds of franchise ad accounts. It matters for brands running franchise or multi-location advertising. Older than 48 hours."
+        },
+        {
+          "title": "Weekly martech roundup covers the week of 13 November",
+          "url": "https://solutionsreview.com/crm/2026/11/13/top-martech-news-from-the-week-of-november-13th/",
+          "source": "Solutions Review",
+          "summary": "Solutions Review's weekly digest gathers the latest martech launches and deals. Its contents could not be fully read, so it is included as a pointer to the week's wider news."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce shares fall 9.45% as software stocks sell off",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-stocks-slide-on-ai-chip-and-tech-pressures-salesforce-plummets-9/",
+          "source": "Motley Fool",
+          "summary": "Salesforce closed at US$194.52 on 17 November, down 9.45%, blamed on security jitters and renewed AI-replacement fears hitting software names. The stock is well below its early-2025 levels, and its next earnings are reportedly due on 2 December."
+        },
+        {
+          "title": "Salesforce signs deal to acquire voice-AI firm Cresta",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/?bc=DB",
+          "source": "Salesforce",
+          "summary": "Salesforce announced a definitive agreement on 2 November to buy Cresta, adding voice agents and live agent coaching to Service Cloud. Closing is expected in the first quarter of fiscal 2028 subject to approvals; a reported US$2.7 billion price is unconfirmed by Salesforce."
+        },
+        {
+          "title": "Cresta is Salesforce's third acquisition in two weeks",
+          "url": "https://www.constellationr.com/insights/news/salesforce-acquires-cresta-third-deal-two-weeks",
+          "source": "Constellation Research",
+          "summary": "Analysts note the pace of Salesforce's dealmaking in 2026 as it builds out agentic customer service. The deal is pending rather than completed."
+        },
+        {
+          "title": "Forrester says Cresta fills a gap in Salesforce's service AI",
+          "url": "https://www.forrester.com/blogs/cresta-fills-an-important-gap-in-salesforces-customer-service-ai-story/",
+          "source": "Forrester",
+          "summary": "Forrester argues the acquisition addresses Salesforce's weaker voice capabilities in customer service. It is useful context for anyone planning Service Cloud and Agentforce voice roadmaps."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "issues",
+      "statusNote": "Recent incidents were found in Marketing Cloud and MuleSoft, but dates come from aggregator pages and no APAC or Data Cloud outage or planned maintenance was confirmed; check status.salesforce.com.",
+      "items": [
+        {
+          "title": "Marketing Cloud email content stuck in Publishing or Processing",
+          "url": "https://isdown.app/status/salesforce/incidents/682047-marketing-cloud-engagement-feature-degradation",
+          "source": "IsDown",
+          "summary": "Reports from around 6 to 8 November describe email content stuck in Publishing or Processing status, with a fix rolling out and a Known Issue article offering manual steps. Full resolution was not confirmed."
+        },
+        {
+          "title": "MuleSoft degradation hit API Manager and Runtime Manager",
+          "url": "https://isdown.app/status/salesforce/incidents/686370-mulesoft-feature-degradation",
+          "source": "IsDown",
+          "summary": "An hour-long US-region degradation around 13 November caused authentication timeouts before recovering. It is outside the 48-hour window and not specific to APAC."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "ASX 200 drops 1.79% as miners and banks slide",
+          "url": "https://sharetrader.com.au/news/2026-11-17-asx-200-falls-161-points-as-rba-minutes-reveal-split-vote-and-us-tech-slides",
+          "source": "ShareTrader",
+          "summary": "The benchmark closed at 8,883.2 on Tuesday after falling 161 points, with RBA minutes and weak US tech weighing. It was reported as a fourth straight decline."
+        },
+        {
+          "title": "RBA minutes shed light on its split rate-hike decision",
+          "url": "https://thenightly.com.au/politics/rba-interest-rates-fresh-light-to-be-shed-on-split-hike-call-c-23164117",
+          "source": "The Nightly",
+          "summary": "The RBA lifted the cash rate to 4.85% on 3 November in a 6-3 vote, its fifth hike this year. Minutes released this week add detail on the divide, and markets lean towards a December hold."
+        },
+        {
+          "title": "RBA hikes to 4.85% but split vote hints the end may be near",
+          "url": "https://www.livewiremarkets.com/wires/rba-hikes-interest-rate-to-4-85-but-a-split-vote-hints-the-end-may-be-near",
+          "source": "Livewire Markets",
+          "summary": "Economists are split between a further hike to 5.10% and a pause. Mortgage holders face the highest cash rate in 18 years. Older than 48 hours."
+        },
+        {
+          "title": "Opposition leader Angus Taylor attacks Labor over housing crisis",
+          "url": "https://thenightly.com.au/politics/news-and-politics-live-updates-tim-ayres-defends-albaneses-ai-laws-rejects-greens-data-centre-pause-c-22584524",
+          "source": "The Nightly",
+          "summary": "A politics live blog reports Taylor targeting the Albanese government on housing, while Minister Tim Ayres defended its AI laws against a Greens call to pause data centres. Date of the blog is not confirmed."
+        }
+      ]
+    },
+    "india": {
+      "ok": false,
+      "error": "Searches returned no reliably dated national news from the last 48 hours."
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Cyclone Akvan forecast to cross the Andhra Pradesh coast",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/cyclone-akvan-likely-to-hit-ap-coast-on-nov-18-1142184",
+          "source": "The Hans India",
+          "summary": "A Bay of Bengal system named Akvan is expected to reach the north Andhra coast with heavy to very heavy rain across the coastal belt. Reports dated 15 to 16 November disagree on landfall timing (18 to 20 November) with winds of 110 to 120 km/h, so check IMD updates."
+        },
+        {
+          "title": "AP cabinet clears more than 30 agenda items",
+          "url": "https://deccanchronicle.com/southern-states/andhra-pradesh/ap-cabinet-clears-over-30-agenda-items-2003293",
+          "source": "Deccan Chronicle",
+          "summary": "The cabinet chaired by N. Chandrababu Naidu approved over 30 items on 10 November, spanning AI, industrial investment, renewable energy and road safety. Older than 48 hours, as no newer cabinet report was found."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,340.53",
+          "change": "-1.03%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "24,328.38",
+          "change": "-0.74%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "50,759.42",
+          "change": "-1.64%"
+        }
+      ],
+      "items": [
+        {
+          "title": "US stocks fall for a fourth day as tech and AI jitters bite",
+          "url": "https://www.washingtontimes.com/news/2026/nov/17/us-stocks-drop-ai-companies-keep-swinging/",
+          "source": "Washington Times (AP)",
+          "summary": "All 11 S&P 500 sectors closed lower on Tuesday, with the index at its weakest close since late July. Energy was the only group reported to hold up in some wraps; figures are from secondary outlets."
+        },
+        {
+          "title": "Salesforce plunges 9.45% and leads software lower",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-stocks-slide-on-ai-chip-and-tech-pressures-salesforce-plummets-9/",
+          "source": "Motley Fool",
+          "summary": "Software shares were hit by security concerns and AI-replacement fears, and UnitedHealth fell 5.42% on proposed Medicare and Medicaid anti-fraud measures. The 10-year Treasury yield eased to about 5.11%."
+        },
+        {
+          "title": "Nvidia rises after hours on earnings",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026",
+          "source": "StockTitan",
+          "summary": "Nvidia reported after the close and its shares rose in extended trading, easing some AI-demand worries. The reaction at the next open will set the tone for tech."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P/ASX 200 (Tue close)",
+          "value": "8,883.2",
+          "change": "-1.79%"
+        },
+        {
+          "label": "AUD/USD",
+          "value": "Not confirmed",
+          "change": "n/a"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX 200 sinks as miners weaken on lower iron ore",
+          "url": "https://journalarta.com/en/2026/11/17/australian-shares-close-asx-200-slumps-as-miners-retreat/",
+          "source": "JournalArta",
+          "summary": "Miners and banks led the fall on Tuesday, with materials down about 1.6% as iron ore slid. Utilities were the only sector to advance."
+        },
+        {
+          "title": "RBA minutes reveal split vote as US tech slides",
+          "url": "https://sharetrader.com.au/news/2026-11-17-asx-200-falls-161-points-as-rba-minutes-reveal-split-vote-and-us-tech-slides",
+          "source": "ShareTrader",
+          "summary": "The market fell 161 points as the minutes and a weak US tech lead hit sentiment. With Wall Street also lower overnight, today's open looks soft, though futures were not confirmed."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Capital city home values fall at the fastest pace in 40 years",
+          "url": "https://www.brokernews.com.au/news/breaking-news/capital-city-values-fall-at-fastest-pace-in-40-years-cotality-290300.aspx",
+          "source": "Broker News",
+          "summary": "Cotality data reported by Broker News shows capital city values falling at the fastest pace in four decades. Sources conflict on the latest national figures, so check Cotality directly."
+        },
+        {
+          "title": "Auction clearance rates lift but volumes stay well below 2025",
+          "url": "https://www.brokernews.com.au/news/breaking-news/auction-clearance-rates-lift-but-volumes-stay-well-below-2025-levels-290279.aspx",
+          "source": "Broker News",
+          "summary": "Clearance rates improved recently, with the combined capitals' preliminary rate reported at 51.5% for the week ending 8 November. Auction volumes remain well under last year's levels."
+        },
+        {
+          "title": "Investor lending falls by a third in record quarterly drop",
+          "url": "https://propertyinvestmentprofessionals.com.au/market/week-of-november-15-2026",
+          "source": "Property Investment Professionals",
+          "summary": "Investor lending reportedly had its largest quarterly fall on record as the RBA's rate rises bite. It points to cooler demand from landlords."
+        },
+        {
+          "title": "Listings hit a five-year high as homes take longer to sell",
+          "url": "https://propertyinvestmentprofessionals.com.au/market/week-of-november-8-2026",
+          "source": "Property Investment Professionals",
+          "summary": "Stock on the market has reportedly reached a five-year high while selling times lengthen. Buyers are gaining bargaining power with the cash rate at 4.85%."
+        }
+      ]
+    }
+  }
+}
