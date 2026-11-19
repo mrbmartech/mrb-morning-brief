@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The MrB Morning Brief, Thursday 19 November 2026</title>
+<meta name="description" content="Albanese heads into the first Quad leaders meeting in two years as Wall Street slides for a fifth session despite Nvidia&#39;s blowout revenue.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2212%22 fill=%22%23121212%22/><text x=%2250%22 y=%2272%22 font-family=%22Georgia%22 font-weight=%22700%22 font-size=%2266%22 fill=%22white%22 text-anchor=%22middle%22>B</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400;1,6..72,500&family=Libre+Franklin:wght@400;500;600;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#E6E9E3; --paper:#FBFBF8; --ink:#16181A; --body:#34383C; --muted:#5E6469; --hair:#DCDFD8; --rule:#16181A;
+  --link:#2F5F86; --up:#0A7A3E; --down:#C3201F; --tint:#F0F2EC; --accent:#7A1F2B;
+  --head:"Newsreader","Iowan Old Style","Times New Roman",Georgia,serif;
+  --text:"Newsreader","Iowan Old Style",Georgia,serif;
+  --sans:"Libre Franklin","Franklin Gothic Medium","Helvetica Neue",Arial,sans-serif;
+  --black:"UnifrakturMaguntia","Old English Text MT",Georgia,serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --desk:#0D0F10; --paper:#17191B; --ink:#ECEDEA; --body:#D0D3CF; --muted:#9EA4A8; --hair:#2C3033; --rule:#ECEDEA;
+  --link:#86B6DE; --up:#5CC48A; --down:#F0716F; --tint:#1E2124; --accent:#E08A95; color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--desk);color:var(--ink);font:400 17px/1.55 var(--text);padding-bottom:env(safe-area-inset-bottom,0);font-optical-sizing:auto}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--muted)}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.page{max-width:80rem;margin:1.5rem auto;padding:0 2.25rem;background:var(--paper);box-shadow:0 1px 2px rgba(20,24,28,.06),0 12px 40px -12px rgba(20,24,28,.18)}
+
+/* Masthead */
+.top{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:1rem;padding:calc(env(safe-area-inset-top,0px) + 1rem) 0 .4rem;font:500 .78rem/1.4 var(--sans)}
+.top .date{font-weight:700}
+.top .date span{display:block;font-weight:400;color:var(--muted)}
+.top .hello{text-align:center;font:italic 400 .95rem/1.3 var(--head);color:var(--body)}
+.top .days{display:flex;gap:.9rem;justify-content:flex-end}
+.top .days a:hover{text-decoration:underline}
+.mast{text-align:center;margin:.2rem 0 .9rem}
+.mast a{font:400 clamp(2.4rem,6.6vw,4.6rem)/1 var(--black);color:var(--ink);letter-spacing:.005em}
+.secbar{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);position:relative;margin-bottom:3px}
+.secbar::after{content:"";position:absolute;left:0;right:0;bottom:-4px;border-bottom:1px solid var(--rule)}
+.secbar ul{list-style:none;margin:0;padding:.55rem 0;display:flex;justify-content:center;flex-wrap:wrap;gap:.35rem 1.4rem;font:500 .8rem/1.3 var(--sans)}
+.secbar a:hover{text-decoration:underline}
+
+/* Front page */
+.front{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr) minmax(0,.95fr);margin-top:1.4rem;border-bottom:1px solid var(--rule)}
+.front>*{padding:0 1.4rem 1.6rem;border-left:1px solid var(--hair)}
+.front>*:first-child{padding-left:0;border-left:0}
+.front>*:last-child{padding-right:0}
+.kicker{font:700 .74rem/1.3 var(--sans);margin:0 0 .5rem;color:var(--accent)}
+.top-story h1{font:700 clamp(1.9rem,3.5vw,2.8rem)/1.08 var(--head);margin:0 0 1.1rem;letter-spacing:-.018em;text-wrap:balance}
+.bullets{margin:0;padding-left:1.1rem;color:var(--body)}
+.bullets li{margin:0 0 .65rem;font-size:1rem;line-height:1.45}
+.bullets li::marker{color:var(--muted)}
+.bullets b{font:700 .95rem/1.3 var(--head);color:var(--ink)}
+.stamp{margin:1rem 0 0;font:400 .75rem/1.3 var(--sans);color:var(--muted)}
+
+.box h2{font:700 .72rem/1.3 var(--sans);margin:0 0 .6rem}
+.box+.box{margin-top:1.4rem;padding-top:1.2rem;border-top:1px solid var(--hair)}
+.status{display:flex;gap:.5rem;align-items:baseline;font:700 1.05rem/1.3 var(--head);margin:0 0 .35rem}
+.status i{width:.55rem;height:.55rem;border-radius:50%;flex:none;background:var(--muted);transform:translateY(-.05rem)}
+.status i.clear{background:var(--up)}.status i.issues{background:var(--down)}
+.note{margin:0;color:var(--body);font-size:.92rem;line-height:1.45}
+.inc{list-style:none;margin:.7rem 0 0;padding:0}
+.inc li{padding:.55rem 0;border-top:1px solid var(--hair);font-size:.88rem;line-height:1.4;color:var(--body)}
+.inc a{display:block;font:700 .95rem/1.3 var(--head);color:var(--ink);margin-bottom:.15rem}
+table.mkt{width:100%;border-collapse:collapse;font:400 .85rem/1.3 var(--sans);font-variant-numeric:tabular-nums}
+table.mkt caption{text-align:left;font:700 .78rem/1.3 var(--sans);padding:.2rem 0 .3rem;color:var(--muted)}
+table.mkt td{padding:.38rem 0;border-top:1px solid var(--hair)}
+table.mkt td:nth-child(2),table.mkt td:nth-child(3){text-align:right;white-space:nowrap}
+table.mkt td:nth-child(3){width:4.8rem;font-weight:700}
+table.mkt+table.mkt{margin-top:.8rem}
+.up{color:var(--up)}.down{color:var(--down)}
+
+.opinion{background:var(--tint)}
+.front>.opinion{padding:1.2rem 1.3rem 1.4rem;border-left:0;margin-bottom:1.6rem;align-self:start}
+.opinion blockquote{margin:0;font:italic 500 1.4rem/1.32 var(--head);text-wrap:balance}
+.opinion cite{display:block;margin:.55rem 0 0;font:500 .8rem/1.3 var(--sans);font-style:normal;color:var(--muted)}
+.opinion h3{font:700 1.05rem/1.25 var(--head);margin:1.3rem 0 .3rem;padding-top:1rem;border-top:1px solid var(--hair)}
+.opinion h3+p{margin:0;font-size:.95rem;line-height:1.5;color:var(--body)}
+.opinion .kicker{margin:0 0 .5rem}
+
+/* Sections */
+.sec{margin-top:2.2rem;padding-top:.5rem;border-top:1px solid var(--rule);scroll-margin-top:1rem}
+.sec>h2{font:700 1rem/1.3 var(--sans);margin:0 0 1rem;color:var(--accent)}
+.sec>h2 a::after{content:" ›";color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+.grid>*{padding:0 1.4rem;border-left:1px solid var(--hair)}
+.grid>*:first-child{padding-left:0;border-left:0}
+.grid>*:last-child{padding-right:0}
+.lead h3{font:700 clamp(1.45rem,2.4vw,1.85rem)/1.14 var(--head);margin:0 0 .55rem;letter-spacing:-.012em;text-wrap:balance}
+.lead p{margin:0;font-size:1.02rem;line-height:1.5;color:var(--body);max-width:60ch}
+.src{display:block;margin-top:.6rem;font:500 .72rem/1.3 var(--sans);color:var(--muted)}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:.85rem 0;border-top:1px solid var(--hair)}
+.list li:first-child{padding-top:0;border-top:0}
+.list h3{font:700 1.08rem/1.25 var(--head);margin:0 0 .3rem;letter-spacing:-.005em}
+.list p{margin:0;font-size:.9rem;line-height:1.45;color:var(--muted)}
+.missing{margin:0;color:var(--muted);font-style:italic}
+.lead a:hover,.list a:hover,.inc a:hover{color:var(--muted)}
+
+/* Archive */
+.arch{list-style:none;margin:1.5rem 0 0;padding:0;max-width:46rem}
+.arch li{padding:1.1rem 0;border-top:1px solid var(--hair)}
+.arch .d{font:700 .75rem/1.3 var(--sans);color:var(--muted)}
+.arch a{display:block;margin-top:.3rem;font:700 1.3rem/1.25 var(--head)}
+.arch-title{font:700 2rem/1.15 var(--head);margin:1.6rem 0 0}
+
+footer.f{margin-top:3rem;padding:1.2rem 0 3rem;border-top:1px solid var(--rule);font:400 .78rem/1.5 var(--sans);color:var(--muted)}
+footer.f .fm{font:400 1.5rem/1 var(--black);color:var(--ink);display:block;margin-bottom:.6rem}
+
+@media (max-width:980px){
+  .page{margin:0 auto}
+  .front>.opinion{margin-bottom:1.6rem}
+  .front{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .front .top-story{grid-column:1/-1;padding:0 0 1.6rem;border-left:0;border-bottom:1px solid var(--hair);margin-bottom:1.4rem}
+  .front .markets{padding-left:0;border-left:0}
+}
+@media (max-width:680px){
+  body{font-size:15px}
+  .page{padding:0 1rem;margin:0;box-shadow:none}
+  .top{grid-template-columns:1fr auto}
+  .top .hello{display:none}
+  .mast a{font-size:min(2.35rem,8.4vw);white-space:nowrap}
+  .secbar ul{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding:.55rem .1rem;scrollbar-width:none}
+  .secbar ul::-webkit-scrollbar{display:none}
+  .secbar li{flex:none}
+  .front{grid-template-columns:1fr}
+  .front>*{padding:0 0 1.4rem;border-left:0}
+  .front>*+*{border-top:1px solid var(--hair);padding-top:1.2rem}
+  .front .top-story{margin-bottom:0}
+  .grid{grid-template-columns:1fr}
+  .grid>*{padding:0;border-left:0}
+  .grid .list{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--hair)}
+}
+</style>
+</head>
+<body><div class="page">
+<header>
+<div class="top"><div class="date">Thursday 19 November 2026<span>Prepared 12:48 pm AEDT</span></div><div class="hello">Hello Mr.Bhaskar</div><nav class="days" aria-label="Other days"><a href="/2026-11-18/">‹ Wed, 18 Nov</a><a href="/archive/">Archive</a></nav></div>
+<div class="mast"><a href="/">The MrB Morning Brief</a></div>
+<nav class="secbar" aria-label="Sections"><ul><li><a href="#martech">MarTech</a></li><li><a href="#salesforce">Salesforce news</a></li><li><a href="#australia">Australia top 5</a></li><li><a href="#india">India top 5</a></li><li><a href="#andhra">Andhra Pradesh top 5</a></li><li><a href="#usstocks">US stocks</a></li><li><a href="#austocks">AU stocks</a></li><li><a href="#property">Australian real estate top 5</a></li></ul></nav>
+</header>
+<main>
+<section class="front">
+<article class="top-story"><p class="kicker">Today’s top stories</p><h1>Albanese heads into the first Quad leaders meeting in two years as Wall Street slides for a fifth session despite Nvidia&#39;s blowout revenue.</h1><ul class="bullets"><li><b>Quad summit.</b> Albanese is due to meet Trump and the Japanese and Indian leaders in the Philippines, the first Quad leaders meeting in two years.</li><li><b>Wall Street slide.</b> The S&amp;P 500 fell for a fifth straight session as Nvidia&#39;s post-earnings rally faded and Treasury yields stayed above 5%.</li><li><b>Housing downturn.</b> Cotality&#39;s national home values fell 1.2% in October, the seventh straight monthly decline and 6.7% below the March peak.</li></ul></article>
+<div class="markets"><section class="box" id="sfstatus"><h2>Salesforce issues &amp; downtime</h2><p class="status"><i class="issues" aria-hidden="true"></i>Issues reported</p><p class="note">Third-party trackers show several Marketing Cloud incidents in early November, none confirmed for the last 48 hours; official status.salesforce.com was not checked and no planned maintenance was found.</p><ul class="inc"><li><a href="https://isdown.app/status/salesforce/incidents/682442-feature-disruption" rel="noopener">Marketing Cloud Next fault blocked email publishing</a>On 6 November users could not publish email content, with items stuck in Processing, linked to a deployment of Default Marketing Sites. Final resolution time was not confirmed; older than 48 hours.</li><li><a href="https://isdown.app/status/salesforce/incidents/682047-marketing-cloud-engagement-feature-degradation" rel="noopener">Marketing Cloud Engagement feature degradation logged</a>A brief Engagement degradation of about eight minutes was recorded around 5 November with no Salesforce updates posted. Low impact and older than 48 hours.</li><li><a href="https://uptimerobot.com/is-it-down/salesforce/2026-11-06/" rel="noopener">Salesforce outage tracker shows early-November disruptions</a>The tracker lists incidents on 2 to 6 November, including a roughly 10-hour Unified Marketing Application issue on 2 November. These are aggregator reports, not official Salesforce Trust confirmation.</li></ul></section><section class="box"><h2>Markets</h2><table class="mkt"><caption>US stocks</caption><tbody><tr><td>S&amp;P 500</td><td>Closing level not confirmed</td><td class=""> Lower; fifth straight fall</td></tr><tr><td>Nasdaq Composite</td><td>Closing level not confirmed</td><td class=""> Lower</td></tr><tr><td>Dow Jones</td><td>Closing level not confirmed</td><td class=""> Lower</td></tr><tr><td>US 10-year yield</td><td>Above 5%</td><td class=""> n/a</td></tr></tbody></table><table class="mkt"><caption>AU stocks</caption><tbody><tr><td>ASX 200 (18 Nov close)</td><td>8,821.8 (one report; others differ)</td><td class="down">▼ 0.69%</td></tr><tr><td>AUD/USD (RBA 4pm)</td><td>0.6720</td><td class=""> n/a</td></tr><tr><td>RBA cash rate</td><td>4.85%</td><td class=""> Hold expected</td></tr></tbody></table></section></div>
+<aside class="opinion" id="health"><p class="kicker">Health &amp; fitness</p>
+<blockquote>“The only way to do great work is to love what you do.”<cite>Steve Jobs</cite></blockquote>
+<h3>Use the stairs when you can</h3><p>Pick one regular trip today, such as to the kitchen, a meeting room or the train platform, and take the stairs instead of the lift. Short bursts of effortful movement add up across the week and raise your heart rate without needing gym kit or a change of clothes.</p></aside>
+</section>
+<section class="sec" id="martech"><h2><a href="#martech">MarTech</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-5-2026/" rel="noopener">Adobe&#39;s CX agent now works inside ChatGPT, Claude and Gemini</a></h3><p>Adobe said on 4 November that its CX Enterprise Coworker agentic system can be used from ChatGPT, Claude, Gemini, Copilot and Databricks Genie. It signals marketing tools being reached through general AI assistants rather than only their own interfaces. Older than 48 hours.</p><span class="src">Agile Brand Guide</span></article>
+<ul class="list"><li><h3><a href="https://letsdatascience.com/news/google-and-adobe-expand-partnership-across-drive-gmail-gemin-bb1bff57" rel="noopener">Google and Adobe expand partnership across Gmail, Drive and Gemini</a></h3><p>Google said Adobe Acrobat will appear as a suggested app in Gmail and Drive, and Adobe&#39;s CX Enterprise Coworker will be usable in Gemini Enterprise. Launch dates and pricing were mostly not given, so the practical effect for marketers is still unclear.</p><span class="src">Let&#39;s Data Science</span></li><li><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-4-2026/" rel="noopener">6sense rebrands around agentic go-to-market and previews a BDR agent</a></h3><p>At its Breakthrough 2026 event on 3 November, 6sense repositioned itself as a partner for agentic go-to-market work. A BDR Agent enters beta this month, adding to the push towards AI agents handling outbound prospecting. Older than 48 hours.</p><span class="src">Agile Brand Guide</span></li><li><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/" rel="noopener">Yext completes Flamel.ai purchase for franchise ad localisation</a></h3><p>Yext closed its acquisition of Flamel.ai on 2 November, a tool that localises a single paid campaign across many franchise ad accounts with franchisee opt-in. It matters for multi-location brands wanting local ads without manual rebuilds. Older than 48 hours.</p><span class="src">Agile Brand Guide</span></li><li><h3><a href="https://solutionsreview.com/crm/2026/11/13/top-martech-news-from-the-week-of-november-13th/" rel="noopener">Weekly martech roundup covers Cordial, Optimove, 6sense and ActiveCampaign</a></h3><p>Solutions Review&#39;s week-to-13 November roundup collects vendor announcements across email, CDP and marketing automation. Useful as a catch-up list, though details should be checked against the original vendor releases. Older than 48 hours.</p><span class="src">Solutions Review</span></li></ul></div></section>
+<section class="sec" id="salesforce"><h2><a href="#salesforce">Salesforce news</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/?bc=DB" rel="noopener">Salesforce signs deal to acquire voice-AI company Cresta</a></h3><p>Salesforce signed a definitive agreement on 2 November to buy Cresta, whose voice agents handle customer calls and coach human reps in real time. The deal is subject to closing conditions; a reported US$2.7 billion price is unconfirmed by Salesforce. Older than 48 hours.</p><span class="src">Salesforce Newsroom</span></article>
+<ul class="list"><li><h3><a href="https://www.constellationr.com/insights/news/salesforce-acquires-cresta-third-deal-two-weeks" rel="noopener">Cresta is Salesforce&#39;s third acquisition in two weeks</a></h3><p>Constellation notes the Cresta purchase follows two other recent Salesforce deals, continuing a rapid run of acquisitions. It suggests Salesforce is buying capability to fill gaps in its agentic AI lineup.</p><span class="src">Constellation Research</span></li><li><h3><a href="https://www.forrester.com/blogs/cresta-fills-an-important-gap-in-salesforces-customer-service-ai-story/" rel="noopener">Forrester says Cresta fills a gap in Salesforce&#39;s service AI story</a></h3><p>Forrester argues the deal strengthens Salesforce&#39;s contact-centre and voice offering. It advises existing Cresta customers to watch whether Salesforce preserves what made the product valuable.</p><span class="src">Forrester</span></li><li><h3><a href="https://cxtoday.com/salesforce-cresta-deal-rewrites-voice-ai-buying-choices" rel="noopener">Deal reshapes voice AI buying choices for service teams</a></h3><p>CX Today looks at how Salesforce owning a leading voice-agent vendor changes options for customer service buyers. It raises questions about integration with existing phone systems and rival platforms.</p><span class="src">CX Today</span></li><li><h3><a href="https://www.cmswire.com/contact-center/salesforce-adds-cresta-to-the-cart-in-its-2026-cx-shopping-spree-01/" rel="noopener">Cresta joins Salesforce&#39;s 2026 customer-experience shopping spree</a></h3><p>CMSWire frames Cresta as the latest in a string of 2026 acquisitions across customer experience. The pattern shows Salesforce consolidating AI-agent capability through buying rather than building.</p><span class="src">CMSWire</span></li></ul></div></section>
+<section class="sec" id="australia"><h2><a href="#australia">Australia top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.sbs.com.au/news/podcast-episode/albanese-prepares-for-major-quad-leaders-meeting-morning-news-bulletin-17-november-2026/ceivb2r7n" rel="noopener">Albanese set for first Quad leaders meeting in two years</a></h3><p>Albanese is preparing to meet Donald Trump and the Japanese and Indian leaders in the Philippines around the ASEAN summit. It is the first Quad leaders meeting in two years, so outcomes on trade and security are closely watched.</p><span class="src">SBS News</span></article>
+<ul class="list"><li><h3><a href="https://www.abc.net.au/news/2026-11-14/government-floundering-albanese-salad-days-wilted/107382680" rel="noopener">ABC analysis: government&#39;s standing looks bleak</a></h3><p>An ABC analysis from 14 November says polling is poor for the Albanese government amid cost-of-living and interest-rate pressure. It is commentary rather than a news event. Older than 48 hours.</p><span class="src">ABC News</span></li><li><h3><a href="https://www.capitalbrief.com/newsletter/flipping-out-6c4d6f81-f3aa-4655-a48a-6d074e446cb3/" rel="noopener">Government under pressure over inflation and policy backflips</a></h3><p>Capital Brief describes the government as facing inflation pressure and repeated policy reversals. It also flags the awkward optics of Vladimir Putin attending APEC in China this week.</p><span class="src">Capital Brief</span></li><li><h3><a href="https://www.marketindex.com.au/news/asx-200-live-today-wednesday-18th-november" rel="noopener">RBA expected to hold at 4.85% after strong wages data</a></h3><p>Markets price a hold, with only a small chance of a hike, though economists say a further rise is not off the table after higher-than-expected wage growth. The next RBA decision is on 7 December.</p><span class="src">Market Index</span></li><li><h3><a href="https://www.sbs.com.au/news/article/victorian-state-election-premier-key-issues/2lzgr7f4o" rel="noopener">Victorian state election due 28 November</a></h3><p>SBS coverage points to the Victorian election on 28 November, with Liberal leader Jess Wilson and a Labor leadership change after Jacinta Allan&#39;s resignation. Article date and details were not verified.</p><span class="src">SBS News</span></li></ul></div></section>
+<section class="sec" id="india"><h2><a href="#india">India top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.sbs.com.au/news/podcast-episode/albanese-prepares-for-major-quad-leaders-meeting-morning-news-bulletin-17-november-2026/ceivb2r7n" rel="noopener">Modi among leaders for Quad summit in the Philippines</a></h3><p>SBS says the Quad leaders meeting will include India&#39;s counterpart alongside the US, Japan and Australia, the first in two years. Indian-source confirmation of attendance was not found.</p><span class="src">SBS News</span></article>
+<ul class="list"><li><h3><a href="https://www.business-standard.com/amp/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html" rel="noopener">Sensex sheds about 500 points as profit-taking hits</a></h3><p>The Sensex fell about 0.6% to near 82,030 and the Nifty to about 25,228 on 18 November after two days of gains. Consumer durables led losses; closing figures vary slightly between outlets.</p><span class="src">Business Standard</span></li><li><h3><a href="https://www.livelaw.in/top-stories/supreme-court-daily-round-up-november-18-2026-559009" rel="noopener">Supreme Court declines to stay Azam Khan&#39;s interim bail</a></h3><p>The Supreme Court refused to stay Azam Khan&#39;s interim bail in a money-laundering case and listed the matter for 19 November. Source is a daily round-up; case detail is limited.</p><span class="src">LiveLaw</span></li><li><h3><a href="https://www.livelaw.in/top-stories/supreme-court-daily-round-up-november-18-2026-559009" rel="noopener">Court seeks Centre&#39;s response on RTI for Collegium decisions</a></h3><p>The court asked the Centre to respond to a plea to bring Collegium decisions under RTI and to finalise the memorandum of procedure for judicial appointments. It bears on transparency in judicial appointments.</p><span class="src">LiveLaw</span></li><li><h3><a href="https://www.livelaw.in/top-stories/supreme-court-daily-round-up-november-18-2026-559009" rel="noopener">Thiruparankundram dispute and Shinde plea before Supreme Court</a></h3><p>Tamil Nadu told the court survey pillars at Thiruparankundram could become religious sites without a stay, and Eknath Shinde argued skipping a party meeting is not quitting Shiv Sena. Both matters remain pending.</p><span class="src">LiveLaw</span></li></ul></div></section>
+<section class="sec" id="andhra"><h2><a href="#andhra">Andhra Pradesh top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.thehansindia.com/news/cities/visakhapatnam/cii-partnership-summit-day-1-ap-clinches-rs-584l-cr-investment-pledges-1141599" rel="noopener">CII summit day one: Rs 5.84 lakh crore in pledges, led by Reliance</a></h3><p>Andhra Pradesh secured about Rs 5,84,355 crore in commitments on the first day of the Visakhapatnam CII summit, with Reliance&#39;s Rs 2.73 lakh crore East Godavari plan the largest. These are pledges, not realised investment. Summit ran 12-13 November.</p><span class="src">The Hans India</span></article>
+<ul class="list"><li><h3><a href="https://www.outlookindia.com/announcements/cii-summit-2026-11-mous-worth-rs-140-lakh-crore-signed-10472-jobs-envisaged-in-andhra-pradesh" rel="noopener">Second summit day adds 11 MoUs worth Rs 1.40 lakh crore</a></h3><p>Eleven MoUs with proposed investment of Rs 1,40,705 crore and 10,472 jobs were signed. Overall totals vary widely between reports, so figures are provisional.</p><span class="src">Outlook India</span></li><li><h3><a href="https://www.outlookbusiness.com/news/andhra-attracts-52-lakh-crore-investment-pledges-in-energy-sector-in-two-days-minister" rel="noopener">Energy sector draws Rs 5.2 lakh crore in pledges over two days</a></h3><p>A minister said energy investment pledges reached Rs 5.2 lakh crore across two days. It underlines the state&#39;s push in renewables and green energy; the figure is a ministerial claim.</p><span class="src">Outlook Business</span></li><li><h3><a href="https://news.hellovizag.in/andhra-pradesh-cabinet-clears-new-policies-to-attract-investments-in-ai-electronics-and-renewable-energy" rel="noopener">Cabinet clears AI, robotics and electronics policies and a Visakhapatnam data centre</a></h3><p>The cabinet approved technology policies and a proposed Rs 31,387-crore, 512 MW green AI data centre near Bheemunipatnam expected to create about 1,000 jobs. Reported around the 10 November cabinet meeting.</p><span class="src">Hello Vizag</span></li><li><h3><a href="https://telanganatoday.com/amaravati-will-be-developed-as-deep-tech-capital-says-chandrababu-naidu" rel="noopener">Naidu wants Amaravati as a deep-tech capital</a></h3><p>Chief Minister Chandrababu Naidu said Amaravati would be developed as a deep-tech capital and hub for AI and quantum computing. Reported in early November; older than 48 hours.</p><span class="src">Telangana Today</span></li></ul></div></section>
+<section class="sec" id="usstocks"><h2><a href="#usstocks">US stocks</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-midday-nov-18-nvidia-doubles-revenue-but-wall-street-s-sell-off-continues/" rel="noopener">Nvidia doubles revenue but sell-off continues</a></h3><p>Nvidia reported revenue of US$115.8 billion, up 103% on a year earlier, yet shares fell about 3% as investors focused on a softer margin outlook. Its slide dragged the S&amp;P 500 down for a fifth straight day (Bloomberg).</p><span class="src">Motley Fool</span></article>
+<ul class="list"><li><h3><a href="https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates" rel="noopener">Bloomberg live blog: Dow and S&amp;P slip as Nvidia gains fade</a></h3><p>Equities fell as Nvidia&#39;s post-earnings rally faded, with traders also watching Fed minutes. A Wall Street Journal report of an SEC probe into Nvidia was reported but not independently confirmed.</p><span class="src">Bloomberg</span></li><li><h3><a href="https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html" rel="noopener">Anthropic IPO reportedly priced above range at US$83</a></h3><p>Anthropic was said to have priced its IPO at US$83 a share, above the marketed range. The listing is a major test of appetite for AI stocks; pricing was reported, not officially verified here.</p><span class="src">Yahoo Finance</span></li><li><h3><a href="https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/" rel="noopener">Fed minutes and 10-year yield above 5% keep rate-hike risk alive</a></h3><p>Investors looked to the Fed&#39;s meeting minutes for clues on another rate hike while oil and gold fell. High yields remain a headwind for equity valuations.</p><span class="src">Eurasia Business News</span></li></ul></div></section>
+<section class="sec" id="austocks"><h2><a href="#austocks">AU stocks</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://journalarta.com/en/2026/11/18/asx-200-today-australian-shares-close-lower-after-wall-street-slide/" rel="noopener">ASX 200 falls after Wall Street tech sell-off</a></h3><p>Australian shares closed lower on 18 November, led by technology weakness following Wall Street&#39;s slide. Close levels differ between sources, so the figure is unconfirmed.</p><span class="src">Journal Arta</span></article>
+<ul class="list"><li><h3><a href="https://www.marketindex.com.au/news/asx-200-live-today-wednesday-18th-november" rel="noopener">ASX on track for fifth straight fall</a></h3><p>The live blog had the index down about 30 points in the afternoon, heading for a fifth consecutive decline. The local dollar eased against the US dollar.</p><span class="src">Market Index</span></li><li><h3><a href="https://ozfinancehub.com.au/exchange-rates" rel="noopener">AUD around 67 US cents</a></h3><p>Rates cited the RBA&#39;s 18 November rate at US$0.6720, while another source had 0.6732. ASX futures were not found; Wall Street&#39;s weak session points to a soft lead.</p><span class="src">OzFinanceHub</span></li></ul></div></section>
+<section class="sec" id="property"><h2><a href="#property">Australian real estate top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.yourfinanceguide.com/news/cotality-october-2026-home-values-seventh-fall" rel="noopener">Home values fall for a seventh straight month</a></h3><p>Cotality&#39;s national index fell 1.2% in October, taking values 6.7% below the March peak. The November result is expected in early December.</p><span class="src">Your Finance Guide</span></article>
+<ul class="list"><li><h3><a href="https://www.cotality.com/au/insights/articles/monthly-housing-chart-pack-november" rel="noopener">Capital city downturn nears the 40-year record</a></h3><p>Combined capital city values are down 8.1% over seven months, just shy of the record 8.2% peak-to-trough fall. It shows how deep the current correction is against history.</p><span class="src">Cotality</span></li><li><h3><a href="https://www.cotality.com/au/insights/articles/housing-downturn-broadens-as-brisbane-and-perth-lead-the-decline" rel="noopener">Downturn broadens as Brisbane and Perth lead declines</a></h3><p>Cotality says the decline has spread beyond the earlier weak markets, with Brisbane and Perth leading. Article date was not verified and may predate the latest data.</p><span class="src">Cotality</span></li><li><h3><a href="https://www.cotality.com/au/press-releases/final-clearance-rates-week-ending-8-november-2026" rel="noopener">Auction clearance rate subdued at 44.3% four-week average</a></h3><p>For the week ending 8 November, Sydney cleared 45.2% across 692 auctions, Melbourne had 594 auctions and Brisbane was weakest at 27.0%. Later weeks&#39; data was not found.</p><span class="src">Cotality</span></li><li><h3><a href="https://www.marketindex.com.au/news/asx-200-live-today-wednesday-18th-november" rel="noopener">RBA seen holding at 4.85% as wage growth keeps hikes possible</a></h3><p>Markets expect no change at the 7 December meeting, though economists say another hike is not off the table. Higher rates continue to weigh on borrowing capacity and prices.</p><span class="src">Market Index</span></li></ul></div></section>
+</main>
+<footer class="f"><span class="fm">The MrB Morning Brief</span>Written each morning by AI from public reporting. Summaries are paraphrased and may contain errors, so check the source before acting. Market content is information, not financial advice.</footer>
+</div></body></html>

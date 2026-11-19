@@ -1,0 +1,361 @@
+{
+  "date": "2026-11-19",
+  "longDate": "Thursday 19 November 2026",
+  "clock": "12:48 pm AEDT",
+  "generatedAt": "2026-11-19T01:48:30.306Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Albanese heads into the first Quad leaders meeting in two years as Wall Street slides for a fifth session despite Nvidia's blowout revenue.",
+  "highlights": [
+    {
+      "label": "Quad summit",
+      "text": "Albanese is due to meet Trump and the Japanese and Indian leaders in the Philippines, the first Quad leaders meeting in two years."
+    },
+    {
+      "label": "Wall Street slide",
+      "text": "The S&P 500 fell for a fifth straight session as Nvidia's post-earnings rally faded and Treasury yields stayed above 5%."
+    },
+    {
+      "label": "Housing downturn",
+      "text": "Cotality's national home values fell 1.2% in October, the seventh straight monthly decline and 6.7% below the March peak."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Use the stairs when you can",
+        "body": "Pick one regular trip today, such as to the kitchen, a meeting room or the train platform, and take the stairs instead of the lift. Short bursts of effortful movement add up across the week and raise your heart rate without needing gym kit or a change of clothes."
+      },
+      "quote": {
+        "text": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Adobe's CX agent now works inside ChatGPT, Claude and Gemini",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-5-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Adobe said on 4 November that its CX Enterprise Coworker agentic system can be used from ChatGPT, Claude, Gemini, Copilot and Databricks Genie. It signals marketing tools being reached through general AI assistants rather than only their own interfaces. Older than 48 hours."
+        },
+        {
+          "title": "Google and Adobe expand partnership across Gmail, Drive and Gemini",
+          "url": "https://letsdatascience.com/news/google-and-adobe-expand-partnership-across-drive-gmail-gemin-bb1bff57",
+          "source": "Let's Data Science",
+          "summary": "Google said Adobe Acrobat will appear as a suggested app in Gmail and Drive, and Adobe's CX Enterprise Coworker will be usable in Gemini Enterprise. Launch dates and pricing were mostly not given, so the practical effect for marketers is still unclear."
+        },
+        {
+          "title": "6sense rebrands around agentic go-to-market and previews a BDR agent",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-4-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "At its Breakthrough 2026 event on 3 November, 6sense repositioned itself as a partner for agentic go-to-market work. A BDR Agent enters beta this month, adding to the push towards AI agents handling outbound prospecting. Older than 48 hours."
+        },
+        {
+          "title": "Yext completes Flamel.ai purchase for franchise ad localisation",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-3-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Yext closed its acquisition of Flamel.ai on 2 November, a tool that localises a single paid campaign across many franchise ad accounts with franchisee opt-in. It matters for multi-location brands wanting local ads without manual rebuilds. Older than 48 hours."
+        },
+        {
+          "title": "Weekly martech roundup covers Cordial, Optimove, 6sense and ActiveCampaign",
+          "url": "https://solutionsreview.com/crm/2026/11/13/top-martech-news-from-the-week-of-november-13th/",
+          "source": "Solutions Review",
+          "summary": "Solutions Review's week-to-13 November roundup collects vendor announcements across email, CDP and marketing automation. Useful as a catch-up list, though details should be checked against the original vendor releases. Older than 48 hours."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce signs deal to acquire voice-AI company Cresta",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/?bc=DB",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce signed a definitive agreement on 2 November to buy Cresta, whose voice agents handle customer calls and coach human reps in real time. The deal is subject to closing conditions; a reported US$2.7 billion price is unconfirmed by Salesforce. Older than 48 hours."
+        },
+        {
+          "title": "Cresta is Salesforce's third acquisition in two weeks",
+          "url": "https://www.constellationr.com/insights/news/salesforce-acquires-cresta-third-deal-two-weeks",
+          "source": "Constellation Research",
+          "summary": "Constellation notes the Cresta purchase follows two other recent Salesforce deals, continuing a rapid run of acquisitions. It suggests Salesforce is buying capability to fill gaps in its agentic AI lineup."
+        },
+        {
+          "title": "Forrester says Cresta fills a gap in Salesforce's service AI story",
+          "url": "https://www.forrester.com/blogs/cresta-fills-an-important-gap-in-salesforces-customer-service-ai-story/",
+          "source": "Forrester",
+          "summary": "Forrester argues the deal strengthens Salesforce's contact-centre and voice offering. It advises existing Cresta customers to watch whether Salesforce preserves what made the product valuable."
+        },
+        {
+          "title": "Deal reshapes voice AI buying choices for service teams",
+          "url": "https://cxtoday.com/salesforce-cresta-deal-rewrites-voice-ai-buying-choices",
+          "source": "CX Today",
+          "summary": "CX Today looks at how Salesforce owning a leading voice-agent vendor changes options for customer service buyers. It raises questions about integration with existing phone systems and rival platforms."
+        },
+        {
+          "title": "Cresta joins Salesforce's 2026 customer-experience shopping spree",
+          "url": "https://www.cmswire.com/contact-center/salesforce-adds-cresta-to-the-cart-in-its-2026-cx-shopping-spree-01/",
+          "source": "CMSWire",
+          "summary": "CMSWire frames Cresta as the latest in a string of 2026 acquisitions across customer experience. The pattern shows Salesforce consolidating AI-agent capability through buying rather than building."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "issues",
+      "statusNote": "Third-party trackers show several Marketing Cloud incidents in early November, none confirmed for the last 48 hours; official status.salesforce.com was not checked and no planned maintenance was found.",
+      "items": [
+        {
+          "title": "Marketing Cloud Next fault blocked email publishing",
+          "url": "https://isdown.app/status/salesforce/incidents/682442-feature-disruption",
+          "source": "IsDown",
+          "summary": "On 6 November users could not publish email content, with items stuck in Processing, linked to a deployment of Default Marketing Sites. Final resolution time was not confirmed; older than 48 hours."
+        },
+        {
+          "title": "Marketing Cloud Engagement feature degradation logged",
+          "url": "https://isdown.app/status/salesforce/incidents/682047-marketing-cloud-engagement-feature-degradation",
+          "source": "IsDown",
+          "summary": "A brief Engagement degradation of about eight minutes was recorded around 5 November with no Salesforce updates posted. Low impact and older than 48 hours."
+        },
+        {
+          "title": "Salesforce outage tracker shows early-November disruptions",
+          "url": "https://uptimerobot.com/is-it-down/salesforce/2026-11-06/",
+          "source": "UptimeRobot",
+          "summary": "The tracker lists incidents on 2 to 6 November, including a roughly 10-hour Unified Marketing Application issue on 2 November. These are aggregator reports, not official Salesforce Trust confirmation."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Albanese set for first Quad leaders meeting in two years",
+          "url": "https://www.sbs.com.au/news/podcast-episode/albanese-prepares-for-major-quad-leaders-meeting-morning-news-bulletin-17-november-2026/ceivb2r7n",
+          "source": "SBS News",
+          "summary": "Albanese is preparing to meet Donald Trump and the Japanese and Indian leaders in the Philippines around the ASEAN summit. It is the first Quad leaders meeting in two years, so outcomes on trade and security are closely watched."
+        },
+        {
+          "title": "ABC analysis: government's standing looks bleak",
+          "url": "https://www.abc.net.au/news/2026-11-14/government-floundering-albanese-salad-days-wilted/107382680",
+          "source": "ABC News",
+          "summary": "An ABC analysis from 14 November says polling is poor for the Albanese government amid cost-of-living and interest-rate pressure. It is commentary rather than a news event. Older than 48 hours."
+        },
+        {
+          "title": "Government under pressure over inflation and policy backflips",
+          "url": "https://www.capitalbrief.com/newsletter/flipping-out-6c4d6f81-f3aa-4655-a48a-6d074e446cb3/",
+          "source": "Capital Brief",
+          "summary": "Capital Brief describes the government as facing inflation pressure and repeated policy reversals. It also flags the awkward optics of Vladimir Putin attending APEC in China this week."
+        },
+        {
+          "title": "RBA expected to hold at 4.85% after strong wages data",
+          "url": "https://www.marketindex.com.au/news/asx-200-live-today-wednesday-18th-november",
+          "source": "Market Index",
+          "summary": "Markets price a hold, with only a small chance of a hike, though economists say a further rise is not off the table after higher-than-expected wage growth. The next RBA decision is on 7 December."
+        },
+        {
+          "title": "Victorian state election due 28 November",
+          "url": "https://www.sbs.com.au/news/article/victorian-state-election-premier-key-issues/2lzgr7f4o",
+          "source": "SBS News",
+          "summary": "SBS coverage points to the Victorian election on 28 November, with Liberal leader Jess Wilson and a Labor leadership change after Jacinta Allan's resignation. Article date and details were not verified."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Modi among leaders for Quad summit in the Philippines",
+          "url": "https://www.sbs.com.au/news/podcast-episode/albanese-prepares-for-major-quad-leaders-meeting-morning-news-bulletin-17-november-2026/ceivb2r7n",
+          "source": "SBS News",
+          "summary": "SBS says the Quad leaders meeting will include India's counterpart alongside the US, Japan and Australia, the first in two years. Indian-source confirmation of attendance was not found."
+        },
+        {
+          "title": "Sensex sheds about 500 points as profit-taking hits",
+          "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html",
+          "source": "Business Standard",
+          "summary": "The Sensex fell about 0.6% to near 82,030 and the Nifty to about 25,228 on 18 November after two days of gains. Consumer durables led losses; closing figures vary slightly between outlets."
+        },
+        {
+          "title": "Supreme Court declines to stay Azam Khan's interim bail",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-daily-round-up-november-18-2026-559009",
+          "source": "LiveLaw",
+          "summary": "The Supreme Court refused to stay Azam Khan's interim bail in a money-laundering case and listed the matter for 19 November. Source is a daily round-up; case detail is limited."
+        },
+        {
+          "title": "Court seeks Centre's response on RTI for Collegium decisions",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-daily-round-up-november-18-2026-559009",
+          "source": "LiveLaw",
+          "summary": "The court asked the Centre to respond to a plea to bring Collegium decisions under RTI and to finalise the memorandum of procedure for judicial appointments. It bears on transparency in judicial appointments."
+        },
+        {
+          "title": "Thiruparankundram dispute and Shinde plea before Supreme Court",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-daily-round-up-november-18-2026-559009",
+          "source": "LiveLaw",
+          "summary": "Tamil Nadu told the court survey pillars at Thiruparankundram could become religious sites without a stay, and Eknath Shinde argued skipping a party meeting is not quitting Shiv Sena. Both matters remain pending."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "CII summit day one: Rs 5.84 lakh crore in pledges, led by Reliance",
+          "url": "https://www.thehansindia.com/news/cities/visakhapatnam/cii-partnership-summit-day-1-ap-clinches-rs-584l-cr-investment-pledges-1141599",
+          "source": "The Hans India",
+          "summary": "Andhra Pradesh secured about Rs 5,84,355 crore in commitments on the first day of the Visakhapatnam CII summit, with Reliance's Rs 2.73 lakh crore East Godavari plan the largest. These are pledges, not realised investment. Summit ran 12-13 November."
+        },
+        {
+          "title": "Second summit day adds 11 MoUs worth Rs 1.40 lakh crore",
+          "url": "https://www.outlookindia.com/announcements/cii-summit-2026-11-mous-worth-rs-140-lakh-crore-signed-10472-jobs-envisaged-in-andhra-pradesh",
+          "source": "Outlook India",
+          "summary": "Eleven MoUs with proposed investment of Rs 1,40,705 crore and 10,472 jobs were signed. Overall totals vary widely between reports, so figures are provisional."
+        },
+        {
+          "title": "Energy sector draws Rs 5.2 lakh crore in pledges over two days",
+          "url": "https://www.outlookbusiness.com/news/andhra-attracts-52-lakh-crore-investment-pledges-in-energy-sector-in-two-days-minister",
+          "source": "Outlook Business",
+          "summary": "A minister said energy investment pledges reached Rs 5.2 lakh crore across two days. It underlines the state's push in renewables and green energy; the figure is a ministerial claim."
+        },
+        {
+          "title": "Cabinet clears AI, robotics and electronics policies and a Visakhapatnam data centre",
+          "url": "https://news.hellovizag.in/andhra-pradesh-cabinet-clears-new-policies-to-attract-investments-in-ai-electronics-and-renewable-energy",
+          "source": "Hello Vizag",
+          "summary": "The cabinet approved technology policies and a proposed Rs 31,387-crore, 512 MW green AI data centre near Bheemunipatnam expected to create about 1,000 jobs. Reported around the 10 November cabinet meeting."
+        },
+        {
+          "title": "Naidu wants Amaravati as a deep-tech capital",
+          "url": "https://telanganatoday.com/amaravati-will-be-developed-as-deep-tech-capital-says-chandrababu-naidu",
+          "source": "Telangana Today",
+          "summary": "Chief Minister Chandrababu Naidu said Amaravati would be developed as a deep-tech capital and hub for AI and quantum computing. Reported in early November; older than 48 hours."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "Closing level not confirmed",
+          "change": "Lower; fifth straight fall"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "Closing level not confirmed",
+          "change": "Lower"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "Closing level not confirmed",
+          "change": "Lower"
+        },
+        {
+          "label": "US 10-year yield",
+          "value": "Above 5%",
+          "change": "n/a"
+        }
+      ],
+      "items": [
+        {
+          "title": "Nvidia doubles revenue but sell-off continues",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-midday-nov-18-nvidia-doubles-revenue-but-wall-street-s-sell-off-continues/",
+          "source": "Motley Fool",
+          "summary": "Nvidia reported revenue of US$115.8 billion, up 103% on a year earlier, yet shares fell about 3% as investors focused on a softer margin outlook. Its slide dragged the S&P 500 down for a fifth straight day (Bloomberg)."
+        },
+        {
+          "title": "Bloomberg live blog: Dow and S&P slip as Nvidia gains fade",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates",
+          "source": "Bloomberg",
+          "summary": "Equities fell as Nvidia's post-earnings rally faded, with traders also watching Fed minutes. A Wall Street Journal report of an SEC probe into Nvidia was reported but not independently confirmed."
+        },
+        {
+          "title": "Anthropic IPO reportedly priced above range at US$83",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html",
+          "source": "Yahoo Finance",
+          "summary": "Anthropic was said to have priced its IPO at US$83 a share, above the marketed range. The listing is a major test of appetite for AI stocks; pricing was reported, not officially verified here."
+        },
+        {
+          "title": "Fed minutes and 10-year yield above 5% keep rate-hike risk alive",
+          "url": "https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/",
+          "source": "Eurasia Business News",
+          "summary": "Investors looked to the Fed's meeting minutes for clues on another rate hike while oil and gold fell. High yields remain a headwind for equity valuations."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (18 Nov close)",
+          "value": "8,821.8 (one report; others differ)",
+          "change": "-0.69%"
+        },
+        {
+          "label": "AUD/USD (RBA 4pm)",
+          "value": "0.6720",
+          "change": "n/a"
+        },
+        {
+          "label": "RBA cash rate",
+          "value": "4.85%",
+          "change": "Hold expected"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX 200 falls after Wall Street tech sell-off",
+          "url": "https://journalarta.com/en/2026/11/18/asx-200-today-australian-shares-close-lower-after-wall-street-slide/",
+          "source": "Journal Arta",
+          "summary": "Australian shares closed lower on 18 November, led by technology weakness following Wall Street's slide. Close levels differ between sources, so the figure is unconfirmed."
+        },
+        {
+          "title": "ASX on track for fifth straight fall",
+          "url": "https://www.marketindex.com.au/news/asx-200-live-today-wednesday-18th-november",
+          "source": "Market Index",
+          "summary": "The live blog had the index down about 30 points in the afternoon, heading for a fifth consecutive decline. The local dollar eased against the US dollar."
+        },
+        {
+          "title": "AUD around 67 US cents",
+          "url": "https://ozfinancehub.com.au/exchange-rates",
+          "source": "OzFinanceHub",
+          "summary": "Rates cited the RBA's 18 November rate at US$0.6720, while another source had 0.6732. ASX futures were not found; Wall Street's weak session points to a soft lead."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Home values fall for a seventh straight month",
+          "url": "https://www.yourfinanceguide.com/news/cotality-october-2026-home-values-seventh-fall",
+          "source": "Your Finance Guide",
+          "summary": "Cotality's national index fell 1.2% in October, taking values 6.7% below the March peak. The November result is expected in early December."
+        },
+        {
+          "title": "Capital city downturn nears the 40-year record",
+          "url": "https://www.cotality.com/au/insights/articles/monthly-housing-chart-pack-november",
+          "source": "Cotality",
+          "summary": "Combined capital city values are down 8.1% over seven months, just shy of the record 8.2% peak-to-trough fall. It shows how deep the current correction is against history."
+        },
+        {
+          "title": "Downturn broadens as Brisbane and Perth lead declines",
+          "url": "https://www.cotality.com/au/insights/articles/housing-downturn-broadens-as-brisbane-and-perth-lead-the-decline",
+          "source": "Cotality",
+          "summary": "Cotality says the decline has spread beyond the earlier weak markets, with Brisbane and Perth leading. Article date was not verified and may predate the latest data."
+        },
+        {
+          "title": "Auction clearance rate subdued at 44.3% four-week average",
+          "url": "https://www.cotality.com/au/press-releases/final-clearance-rates-week-ending-8-november-2026",
+          "source": "Cotality",
+          "summary": "For the week ending 8 November, Sydney cleared 45.2% across 692 auctions, Melbourne had 594 auctions and Brisbane was weakest at 27.0%. Later weeks' data was not found."
+        },
+        {
+          "title": "RBA seen holding at 4.85% as wage growth keeps hikes possible",
+          "url": "https://www.marketindex.com.au/news/asx-200-live-today-wednesday-18th-november",
+          "source": "Market Index",
+          "summary": "Markets expect no change at the 7 December meeting, though economists say another hike is not off the table. Higher rates continue to weigh on borrowing capacity and prices."
+        }
+      ]
+    }
+  }
+}
