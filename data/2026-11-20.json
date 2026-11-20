@@ -1,0 +1,357 @@
+{
+  "date": "2026-11-20",
+  "longDate": "Friday 20 November 2026",
+  "clock": "12:44 pm AEDT",
+  "generatedAt": "2026-11-20T01:44:13.388Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Australia's jobless rate jumped to 4.9 per cent as the ASX and Wall Street both sold off, while Albanese meets Xi at APEC.",
+  "highlights": [
+    {
+      "label": "Jobs shock",
+      "text": "Australia's unemployment rate rose to 4.9 per cent in October, a five-year high, surprising economists and pressuring the RBA."
+    },
+    {
+      "label": "Wall Street slump",
+      "text": "US stocks fell about 2 per cent on Anthropic's debut day, the S&P 500's sixth straight loss."
+    },
+    {
+      "label": "Cyclone Akvan",
+      "text": "Cyclone Akvan is making landfall near Gopalpur in Odisha, with heavy rain forecast for northern Andhra Pradesh coastal districts."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Take a posture-and-pace break each hour",
+        "body": "Set a quiet reminder to stand, roll your shoulders and walk to the end of the room or hallway once an hour. Breaking up long sitting spells is a simple way to ease stiffness and keep energy steadier through the afternoon. It takes under two minutes and needs no equipment."
+      },
+      "quote": {
+        "text": "It does not matter how slowly you go as long as you do not stop.",
+        "author": "Confucius"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce's pending Braze deal reshapes engagement platform market",
+          "url": "https://cdp.com/articles/salesforce-braze-acquisition/",
+          "source": "CDP.com",
+          "summary": "Salesforce agreed on 20 October 2026 to acquire Braze for about US$5.66 billion, and the deal is still awaiting approval. Marketers on Braze should review contracts and roadmap risk while it proceeds."
+        },
+        {
+          "title": "Adobe and Google deepen AI and workflow partnership",
+          "url": "https://martechseries.com/video/adobe-and-google-deepen-partnership-to-bring-leading-ai-models-and-integrated-workflows-to-creatives-and-enterprises/",
+          "source": "MarTech Series",
+          "summary": "Adobe tools are set to appear inside Google Workspace, Gemini and AI Mode in Search, with Acrobat available through Drive and Gmail. It signals AI assistants becoming a main entry point for creative and marketing workflows."
+        },
+        {
+          "title": "HubSpot adds proactive sales workspace to its ChatGPT connector",
+          "url": "https://www.martechnotes.com/hubspot-adds-a-proactive-sales-workspace-to-its-chatgpt-connector/",
+          "source": "Martech Notes",
+          "summary": "The new experience uses CRM context and connected email to prioritise what sales teams should do next. It shows CRM vendors pushing their data into third-party AI assistants."
+        },
+        {
+          "title": "Braze named Leader in first Gartner email marketing Magic Quadrant",
+          "url": "https://martechseries.com/sales-marketing/customer-experience-management/braze-named-a-leader-in-the-inaugural-gartner-magic-quadrant-for-email-marketing-platforms/",
+          "source": "MarTech Series",
+          "summary": "Gartner published its inaugural Magic Quadrant for Email Marketing Platforms, with Braze named a Leader. The new category gives buyers a fresh benchmark when comparing email and engagement vendors."
+        },
+        {
+          "title": "Weekly martech roundup: Sprout Social, Adobe, TrueDialog and more",
+          "url": "https://solutionsreview.com/crm/2026/11/13/top-martech-news-from-the-week-of-november-13th/",
+          "source": "Solutions Review",
+          "summary": "The roundup collects product updates from several martech vendors for the week of 13 November. It is slightly older than 48 hours, used because little newer coverage surfaced."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce and Microsoft launch Copilotforce",
+          "url": "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+          "source": "Salesforce newsroom",
+          "summary": "Announced around Microsoft Ignite, Copilotforce brings Salesforce customer context and sales workflows into Microsoft Copilot, with a plugin in public preview. It extends Salesforce data into the tools many sellers already use."
+        },
+        {
+          "title": "Salesforce shares slide amid wave of tech outages",
+          "url": "https://invezz.com/news/2026/11/17/salesforce-stock-slides-as-technology-outages-rattle-software-sector/",
+          "source": "Invezz",
+          "summary": "Salesforce stock fell more than 8 per cent on 17 November as outages rattled the software sector. No company announcement or earnings report was reported alongside the drop."
+        },
+        {
+          "title": "Salesforce selected to lead American SI Exports consortium",
+          "url": "https://www.salesforce.com/news/press-releases/2026/11/19/salesforce-si-export-consortium/",
+          "source": "Salesforce newsroom",
+          "summary": "The US Commerce Department picked Salesforce's consortium as one of 33 initial export packages, making it eligible for priority government support. It links Salesforce's AI push to US export policy."
+        },
+        {
+          "title": "Fresh round of Salesforce layoffs reported",
+          "url": "https://cxtoday.com/in-brief/salesforce-begins-fresh-round-of-layoffs-reports-say-uWNoud7R5RpCLTX8PCKSyCw",
+          "source": "CX Today",
+          "summary": "Reports citing internal communications say Salesforce began another round of job cuts in November. Scale and reasons have not been publicly confirmed."
+        },
+        {
+          "title": "Salesforce's US$5.66 billion Braze acquisition",
+          "url": "https://www.techbuzz.ai/articles/salesforce-acquires-braze-for-5-66b-in-major-martech-play",
+          "source": "TechBuzz",
+          "summary": "Salesforce agreed to buy customer engagement platform Braze, a major move in marketing technology. The deal is pending approval, so it remains uncertain until it closes."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "issues",
+      "statusNote": "A run of incidents hit Salesforce in mid-November, including a 17 November outage, though trackers showed services up as of 19 November; no APAC-specific incident was confirmed.",
+      "items": [
+        {
+          "title": "Salesforce shares fall as outages hit software sector",
+          "url": "https://invezz.com/news/2026/11/17/salesforce-stock-slides-as-technology-outages-rattle-software-sector/",
+          "source": "Invezz",
+          "summary": "A roughly 34-minute acknowledged outage on 17 November coincided with a sharp share-price fall. Check status.salesforce.com for official root-cause details."
+        },
+        {
+          "title": "Copilotforce announced amid ongoing outages",
+          "url": "https://salesforceben.com/salesforce-announces-copilotforce-with-microsoft-amid-ongoing-outages",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben noted the Microsoft partnership news arrived while service disruptions continued. Customers should watch the Trust site for further incidents."
+        },
+        {
+          "title": "Third-party tracker shows multiple November degradations",
+          "url": "https://statusgator.com/services/salesforce",
+          "source": "StatusGator",
+          "summary": "Trackers list multi-hour feature and performance degradations from 2 to 16 November, including a MuleSoft-related event. These are third-party reports and not confirmed by Salesforce; no planned maintenance was found."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Unemployment jumps to 4.9 per cent in October",
+          "url": "https://www.abc.net.au/news/2026-11-19/unemployment-rate-jumps-in-october-in-australia/107399076",
+          "source": "ABC News",
+          "summary": "The jobless rate rose from 4.7 to 4.9 per cent, a five-year high, surprising analysts. Treasurer Jim Chalmers called it a concern but pointed to a resilient economy."
+        },
+        {
+          "title": "RBA in 'uncomfortable position' after jobs shock",
+          "url": "https://au.finance.yahoo.com/news/rba-in-uncomfortable-position-after-shock-rise-in-australias-unemployment-rate-absolute-stinker-010508200.html",
+          "source": "Yahoo Finance Australia",
+          "summary": "Economists said the weak labour data reduces the case for a further rate rise at the RBA's December meeting. October inflation figures due next will shape the outlook."
+        },
+        {
+          "title": "Economists warn data points towards recession risk",
+          "url": "https://www.abc.net.au/news/2026-11-19/asx-markets-business-news-live-updates-thursday-19-november/107401802",
+          "source": "ABC News",
+          "summary": "Leading economists warned that recent figures show Australia approaching recession, while the ASX fell sharply. Ministers have played down recession fears."
+        },
+        {
+          "title": "Albanese appears in APEC group photo with Putin",
+          "url": "https://www.sbs.com.au/news/article/albanese-putin-photo-apec-trump-china-2026/qhxs35kye",
+          "source": "SBS News",
+          "summary": "The prime minister was photographed alongside Vladimir Putin at the Shenzhen summit despite calls to avoid it, and repeated Australia's opposition to the war in Ukraine. It adds diplomatic sensitivity to his China visit."
+        },
+        {
+          "title": "Albanese meets Xi at APEC seeking trade relief",
+          "url": "https://www.crikey.com.au/2026/11/20/albanese-xi-jinping-apec-meeting-putin-trump-cop31-draft-chris-bowen/",
+          "source": "Crikey",
+          "summary": "Albanese was due to meet Xi Jinping on Friday after Xi's meeting with Trump and Putin, with beef access among the aims. No readout of the talks was available; outcomes are unconfirmed."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Sensex surges nearly 1,000 points, Nifty at 25,514",
+          "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html",
+          "source": "Business Standard",
+          "summary": "The Sensex closed about 990 points higher at 83,021.75 and the Nifty gained 1.14 per cent, led by autos. The rebound came as markets shrugged off Fed worries."
+        },
+        {
+          "title": "Cyclone Akvan nears landfall in Odisha, Andhra coast on alert",
+          "url": "https://etvbharat.com/en/bharat/live-blog--cyclone-akvan-live-updates-november-20-landfall-odisha-andhra-pradesh-wind-speed-rainfall-ndrf-evacuation-rescue-enn26112000397",
+          "source": "ETV Bharat",
+          "summary": "Landfall began near Gopalpur in Odisha on 20 November, with heavy rain expected along the eastern coast. Evacuation and rescue teams are in position."
+        },
+        {
+          "title": "Supreme Court stays GST demands on corporate guarantees",
+          "url": "https://www.jurishour.in/gst/gst-demands-on-corporate-guarantees/",
+          "source": "JurisHour",
+          "summary": "On 16 November the court paused tax demands tied to GST on corporate guarantees and issued notice on a Gujarat High Court ruling. It matters for companies facing similar demands."
+        },
+        {
+          "title": "Supreme Court declines to order GST refund before appeal decided",
+          "url": "https://www.jurishour.in/gst/refusal-to-refund-recovered-gst/",
+          "source": "JurisHour",
+          "summary": "The court dismissed a petition over GST recovered before an appeal was filed and asked the tribunal to hear the appeal quickly. It signals limits on interim refunds."
+        },
+        {
+          "title": "Supreme Court upholds reopening of old tax assessments",
+          "url": "https://taxgst.in/supreme-court-reassessment-notices-2026/",
+          "source": "TaxGST.in",
+          "summary": "Two November rulings allowed reassessment of older cases, including one involving a Rs 255 crore share sale. Taxpayers should expect continued scrutiny of past filings."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Cyclone Akvan eases for Andhra but heavy rain still likely",
+          "url": "https://etvbharat.com/en/bharat/live-blog--cyclone-akvan-live-updates-november-20-landfall-odisha-andhra-pradesh-wind-speed-rainfall-ndrf-evacuation-rescue-enn26112000397",
+          "source": "ETV Bharat",
+          "summary": "The storm's path toward Odisha has eased concern, but extremely heavy rain is possible in Srikakulam and Vizianagaram. Other coastal districts may also see heavy falls."
+        },
+        {
+          "title": "Naidu says Google's Vizag AI hub on track for 2028",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-12/modi-ally-chandrababu-naidu-sees-google-project-on-track-new-data-centers",
+          "source": "Bloomberg",
+          "summary": "The chief minister said the US$15 billion project remains on schedule and cited new data centre investment from Blackstone. It is dated 12 November, slightly older than 48 hours."
+        },
+        {
+          "title": "Water shortage won't hinder Vizag data centres, says Naidu",
+          "url": "https://www.thenewsminute.com/andhra-pradesh/water-availability-will-not-hinder-vizag-data-centre-plans-andhra-cm-naidu",
+          "source": "The News Minute",
+          "summary": "Naidu said the centres need about 3.5 TMC of water and Polavaram could supply far more. It addresses resident concerns about strain on resources."
+        },
+        {
+          "title": "Naidu reviews Vizag, Tirupati and Amaravati economic regions",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/development-plans-of-visakhapatnam-tirupati-and-amaravati-economic-regions-to-serve-as-blueprints-for-ap-development-naidu-2005894",
+          "source": "Deccan Chronicle",
+          "summary": "The chief minister reviewed plans for three economic regions, including proposals under the Centre's City Economic Region scheme. They are meant as blueprints for statewide growth."
+        },
+        {
+          "title": "Google Vizag data centre targeted for August 2028 opening",
+          "url": "https://news.hellovizag.in/google-ai-data-centre-in-visakhapatnam-to-be-inaugurated-on-august-15-2028",
+          "source": "Hello Vizag",
+          "summary": "Naidu named 15 August 2028 as the inauguration target for the 1 GW facility at a CII summit on 12 November. Date not independently confirmed beyond this report."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "about 7,176",
+          "change": "-2.0%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "23,879",
+          "change": "-2.25%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "49,097",
+          "change": "-2.19%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Stocks close lower on Anthropic's first trading day",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026",
+          "source": "Stock Titan",
+          "summary": "The S&P 500 fell for a sixth straight session, its longest losing run since 2024. Figures are approximate and vary slightly between sources."
+        },
+        {
+          "title": "Alphabet falls as Anthropic debut revalues Google's stake",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-alphabet-shares-fall-as-anthropic-nasdaq-debut-puts-fresh-value-on-googles-stake/",
+          "source": "Motley Fool",
+          "summary": "Anthropic closed about 17 per cent above its US$83 IPO price while Alphabet dropped about 3.5 per cent. The listing put a fresh value on Google's holding."
+        },
+        {
+          "title": "Nvidia slides despite strong quarter amid CEO transition",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-nvidia-slides-as-investors-weigh-ceo-transition-fallout-despite-strong-q3-results/",
+          "source": "Motley Fool",
+          "summary": "Nvidia fell about 3.3 per cent as investors weighed a CEO transition despite strong third-quarter results. It added to pressure on AI stocks."
+        },
+        {
+          "title": "Market recap: gold slumps, oil rises",
+          "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-19",
+          "source": "Babypips",
+          "summary": "Gold fell about 1.8 per cent to near a 14-month low while WTI crude rose about 1.5 per cent. Commodity moves compounded the risk-off tone."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P/ASX 200 (Thu close)",
+          "value": "8,730.4",
+          "change": "-1.04%"
+        },
+        {
+          "label": "AUD/USD",
+          "value": "not found in search results",
+          "change": "n/a"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX 200 falls for sixth straight session as miners sink",
+          "url": "https://journalarta.com/en/2026/11/19/asx-200-today-australian-shares-close-1-04-lower-as-bhp-and-rio-tinto-slide/",
+          "source": "JournalArta",
+          "summary": "BHP and Rio Tinto led the decline and the index hit a 20-day low, while the big banks edged higher. Wall Street's overnight 2 per cent drop points to a weak start today; no futures figure was found."
+        },
+        {
+          "title": "Unemployment hits 4.9 per cent on another bruising day for the ASX",
+          "url": "https://sharetrader.com.au/news/2026-11-19-october-unemployment-hits-4-9-per-cent-on-another-bruising-day-for-the-asx",
+          "source": "Sharetrader",
+          "summary": "Weak jobs data added to the sell-off, with employment down about 43,500 in October. Traders now fully price an RBA cut by September 2027."
+        },
+        {
+          "title": "Leading economists warn of recession risk",
+          "url": "https://www.abc.net.au/news/2026-11-19/asx-markets-business-news-live-updates-thursday-19-november/107401802",
+          "source": "ABC News",
+          "summary": "The ABC markets blog tracked the slide alongside warnings that data points to recession risk. October inflation figures are due next."
+        },
+        {
+          "title": "ASX 200 drops on commodity sell-off",
+          "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/s-und-p-asx-200-falls-1-04-prozent-as-mining-sell-off-extends-losing-streak/70535690",
+          "source": "Ad-hoc-news",
+          "summary": "Materials was the weakest sector as copper and gold stocks fell. Trading Economics quotes a slightly different close, so figures may differ marginally."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Home values fall 1.2% in October, seventh straight monthly drop",
+          "url": "https://propertyinvestmentprofessionals.com.au/research-insights/cotality-home-value-index-october-2026-seventh-fall-brisbane-perth-lead",
+          "source": "Property Investment Professionals",
+          "summary": "Cotality's national index is 6.7 per cent below its March peak, with Brisbane and Perth leading falls. Capital-city values are down 8.1 per cent over seven months."
+        },
+        {
+          "title": "Clearance rate stays under 50% for seventh week",
+          "url": "https://financialnewswire.com.au/property/average-clearance-rate-comes-in-under-50-for-seventh-week/",
+          "source": "Financial Newswire",
+          "summary": "The combined-capitals rate hit 40.7 per cent in the week to 1 November, the lowest in over six years. It points to weak buyer demand."
+        },
+        {
+          "title": "Australian home values downgraded again",
+          "url": "https://www.macrobusiness.com.au/2026/11/australian-home-values-downgraded-again/",
+          "source": "MacroBusiness",
+          "summary": "Cotality's daily index showed continued falls into early November, with Brisbane down 2.2 per cent over 28 days to 9 November. Melbourne fell 0.7 per cent."
+        },
+        {
+          "title": "Rate hikes biting with shock unemployment rise",
+          "url": "https://www.australianconveyancer.com.au/article/rate-hikes-biting-with-shock-unemployment-rise",
+          "source": "Australian Conveyancer",
+          "summary": "Higher interest rates are flowing through to the jobs market, with unemployment at 4.9 per cent. A softer labour market could further weigh on housing demand."
+        },
+        {
+          "title": "State of Australia's property markets in 20 charts",
+          "url": "https://propertyupdate.com.au/everything-you-need-to-know-about-the-state-of-australias-property-markets-in-charts/",
+          "source": "Property Update",
+          "summary": "The chart pack summarises the national slump in values, sales and clearance rates. Publication date is unclear, so treat it as background."
+        }
+      ]
+    }
+  }
+}
