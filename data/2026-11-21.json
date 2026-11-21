@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-21",
+  "longDate": "Saturday 21 November 2026",
+  "clock": "12:15 pm AEDT",
+  "generatedAt": "2026-11-21T01:15:51.728Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — an AI-led rout pushed Wall Street into correction and sent the ASX 200 to a seventh straight loss, while Australian unemployment jumped to 4.9%.",
+  "highlights": [
+    {
+      "label": "Wall Street rout",
+      "text": "The S&P 500 and Dow closed in correction territory and the Nasdaq fell over 5% as the AI sell-off deepened."
+    },
+    {
+      "label": "Jobs shock",
+      "text": "Australia's unemployment rate rose to 4.9% in October as employment fell by 43,500, weakening the case for another RBA hike."
+    },
+    {
+      "label": "Auction slump",
+      "text": "Preliminary capital-city auction clearance rate fell to 44% last weekend, the lowest since April 2020, per Cotality."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Try a sit-to-stand set",
+        "body": "Once or twice today, stand up from a chair ten times without using your hands, at a steady pace. It is a simple way to work the legs and break up long sitting. Stop if anything hurts, and build up gradually."
+      },
+      "quote": {
+        "text": "Take care of your body. It's the only place you have to live.",
+        "author": "Jim Rohn"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Adobe puts its CX Enterprise Coworker inside other AI assistants",
+          "url": "https://solutionsreview.com/crm/2026/11/13/top-martech-news-from-the-week-of-november-13th/",
+          "source": "Solutions Review",
+          "summary": "Adobe made its CX Enterprise Coworker available inside ChatGPT, Claude, Gemini and Microsoft Copilot, and plans to bring it to GenStudio. It signals marketing tools being reached through general-purpose AI assistants rather than only vendor interfaces."
+        },
+        {
+          "title": "HubSpot names Brian Halligan CEO and lines up a new CFO",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-18-2026/",
+          "source": "The Agile Brand Guide",
+          "summary": "HubSpot named co-founder Brian Halligan as CEO, with Adobe finance executive Karen Burgess due to join as EVP of Finance on 30 November and become CFO in February 2027. Leadership change at a major CRM and marketing platform may shape its product direction."
+        },
+        {
+          "title": "HubSpot details the architecture behind Breeze and its AI agents",
+          "url": "https://www.martechnotes.com/hubspot-discloses-aviator-architecture-behind-breeze-assistant-and-its-ai-agents/",
+          "source": "Martech Notes",
+          "summary": "HubSpot disclosed the Aviator architecture that underpins its Breeze assistant and agents. It offers marketers a clearer view of how the vendor's AI features are built."
+        },
+        {
+          "title": "HubSpot adds a proactive sales workspace to its ChatGPT connector",
+          "url": "https://www.martechnotes.com/hubspot-adds-a-proactive-sales-workspace-to-its-chatgpt-connector/",
+          "source": "Martech Notes",
+          "summary": "The connector now surfaces a proactive sales workspace inside ChatGPT. It shows CRM vendors racing to embed their data in third-party AI assistants."
+        },
+        {
+          "title": "Adobe resolves audience export incident in Journey Optimizer",
+          "url": "https://martechnotes.com/adobe-resolves-audience-export-incident-affecting-journey-optimizer-on-november-18",
+          "source": "Martech Notes",
+          "summary": "Adobe resolved an incident on 18 November affecting audience exports in Journey Optimizer. Teams running campaigns on the platform may want to check that any exports from that day completed."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Microsoft and Salesforce announce Copilotforce partnership",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-18-2026/",
+          "source": "The Agile Brand Guide",
+          "summary": "The partnership, announced 17 November, brings Salesforce data and actions into Microsoft Copilot, Teams and Fabric. It narrows the gap between two of the largest enterprise AI ecosystems."
+        },
+        {
+          "title": "Mitsubishi Electric signs global Agentforce agreement",
+          "url": "https://ad-hoc-news.de/boerse/news/corporate-news/mitsubishi-electric-stock-salesforce-deal-targets-ai-sales/70536547",
+          "source": "Ad-hoc-news",
+          "summary": "Mitsubishi Electric will adopt Agentforce, Agentforce Coworker, Salesforce CRM and MuleSoft, starting with its factory automation sales. Reported by a secondary outlet citing a 18 November Salesforce release."
+        },
+        {
+          "title": "Salesforce consortium picked for US AI exports program",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/salesforce-stock-ai-export-package-targets-global-buyers/70540557",
+          "source": "Ad-hoc-news",
+          "summary": "Salesforce said its consortium is one of 33 initial groups chosen for a US Commerce Department AI exports program, combining Hyperforce, Data 360 and Agentforce. Secondary source; not independently confirmed against Salesforce's own release."
+        },
+        {
+          "title": "Salesforce's job-ready Agentforce agents, with Hunter due in November",
+          "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce's seven job-ready agents were announced in September, with six generally available and the outbound sales agent Hunter slated for general availability in November. This is an older story, included as the release is due this month."
+        },
+        {
+          "title": "Salesforce simplifies editions into agentic bundles",
+          "url": "https://www.salesforce.com/news/stories/salesforce-simplifies-editions-2026/",
+          "source": "Salesforce Newsroom",
+          "summary": "New editions bundle the products businesses need for agentic transformation. Customers should review how their licensing maps to the new packaging; publication date not confirmed in search results."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "No confirmed Salesforce incident for the last 48 hours was found in search results; live status.salesforce.com could not be checked directly.",
+      "items": []
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Unemployment jumps to 4.9% as 43,500 jobs lost",
+          "url": "https://www.marketindex.com.au/news/how-safe-is-your-job-aus-economy-sheds-43-500-jobs-as-unemployment-hits-four-year-high",
+          "source": "Market Index",
+          "summary": "The jobless rate rose from 4.7% to 4.9% in October as employment fell by 43,500, against forecasts of a gain. Economists say it weakens the case for another Reserve Bank hike; the ABS noted a new South Australian survey group lifted the headline."
+        },
+        {
+          "title": "Economists warn Australia is approaching recession",
+          "url": "https://www.abc.net.au/news/2026-11-19/asx-markets-business-news-live-updates-thursday-19-november/107401802",
+          "source": "ABC News",
+          "summary": "Leading economists said recent economic data points to Australia nearing recession. It adds pressure on the government and the RBA ahead of the December board meeting."
+        },
+        {
+          "title": "ASX 200 falls for a seventh straight day",
+          "url": "https://www.ibtimes.com.au/asx-200-falls-ai-selloff-seven-session-losing-streak-1878977",
+          "source": "IBTimes Australia",
+          "summary": "The benchmark shed more than 5% over the week as the AI sell-off hit tech and gold miners. It erodes household and super-fund wealth at a time of economic uncertainty."
+        },
+        {
+          "title": "RBA's bleak outlook raises questions on budget tightening",
+          "url": "https://www.abc.net.au/news/2026-11-07/rba-outlook-not-time-slam-budget-breaks-midterms-albanese/107356846",
+          "source": "ABC News",
+          "summary": "Analysis argues the RBA's gloomy forecasts suggest it may not be the time to slam the brakes on the budget. Older story (7 November), included as the economic backdrop."
+        },
+        {
+          "title": "RBA lifts cash rate to 18-year high of 4.85%",
+          "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216",
+          "source": "ABC News",
+          "summary": "The Reserve Bank raised the cash rate on 3 November, adding to mortgage pressure. Older story, included because it frames the current debate over whether further hikes are needed."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Sensex and Nifty rally over 1% on foreign inflows",
+          "url": "https://aninews.in/news/business/sensex-rallies-898-points-nifty-gains-112-as-foreign-inflows-lift-sentiment-despite-asian-market-sell-off20261120155243",
+          "source": "ANI",
+          "summary": "The Nifty closed at 25,800.75 (+1.12%) and the Sensex at 83,919.71 (+1.08%) on Friday, defying a sell-off in Asia. Nifty Bank hit a fresh record high of 64,636.25."
+        },
+        {
+          "title": "Modi chairs social justice summit, urges follow-through on disability inclusion",
+          "url": "https://affairscloud.com/current-affairs-20-november-2026/",
+          "source": "Affairscloud",
+          "summary": "The PM chaired the closing sessions of the Samaveshi Niti Sankalp summit and urged the Centre and states to act on its outcomes, stressing early identification of developmental disabilities. Reported via a current-affairs digest."
+        },
+        {
+          "title": "Modi to visit Bihar on 21 November",
+          "url": "https://www.pmindia.gov.in/en/",
+          "source": "PMO India",
+          "summary": "The PM's office said he will visit Bihar today, including Nitish Setu in Vaishali district. Details of the programme were not confirmed beyond that."
+        },
+        {
+          "title": "Special Parliament session reportedly mooted for 20–22 November",
+          "url": "https://india.shafaqna.com/EN/government-may-call-special-parliament-session-from-november-20-to-22/",
+          "source": "Shafaqna",
+          "summary": "A report citing sources said the government may call a short special session, with the winter session possibly announced for December. Unconfirmed; not clear whether it was called."
+        },
+        {
+          "title": "EVs to become default for ministry cars, with ₹20 lakh cap",
+          "url": "https://www.newsbytesapp.com/news/india/starting-november-2026-indian-government-makes-evs-default-rs20l-cap/tldr",
+          "source": "NewsBytes",
+          "summary": "From November, electric vehicles become the default for official ministry cars under a ₹20 lakh price cap. Older story (about a week old), included as policy context."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Naidu orders plans for Visakhapatnam, Tirupati and Amaravati economic regions",
+          "url": "https://theprint.in/india/visakhapatnam-tirupati-amaravati-development-plans-to-serve-as-blueprints-for-states-growth-cm/3103642/",
+          "source": "ThePrint",
+          "summary": "On 19 November the CM directed officials to draft development plans for the three economic regions, with 167 projects identified in Visakhapatnam and 64 in implementation. He also asked for 60 proposals worth ₹9,180 crore under the Centre's City Economic Region scheme."
+        },
+        {
+          "title": "CM directs officials to prepare economic region plans",
+          "url": "https://www.uniindia.com/south-india/admin-ap-economic-regions-cm/251268",
+          "source": "UNI",
+          "summary": "The review lays out a regional growth blueprint for the state. It sets the framework for coastal and capital-region investment."
+        },
+        {
+          "title": "Cabinet clears ₹31,387 crore AI data centre in Visakhapatnam district",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/cabinet-nod-for-rs-31387-cr-ai-data-centre-in-vizag-district-1140914",
+          "source": "The Hans India",
+          "summary": "The 10 November Cabinet approved a 512 MW AI data centre at Bheemunipatnam, expected to create about 1,000 jobs. It also allotted about 25 acres at Bhogapuram for a Reliance giga-scale AI data centre. Older than 48 hours."
+        },
+        {
+          "title": "Andhra sets sights on the next industrial revolution",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/ap-sets-its-sights-on-next-industrial-revolution-1140992",
+          "source": "The Hans India",
+          "summary": "Coverage of the state's push into AI, electronics and advanced manufacturing following the Cabinet decisions. Date not confirmed in search results."
+        },
+        {
+          "title": "Visakhapatnam hosts 31st CII Partnership Summit",
+          "url": "https://news.hellovizag.in/visakhapatnam-tirupati-and-amaravati-economic-regions-to-shape-andhra-pradeshs-development",
+          "source": "Hello Vizag",
+          "summary": "The state and CII jointly organised the summit on 12–13 November in Visakhapatnam. It is part of the government's effort to attract investment to the city."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "6,910.39",
+          "change": "-3.70%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "22,617.73",
+          "change": "-5.28%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "48,147.33",
+          "change": "-1.93%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Wall Street closes sharply lower as AI sell-off deepens",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
+          "source": "StockTitan",
+          "summary": "US stocks fell sharply on Friday 20 November, with the S&P 500 down for a seventh straight session. Figures are from secondary reports and may differ slightly between outlets."
+        },
+        {
+          "title": "S&P 500 and Dow in correction; Nasdaq erases 2026 gain",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+          "source": "CNBC",
+          "summary": "Both indexes closed in correction territory as the AI rout picked up steam, with the Nasdaq wiping out its year-to-date gain. This is the 19 November session coverage leading into Friday's heavier fall."
+        },
+        {
+          "title": "Nvidia tumbles on SEC accounting probe",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262316111-nasdaq-falls-ai-stock-selloff-nvidia-sec-probe-tradingkey",
+          "source": "TradingKey",
+          "summary": "Nvidia fell around 13–14% amid reports of an SEC accounting probe, dragging the Nasdaq. The probe details are not independently confirmed here."
+        },
+        {
+          "title": "Weekly drop of about 8.6% for the S&P 500 marks worst week since April 2025",
+          "url": "https://www.nacionale.com/en/articles/why-is-the-stock-market-crashing-sp-500-dow-correction-close-november-20",
+          "source": "Nacionale",
+          "summary": "AI spending doubts, Nvidia turmoil and rate-hike fears were cited as drivers. Sources differ on some weekly figures."
+        },
+        {
+          "title": "Asia shares drop on AI worries despite strong Anthropic debut",
+          "url": "https://abcnews.com/Business/wireStory/asia-shares-drop-ai-worries-echoing-wall-streets-138309523",
+          "source": "ABC News (AP)",
+          "summary": "Asian markets followed Wall Street lower even as Anthropic's market debut was strong. It shows AI valuation worries outweighing a single positive listing."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200",
+          "value": "8,592.6",
+          "change": "-1.58%"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX 200 drops 1.58% to 8,592.6, seventh straight loss",
+          "url": "https://journalarta.com/en/2026/11/20/asx-200-today-australian-shares-fall-1-58-to-8592-6-as-tech-and-miners-slide/",
+          "source": "Journal Arta",
+          "summary": "All 11 sectors ended lower, with information technology down 4.71% and materials down 2.15%. Exact close varies slightly by outlet."
+        },
+        {
+          "title": "ASX sheds more than 5% this week as AI sell-off hits tech and gold miners",
+          "url": "https://www.ibtimes.com.au/asx-200-falls-ai-selloff-seven-session-losing-streak-1878977",
+          "source": "IBTimes Australia",
+          "summary": "The index fell in all five sessions this week, losing 5.39%. Gold and copper weakness added to pressure on miners."
+        },
+        {
+          "title": "Commodity and AI sell-off drives steep Australian stock slide",
+          "url": "https://streamlinefeed.co.ke/news/commodity-and-ai-sell-off-drives-steep-australian-stock-slide",
+          "source": "Streamline Feed",
+          "summary": "Weaker Australian employment data also weighed on sentiment. The AUD/USD rate and ASX futures were not found in sources."
+        },
+        {
+          "title": "ASX sinks for a seventh day while a few AI picks hold up",
+          "url": "https://au.investing.com/news/stock-market-news/65-43-42-asx-sinks-for-a-seventh-day-3-ai-picks-still-riding-high-4785376",
+          "source": "Investing.com Australia",
+          "summary": "A few AI-linked stocks are still well up despite the slide. Gives investors a view of where gains remain."
+        },
+        {
+          "title": "Asia shares drop on AI worries, echoing Wall Street",
+          "url": "https://abcnews.com/Business/wireStory/asia-shares-drop-ai-worries-echoing-wall-streets-138309523",
+          "source": "ABC News (AP)",
+          "summary": "Regional markets fell in sympathy with the US sell-off. No major data scheduled today; markets are closed for the weekend."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Auction clearance rate slumps to six-year low as rates rise",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-auction-clearances-slump-to-six-year-low-as-rates-rise",
+          "source": "Bloomberg",
+          "summary": "About 1,888 homes went to auction across capitals last week, up 11.4% on the prior week but down 41.1% on a year earlier. The preliminary clearance rate of 44% was the lowest since April 2020 (preliminary; may be revised)."
+        },
+        {
+          "title": "Auction market plumbs new low as buyers thin",
+          "url": "https://www.macrobusiness.com.au/2026/11/auction-market-plumbs-new-low-as-buyers-thin/",
+          "source": "MacroBusiness",
+          "summary": "Melbourne's preliminary rate fell to 47.8% from 59.1% and Sydney's to 48.1%. The final result could slip further as more results come in."
+        },
+        {
+          "title": "Cotality: home values fall for a seventh straight month",
+          "url": "https://discover.cotality.com/hubfs/COTALITY%20HVI%20NOV%202026%20FINAL.pdf",
+          "source": "Cotality",
+          "summary": "Sydney fell 1.6% and Melbourne 0.8% in the month, with combined capitals down 1.4%. Sydney is about 10.1% below its February 2026 peak, per a secondary summary."
+        },
+        {
+          "title": "Australian home values downgraded again",
+          "url": "https://www.macrobusiness.com.au/2026/11/australian-home-values-downgraded-again/",
+          "source": "MacroBusiness",
+          "summary": "Cotality's November results were revised well below what its daily index suggested. The commentary is opinion-led and relies on Cotality's figures."
+        },
+        {
+          "title": "Rental growth loses momentum as vacancy rates rise",
+          "url": "https://www.cotality.com/au/insights/articles/rental-growth-loses-momentum-as-vacancy-rates-rise",
+          "source": "Cotality",
+          "summary": "Vacancy rose to 2.1% in September, its highest since January 2025, with Adelaide the tightest at 1.4%. Easing rents may help renters, though measures differ across providers."
+        }
+      ]
+    }
+  }
+}
