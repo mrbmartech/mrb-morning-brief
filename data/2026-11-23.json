@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-23",
+  "longDate": "Monday 23 November 2026",
+  "clock": "11:41 am AEDT",
+  "generatedAt": "2026-11-23T00:41:10.521Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — a brutal AI-led selloff dragged Wall Street into correction territory and sent the ASX 200 to its worst week since 2022, while Canberra heads into a crunch final sitting week.",
+  "highlights": [
+    {
+      "label": "Wall Street rout",
+      "text": "The S&P 500 fell 3.7% and the Nasdaq 5.28% on Friday as the AI trade unwound; Nvidia dropped about 14%."
+    },
+    {
+      "label": "ASX worst week",
+      "text": "The ASX 200 closed Friday down 1.58% at about 8,592, capping a roughly 5.4% weekly fall led by materials."
+    },
+    {
+      "label": "Online safety showdown",
+      "text": "The government needs the Greens to pass its Digital Duty of Care overhaul in parliament's final sitting week; no deal is confirmed."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Take a short stretch break between meetings",
+        "body": "Between two tasks today, stand up and spend two minutes moving your shoulders, neck and hips through a comfortable range. Short, regular movement breaks help offset long periods of sitting and can ease stiffness. Set a recurring reminder so it becomes automatic."
+      },
+      "quote": {
+        "text": "Well done is better than well said.",
+        "author": "Benjamin Franklin"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce's Braze acquisition reshapes the email and engagement platform market",
+          "url": "https://www.martechtherapy.com/who-gets-to-own-the-customer-loop/",
+          "source": "MarTech Therapy",
+          "summary": "Commentary examines Salesforce's agreed purchase of Braze, reported at about US$5.66 billion, and what it means for email service providers and customer engagement platforms. It signals tighter competition with Adobe and Oracle for the customer messaging layer. Older than 48 hours; no newer item was found."
+        },
+        {
+          "title": "Braze named a Leader in Gartner's first Email Marketing Platforms Magic Quadrant",
+          "url": "https://martechseries.com/sales-marketing/customer-experience-management/braze-named-a-leader-in-the-inaugural-gartner-magic-quadrant-for-email-marketing-platforms/",
+          "source": "MarTech Series",
+          "summary": "Braze was placed as a Leader in the first Gartner Magic Quadrant dedicated to email marketing platforms. The new category shows email is being evaluated as a core platform, which may influence vendor shortlists. Publication date not confirmed; may be older than 48 hours."
+        },
+        {
+          "title": "Gmail's AI inbox could change how deliverability works",
+          "url": "https://martech.org/topic/marketing-technology/",
+          "source": "MarTech.org",
+          "summary": "MarTech.org's topic page carries a headline suggesting Gmail's AI-driven inbox may redefine deliverability. Marketers may need to rethink how messages are surfaced and summarised for recipients. Only the headline was visible; details are not confirmed."
+        },
+        {
+          "title": "HubSpot redesigns Breeze Assistant to coordinate AI agents",
+          "url": "https://martech.org/topic/marketing-technology/",
+          "source": "MarTech.org",
+          "summary": "A September 2026 listing describes a revamped Breeze Assistant that coordinates multiple AI agents inside HubSpot. It reflects the push towards agent-based workflows in marketing platforms. Older than 48 hours; no more recent HubSpot item was found."
+        },
+        {
+          "title": "New platform combines email marketing with programmatic advertising",
+          "url": "https://www.mediapost.com/publications/article/409960/campaign-hot-spot-new-platform-combines-email-mar.html",
+          "source": "MediaPost",
+          "summary": "MediaPost profiles a platform that merges email marketing and programmatic ad buying. It points to continued blending of owned-channel and paid-media tools. Publication date not confirmed."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce and Microsoft launch Copilotforce",
+          "url": "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+          "source": "Salesforce Newsroom",
+          "summary": "The two companies announced Copilotforce, bringing Salesforce customer context and sales workflows into Microsoft Copilot and Teams. It lets sellers work with CRM data inside Microsoft's productivity tools. Reported as announced around 17 November."
+        },
+        {
+          "title": "Salesforce to lead US consortium for global exports",
+          "url": "https://www.salesforce.com/news/press-releases/2026/11/19/salesforce-si-export-consortium/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce announced on 19 November that it will lead a consortium of American systems integrators bringing a trusted US technology package to global markets. The package received a US Commerce designation, giving it priority government engagement."
+        },
+        {
+          "title": "Fresh round of Salesforce layoffs reported",
+          "url": "https://www.salesforceben.com/more-salesforce-layoffs-just-three-months-after-last-wave/",
+          "source": "Salesforce Ben",
+          "summary": "Reports say Salesforce has begun another round of job cuts, about three months after the previous wave. The company has not confirmed how many roles are affected."
+        },
+        {
+          "title": "Salesforce investigates altered Optimizely scripts on its websites",
+          "url": "https://ad-hoc-news.de/boerse/news/unternehmensnachrichten/salesforce-s-rough-week-a-script-breach-fresh-layoffs-and-a-two-front-battle-for-the-customer/70543710",
+          "source": "Ad-hoc-news",
+          "summary": "Salesforce is reported to be investigating unauthorised changes to Optimizely-supplied scripts on some of its own sites and disabled them as a precaution. It said the core platform did not appear affected. Single secondary source; the reported 17% share price fall over seven days is also unconfirmed."
+        },
+        {
+          "title": "Dreamforce '26 announcements recap",
+          "url": "https://www.salesforceben.com/biggest-dreamforce-26-announcements-everything-in-a-nutshell/",
+          "source": "Salesforce Ben",
+          "summary": "A summary of the biggest Dreamforce 2026 announcements, covering the Agentforce roadmap and related products. Older than 48 hours, included as context for current product direction."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "No live Salesforce Trust status data could be retrieved; third-party trackers show several November incidents, including a Data 360 degradation on 16 November, and no APAC-specific maintenance was found.",
+      "items": [
+        {
+          "title": "Data 360 degradation logged on 16 November",
+          "url": "https://uptimerobot.com/is-it-down/salesforce/2026-11-16/",
+          "source": "UptimeRobot",
+          "summary": "A tracker shows a Data 360 feature degradation starting at 19:21 UTC on 16 November, still open when captured. Current status is not confirmed; check Salesforce Trust."
+        },
+        {
+          "title": "Multiple Salesforce incidents recorded in early-to-mid November",
+          "url": "https://uptimerobot.com/is-it-down/salesforce/2026/",
+          "source": "UptimeRobot",
+          "summary": "Third-party records list several incidents across Core, MuleSoft and Heroku between 6 and 12 November, including a Marketing Cloud Next publishing fault. These are older than 48 hours and unverified against the official status page."
+        },
+        {
+          "title": "Global outage during Dreamforce in September for context",
+          "url": "https://www.theregister.com/2026/09/16/salesforce-staggers-back-to-feet-after-global-outage/5296800",
+          "source": "The Register",
+          "summary": "A global disruption on 16 September during Dreamforce reportedly lasted over seven hours across multiple regions. It is background only and not a current incident."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "PM promises to hold PBS medicine cost at $25 until 2030",
+          "url": "https://abc.net.au/news/2026-11-23/federal-politics-live-blog-parliament-nov-23/107415266",
+          "source": "ABC News",
+          "summary": "Anthony Albanese announced a plan to keep the cost of PBS medicines at $25 until 2030 as parliament returns. It targets cost-of-living pressure at a time of high interest rates."
+        },
+        {
+          "title": "Online safety overhaul hinges on Greens support",
+          "url": "https://www.easternriverinachronicle.com.au/story/9396092/carve-outs-in-online-safety-bill-as-crunch-time-looms/",
+          "source": "Eastern Riverina Chronicle (AAP)",
+          "summary": "Communications Minister Anika Wells wants the Digital Duty of Care laws passed this week but needs the Greens, who are seeking tougher penalties. Low-risk business sites are to be exempt; no deal is confirmed."
+        },
+        {
+          "title": "RBA lifts cash rate to 4.85 per cent",
+          "url": "https://www.domain.com.au/news/rba-interest-rates-live-updates-november-2026-decision-1577726/",
+          "source": "Domain",
+          "summary": "The Reserve Bank raised the cash rate by 25 basis points to 4.85 per cent on 3 November, the fifth increase this year. Older than 48 hours, but it frames the current economic and housing backdrop."
+        },
+        {
+          "title": "Counter-terrorism definition debate: religion carve-out opposed",
+          "url": "https://au.headtopics.com/news/albanese-warned-call-to-remove-religion-from-terror-90091875",
+          "source": "HeadTopics",
+          "summary": "The peak Jewish body warned that removing religion from the national terrorism definition would be a dangerous distraction. Senior ministers, ASIO and the AFP reportedly resist the change."
+        },
+        {
+          "title": "Public servants worry as new AI tool launches",
+          "url": "https://canberratimes.com.au/story/9394654/australian-public-servants-fear-job-cuts-as-new-ai-tool-launches",
+          "source": "The Canberra Times",
+          "summary": "Federal public servants fear job losses as a new AI tool is rolled out that reportedly does up to three days' work in 20 minutes. It raises questions about AI's workforce impact in government."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Winter session of Parliament likely in first week of December",
+          "url": "https://ianslive.in/winter-session-of-parliament-likely-to-start-in-first-week-of-dec--20261115210003",
+          "source": "IANS",
+          "summary": "The winter session has not been formally announced, but it is expected to begin in early December. The opposition says it has had no communication on the schedule."
+        },
+        {
+          "title": "Government may skip a separate winter session",
+          "url": "https://www.deccanherald.com/india/no-winter-session-of-parliament-government-mulls-continuing-monsoon-session-4216466",
+          "source": "Deccan Herald",
+          "summary": "The government is reportedly weighing continuing the unprorogued Monsoon Session, with a possible special sitting for the Delimitation Bill. The monsoon session ended on 13 August."
+        },
+        {
+          "title": "Special Parliament session mooted for 20–22 November",
+          "url": "https://www.tribuneindia.com/news/india/govt-may-convene-special-parliament-session-from-nov-20-22/",
+          "source": "The Tribune",
+          "summary": "The Tribune reported the government may convene a special session, with the winter session then following. Whether it happened is not confirmed."
+        },
+        {
+          "title": "Uncertainty over session dates as delimitation and women's quota bill looms",
+          "url": "https://sundayguardianlive.com/news/uncertainty-surrounds-winter-session-of-parliament-322306/",
+          "source": "Sunday Guardian",
+          "summary": "A constitutional amendment linking women's reservation to delimitation, expanding Lok Sabha seats, is the main expected agenda item. Dates around 30 November to 18 December are floated but unconfirmed."
+        },
+        {
+          "title": "Opposition protests against Chief Election Commissioner continue",
+          "url": "https://www.business-standard.com/india-news/page-1",
+          "source": "Business Standard",
+          "summary": "INDIA bloc MPs have escalated protests demanding action against CEC Gyanesh Kumar over alleged voter deletions in the electoral roll revision. Coverage found is from early October, so older than 48 hours."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Naidu reviews growth plans for Visakhapatnam, Tirupati and Amaravati regions",
+          "url": "https://news.hellovizag.in/visakhapatnam-tirupati-and-amaravati-economic-regions-to-shape-andhra-pradeshs-development",
+          "source": "Hello Vizag",
+          "summary": "The Chief Minister reviewed the three economic regions on 19 November and told officials to convert identified investments into projects. It sets the state's near-term development agenda."
+        },
+        {
+          "title": "Panchayat election nominations draw heavy response",
+          "url": "https://www.telugu360.com/video-huge-response-to-ap-panchayat-elections-massive-number-of-nominations-filed-andhra-pradesh-news/",
+          "source": "Telugu360",
+          "summary": "A large number of nominations have been filed for the state's panchayat polls. Competition between the ruling alliance and YSRCP is a focus."
+        },
+        {
+          "title": "Tadipatri protest called off by JC Prabhakar Reddy and JC Asmith Reddy",
+          "url": "https://www.etvbharat.com/te/state/live-blog--22nd-november-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26112200385",
+          "source": "ETV Bharat (Telugu)",
+          "summary": "The two leaders ended their protest outside the Tadipatri police station in Anantapur district on 22 November. The live blog also notes the Governor's Puttaparthi visit and oath-taking by newly elected mayors."
+        },
+        {
+          "title": "Amaravati works worth ₹4.65 lakh crore under way",
+          "url": "https://theprint.in/india/visakhapatnam-tirupati-amaravati-development-plans-to-serve-as-blueprints-for-states-growth-cm/3103642/",
+          "source": "ThePrint",
+          "summary": "Reports cite 48 projects in the capital region worth ₹4.65 lakh crore, with a proposed Quantum Corridor. The figure is from a single report and not independently confirmed."
+        },
+        {
+          "title": "Railway terminals planned for Amaravati and Visakhapatnam",
+          "url": "https://www.southmatters.com/andhrapradesh/amaravati-railway-terminal-visakhapatnam-development/",
+          "source": "South Matters",
+          "summary": "The Railway Minister has reportedly approved new terminals for both cities. Costs and timelines have not been released."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "6,910.39",
+          "change": "-3.70%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "22,617.73",
+          "change": "-5.28%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "48,147.33",
+          "change": "-1.93%"
+        }
+      ],
+      "items": [
+        {
+          "title": "AI trade unwinds, S&P 500 and Dow enter correction",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+          "source": "CNBC",
+          "summary": "Stocks sank on Friday 20 November, with the Dow down roughly 8%, the S&P 500 8.6% and the Nasdaq about 10% on the week. The Dow had its worst week since March 2020."
+        },
+        {
+          "title": "Nvidia leads tech rout as Anthropic slides after IPO",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-plunge-131303598.html",
+          "source": "Yahoo Finance",
+          "summary": "Nvidia fell about 14% as semiconductor and AI-linked names were heavily sold. Anthropic shares slid after its listing, which failed to revive the rally."
+        },
+        {
+          "title": "Chipmakers AMD and Micron lead semiconductor sell-off",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off/",
+          "source": "Motley Fool",
+          "summary": "At midday the Nasdaq was down nearly 3%, with losses deepening into the close. Some reports also cite hawkish Fed commentary; this is not confirmed."
+        },
+        {
+          "title": "Daily digest confirms closing levels",
+          "url": "https://stockmarketwatch.com/digest/2026-11-20",
+          "source": "Stock Market Watch",
+          "summary": "The digest records the session's closing figures used in the snapshot. Some secondary sites quote different percentages, so closes should be treated as provisional."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Fri close)",
+          "value": "8,592.6",
+          "change": "-1.58%"
+        },
+        {
+          "label": "ASX 200 weekly",
+          "value": "about -5.4%",
+          "change": "-5.39%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Australian investors miss out on Anthropic listing as ASX drops",
+          "url": "https://www.abc.net.au/news/2026-11-20/asx-markets-business-live-news-nov-20/107403768",
+          "source": "ABC News",
+          "summary": "The ASX fell on Friday as the global tech selloff weighed on sentiment. Figures in the live blog differ from other sources."
+        },
+        {
+          "title": "ASX 200 sheds almost 500 points for the week as materials slump",
+          "url": "https://sharetrader.com.au/news/2026-11-20-asx-200-sheds-almost-500-points-for-the-week-as-materials-slump-12-3-per-cent",
+          "source": "Sharetrader",
+          "summary": "The index closed 137.8 points lower on Friday, and the materials sector fell 12.3% over the week. Utilities were the only sector to finish the week higher."
+        },
+        {
+          "title": "Worst weekly decline since 2022 as CBA overtakes BHP",
+          "url": "https://discoveryalert.com/news/asx-200-weekly-decline-cba-overtakes-bhp-november-2026/",
+          "source": "Discovery Alert",
+          "summary": "The weekly fall was reportedly the biggest since June 2022, with Commonwealth Bank overtaking BHP by market value. Single secondary source. AUD/USD and futures data were not found."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Home values fell 1.2% in October, seventh straight monthly drop",
+          "url": "https://propertyinvestmentprofessionals.com.au/research-insights/cotality-home-value-index-october-2026-seventh-fall-brisbane-perth-lead",
+          "source": "Property Investment Professionals",
+          "summary": "Cotality's national index is now 6.7% below its March peak, with Brisbane down 2.0% and Perth 1.7%. Hobart and Darwin bucked the trend."
+        },
+        {
+          "title": "Cotality downgrades decline from peak across capital cities",
+          "url": "https://www.macrobusiness.com.au/2026/11/australian-home-values-downgraded-again/",
+          "source": "MacroBusiness",
+          "summary": "Revised data show combined capitals 8.1% below their peak, with Brisbane and Perth revised down most. Check the original Cotality release."
+        },
+        {
+          "title": "RBA's fifth hike of the year lifts cash rate to 4.85%",
+          "url": "https://www.domain.com.au/news/rba-interest-rates-live-updates-november-2026-decision-1577726/",
+          "source": "Domain",
+          "summary": "The 25 basis point rise on 3 November adds pressure on borrowers and buyers. Older than 48 hours."
+        },
+        {
+          "title": "Auction clearance rates remain weak into spring",
+          "url": "https://www.cotality.com/au/press-releases/final-clearance-rates-week-ending-23-august-2026",
+          "source": "Cotality",
+          "summary": "Clearance rates were down about 21.8 points year on year in late August, leaving over half of auctions unsold. Older data; no recent weekend figures were found."
+        },
+        {
+          "title": "Spring selling season starts cold",
+          "url": "https://www.commbank.com.au/articles/newsroom/2026/09/shares-end-week-lower-as-traders-brace-for-higher-rates2.html",
+          "source": "CommBank Newsroom",
+          "summary": "A preliminary combined clearance rate of 52.7% in early September pointed to soft demand. Clearance rates below 60% typically signal falling prices. Older than 48 hours."
+        }
+      ]
+    }
+  }
+}
