@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-24",
+  "longDate": "Tuesday 24 November 2026",
+  "clock": "3:40 pm AEDT",
+  "generatedAt": "2026-11-24T04:40:36.245Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Wall Street staged its biggest rally since April 2025 after Nvidia reinstated Jensen Huang, while Australian home values extend a seven-month slide.",
+  "highlights": [
+    {
+      "label": "Wall Street rally",
+      "text": "The S&P 500 jumped 4.73% and the Nasdaq 6.51% on Monday as Nvidia surged after Jensen Huang's reinstatement."
+    },
+    {
+      "label": "Copilotforce",
+      "text": "Salesforce and Microsoft announced Copilotforce, bringing Salesforce customer context and sales workflows into Microsoft Copilot and Teams."
+    },
+    {
+      "label": "Home values",
+      "text": "Cotality's national index fell 1.2% in October, a seventh straight monthly decline, leaving values 6.7% below the March peak."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Do a strength snack",
+        "body": "Pick one spot in your day, such as while the kettle boils, and do ten bodyweight squats and ten wall or bench push-ups. Short, regular strength sets add up across a week and need no equipment. Stop well short of strain and build up gradually."
+      },
+      "quote": {
+        "text": "Well begun is half done.",
+        "author": "Aristotle (commonly attributed proverb)"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Adobe adds agentic customer-experience tools",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech",
+          "summary": "MarTech's AI releases roundup lists Adobe adding agentic customer experience capabilities and an enterprise coworker to its AI platforms (entry dated 5 November, so older than 48 hours). It signals Adobe's push to embed autonomous agents in marketing workflows."
+        },
+        {
+          "title": "Sprout Social launches AI sentiment analysis in NewsWhip",
+          "url": "https://solutionsreview.com/crm/2026/11/13/top-martech-news-from-the-week-of-november-13th/",
+          "source": "Solutions Review",
+          "summary": "A weekly martech roundup (week of 13 November, so older than 48 hours) reports Sprout Social added AI sentiment analysis to NewsWhip to gauge how news coverage may affect brand reputation. It also covers other vendor updates from that week."
+        },
+        {
+          "title": "Martech roundup: HubSpot adds AI spending controls",
+          "url": "https://solutionsreview.com/crm/?p=3596",
+          "source": "Solutions Review",
+          "summary": "Coverage in the same roundup notes HubSpot added spending controls and flexible billing as AI usage grows. Not independently confirmed beyond the roundup; fresher martech stories were not found in searches."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce and Microsoft announce Copilotforce",
+          "url": "https://www.salesforce.com/ap/news/press-releases/2026/11/19/id-salesforce-and-microsoft-announce-copilotforce-bringing-salesforce-customer-context-and-sales-workflows-to-microsoft-copilot/",
+          "source": "Salesforce Newsroom",
+          "summary": "Announced at Microsoft Ignite on 19 November, Copilotforce brings Salesforce customer context and sales workflows into Microsoft Copilot, including planned sharing of Data 360 context into OneLake and a Sales Cloud app for Teams. It deepens integration between the two largest CRM and productivity ecosystems."
+        },
+        {
+          "title": "Salesforce sets Q3 FY27 earnings for 2 December",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
+          "source": "Salesforce Investor Relations",
+          "summary": "Salesforce will release third-quarter fiscal 2027 results on 2 December 2026 after the US market close, with a live webcast. Investors will be watching Agentforce and Data Cloud momentum."
+        },
+        {
+          "title": "Salesforce and Anthropic announce Claudeforce",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-and-Anthropic-Announce-Claudeforce-The-1-AI-Meets-the-1-AI-CRM/default.aspx",
+          "source": "Salesforce Investor Relations",
+          "summary": "Salesforce announced a partnership with Anthropic under the Claudeforce banner. Exact publication date was not confirmed in search results, so it may be older than 48 hours."
+        },
+        {
+          "title": "Dreamforce 26 announcements summarised",
+          "url": "https://www.salesforceben.com/biggest-dreamforce-26-announcements-everything-in-a-nutshell/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce Ben rounds up the biggest Dreamforce 2026 announcements. Older than 48 hours, but useful context for items still rolling out, such as Hyperforce on Google Cloud (North American availability planned for November) and the Hunter outbound sales agent."
+        },
+        {
+          "title": "Aiforce and Koa unveiled with new cloud partnerships",
+          "url": "https://pulse2.com/salesforce-unveils-aiforce-and-koa-expands-google-cloud-aws-and-siemens-partnerships-and-commits-27-million-to-education-at-dreamforce/",
+          "source": "Pulse 2.0",
+          "summary": "Dreamforce coverage says Salesforce unveiled Aiforce and Koa and expanded partnerships with Google Cloud, AWS and Siemens. Older than 48 hours."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "No live status data could be retrieved; check status.salesforce.com directly for current incidents and planned maintenance.",
+      "items": []
+    },
+    "australia": {
+      "ok": false,
+      "error": "Searches returned no reliably dated Australian news from the last 48 hours"
+    },
+    "india": {
+      "ok": false,
+      "error": "Searches returned no reliably dated Indian news from the last 48 hours"
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "AP cabinet clears AI and industrial proposals",
+          "url": "https://www.m9.news/politics/ap-cabinet-decisions-2026-ai-industrial-projects/",
+          "source": "M9 News",
+          "summary": "The Andhra Pradesh cabinet under Chandrababu Naidu approved more than 30 items on 10 November, covering AI, industrial investment, renewable energy, road safety and a 2026–31 animation and gaming policy. This is older than 48 hours; nothing newer was found."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,237.17",
+          "change": "+4.73%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "24,089.56",
+          "change": "+6.51%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "49,595.31",
+          "change": "+3.01%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Nvidia surges 31% on Huang's return, lifting Wall Street",
+          "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html",
+          "source": "Yahoo Finance",
+          "summary": "The Dow, S&P 500 and Nasdaq posted their best day since April 2025 on Monday after Nvidia reinstated Jensen Huang as CEO and its shares jumped 31%. The rally followed a sharp selloff in AI stocks that had pushed the indexes into correction territory."
+        },
+        {
+          "title": "Monday's index closes in detail",
+          "url": "https://krmg.com/2026/11/23/how-major-us-stock-indexes-fared-monday-11-23-2026/",
+          "source": "KRMG / AP",
+          "summary": "Index closes for 23 November are summarised in AP's daily table. Energy and consumer staples were the only sectors to finish lower, per other coverage."
+        },
+        {
+          "title": "Futures price in a possible December Fed hike",
+          "url": "https://www.stl.news/us-stock-market-today-november-23-2026/",
+          "source": "STL News",
+          "summary": "Fed funds futures moved to price in a December rate increase, while oil slid to a three-month low on rising supply. Rate expectations remain a key swing factor for markets."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (16 Nov close, latest found)",
+          "value": "9,044.7",
+          "change": "-0.41%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Miners drag ASX lower as metals slump",
+          "url": "https://www.commbank.com.au/articles/newsroom/2026/11/miners-drag-aussie-shares-lower-as-metals-prices-slump.html",
+          "source": "CommBank Newsroom (AAP)",
+          "summary": "A recent session report shows basic materials stocks weighing on the ASX 200 as metals prices fell. The latest close found was 16 November; the 23 November close and AUD/USD rate could not be confirmed, though Wall Street's strong Monday rally may support a firmer open."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "National home values fall for a seventh month",
+          "url": "https://www.cotality.com/au/insights/articles/housing-downturn-broadens-as-brisbane-and-perth-lead-the-decline",
+          "source": "Cotality",
+          "summary": "Cotality's national index fell 1.2% in October, the seventh consecutive monthly decline, leaving values 6.7% below the March peak. Brisbane and Perth led the broadening downturn. The November index is due in early December."
+        },
+        {
+          "title": "Capital city values near record peak-to-trough fall",
+          "url": "https://www.cotality.com/au/insights/articles/monthly-housing-chart-pack-november",
+          "source": "Cotality",
+          "summary": "Cotality's November chart pack (published 11 November) says combined capital city values have fallen 8.1% over seven months, just shy of the 40-year record drop of 8.2%. It underlines how sharp the current correction is."
+        }
+      ]
+    }
+  }
+}
