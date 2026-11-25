@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-25",
+  "longDate": "Wednesday 25 November 2026",
+  "clock": "2:28 pm AEDT",
+  "generatedAt": "2026-11-25T03:28:01.140Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Australian inflation jumped to 4.9% two weeks before the RBA meets, while an AI-led sell-off hit Wall Street's tech stocks.",
+  "highlights": [
+    {
+      "label": "Inflation jump",
+      "text": "October CPI rose to 4.9%, above forecasts, with the RBA's next decision due on 8 December."
+    },
+    {
+      "label": "Tech sell-off",
+      "text": "Nasdaq fell 1.48% as Nvidia dropped after Monday's rally, though the Dow closed above 50,000 for the first time."
+    },
+    {
+      "label": "Salesforce deals",
+      "text": "Salesforce is buying voice-AI firm Cresta and is offering Agentforce Coworker to small businesses at no extra cost."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Take a 10-minute walk after lunch",
+        "body": "A short, easy walk after your midday meal gets you moving, breaks up long sitting and can help clear the afternoon slump. Aim for a comfortable pace where you can still talk. Leave the phone in your pocket if you can."
+      },
+      "quote": {
+        "text": "Nothing great was ever achieved without enthusiasm.",
+        "author": "Ralph Waldo Emerson"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce's $5.66 billion Braze deal reshapes the email platform market",
+          "url": "https://newsletter.chiefmartec.com/p/martech-consolidation-infrastructure-and-the-braze-salesforce-deal",
+          "source": "Chiefmartec",
+          "summary": "Salesforce agreed on 20 October to buy Braze for about US$5.66 billion, with closing expected in its fiscal 2028. Commentators say some customers who valued Braze's independence are already reviewing their options."
+        },
+        {
+          "title": "Braze named a Leader in Gartner's first email marketing Magic Quadrant",
+          "url": "https://martechseries.com/sales-marketing/customer-experience-management/braze-named-a-leader-in-the-inaugural-gartner-magic-quadrant-for-email-marketing-platforms/",
+          "source": "MarTech Series",
+          "summary": "Gartner's inaugural Magic Quadrant for Email Marketing Platforms, announced 10 November, names Braze a Leader among 12 vendors. It gives buyers a new benchmark for comparing email platforms."
+        },
+        {
+          "title": "Adobe puts its CX Enterprise Coworker inside ChatGPT, Claude, Gemini and Copilot",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-4-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Adobe said on 4 November that its agentic customer experience orchestration system is available inside several major AI assistants and Databricks Genie. Older than 48 hours; no newer Adobe announcement was found."
+        },
+        {
+          "title": "Salesforce among 178 brands hit by Optimizely exploit",
+          "url": "https://www.salesforceben.com/salesforce-among-178-brands-hit-by-optimizely-exploit/",
+          "source": "Salesforce Ben",
+          "summary": "A security exploit targeting the Optimizely platform affected 178 brands, Salesforce among them, according to reporting on 17 November. Marketers using the platform should check vendor guidance on data exposure."
+        },
+        {
+          "title": "Weekly martech roundups point to consolidation and agentic AI",
+          "url": "https://solutionsreview.com/crm/2026/11/13/top-martech-news-from-the-week-of-november-13th/",
+          "source": "Solutions Review",
+          "summary": "The week-of-13-November roundup continues the month's themes of vendor consolidation and AI agents in marketing workflows. Only the headline was visible, so details are not independently confirmed."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce offers Agentforce Coworker to small businesses at no extra cost",
+          "url": "https://www.salesforceben.com/salesforce-offers-agentforce-coworker-at-no-extra-cost-to-smbs/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce is making Agentforce Coworker available to small and mid-sized business customers without an added fee, reported 24 November. It widens access to the company's flagship AI product."
+        },
+        {
+          "title": "Salesforce signs agreement to acquire voice-AI company Cresta",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/?bc=DB",
+          "source": "Salesforce",
+          "summary": "Salesforce signed a definitive agreement on 2 November to buy Cresta, whose voice agents handle customer calls. Terms were not disclosed by Salesforce and the deal remains subject to closing conditions; one report cites about US$2.7 billion."
+        },
+        {
+          "title": "Copilotforce links Salesforce with Microsoft Copilot, Teams and Fabric",
+          "url": "https://www.salesforceben.com/salesforce-announces-copilotforce-with-microsoft-amid-ongoing-outages/",
+          "source": "Salesforce Ben",
+          "summary": "Announced at Microsoft Ignite, Copilotforce brings CRM data into Copilot and Teams, with zero-copy sharing between Data 360 and Fabric. Most pieces are in preview or pilot; data federation is generally available."
+        },
+        {
+          "title": "Salesforce confirms another round of layoffs",
+          "url": "https://www.salesforceben.com/more-salesforce-layoffs-just-three-months-after-last-wave/",
+          "source": "Salesforce Ben",
+          "summary": "A fresh round of job cuts was reported on 18 November, about three months after the previous wave. Details on numbers were not confirmed here."
+        },
+        {
+          "title": "Salesforce to report third-quarter FY27 results on 2 December",
+          "url": "https://finviz.com/news/420648/salesforce-announces-date-of-third-quarter-fiscal-2027-earnings-release-and-webcast",
+          "source": "Finviz (Salesforce release)",
+          "summary": "Salesforce will release fiscal 2027 third-quarter results after the US market close on Wednesday 2 December. Investors will watch Agentforce and Data 360 growth."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "Live status.salesforce.com data could not be read, so current incidents and planned maintenance are not confirmed.",
+      "items": [
+        {
+          "title": "Global outage in September remains the latest major incident found",
+          "url": "https://www.theregister.com/2026/09/16/salesforce-staggers-back-to-feet-after-global-outage/5296800",
+          "source": "The Register",
+          "summary": "Salesforce recovered from a global outage on 16 September, with the scope later described as narrower than first thought. Older than 48 hours; included only as context."
+        },
+        {
+          "title": "Salesforce disables two connected-app integrations",
+          "url": "https://www.salesforceben.com/connected-app-warnings-return-as-salesforce-disables-two-integrations/",
+          "source": "Salesforce Ben",
+          "summary": "Connected app warnings returned in mid-November after Salesforce switched off two integrations. Admins should check that affected apps are not part of their workflows."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Inflation jumps to 4.9% in October, above forecasts",
+          "url": "https://www.abc.net.au/news/2026-11-25/abs-october-cpi-inflation-rises-year-/107424668",
+          "source": "ABC News",
+          "summary": "Headline CPI rose from 4.3% to 4.9% in the year to October, with fuel, electricity and housing driving the increase. The result lands two weeks before the RBA's 8 December decision."
+        },
+        {
+          "title": "Former police officer Beau Lamarre-Condon found guilty of double murder",
+          "url": "https://www.abc.net.au/news/2026-11-25/beau-lamarre-condon-verdict-found-guilty-jesse-baird-luke-davies/107420442",
+          "source": "ABC News",
+          "summary": "Beau Lamarre-Condon was convicted over the deaths of Jesse Baird and Luke Davies. The verdict ends a high-profile trial."
+        },
+        {
+          "title": "Greens to back Labor's trust tax in exchange for jet fuel tax changes",
+          "url": "https://www.abc.net.au/news/2026-11-25/federal-politics-live-blog-parliament-november-25/107422208",
+          "source": "ABC News",
+          "summary": "The Greens have agreed to support the government's trust tax in return for changes to private jet fuel tax. The deal clears a path for the measure in the Senate."
+        },
+        {
+          "title": "Australia signs 'historic' pact with Solomon Islands",
+          "url": "https://www.abc.net.au/news/2026-11-25/australia-signs-pact-with-solomon-islands-in-blow-to-china/107424550",
+          "source": "ABC News",
+          "summary": "The two countries signed a new agreement that is being described as a setback for China's influence in the Pacific. Details of the pact were not reviewed in full."
+        },
+        {
+          "title": "Emergency warning for Flinders Island bushfire",
+          "url": "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie-leeka-mount-tanner/107404360",
+          "source": "ABC News",
+          "summary": "An emergency warning is in place for a challenging bushfire on Flinders Island, with evacuation roads cut. Residents are being urged to follow official advice."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "No dates yet for Parliament's Winter Session, 103 days after Monsoon Session",
+          "url": "https://www.oneindia.com/india/parliament-winter-session-2026-why-has-the-centre-not-announced-dates-even-after-103-days-8268307.html",
+          "source": "Oneindia",
+          "summary": "The Centre has not announced Winter Session dates, with the gap since 13 August now above the roughly 95-day average. Speculation points to a short special session for a proposed Delimitation Bill."
+        },
+        {
+          "title": "Opposition presses Centre over Winter Session uncertainty and delimitation",
+          "url": "https://www.nationalheraldindia.com/politics/parliament-winter-session-delay-opposition-delimitation-row",
+          "source": "National Herald",
+          "summary": "Opposition leaders are attacking the Centre over the delayed session and talk of linking women's reservation to delimitation. The dispute could shape the next sitting."
+        },
+        {
+          "title": "Retail inflation reported at 6.09% in October, above RBI's tolerance band",
+          "url": "https://hdfcsky.com/news/nifty-dips-sensex-edges-higher-at-pre-open-pointing-to-mixed-start-as-inflation-weighs-november-13-2026",
+          "source": "HDFC Sky",
+          "summary": "A 13 November market report put October retail inflation at 6.09%, driven largely by food prices, raising the prospect of tighter policy. Older than 48 hours and not independently confirmed."
+        },
+        {
+          "title": "Bill to raise Supreme Court judge strength referred to joint committee",
+          "url": "https://prsindia.org/sessiontrack/monsoon-session-2026/session-alert",
+          "source": "PRS Legislative Research",
+          "summary": "The Supreme Court (Number of Judges) Amendment Bill, 2026 would lift the court's strength from 33 to 37 judges excluding the Chief Justice. It was referred to a Joint Parliamentary Committee; older item."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "CM clears Rs 88,625 crore of investments promising 54,419 jobs",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cm-clears-rs-88625-crore-investments-54419-jobs-promised-2007667",
+          "source": "Deccan Chronicle",
+          "summary": "Seventeen industrial proposals, including projects from Kia, Adani and Balewadi Techpark, were approved. The investments are projected to create 54,419 jobs."
+        },
+        {
+          "title": "Local body polls: first phase on 26 November",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/23-ap-urban-local-bodies-gram-panchayats-to-go-to-polls-in-phase-i-on-nov-26-2007697",
+          "source": "Deccan Chronicle",
+          "summary": "Twenty-three urban local bodies and gram panchayats vote in Phase I, including 258 of 260 wards across four municipal corporations. The poll is an early test for the ruling and opposition parties."
+        },
+        {
+          "title": "Naidu orders intensified search for seven missing Kakinada fishermen",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/kakinada-naidu-directs-intensified-search-for-7-missing-fishermen-2007712",
+          "source": "Deccan Chronicle",
+          "summary": "Search efforts are being stepped up for seven fishermen not heard from since 14 November. The chief minister has directed officials to widen the operation."
+        },
+        {
+          "title": "Visakhapatnam RTC bus loses control and hits vehicles",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/satyam-junction-towards-gurudwara-rtc-bus-loses-control-rams-into-vehicles-in-visakhapatnam-2007709",
+          "source": "Deccan Chronicle",
+          "summary": "An out-of-control state bus struck several vehicles, injuring a number of people. Home Minister Vangalapudi Anitha visited the scene."
+        },
+        {
+          "title": "Eleven die in road accidents and a drowning across the state",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/11-die-in-road-accidents-drowning-incidents-across-ap-2007670",
+          "source": "Deccan Chronicle",
+          "summary": "Eleven people, including two children, died in three road accidents and a drowning incident. The toll adds to concerns over road safety."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,201.09",
+          "change": "-0.50%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "23,733.54",
+          "change": "-1.48%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "50,018.70",
+          "change": "+0.85%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Tech slides as Nvidia-led AI rally unwinds",
+          "url": "https://www.nbcnews.com/business/markets/stocks-lower-after-nvidia-fueled-gains-rcna611211",
+          "source": "NBC News",
+          "summary": "Nvidia fell about 5.9% after Monday's surge on Jensen Huang's return as CEO, and the semiconductor index dropped 7.9%. The Dow closed above 50,000 for the first time as investors rotated to defensives; figures from wire reports and may differ slightly between sources."
+        },
+        {
+          "title": "Investors hedge as AI trade stays volatile",
+          "url": "https://www.cnbc.com/2026/11/24/ai-trade-nvidia-rally-defensive-stocks.html",
+          "source": "CNBC",
+          "summary": "Doubts persist over whether AI spending will pay off, with money moving toward healthcare, utilities and Treasuries. Analysts warn Monday's short-covering rally could fade."
+        },
+        {
+          "title": "AI debt markets show strain",
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ai-credit-markets.html",
+          "source": "CNBC",
+          "summary": "Credit markets tied to AI spending showed stress following news around Nvidia's leadership. It adds to worries about funding for data-centre buildouts."
+        },
+        {
+          "title": "Treasury yields steady ahead of economic data",
+          "url": "https://www.cnbc.com/2026/11/24/treasury-yields-bonds-inflation.html",
+          "source": "CNBC",
+          "summary": "Yields held steady as investors waited for inflation data ahead of the Federal Reserve's December meeting. Possible new tariffs are also on traders' radar."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Tue close)",
+          "value": "8,762",
+          "change": "+1.8%"
+        },
+        {
+          "label": "ASX 200 (about 1pm Wed, intraday)",
+          "value": "8,678",
+          "change": "-0.5%"
+        },
+        {
+          "label": "AUD/USD (about 1pm)",
+          "value": "66.37 US cents",
+          "change": "flat"
+        }
+      ],
+      "items": [
+        {
+          "title": "Hot inflation print trims hopes of a rate cut",
+          "url": "https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208",
+          "source": "ABC News",
+          "summary": "October CPI hit 4.9% and trimmed mean 3.8%, and most economists expect the RBA to hold on 8 December. Markets put the chance of a cut in May 2027 at about 48%."
+        },
+        {
+          "title": "Miners and banks weigh as copper hits 13-month low",
+          "url": "https://www.abc.net.au/news/2026-11-25/australian-superannuation-caught-in-finance-market-storm/107422362",
+          "source": "ABC News",
+          "summary": "Copper fell about 5% overnight, dragging BHP and Rio Tinto down about 2%, while Harvey Norman dropped more than 5% after a weak pre-AGM update. Pro Medicus gained 3.2% on a US FDA approval. Intraday moves, not final closes."
+        },
+        {
+          "title": "Wall Street AI sell-off hits Asian tech",
+          "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+          "source": "CNBC",
+          "summary": "SoftBank shares fell sharply as the US AI sell-off spread to Asian tech names. It signals risk-off sentiment into the local session."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Adelaide overtakes Sydney as least affordable capital",
+          "url": "https://www.abc.net.au/news/2026-11-25/housing-market-downturn-fails-to-deliver-relief-for-buyers/107422726",
+          "source": "ABC News",
+          "summary": "Cotality data to end-September show Adelaide's median home price at 9.5 times household income, and repayments on a median home take 49.5% of pre-tax income. The figures predate the RBA's November rate rise."
+        },
+        {
+          "title": "National home values fall 1.2% in October",
+          "url": "https://tradingeconomics.com/australia/corelogic-dwelling-prices-mom/news/597255",
+          "source": "Trading Economics",
+          "summary": "Cotality's index fell for a seventh straight month, leaving values about 6.7% below the March peak. Capital cities are weaker than regional areas."
+        },
+        {
+          "title": "Auction clearance rates stay weak as volumes sit well below last year",
+          "url": "https://eliteagent.com/australia-s-auction-clearance-rates-fall-buyers-remain-engaged/",
+          "source": "Elite Agent",
+          "summary": "In the week to 15 November, Melbourne's preliminary clearance rate was 53.1% and Sydney's 46.7%, with volumes about 41% below a year earlier. Preliminary rates are typically revised lower; latest weekend not found."
+        },
+        {
+          "title": "ABS stops publishing land values, drawing pushback",
+          "url": "https://www.abc.net.au/news/2026-11-25/abs-stops-publishing-land-values-receives-pushback/107417134",
+          "source": "ABC News",
+          "summary": "Experts want the land value data restored after the ABS stopped publishing it. The figures are used to analyse housing costs and policy."
+        },
+        {
+          "title": "Hot CPI clouds the interest-rate outlook for borrowers",
+          "url": "https://www.abc.net.au/news/2026-11-25/abs-october-cpi-inflation-rises-year-/107424668",
+          "source": "ABC News",
+          "summary": "Inflation at 4.9% makes a near-term rate cut unlikely, with the RBA deciding on 8 December. Borrowers face elevated repayments for longer."
+        }
+      ]
+    }
+  }
+}
