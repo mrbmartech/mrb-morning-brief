@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The MrB Morning Brief, Thursday 26 November 2026</title>
+<meta name="description" content="Australian inflation jumped to 4.9% in October, dragging on the ASX and Albanese&#39;s polling, while a Wall Street AI sell-off was mostly reversed.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2212%22 fill=%22%23121212%22/><text x=%2250%22 y=%2272%22 font-family=%22Georgia%22 font-weight=%22700%22 font-size=%2266%22 fill=%22white%22 text-anchor=%22middle%22>B</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400;1,6..72,500&family=Libre+Franklin:wght@400;500;600;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#E6E9E3; --paper:#FBFBF8; --ink:#16181A; --body:#34383C; --muted:#5E6469; --hair:#DCDFD8; --rule:#16181A;
+  --link:#2F5F86; --up:#0A7A3E; --down:#C3201F; --tint:#F0F2EC; --accent:#7A1F2B;
+  --head:"Newsreader","Iowan Old Style","Times New Roman",Georgia,serif;
+  --text:"Newsreader","Iowan Old Style",Georgia,serif;
+  --sans:"Libre Franklin","Franklin Gothic Medium","Helvetica Neue",Arial,sans-serif;
+  --black:"UnifrakturMaguntia","Old English Text MT",Georgia,serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --desk:#0D0F10; --paper:#17191B; --ink:#ECEDEA; --body:#D0D3CF; --muted:#9EA4A8; --hair:#2C3033; --rule:#ECEDEA;
+  --link:#86B6DE; --up:#5CC48A; --down:#F0716F; --tint:#1E2124; --accent:#E08A95; color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--desk);color:var(--ink);font:400 17px/1.55 var(--text);padding-bottom:env(safe-area-inset-bottom,0);font-optical-sizing:auto}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--muted)}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.page{max-width:80rem;margin:1.5rem auto;padding:0 2.25rem;background:var(--paper);box-shadow:0 1px 2px rgba(20,24,28,.06),0 12px 40px -12px rgba(20,24,28,.18)}
+
+/* Masthead */
+.top{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:1rem;padding:calc(env(safe-area-inset-top,0px) + 1rem) 0 .4rem;font:500 .78rem/1.4 var(--sans)}
+.top .date{font-weight:700}
+.top .date span{display:block;font-weight:400;color:var(--muted)}
+.top .hello{text-align:center;font:italic 400 .95rem/1.3 var(--head);color:var(--body)}
+.top .days{display:flex;gap:.9rem;justify-content:flex-end}
+.top .days a:hover{text-decoration:underline}
+.mast{text-align:center;margin:.2rem 0 .9rem}
+.mast a{font:400 clamp(2.4rem,6.6vw,4.6rem)/1 var(--black);color:var(--ink);letter-spacing:.005em}
+.secbar{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);position:relative;margin-bottom:3px}
+.secbar::after{content:"";position:absolute;left:0;right:0;bottom:-4px;border-bottom:1px solid var(--rule)}
+.secbar ul{list-style:none;margin:0;padding:.55rem 0;display:flex;justify-content:center;flex-wrap:wrap;gap:.35rem 1.4rem;font:500 .8rem/1.3 var(--sans)}
+.secbar a:hover{text-decoration:underline}
+
+/* Front page */
+.front{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr) minmax(0,.95fr);margin-top:1.4rem;border-bottom:1px solid var(--rule)}
+.front>*{padding:0 1.4rem 1.6rem;border-left:1px solid var(--hair)}
+.front>*:first-child{padding-left:0;border-left:0}
+.front>*:last-child{padding-right:0}
+.kicker{font:700 .74rem/1.3 var(--sans);margin:0 0 .5rem;color:var(--accent)}
+.top-story h1{font:700 clamp(1.9rem,3.5vw,2.8rem)/1.08 var(--head);margin:0 0 1.1rem;letter-spacing:-.018em;text-wrap:balance}
+.bullets{margin:0;padding-left:1.1rem;color:var(--body)}
+.bullets li{margin:0 0 .65rem;font-size:1rem;line-height:1.45}
+.bullets li::marker{color:var(--muted)}
+.bullets b{font:700 .95rem/1.3 var(--head);color:var(--ink)}
+.stamp{margin:1rem 0 0;font:400 .75rem/1.3 var(--sans);color:var(--muted)}
+
+.box h2{font:700 .72rem/1.3 var(--sans);margin:0 0 .6rem}
+.box+.box{margin-top:1.4rem;padding-top:1.2rem;border-top:1px solid var(--hair)}
+.status{display:flex;gap:.5rem;align-items:baseline;font:700 1.05rem/1.3 var(--head);margin:0 0 .35rem}
+.status i{width:.55rem;height:.55rem;border-radius:50%;flex:none;background:var(--muted);transform:translateY(-.05rem)}
+.status i.clear{background:var(--up)}.status i.issues{background:var(--down)}
+.note{margin:0;color:var(--body);font-size:.92rem;line-height:1.45}
+.inc{list-style:none;margin:.7rem 0 0;padding:0}
+.inc li{padding:.55rem 0;border-top:1px solid var(--hair);font-size:.88rem;line-height:1.4;color:var(--body)}
+.inc a{display:block;font:700 .95rem/1.3 var(--head);color:var(--ink);margin-bottom:.15rem}
+table.mkt{width:100%;border-collapse:collapse;font:400 .85rem/1.3 var(--sans);font-variant-numeric:tabular-nums}
+table.mkt caption{text-align:left;font:700 .78rem/1.3 var(--sans);padding:.2rem 0 .3rem;color:var(--muted)}
+table.mkt td{padding:.38rem 0;border-top:1px solid var(--hair)}
+table.mkt td:nth-child(2),table.mkt td:nth-child(3){text-align:right;white-space:nowrap}
+table.mkt td:nth-child(3){width:4.8rem;font-weight:700}
+table.mkt+table.mkt{margin-top:.8rem}
+.up{color:var(--up)}.down{color:var(--down)}
+
+.opinion{background:var(--tint)}
+.front>.opinion{padding:1.2rem 1.3rem 1.4rem;border-left:0;margin-bottom:1.6rem;align-self:start}
+.opinion blockquote{margin:0;font:italic 500 1.4rem/1.32 var(--head);text-wrap:balance}
+.opinion cite{display:block;margin:.55rem 0 0;font:500 .8rem/1.3 var(--sans);font-style:normal;color:var(--muted)}
+.opinion h3{font:700 1.05rem/1.25 var(--head);margin:1.3rem 0 .3rem;padding-top:1rem;border-top:1px solid var(--hair)}
+.opinion h3+p{margin:0;font-size:.95rem;line-height:1.5;color:var(--body)}
+.opinion .kicker{margin:0 0 .5rem}
+
+/* Sections */
+.sec{margin-top:2.2rem;padding-top:.5rem;border-top:1px solid var(--rule);scroll-margin-top:1rem}
+.sec>h2{font:700 1rem/1.3 var(--sans);margin:0 0 1rem;color:var(--accent)}
+.sec>h2 a::after{content:" ›";color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+.grid>*{padding:0 1.4rem;border-left:1px solid var(--hair)}
+.grid>*:first-child{padding-left:0;border-left:0}
+.grid>*:last-child{padding-right:0}
+.lead h3{font:700 clamp(1.45rem,2.4vw,1.85rem)/1.14 var(--head);margin:0 0 .55rem;letter-spacing:-.012em;text-wrap:balance}
+.lead p{margin:0;font-size:1.02rem;line-height:1.5;color:var(--body);max-width:60ch}
+.src{display:block;margin-top:.6rem;font:500 .72rem/1.3 var(--sans);color:var(--muted)}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:.85rem 0;border-top:1px solid var(--hair)}
+.list li:first-child{padding-top:0;border-top:0}
+.list h3{font:700 1.08rem/1.25 var(--head);margin:0 0 .3rem;letter-spacing:-.005em}
+.list p{margin:0;font-size:.9rem;line-height:1.45;color:var(--muted)}
+.missing{margin:0;color:var(--muted);font-style:italic}
+.lead a:hover,.list a:hover,.inc a:hover{color:var(--muted)}
+
+/* Archive */
+.arch{list-style:none;margin:1.5rem 0 0;padding:0;max-width:46rem}
+.arch li{padding:1.1rem 0;border-top:1px solid var(--hair)}
+.arch .d{font:700 .75rem/1.3 var(--sans);color:var(--muted)}
+.arch a{display:block;margin-top:.3rem;font:700 1.3rem/1.25 var(--head)}
+.arch-title{font:700 2rem/1.15 var(--head);margin:1.6rem 0 0}
+
+footer.f{margin-top:3rem;padding:1.2rem 0 3rem;border-top:1px solid var(--rule);font:400 .78rem/1.5 var(--sans);color:var(--muted)}
+footer.f .fm{font:400 1.5rem/1 var(--black);color:var(--ink);display:block;margin-bottom:.6rem}
+
+@media (max-width:980px){
+  .page{margin:0 auto}
+  .front>.opinion{margin-bottom:1.6rem}
+  .front{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .front .top-story{grid-column:1/-1;padding:0 0 1.6rem;border-left:0;border-bottom:1px solid var(--hair);margin-bottom:1.4rem}
+  .front .markets{padding-left:0;border-left:0}
+}
+@media (max-width:680px){
+  body{font-size:15px}
+  .page{padding:0 1rem;margin:0;box-shadow:none}
+  .top{grid-template-columns:1fr auto}
+  .top .hello{display:none}
+  .mast a{font-size:min(2.35rem,8.4vw);white-space:nowrap}
+  .secbar ul{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding:.55rem .1rem;scrollbar-width:none}
+  .secbar ul::-webkit-scrollbar{display:none}
+  .secbar li{flex:none}
+  .front{grid-template-columns:1fr}
+  .front>*{padding:0 0 1.4rem;border-left:0}
+  .front>*+*{border-top:1px solid var(--hair);padding-top:1.2rem}
+  .front .top-story{margin-bottom:0}
+  .grid{grid-template-columns:1fr}
+  .grid>*{padding:0;border-left:0}
+  .grid .list{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--hair)}
+}
+</style>
+</head>
+<body><div class="page">
+<header>
+<div class="top"><div class="date">Thursday 26 November 2026<span>Prepared 1:43 pm AEDT</span></div><div class="hello">Hello Mr.Bhaskar</div><nav class="days" aria-label="Other days"><a href="/2026-11-25/">‹ Wed, 25 Nov</a><a href="/archive/">Archive</a></nav></div>
+<div class="mast"><a href="/">The MrB Morning Brief</a></div>
+<nav class="secbar" aria-label="Sections"><ul><li><a href="#martech">MarTech</a></li><li><a href="#salesforce">Salesforce news</a></li><li><a href="#australia">Australia top 5</a></li><li><a href="#india">India top 5</a></li><li><a href="#andhra">Andhra Pradesh top 5</a></li><li><a href="#usstocks">US stocks</a></li><li><a href="#austocks">AU stocks</a></li><li><a href="#property">Australian real estate top 5</a></li></ul></nav>
+</header>
+<main>
+<section class="front">
+<article class="top-story"><p class="kicker">Today’s top stories</p><h1>Australian inflation jumped to 4.9% in October, dragging on the ASX and Albanese&#39;s polling, while a Wall Street AI sell-off was mostly reversed.</h1><ul class="bullets"><li><b>Inflation jump.</b> Annual CPI rose to 4.9% in October, above forecasts, even after five RBA rate hikes this year.</li><li><b>Wall Street reversal.</b> US stocks recovered most of a sharp AI-led sell-off to close mixed, with Nvidia down 3.9%.</li><li><b>Parliament session.</b> Modi has reportedly told ministers to prepare for a session before 15 December, with delimitation and women&#39;s reservation bills expected.</li></ul></article>
+<div class="markets"><section class="box" id="sfstatus"><h2>Salesforce issues &amp; downtime</h2><p class="status"><i class="unknown" aria-hidden="true"></i>Status unclear</p><p class="note">Live status could not be checked; no active Marketing Cloud, Sales/Service Cloud or Data Cloud incidents or APAC maintenance were found in search results, so check status.salesforce.com directly.</p></section><section class="box"><h2>Markets</h2><table class="mkt"><caption>US stocks</caption><tbody><tr><td>S&amp;P 500</td><td>7,182.78</td><td class="down">▼ 0.25%</td></tr><tr><td>Dow Jones</td><td>50,182.95</td><td class="up">▲ 0.33%</td></tr><tr><td>Nasdaq Composite</td><td>23,585.80</td><td class="down">▼ 0.60%</td></tr></tbody></table><table class="mkt"><caption>AU stocks</caption><tbody><tr><td>ASX 200 (Wed close)</td><td>8,692.4</td><td class="down">▼ 0.39%</td></tr><tr><td>AUD/USD</td><td>about 0.659</td><td class=""> n/a</td></tr><tr><td>S&amp;P 500 futures (Wed 4pm AEDT)</td><td>n/a</td><td class="down">▼ 0.6%</td></tr></tbody></table></section></div>
+<aside class="opinion" id="health"><p class="kicker">Health &amp; fitness</p>
+<blockquote>“A journey of a thousand miles must begin with a single step.”<cite>Lao Tzu</cite></blockquote>
+<h3>Plan a screen-free wind-down</h3><p>Pick a time about 30 minutes before bed and put your phone and laptop out of reach. Use the time for something low-key such as stretching, reading or tidying. A consistent wind-down routine can make it easier to fall asleep and wake rested.</p></aside>
+</section>
+<section class="sec" id="martech"><h2><a href="#martech">MarTech</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://cdp.com/articles/salesforce-braze-acquisition/" rel="noopener">Salesforce to buy Braze for about US$5.66 billion</a></h3><p>Salesforce agreed on 20 October to acquire the customer engagement platform Braze for $47.50 a share in cash, subject to shareholder and regulatory approval. The deal would bring a major cross-channel messaging tool into Salesforce&#39;s stack; older than 48 hours but still the biggest pending martech deal.</p><span class="src">CDP.com</span></article>
+<ul class="list"><li><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-13-2026/" rel="noopener">HubSpot swaps CEO as co-founder returns</a></h3><p>HubSpot said on 12 November that Yamini Rangan was stepping down as CEO and from the board, with co-founder Brian Halligan returning to lead a product and go-to-market reset. The company reaffirmed its fourth-quarter and full-year guidance.</p><span class="src">The Agile Brand Guide</span></li><li><h3><a href="https://www.martechnotes.com/hubspot-announces-stable-crm-record-ids-after-merges/" rel="noopener">HubSpot to keep primary record ID after CRM merges</a></h3><p>HubSpot announced on 24 November that merged CRM records will keep the primary record&#39;s ID, becoming mandatory for all portals on 1 March 2027. Teams with integrations or reporting tied to record IDs should check their workflows before then.</p><span class="src">Martech Notes</span></li><li><h3><a href="https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-5-2026/" rel="noopener">Adobe puts its CX Enterprise Coworker inside major AI assistants</a></h3><p>Adobe&#39;s agentic customer experience system is now available within ChatGPT, Claude, Gemini, Copilot and Databricks Genie, per a 4 November announcement. It signals marketing workflows moving into general-purpose AI tools; this item is older than 48 hours.</p><span class="src">The Agile Brand Guide</span></li><li><h3><a href="https://martech.org/gmails-ai-inbox-may-redefine-deliverability/" rel="noopener">Gmail&#39;s AI Inbox may change how deliverability works</a></h3><p>Analysis argues that AI summarising and prioritising emails will make inbox visibility a matter of degrees rather than pass or fail. Publication date was not confirmed, and AI Inbox access is reportedly limited to Google&#39;s top paid tier for now.</p><span class="src">MarTech</span></li></ul></div></section>
+<section class="sec" id="salesforce"><h2><a href="#salesforce">Salesforce news</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/?bc=DB" rel="noopener">Salesforce signs deal to acquire voice-AI firm Cresta</a></h3><p>Salesforce plans to bring Cresta&#39;s voice agents and conversation intelligence closer to Service Cloud and Agentforce, while keeping support for existing contact-centre platforms. Terms were not disclosed by Salesforce; a reported price of US$2.7 billion is unconfirmed. Announced in early November.</p><span class="src">Salesforce Newsroom</span></article>
+<ul class="list"><li><h3><a href="https://cdp.com/articles/salesforce-braze-acquisition/" rel="noopener">Salesforce agrees to buy Braze</a></h3><p>The roughly US$5.66 billion cash deal was announced on 20 October and is expected to close in Salesforce&#39;s fiscal 2028, pending approvals. It would add a leading engagement platform to Salesforce&#39;s marketing offering.</p><span class="src">CDP.com</span></li><li><h3><a href="https://www.cmswire.com/contact-center/salesforce-adds-cresta-to-the-cart-in-its-2026-cx-shopping-spree-01/" rel="noopener">Cresta deal part of a year of CX acquisitions</a></h3><p>CMSWire frames Cresta as the latest in a run of customer-experience purchases by Salesforce this year. It shows the company building out voice and service automation around Agentforce.</p><span class="src">CMSWire</span></li><li><h3><a href="https://www.salesforce.com/news/stories/salesforce-simplifies-editions-2026/" rel="noopener">New Agentforce editions bundle Sales, Service and Industries</a></h3><p>Salesforce introduced Core, Advanced and Max editions, with existing Agentforce 1 Edition customers able to move to Max at no extra cost. Published earlier than the last 48 hours; it matters for licensing and renewals.</p><span class="src">Salesforce Newsroom</span></li><li><h3><a href="https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/" rel="noopener">Job-ready Agentforce agents and long-running runtime announced</a></h3><p>Salesforce unveiled prebuilt agents for sales, service and other roles, plus a runtime that lets agents pursue goals over days or weeks, with general availability listed as October. Older announcement; whether the October launch has occurred was not confirmed.</p><span class="src">Salesforce Newsroom</span></li></ul></div></section>
+<section class="sec" id="australia"><h2><a href="#australia">Australia top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208" rel="noopener">Inflation jumps to 4.9% in October</a></h3><p>Annual CPI rose from 4.3% to 4.9%, above the 4.8% consensus, with trimmed mean up to 3.8%. Markets still price a hold at the RBA&#39;s 8 December meeting, though some economists flag a February hike risk.</p><span class="src">ABC News</span></article>
+<ul class="list"><li><h3><a href="https://www.abc.net.au/news/2026-11-26/inflation-numbers-ruin-governments-good-week/107424930" rel="noopener">Albanese&#39;s good week undone by inflation and record-low Newspoll</a></h3><p>Albanese&#39;s approval hit an all-time low in the latest Newspoll, with Labor&#39;s primary vote reported at 27%. The Treasurer has called inflation his primary focus ahead of next month&#39;s mid-year budget update.</p><span class="src">ABC News</span></li><li><h3><a href="https://www.abc.net.au/news/2026-11-25/federal-politics-live-blog-parliament-november-25/107422208" rel="noopener">Government and Greens strike deals in final sitting week</a></h3><p>The Greens are set to back a Labor trust tax in exchange for higher fees for some private jet owners, and a digital duty of care bill was agreed. It is the last sitting week of parliament for the year.</p><span class="src">ABC News</span></li><li><h3><a href="https://www.abc.net.au/news/2026-11-25/federal-politics-live-blog-parliament-november-25/107422208" rel="noopener">Australia signs new treaty with Solomon Islands</a></h3><p>Albanese and Solomon Islands PM Matthew Wale signed a treaty, which the government says it will release in full. It follows similar agreements with other Pacific neighbours and is seen as a challenge to China&#39;s regional influence.</p><span class="src">ABC News</span></li><li><h3><a href="https://www.finder.com.au/rba-cash-rate/november-2026-cash-rate-increase" rel="noopener">RBA&#39;s fifth hike of 2026 takes cash rate to 4.85%</a></h3><p>The RBA lifted the cash rate by 0.25 points on 3 November to its highest level since 2008, and lenders have been passing it on. The move, from earlier this month, is the backdrop to the hotter inflation figures.</p><span class="src">Finder</span></li></ul></div></section>
+<section class="sec" id="india"><h2><a href="#india">India top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://tribuneindia.com/news/india/pm-modi-signals-convening-of-parliament-session-before-dec-15" rel="noopener">Modi tells ministers to prepare for Parliament session before 15 December</a></h3><p>Modi reportedly asked ministers at Wednesday&#39;s Cabinet meeting to avoid foreign travel and be ready for a session, with dates still to be set by the parliamentary affairs committee. The agenda is expected to centre on delimitation and women&#39;s reservation bills.</p><span class="src">The Tribune</span></article>
+<ul class="list"><li><h3><a href="https://particle.news/story/congress-accuses-modi-government-of-coercive-tactics-over-delimitation-bills" rel="noopener">Congress accuses government of coercion over delimitation bills</a></h3><p>Congress says Kharge&#39;s letters to Modi on the issue went unacknowledged and wants women&#39;s reservation delinked from delimitation. Publication date was not confirmed; the dispute points to a contentious session.</p><span class="src">Particle</span></li><li><h3><a href="https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html" rel="noopener">Sensex jumps 1,502 points as Nifty hits six-month high</a></h3><p>The Sensex closed 1.82% higher at 83,938.28 and the Nifty 50 rose 1.85% to 25,819.25 on foreign inflows, easing crude and buying in banks and IT. Figures differ slightly by source.</p><span class="src">Business Standard</span></li><li><h3><a href="https://www.indiatvnews.com/news/india/supreme-court-refuses-interim-bail-to-umar-khalid-and-sharjeel-imam-seeks-delhi-police-response-latest-updates-2026-11-25-1060330" rel="noopener">Supreme Court declines interim bail to Umar Khalid and Sharjeel Imam</a></h3><p>A bench led by the Chief Justice issued notice to Delhi Police and will hear its response before deciding on bail in the 2020 Delhi riots conspiracy case. The pair are challenging a Delhi High Court order refusing bail.</p><span class="src">India TV News</span></li><li><h3><a href="https://www.barandbench.com/news/supreme-court-likely-to-pronounce-verdict-in-sabarimala-reference-case-by-december-this-year" rel="noopener">Sabarimala reference verdict expected by December</a></h3><p>A nine-judge Constitution Bench is reportedly likely to deliver its verdict on religious freedom questions by about 18 December. Article date not confirmed.</p><span class="src">Bar &amp; Bench</span></li></ul></div></section>
+<section class="sec" id="andhra"><h2><a href="#andhra">Andhra Pradesh top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cm-clears-rs-88625-crore-investments-54419-jobs-promised-2007667" rel="noopener">Investment board clears about ₹88,625 crore of projects</a></h3><p>The state investment promotion board chaired by Chief Minister Naidu cleared 17 proposals, with a reported 54,419 jobs promised. The largest is a 720 MW data centre in Anakapalli district reported at about ₹47,009 crore; exact date of the meeting was not confirmed.</p><span class="src">Deccan Chronicle</span></article>
+<ul class="list"><li><h3><a href="https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-naidu-seeks-immediate-interim-aid-from-centre-for-cyclone-hit-ap-2002393" rel="noopener">Naidu seeks interim cyclone relief from Centre</a></h3><p>Naidu asked the Centre for immediate interim assistance after two cyclones struck within about a week. Damage estimates vary between reports, so figures remain unconfirmed; the request dates from early November.</p><span class="src">Deccan Chronicle</span></li><li><h3><a href="https://newsable.asianetnews.com/india/naidu-seeks-central-aid-for-cyclone-damaged-crops-in-andhra-pradesh-articleshow-hvfx9en" rel="noopener">State seeks ₹96 crore for cyclone-hit horticulture</a></h3><p>Naidu sought about ₹96.33 crore to restore horticulture crops, reported to cover roughly 37,000 hectares and over 71,000 farmers. Report dates from around 20 November.</p><span class="src">Asianet Newsable</span></li><li><h3><a href="https://www.newsbytesapp.com/news/india/imd-warns-andhra-pradesh-light-moderate-rain-november-25-to-27/tldr" rel="noopener">Rain and gusty winds forecast for coastal Andhra</a></h3><p>The IMD expects light to moderate rain with thunderstorms from 25 to 27 November, with gusty winds over coastal Andhra and Rayalaseema. Farmers and coastal residents should watch local advisories.</p><span class="src">NewsBytes</span></li><li><h3><a href="https://www.etvbharat.com/te/state/live-blog--25th-november-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26112500442" rel="noopener">Second-phase panchayat election nominations close</a></h3><p>The withdrawal deadline for second-phase panchayat nominations passed on 25 November, with heavy security reported for the local body polls. Voters in seven Srikakulam panchayats are set to vote on 26 November.</p><span class="src">ETV Bharat (Telugu)</span></li></ul></div></section>
+<section class="sec" id="usstocks"><h2><a href="#usstocks">US stocks</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11252026-138453529" rel="noopener">Stocks close mixed after AI sell-off is largely reversed</a></h3><p>Wall Street recovered from steep early losses, with the S&amp;P 500 once down about 3.2% and the Nasdaq down about 4.6% intraday. Closing figures vary slightly between outlets.</p><span class="src">ABC News / AP</span></article>
+<ul class="list"><li><h3><a href="https://gsmglobalnews.com/article/d20261125-mktclose1.html" rel="noopener">Nvidia falls 3.9% to US$149.30</a></h3><p>Nvidia led chip-sector weakness even as the Dow erased a drop of more than 1,100 points to finish above 50,000 for a second straight close. The AI trade remains the main driver of volatility.</p><span class="src">GSM Global News</span></li><li><h3><a href="https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/" rel="noopener">Hot PCE inflation and new tariff plans test the market</a></h3><p>Hotter-than-expected inflation data and tariff plans added to AI-related selling. This is a secondary source, so details are not independently confirmed.</p><span class="src">VistaP Global</span></li><li><h3><a href="https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208" rel="noopener">US futures point lower again</a></h3><p>At 4pm AEDT on Wednesday, S&amp;P 500 futures were down 0.6% and Nasdaq futures down 0.9%, with US PCE inflation data due. Futures are indicative only.</p><span class="src">ABC News</span></li></ul></div></section>
+<section class="sec" id="austocks"><h2><a href="#austocks">AU stocks</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208" rel="noopener">ASX slips as October CPI comes in hot</a></h3><p>The ASX 200 fell 0.4% on Wednesday after annual inflation hit 4.9%, with miners and banks the main drags. Copper fell about 5% overnight, hurting miners.</p><span class="src">ABC News</span></article>
+<ul class="list"><li><h3><a href="https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208" rel="noopener">Harvey Norman, Develop Global slump; Lendlease and Pro Medicus rise</a></h3><p>Harvey Norman fell more than 5% after a trading update showing pre-tax profit down 47%, and Develop Global dropped 9.6% after halting a lithium mine. Lendlease gained 4.7% and Pro Medicus 3.6%.</p><span class="src">ABC News</span></li><li><h3><a href="https://stockhead.com.au/news/closing-bell-hot-inflation-crashes-the-asxs-jensen-afterparty/" rel="noopener">Closing Bell: hot inflation crashes the Jensen afterparty</a></h3><p>Stockhead&#39;s wrap puts the inflation surprise as the session&#39;s key theme. It followed a strong rise the previous day.</p><span class="src">Stockhead</span></li><li><h3><a href="https://www.marketindex.com.au/news/asx-200-live-today-thursday-26th-november" rel="noopener">ASX 200 higher early on Thursday</a></h3><p>A live page showed the index up about 0.7% near 8,754 early in the session, led by materials. This is an intraday reading, not a close; private capital expenditure data is due today and the RBA meets on 8 December.</p><span class="src">Market Index</span></li></ul></div></section>
+<section class="sec" id="property"><h2><a href="#property">Australian real estate top 5</a></h2><div class="grid">
+<article class="lead"><h3><a href="https://propertyinvestmentprofessionals.com.au/research-insights/home-value-index-tracker" rel="noopener">Cotality: national home values fell 1.2% in October</a></h3><p>It was the seventh straight monthly fall, leaving values about 6.7% below the March peak. November&#39;s index is due in early December.</p><span class="src">Property Investment Professionals</span></article>
+<ul class="list"><li><h3><a href="https://propertyinvestmentprofessionals.com.au/research-insights/proptrack-home-price-index-tracker" rel="noopener">PropTrack shows a milder decline than Cotality</a></h3><p>PropTrack recorded a 0.3% national fall in October and values 4.3% below peak, against Cotality&#39;s larger drop. The gap shows the indices measure the downturn differently.</p><span class="src">Property Investment Professionals</span></li><li><h3><a href="https://www.finder.com.au/rba-cash-rate/november-2026-cash-rate-increase" rel="noopener">Lenders pass on the November RBA hike</a></h3><p>The big banks lifted variable rates by 0.25 points from 13 November after the cash rate rose to 4.85%. Some trackers conflict on timing for individual lenders.</p><span class="src">Finder</span></li><li><h3><a href="https://www.brokernews.com.au/news/breaking-news/lenders-pass-on-full-reserve-bank-hike-as-refinancing-gap-widens-290260.aspx" rel="noopener">Refinancing gap widens as lenders pass on full hike</a></h3><p>Lenders passing on the full rise has widened the gap between existing and new-customer rates. It increases the case for borrowers to compare loans or refinance.</p><span class="src">Broker News</span></li><li><h3><a href="https://propertyupdate.com.au/this-weekends-auction-results-what-happened-in-sydney-melbourne-brisbane-adelaide-canberra/" rel="noopener">Sydney auction clearance rates at year-to-date low (October)</a></h3><p>For the week ending 10 October, Sydney&#39;s clearance rate was 52.8% and the national average 44.4%. This is older than 48 hours because no more recent weekend figures were found.</p><span class="src">Property Update</span></li></ul></div></section>
+</main>
+<footer class="f"><span class="fm">The MrB Morning Brief</span>Written each morning by AI from public reporting. Summaries are paraphrased and may contain errors, so check the source before acting. Market content is information, not financial advice.</footer>
+</div></body></html>

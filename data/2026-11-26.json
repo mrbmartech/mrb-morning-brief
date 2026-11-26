@@ -1,0 +1,343 @@
+{
+  "date": "2026-11-26",
+  "longDate": "Thursday 26 November 2026",
+  "clock": "1:43 pm AEDT",
+  "generatedAt": "2026-11-26T02:43:06.128Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Australian inflation jumped to 4.9% in October, dragging on the ASX and Albanese's polling, while a Wall Street AI sell-off was mostly reversed.",
+  "highlights": [
+    {
+      "label": "Inflation jump",
+      "text": "Annual CPI rose to 4.9% in October, above forecasts, even after five RBA rate hikes this year."
+    },
+    {
+      "label": "Wall Street reversal",
+      "text": "US stocks recovered most of a sharp AI-led sell-off to close mixed, with Nvidia down 3.9%."
+    },
+    {
+      "label": "Parliament session",
+      "text": "Modi has reportedly told ministers to prepare for a session before 15 December, with delimitation and women's reservation bills expected."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Plan a screen-free wind-down",
+        "body": "Pick a time about 30 minutes before bed and put your phone and laptop out of reach. Use the time for something low-key such as stretching, reading or tidying. A consistent wind-down routine can make it easier to fall asleep and wake rested."
+      },
+      "quote": {
+        "text": "A journey of a thousand miles must begin with a single step.",
+        "author": "Lao Tzu"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce to buy Braze for about US$5.66 billion",
+          "url": "https://cdp.com/articles/salesforce-braze-acquisition/",
+          "source": "CDP.com",
+          "summary": "Salesforce agreed on 20 October to acquire the customer engagement platform Braze for $47.50 a share in cash, subject to shareholder and regulatory approval. The deal would bring a major cross-channel messaging tool into Salesforce's stack; older than 48 hours but still the biggest pending martech deal."
+        },
+        {
+          "title": "HubSpot swaps CEO as co-founder returns",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-13-2026/",
+          "source": "The Agile Brand Guide",
+          "summary": "HubSpot said on 12 November that Yamini Rangan was stepping down as CEO and from the board, with co-founder Brian Halligan returning to lead a product and go-to-market reset. The company reaffirmed its fourth-quarter and full-year guidance."
+        },
+        {
+          "title": "HubSpot to keep primary record ID after CRM merges",
+          "url": "https://www.martechnotes.com/hubspot-announces-stable-crm-record-ids-after-merges/",
+          "source": "Martech Notes",
+          "summary": "HubSpot announced on 24 November that merged CRM records will keep the primary record's ID, becoming mandatory for all portals on 1 March 2027. Teams with integrations or reporting tied to record IDs should check their workflows before then."
+        },
+        {
+          "title": "Adobe puts its CX Enterprise Coworker inside major AI assistants",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-5-2026/",
+          "source": "The Agile Brand Guide",
+          "summary": "Adobe's agentic customer experience system is now available within ChatGPT, Claude, Gemini, Copilot and Databricks Genie, per a 4 November announcement. It signals marketing workflows moving into general-purpose AI tools; this item is older than 48 hours."
+        },
+        {
+          "title": "Gmail's AI Inbox may change how deliverability works",
+          "url": "https://martech.org/gmails-ai-inbox-may-redefine-deliverability/",
+          "source": "MarTech",
+          "summary": "Analysis argues that AI summarising and prioritising emails will make inbox visibility a matter of degrees rather than pass or fail. Publication date was not confirmed, and AI Inbox access is reportedly limited to Google's top paid tier for now."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce signs deal to acquire voice-AI firm Cresta",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/?bc=DB",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce plans to bring Cresta's voice agents and conversation intelligence closer to Service Cloud and Agentforce, while keeping support for existing contact-centre platforms. Terms were not disclosed by Salesforce; a reported price of US$2.7 billion is unconfirmed. Announced in early November."
+        },
+        {
+          "title": "Salesforce agrees to buy Braze",
+          "url": "https://cdp.com/articles/salesforce-braze-acquisition/",
+          "source": "CDP.com",
+          "summary": "The roughly US$5.66 billion cash deal was announced on 20 October and is expected to close in Salesforce's fiscal 2028, pending approvals. It would add a leading engagement platform to Salesforce's marketing offering."
+        },
+        {
+          "title": "Cresta deal part of a year of CX acquisitions",
+          "url": "https://www.cmswire.com/contact-center/salesforce-adds-cresta-to-the-cart-in-its-2026-cx-shopping-spree-01/",
+          "source": "CMSWire",
+          "summary": "CMSWire frames Cresta as the latest in a run of customer-experience purchases by Salesforce this year. It shows the company building out voice and service automation around Agentforce."
+        },
+        {
+          "title": "New Agentforce editions bundle Sales, Service and Industries",
+          "url": "https://www.salesforce.com/news/stories/salesforce-simplifies-editions-2026/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce introduced Core, Advanced and Max editions, with existing Agentforce 1 Edition customers able to move to Max at no extra cost. Published earlier than the last 48 hours; it matters for licensing and renewals."
+        },
+        {
+          "title": "Job-ready Agentforce agents and long-running runtime announced",
+          "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce unveiled prebuilt agents for sales, service and other roles, plus a runtime that lets agents pursue goals over days or weeks, with general availability listed as October. Older announcement; whether the October launch has occurred was not confirmed."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "Live status could not be checked; no active Marketing Cloud, Sales/Service Cloud or Data Cloud incidents or APAC maintenance were found in search results, so check status.salesforce.com directly.",
+      "items": []
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Inflation jumps to 4.9% in October",
+          "url": "https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208",
+          "source": "ABC News",
+          "summary": "Annual CPI rose from 4.3% to 4.9%, above the 4.8% consensus, with trimmed mean up to 3.8%. Markets still price a hold at the RBA's 8 December meeting, though some economists flag a February hike risk."
+        },
+        {
+          "title": "Albanese's good week undone by inflation and record-low Newspoll",
+          "url": "https://www.abc.net.au/news/2026-11-26/inflation-numbers-ruin-governments-good-week/107424930",
+          "source": "ABC News",
+          "summary": "Albanese's approval hit an all-time low in the latest Newspoll, with Labor's primary vote reported at 27%. The Treasurer has called inflation his primary focus ahead of next month's mid-year budget update."
+        },
+        {
+          "title": "Government and Greens strike deals in final sitting week",
+          "url": "https://www.abc.net.au/news/2026-11-25/federal-politics-live-blog-parliament-november-25/107422208",
+          "source": "ABC News",
+          "summary": "The Greens are set to back a Labor trust tax in exchange for higher fees for some private jet owners, and a digital duty of care bill was agreed. It is the last sitting week of parliament for the year."
+        },
+        {
+          "title": "Australia signs new treaty with Solomon Islands",
+          "url": "https://www.abc.net.au/news/2026-11-25/federal-politics-live-blog-parliament-november-25/107422208",
+          "source": "ABC News",
+          "summary": "Albanese and Solomon Islands PM Matthew Wale signed a treaty, which the government says it will release in full. It follows similar agreements with other Pacific neighbours and is seen as a challenge to China's regional influence."
+        },
+        {
+          "title": "RBA's fifth hike of 2026 takes cash rate to 4.85%",
+          "url": "https://www.finder.com.au/rba-cash-rate/november-2026-cash-rate-increase",
+          "source": "Finder",
+          "summary": "The RBA lifted the cash rate by 0.25 points on 3 November to its highest level since 2008, and lenders have been passing it on. The move, from earlier this month, is the backdrop to the hotter inflation figures."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Modi tells ministers to prepare for Parliament session before 15 December",
+          "url": "https://tribuneindia.com/news/india/pm-modi-signals-convening-of-parliament-session-before-dec-15",
+          "source": "The Tribune",
+          "summary": "Modi reportedly asked ministers at Wednesday's Cabinet meeting to avoid foreign travel and be ready for a session, with dates still to be set by the parliamentary affairs committee. The agenda is expected to centre on delimitation and women's reservation bills."
+        },
+        {
+          "title": "Congress accuses government of coercion over delimitation bills",
+          "url": "https://particle.news/story/congress-accuses-modi-government-of-coercive-tactics-over-delimitation-bills",
+          "source": "Particle",
+          "summary": "Congress says Kharge's letters to Modi on the issue went unacknowledged and wants women's reservation delinked from delimitation. Publication date was not confirmed; the dispute points to a contentious session."
+        },
+        {
+          "title": "Sensex jumps 1,502 points as Nifty hits six-month high",
+          "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html",
+          "source": "Business Standard",
+          "summary": "The Sensex closed 1.82% higher at 83,938.28 and the Nifty 50 rose 1.85% to 25,819.25 on foreign inflows, easing crude and buying in banks and IT. Figures differ slightly by source."
+        },
+        {
+          "title": "Supreme Court declines interim bail to Umar Khalid and Sharjeel Imam",
+          "url": "https://www.indiatvnews.com/news/india/supreme-court-refuses-interim-bail-to-umar-khalid-and-sharjeel-imam-seeks-delhi-police-response-latest-updates-2026-11-25-1060330",
+          "source": "India TV News",
+          "summary": "A bench led by the Chief Justice issued notice to Delhi Police and will hear its response before deciding on bail in the 2020 Delhi riots conspiracy case. The pair are challenging a Delhi High Court order refusing bail."
+        },
+        {
+          "title": "Sabarimala reference verdict expected by December",
+          "url": "https://www.barandbench.com/news/supreme-court-likely-to-pronounce-verdict-in-sabarimala-reference-case-by-december-this-year",
+          "source": "Bar & Bench",
+          "summary": "A nine-judge Constitution Bench is reportedly likely to deliver its verdict on religious freedom questions by about 18 December. Article date not confirmed."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Investment board clears about ₹88,625 crore of projects",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cm-clears-rs-88625-crore-investments-54419-jobs-promised-2007667",
+          "source": "Deccan Chronicle",
+          "summary": "The state investment promotion board chaired by Chief Minister Naidu cleared 17 proposals, with a reported 54,419 jobs promised. The largest is a 720 MW data centre in Anakapalli district reported at about ₹47,009 crore; exact date of the meeting was not confirmed."
+        },
+        {
+          "title": "Naidu seeks interim cyclone relief from Centre",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-naidu-seeks-immediate-interim-aid-from-centre-for-cyclone-hit-ap-2002393",
+          "source": "Deccan Chronicle",
+          "summary": "Naidu asked the Centre for immediate interim assistance after two cyclones struck within about a week. Damage estimates vary between reports, so figures remain unconfirmed; the request dates from early November."
+        },
+        {
+          "title": "State seeks ₹96 crore for cyclone-hit horticulture",
+          "url": "https://newsable.asianetnews.com/india/naidu-seeks-central-aid-for-cyclone-damaged-crops-in-andhra-pradesh-articleshow-hvfx9en",
+          "source": "Asianet Newsable",
+          "summary": "Naidu sought about ₹96.33 crore to restore horticulture crops, reported to cover roughly 37,000 hectares and over 71,000 farmers. Report dates from around 20 November."
+        },
+        {
+          "title": "Rain and gusty winds forecast for coastal Andhra",
+          "url": "https://www.newsbytesapp.com/news/india/imd-warns-andhra-pradesh-light-moderate-rain-november-25-to-27/tldr",
+          "source": "NewsBytes",
+          "summary": "The IMD expects light to moderate rain with thunderstorms from 25 to 27 November, with gusty winds over coastal Andhra and Rayalaseema. Farmers and coastal residents should watch local advisories."
+        },
+        {
+          "title": "Second-phase panchayat election nominations close",
+          "url": "https://www.etvbharat.com/te/state/live-blog--25th-november-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26112500442",
+          "source": "ETV Bharat (Telugu)",
+          "summary": "The withdrawal deadline for second-phase panchayat nominations passed on 25 November, with heavy security reported for the local body polls. Voters in seven Srikakulam panchayats are set to vote on 26 November."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,182.78",
+          "change": "-0.25%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "50,182.95",
+          "change": "+0.33%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "23,585.80",
+          "change": "-0.60%"
+        }
+      ],
+      "items": [
+        {
+          "title": "Stocks close mixed after AI sell-off is largely reversed",
+          "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11252026-138453529",
+          "source": "ABC News / AP",
+          "summary": "Wall Street recovered from steep early losses, with the S&P 500 once down about 3.2% and the Nasdaq down about 4.6% intraday. Closing figures vary slightly between outlets."
+        },
+        {
+          "title": "Nvidia falls 3.9% to US$149.30",
+          "url": "https://gsmglobalnews.com/article/d20261125-mktclose1.html",
+          "source": "GSM Global News",
+          "summary": "Nvidia led chip-sector weakness even as the Dow erased a drop of more than 1,100 points to finish above 50,000 for a second straight close. The AI trade remains the main driver of volatility."
+        },
+        {
+          "title": "Hot PCE inflation and new tariff plans test the market",
+          "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/",
+          "source": "VistaP Global",
+          "summary": "Hotter-than-expected inflation data and tariff plans added to AI-related selling. This is a secondary source, so details are not independently confirmed."
+        },
+        {
+          "title": "US futures point lower again",
+          "url": "https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208",
+          "source": "ABC News",
+          "summary": "At 4pm AEDT on Wednesday, S&P 500 futures were down 0.6% and Nasdaq futures down 0.9%, with US PCE inflation data due. Futures are indicative only."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200 (Wed close)",
+          "value": "8,692.4",
+          "change": "-0.39%"
+        },
+        {
+          "label": "AUD/USD",
+          "value": "about 0.659",
+          "change": "n/a"
+        },
+        {
+          "label": "S&P 500 futures (Wed 4pm AEDT)",
+          "value": "n/a",
+          "change": "-0.6%"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX slips as October CPI comes in hot",
+          "url": "https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208",
+          "source": "ABC News",
+          "summary": "The ASX 200 fell 0.4% on Wednesday after annual inflation hit 4.9%, with miners and banks the main drags. Copper fell about 5% overnight, hurting miners."
+        },
+        {
+          "title": "Harvey Norman, Develop Global slump; Lendlease and Pro Medicus rise",
+          "url": "https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208",
+          "source": "ABC News",
+          "summary": "Harvey Norman fell more than 5% after a trading update showing pre-tax profit down 47%, and Develop Global dropped 9.6% after halting a lithium mine. Lendlease gained 4.7% and Pro Medicus 3.6%."
+        },
+        {
+          "title": "Closing Bell: hot inflation crashes the Jensen afterparty",
+          "url": "https://stockhead.com.au/news/closing-bell-hot-inflation-crashes-the-asxs-jensen-afterparty/",
+          "source": "Stockhead",
+          "summary": "Stockhead's wrap puts the inflation surprise as the session's key theme. It followed a strong rise the previous day."
+        },
+        {
+          "title": "ASX 200 higher early on Thursday",
+          "url": "https://www.marketindex.com.au/news/asx-200-live-today-thursday-26th-november",
+          "source": "Market Index",
+          "summary": "A live page showed the index up about 0.7% near 8,754 early in the session, led by materials. This is an intraday reading, not a close; private capital expenditure data is due today and the RBA meets on 8 December."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Cotality: national home values fell 1.2% in October",
+          "url": "https://propertyinvestmentprofessionals.com.au/research-insights/home-value-index-tracker",
+          "source": "Property Investment Professionals",
+          "summary": "It was the seventh straight monthly fall, leaving values about 6.7% below the March peak. November's index is due in early December."
+        },
+        {
+          "title": "PropTrack shows a milder decline than Cotality",
+          "url": "https://propertyinvestmentprofessionals.com.au/research-insights/proptrack-home-price-index-tracker",
+          "source": "Property Investment Professionals",
+          "summary": "PropTrack recorded a 0.3% national fall in October and values 4.3% below peak, against Cotality's larger drop. The gap shows the indices measure the downturn differently."
+        },
+        {
+          "title": "Lenders pass on the November RBA hike",
+          "url": "https://www.finder.com.au/rba-cash-rate/november-2026-cash-rate-increase",
+          "source": "Finder",
+          "summary": "The big banks lifted variable rates by 0.25 points from 13 November after the cash rate rose to 4.85%. Some trackers conflict on timing for individual lenders."
+        },
+        {
+          "title": "Refinancing gap widens as lenders pass on full hike",
+          "url": "https://www.brokernews.com.au/news/breaking-news/lenders-pass-on-full-reserve-bank-hike-as-refinancing-gap-widens-290260.aspx",
+          "source": "Broker News",
+          "summary": "Lenders passing on the full rise has widened the gap between existing and new-customer rates. It increases the case for borrowers to compare loans or refinance."
+        },
+        {
+          "title": "Sydney auction clearance rates at year-to-date low (October)",
+          "url": "https://propertyupdate.com.au/this-weekends-auction-results-what-happened-in-sydney-melbourne-brisbane-adelaide-canberra/",
+          "source": "Property Update",
+          "summary": "For the week ending 10 October, Sydney's clearance rate was 52.8% and the national average 44.4%. This is older than 48 hours because no more recent weekend figures were found."
+        }
+      ]
+    }
+  }
+}
