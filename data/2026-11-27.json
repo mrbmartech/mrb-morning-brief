@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-27",
+  "longDate": "Friday 27 November 2026",
+  "clock": "1:43 pm AEDT",
+  "generatedAt": "2026-11-27T02:43:48.188Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Salesforce is pushing deeper into Microsoft Copilot and fifth-round job cuts, while Australian home values remain in a seven-month slide.",
+  "highlights": [
+    {
+      "label": "Salesforce + Microsoft",
+      "text": "Salesforce and Microsoft announced Copilotforce, bringing Salesforce customer data and sales workflows into Microsoft Copilot, Teams and Fabric."
+    },
+    {
+      "label": "Rail shutdown",
+      "text": "Trains on NSW's Southern Highlands and Hunter lines are due to be suspended for a week from Friday amid an industrial dispute."
+    },
+    {
+      "label": "Housing slide",
+      "text": "Cotality's latest data shows national home values fell 1.2% in October, the seventh straight monthly decline. November figures are due around 1 December."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Take a weekend 'movement appointment'",
+        "body": "Put a 20 to 30 minute walk, ride or swim in your calendar for tomorrow, as you would any meeting. Planned activity is far more likely to happen than activity left to spare time, and regular moderate movement supports mood, energy and sleep."
+      },
+      "quote": {
+        "text": "What we do every day matters more than what we do once in a while.",
+        "author": "Gretchen Rubin"
+      }
+    },
+    "martech": {
+      "ok": false,
+      "error": "Searches returned no martech stories from the last 48 hours; only older roundups were found."
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce and Microsoft launch Copilotforce",
+          "url": "https://www.salesforce.com/news/stories/copilotforce-announcement/",
+          "source": "Salesforce Newsroom",
+          "summary": "Announced at Microsoft Ignite on 17 November, Copilotforce brings Salesforce customer context and sales workflows into Microsoft Copilot, Teams and Fabric. It lets sellers work with CRM data inside Microsoft tools, reflecting closer ties between the two vendors."
+        },
+        {
+          "title": "Salesforce to lead US systems-integrator export consortium",
+          "url": "https://www.salesforce.com/news/press-releases/2026/11/19/salesforce-si-export-consortium/",
+          "source": "Salesforce Newsroom",
+          "summary": "Salesforce said it will lead a consortium taking American systems integrators into global markets, with a US Commerce designation making the package eligible for priority government engagement. The release is dated 19 November, so it is older than 48 hours."
+        },
+        {
+          "title": "Fifth round of Salesforce job cuts reported for 2026",
+          "url": "https://cxm.world/employee-experience/salesforce-layoffs-fifth-round-2026/",
+          "source": "Customer Experience Magazine",
+          "summary": "Reports citing Business Insider say Salesforce has begun another round of layoffs, its fifth this year, with the scope not disclosed. The cuts matter for customers and partners watching how the company is reshaping around AI. Older than 48 hours; not independently confirmed here."
+        },
+        {
+          "title": "Salesforce again disables third-party integrations over token concerns",
+          "url": "https://www.salesforceben.com/connected-app-warnings-return-as-salesforce-disables-two-integrations/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce disabled two connected apps over suspicious use of access tokens, with one later restored. Admins should review connected-app permissions and watch for further disablements."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "unknown",
+      "statusNote": "Salesforce Trust could not be read directly and no incident reports from the last 48 hours were found, so status is unconfirmed; check status.salesforce.com for AU instances.",
+      "items": []
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Week-long rail suspension looms for NSW Southern Highlands and Hunter lines",
+          "url": "https://www.abc.net.au/news/2026-11-26/newcastle-hunter-local-news-briefing/107428092",
+          "source": "ABC News",
+          "summary": "Transport officials are arranging replacement coaches ahead of a week-long train suspension from Friday, linked to an industrial dispute involving rail unions and the Australian Rail Track Corporation. Commuters on both lines face disruption. Details taken from a regional briefing."
+        },
+        {
+          "title": "David Jones boss criticises past management as retail pressure shows",
+          "url": "https://www.abc.net.au/news/2026-11-26/asx-markets-business-news-live-updates-thursday-26-november/107428134",
+          "source": "ABC News",
+          "summary": "ABC's business live blog covered the David Jones chief's remarks that past management lacked the resolve for tough decisions. The same blog flagged a TV shopping network liquidation and a Flight Centre cybersecurity investigation."
+        },
+        {
+          "title": "Gold Coast mayor's dealings with a developer under ABC investigation",
+          "url": "https://www.abc.net.au/news/2026-11-26/gold-coast-local-news-briefing/107428500",
+          "source": "ABC News",
+          "summary": "A Gold Coast briefing points to an ABC investigation into the mayor's dealings with a developer, alongside court action over a group assault case. Only headline details were available."
+        }
+      ]
+    },
+    "india": {
+      "ok": false,
+      "error": "Searches returned no India national stories from the last 48 hours."
+    },
+    "andhra": {
+      "ok": false,
+      "error": "Searches returned no Andhra Pradesh stories from the last 48 hours."
+    },
+    "usstocks": {
+      "ok": false,
+      "error": "US markets were closed Thursday 26 November for Thanksgiving; Friday trades a shortened session. No reliable close for the latest full session was found."
+    },
+    "austocks": {
+      "ok": false,
+      "error": "No confirmed ASX 200 close or AUD/USD rate for the latest session was found."
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Home values fall 1.2% in October, seventh straight monthly drop",
+          "url": "https://tradingeconomics.com/australia/corelogic-dwelling-prices-mom/news/597255",
+          "source": "Trading Economics (Cotality data)",
+          "summary": "Cotality's national index fell 1.2% in October and sits about 6.7% below its March peak. November data is due around 1 December, so this is the latest available."
+        },
+        {
+          "title": "Sydney leads correction while Melbourne sits 7.2% below its peak",
+          "url": "https://www.cotality.com/au/insights/articles/monthly-housing-chart-pack-november",
+          "source": "Cotality",
+          "summary": "Cotality's chart pack reports Sydney values about 8.6% below their February peak and Melbourne about 7.2% below its November 2025 high. Regional values have outperformed capital cities, which fell 4.8% annually, though sources differ on the national annual figure."
+        },
+        {
+          "title": "Auction clearance rates weak as sellers and buyers hold back",
+          "url": "https://www.cotality.com/au/press-releases/final-clearance-rates-week-ending-4-october-2026",
+          "source": "Cotality",
+          "summary": "Cotality's weekly auction data for early October showed clearance rates well below a year earlier. Latest weekend figures were not found, so this is older than 48 hours."
+        }
+      ]
+    }
+  }
+}
