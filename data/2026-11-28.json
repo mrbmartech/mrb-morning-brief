@@ -1,0 +1,357 @@
+{
+  "date": "2026-11-28",
+  "longDate": "Saturday 28 November 2026",
+  "clock": "1:34 pm AEDT",
+  "generatedAt": "2026-11-28T02:34:07.356Z",
+  "model": "Claude Code (subscription)",
+  "headline": "Good morning — Victorians vote today with a Coalition win expected, while Wall Street ended its best week in 19 months.",
+  "highlights": [
+    {
+      "label": "Victorian election",
+      "text": "Voting is under way today; analysts expect a Liberal-led win, though a slow upper house count could follow."
+    },
+    {
+      "label": "Wall Street rally",
+      "text": "The S&P 500 gained 1.6% in a shortened Black Friday session, capping its strongest week in about 19 months."
+    },
+    {
+      "label": "Property slump",
+      "text": "Cotality says Australian home values fell 1.2% in October, the seventh straight monthly decline, after repeated RBA rate rises."
+    }
+  ],
+  "sections": {
+    "health": {
+      "ok": true,
+      "tip": {
+        "title": "Take a 'green break' outdoors",
+        "body": "Step outside for five to ten minutes today, ideally in daylight and near trees or grass. A short outdoor break can lift mood, ease mental fatigue and help set your body clock for better sleep tonight."
+      },
+      "quote": {
+        "text": "The secret of getting ahead is getting started.",
+        "author": "Mark Twain (commonly attributed)"
+      }
+    },
+    "martech": {
+      "ok": true,
+      "items": [
+        {
+          "title": "ActiveCampaign opens its AI to outside tools via MCP",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech.org",
+          "summary": "ActiveCampaign opened its Active Intelligence layer to third-party business tools through prebuilt connectors and any MCP server on 26 November. Marketers can draft ad creative and build campaigns using existing brand context, a sign that MCP is becoming standard plumbing in martech."
+        },
+        {
+          "title": "Basis adds governance layer and MCP server to its AI",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech.org",
+          "summary": "Basis expanded its Compass AI with a governance layer across the ad campaign lifecycle and an MCP server for external agents such as Claude and ChatGPT. Controls over what agents can do in ad operations are becoming a buying criterion."
+        },
+        {
+          "title": "Constructor launches tracking for AI answer-engine shoppers",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech.org",
+          "summary": "Constructor's new Commerce AEO follows shopper journeys from AI assistants and answer engines through to on-site purchases. It gives retailers a way to measure a channel that conventional analytics often miss."
+        },
+        {
+          "title": "CallRail links Amazon Ads impressions to calls and forms",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "source": "MarTech.org",
+          "summary": "CallRail launched a direct Amazon Ads integration that ties TV, video, audio and display impressions to later calls, texts and form fills. It also sends offline conversion signals back to Amazon Ads, tightening attribution for phone-driven businesses."
+        },
+        {
+          "title": "Adobe puts CX Enterprise Coworker inside major AI assistants",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-5-2026/",
+          "source": "Agile Brand Guide",
+          "summary": "Adobe said on 4 November that its agentic CX Enterprise Coworker is available inside ChatGPT, Claude, Gemini, Copilot and Databricks Genie. Older than 48 hours; included because no newer Adobe coverage with a link turned up."
+        }
+      ]
+    },
+    "salesforce": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Salesforce switches off Conga integrations over suspicious activity",
+          "url": "https://www.salesforceben.com/salesforce-disables-conga-integrations-after-suspicious-activity/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce disabled Conga integrations on 26 November after detecting unusual activity. Admins relying on Conga should check their connected apps and watch for guidance."
+        },
+        {
+          "title": "Agentforce Coworker offered to SMBs at no extra cost",
+          "url": "https://www.salesforceben.com/salesforce-offers-agentforce-coworker-at-no-extra-cost-to-smbs/",
+          "source": "Salesforce Ben",
+          "summary": "Small and mid-sized businesses can use Agentforce Coworker without an added fee, per reporting on 24 November. The move lowers the barrier to agent adoption in the SMB segment."
+        },
+        {
+          "title": "More Salesforce layoffs, three months after the last round",
+          "url": "https://www.salesforceben.com/more-salesforce-layoffs-just-three-months-after-last-wave/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce has begun another round of job cuts, reported on 18 November, only about three months after the previous wave. The scope has not been confirmed."
+        },
+        {
+          "title": "Salesforce and Microsoft announce Copilotforce",
+          "url": "https://www.salesforceben.com/salesforce-announces-copilotforce-with-microsoft-amid-ongoing-outages/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce and Microsoft unveiled Copilotforce, bringing Salesforce customer context and sales workflows into Microsoft Copilot. It was announced as Salesforce was dealing with service disruptions."
+        },
+        {
+          "title": "Salesforce among 178 brands hit by Optimizely exploit",
+          "url": "https://www.salesforceben.com/salesforce-among-178-brands-hit-by-optimizely-exploit/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce was one of 178 brands affected by an exploit targeting Optimizely, reported on 17 November. It adds to a run of security-related integration issues this month."
+        }
+      ]
+    },
+    "sfstatus": {
+      "ok": true,
+      "status": "issues",
+      "statusNote": "Several incidents were logged through November and a Conga integration shutdown is recent, but no APAC-specific outage was confirmed; check status.salesforce.com for live status.",
+      "items": [
+        {
+          "title": "Conga integrations disabled after suspicious activity",
+          "url": "https://www.salesforceben.com/salesforce-disables-conga-integrations-after-suspicious-activity/",
+          "source": "Salesforce Ben",
+          "summary": "Salesforce turned off Conga integrations on 26 November. Orgs using Conga document or contract workflows may see them stop working."
+        },
+        {
+          "title": "Multiple incidents logged on 12 November",
+          "url": "https://uptimerobot.com/is-it-down/salesforce/2026-11-12/",
+          "source": "UptimeRobot",
+          "summary": "Third-party monitoring recorded several Salesforce incidents that day, some lasting hours. This is an aggregator source and older than 48 hours."
+        },
+        {
+          "title": "Data 360 degradation reported mid-month",
+          "url": "https://uptimerobot.com/is-it-down/salesforce/2026-11-16/",
+          "source": "UptimeRobot",
+          "summary": "A Data 360 degradation began on 16 November and was still open at last report. Not independently confirmed as resolved; no AU-specific impact was found."
+        }
+      ]
+    },
+    "australia": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Victorians vote today as Coalition tipped to end Labor's 12 years",
+          "url": "https://www.crikey.com.au/2026/11/27/victoria-election-jess-wilson-coalition-gas-reservation-scheme-passed/",
+          "source": "Crikey",
+          "summary": "Voting in the Victorian state election is on today, with Jess Wilson's Coalition expected to win. Analysts warn the result could be messy and the upper house count may take a week or two."
+        },
+        {
+          "title": "Gas reservation scheme passes Parliament",
+          "url": "https://www.abc.net.au/news/2026-11-27/federal-politics-live-blog-november-27/107431796",
+          "source": "ABC News",
+          "summary": "Parliament passed a scheme requiring LNG exporters to reserve up to 20 per cent of output for the domestic market, with the Coalition letting it through. It aims to ease east-coast supply pressure."
+        },
+        {
+          "title": "Albanese concedes government does not get everything right",
+          "url": "https://www.abc.net.au/news/2026-11-27/federal-politics-live-blog-november-27/107431796",
+          "source": "ABC News",
+          "summary": "At the year-end press conference the Prime Minister cited global inflation and higher interest rates, and ruled out a reshuffle for now. Labor is also shifting toward election readiness."
+        },
+        {
+          "title": "South Australian senator Leah Blyth defects to One Nation",
+          "url": "https://www.abc.net.au/news/2026-11-27/federal-politics-live-blog-november-27/107431796",
+          "source": "ABC News",
+          "summary": "Senator Leah Blyth left the Liberals for One Nation in the final sitting week, drawing sharp criticism from Liberal colleagues. It underlines One Nation's growing pull on the right."
+        },
+        {
+          "title": "ACCC warns Black Friday shoppers over AI-generated deals",
+          "url": "https://www.abc.net.au/news/2026-11-27/asx-markets-business-news-live-updates/107430390",
+          "source": "ABC News",
+          "summary": "The consumer watchdog told shoppers to check AI-generated deals and advice, saying businesses remain liable for misleading information from their AI tools. Senators also grilled ASIC and Sequoia over audit and First Guardian and Shield failures."
+        }
+      ]
+    },
+    "india": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Winter session timing still unsettled as Delimitation Bill faces numbers test",
+          "url": "https://www.outlookindia.com/national/parliament-winter-session-likely-in-first-week-of-december-as-delimitation-bill-faces-numbers-test",
+          "source": "Outlook India",
+          "summary": "Reports say the Winter Session may start in early December, with the government pushing a constitutional amendment linking women's reservation to delimitation. Reports differ on the dates, and the government needs a two-thirds majority."
+        },
+        {
+          "title": "Cabinet reportedly clears changes to Delimitation Bill",
+          "url": "https://thestatesman.com/india/modi-cabinet-clears-proposed-changes-to-delimitation-bill-govt-prepares-to-table-revised-legislation-sources-1503667650.html",
+          "source": "The Statesman",
+          "summary": "Sources say the Union Cabinet approved proposed changes and the government is preparing revised legislation. Details are not officially disclosed; the date is unconfirmed."
+        },
+        {
+          "title": "Women's quota, vote-chori and impeachment: stage set for session showdown",
+          "url": "https://www.thehansindia.com/news/national/winter-session-womens-quota-vote-chori-and-impeachment-stage-set-for-showdown-1146026",
+          "source": "The Hans India",
+          "summary": "Opposition protests over the special intensive revision of electoral rolls are expected to clash with the government's legislative agenda. It points to a disrupted session."
+        },
+        {
+          "title": "Supreme Court declines single portal for unclaimed assets",
+          "url": "https://www.deccanherald.com/india/ensure-an-effective-mechanism-to-recover-unclaimed-assets-supreme-court-tells-authorities-4233874",
+          "source": "Deccan Herald",
+          "summary": "The court said existing mechanisms, including the RBI's UDGAM portal, had largely addressed the petition and refused continuing monitoring. It tells authorities to keep recovery mechanisms effective."
+        },
+        {
+          "title": "Supreme Court grants bail to ex-AAP MLA Naresh Balyan in MCOCA case",
+          "url": "https://github.com/chimade-iot/today-in-the-supreme-court/releases/tag/ep-20261127-1614",
+          "source": "Today in the Supreme Court (digest)",
+          "summary": "A 27 November court digest lists bail for former AAP MLA Naresh Balyan in a case under the MCOCA. Secondary source only; not independently confirmed."
+        }
+      ]
+    },
+    "andhra": {
+      "ok": true,
+      "items": [
+        {
+          "title": "AP cabinet clears Kia's Rs 19,000 crore second plant",
+          "url": "https://www.southmatters.com/andhrapradesh/ap-cabinet-decisions-kia-19000-crore-amaravati-november-2026/",
+          "source": "South Matters",
+          "summary": "The cabinet chaired by Chandrababu Naidu approved Kia's second car plant at Penukonda along with other large industrial projects. It is a major manufacturing boost for Rayalaseema; figures are from a single outlet."
+        },
+        {
+          "title": "Cabinet approves about Rs 36,000 crore in investments and Amaravati works",
+          "url": "https://www.m9.news/politics/ap-cabinet-36000-crore-investments-amaravati-works/",
+          "source": "m9.news",
+          "summary": "More than 30 proposals were cleared on Friday, including Amaravati infrastructure, a Rs 626 crore Amaravati Sangamam at Sakhamuru and renewable energy projects. Figures not independently verified."
+        },
+        {
+          "title": "Naidu vows to make Amaravati a global deep-tech hub",
+          "url": "https://www.thehansindia.com/news/cities/amaravati/will-turn-amaravati-into-global-deep-tech-hub-cm-naidu-1128490",
+          "source": "The Hans India",
+          "summary": "The chief minister set out plans to position the capital as a deep-tech centre. Publication date not confirmed and may be older than 48 hours."
+        },
+        {
+          "title": "Naidu orders cyclone precautions along the coast",
+          "url": "https://hiindia.com/cm-naidu-orders-precautionary-measures-in-view-of-impending-cyclone/",
+          "source": "Hi India",
+          "summary": "On 16 November the chief minister told officials to pre-position NDRF and SDRF teams ahead of an expected cyclone. Older story; no follow-up on landfall was found."
+        },
+        {
+          "title": "Naidu sets target to finish Amaravati projects for inauguration by PM Modi",
+          "url": "https://www.deccanherald.com/india/andhra-pradesh/andhra-cm-chandrababu-naidu-sets-target-to-complete-amaravati-projects-get-them-inaugurated-by-pm-modi-3956253",
+          "source": "Deccan Herald",
+          "summary": "Naidu has set deadlines for completing capital projects so they can be inaugurated by the Prime Minister. Date not confirmed; included because recent Amaravati coverage was limited."
+        }
+      ]
+    },
+    "usstocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "S&P 500",
+          "value": "7,297.49",
+          "change": "+1.60%"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "50,774.94",
+          "change": "+1.2%"
+        },
+        {
+          "label": "Nasdaq Composite",
+          "value": "24,129.50",
+          "change": "+2.3%"
+        }
+      ],
+      "items": [
+        {
+          "title": "S&P 500 posts best week in 19 months as AI stocks rebound",
+          "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/9037808/stock-market-today-nov-27-sp-500-posts-best-week-in-19-months-as-ai-stocks-rebound/",
+          "source": "The Globe and Mail",
+          "summary": "The S&P 500 rose 1.6% on Friday and about 5.6% over the week, its strongest since April 2025. Chipmakers and AI names led the rebound after a rough month."
+        },
+        {
+          "title": "Stocks jump to close an erratic week in a shortened session",
+          "url": "https://post-gazette.com/business/personal-finance/stock-markets-today-november-27-2026-2KMWD23HNN7BAM2FQEDY3KOQKU",
+          "source": "Pittsburgh Post-Gazette",
+          "summary": "The Dow added 591.99 points in the post-Thanksgiving half-day. Micron rose about 7.6% and Amazon about 4% on early Black Friday shopping data."
+        },
+        {
+          "title": "Strong Black Friday start lifts markets",
+          "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/",
+          "source": "24/7 Wall St.",
+          "summary": "Retail and tech names led early gains as holiday spending signals encouraged investors. Consumer data will be watched closely into December."
+        },
+        {
+          "title": "Fed hike on 9 December seen as near-certain, jobs data next",
+          "url": "https://www.abc.net.au/news/2026-11-27/asx-markets-business-news-live-updates/107430390",
+          "source": "ABC News",
+          "summary": "Economists see a quarter-point Federal Reserve rate rise on 9 December as almost certain. The US jobs report is due next Friday, with about 90,000 jobs expected."
+        }
+      ]
+    },
+    "austocks": {
+      "ok": true,
+      "snapshot": [
+        {
+          "label": "ASX 200",
+          "value": "8,833.6",
+          "change": "+0.8%"
+        },
+        {
+          "label": "AUD/USD",
+          "value": "0.666",
+          "change": "+0.45%"
+        }
+      ],
+      "items": [
+        {
+          "title": "ASX 200 rises 0.8% as miners, energy and tech lead",
+          "url": "https://kalkine.com.au/news/daily-wrap/asx200-rebounds-as-technology-and-resources-lead-gains",
+          "source": "Kalkine",
+          "summary": "The index closed near 8,833 on Friday, with nine of 11 sectors higher. It moved back above its 200-day moving average."
+        },
+        {
+          "title": "WiseTech jumps almost 15% after reaffirming FY27 outlook",
+          "url": "https://www.abc.net.au/news/2026-11-27/asx-markets-business-news-live-updates/107430390",
+          "source": "ABC News",
+          "summary": "WiseTech was the standout, while Neuren fell more than 10% on a reported FDA request for a placebo-controlled trial. Healthcare and utilities were the only lagging sectors."
+        },
+        {
+          "title": "Macquarie CEO and COO to retire in March 2027",
+          "url": "https://www.abc.net.au/news/2026-11-27/asx-markets-business-news-live-updates/107430390",
+          "source": "ABC News",
+          "summary": "Stuart Green and Nicole Sorbara will step down at the end of March 2027. The leadership change matters for one of the ASX's largest financials."
+        },
+        {
+          "title": "NSW warns falling property prices will hit revenue",
+          "url": "https://www.abc.net.au/news/2026-11-27/asx-markets-business-news-live-updates/107430390",
+          "source": "ABC News",
+          "summary": "The NSW Treasurer said lower property prices could cut revenue by a similar amount to the $8.4 billion June downgrade. A return to surplus may be delayed. ASX futures were not found; markets are closed today."
+        }
+      ]
+    },
+    "property": {
+      "ok": true,
+      "items": [
+        {
+          "title": "Capital city home values falling at fastest pace in 40 years",
+          "url": "https://www.brokernews.com.au/news/breaking-news/capital-city-values-fall-at-fastest-pace-in-40-years-cotality-290300.aspx",
+          "source": "Broker News",
+          "summary": "Cotality reports national values fell 1.2% in October, the seventh straight monthly decline and about 6.7% below the March peak. Capital city values are down 8.1% over seven months, with Sydney 8.6% below its peak."
+        },
+        {
+          "title": "Housing markets set to weaken further after RBA hikes again",
+          "url": "https://www.cotality.com/au/press-releases/housing-markets-set-to-weaken-further-as-rba-hikes-again-in-november",
+          "source": "Cotality",
+          "summary": "The RBA lifted the cash rate to 4.85% in November, its fifth rise this year and the highest since 2008. Cotality expects higher mortgage costs and reduced borrowing capacity to keep weighing on values."
+        },
+        {
+          "title": "Auction market hits new low as buyers thin",
+          "url": "https://www.macrobusiness.com.au/2026/11/auction-market-plumbs-new-low-as-buyers-thin/",
+          "source": "MacroBusiness",
+          "summary": "Melbourne's preliminary clearance rate hit 47.8% earlier in November, its lowest since September 2021. Final weekly rates have stayed in the 40s for 22 of 24 weeks."
+        },
+        {
+          "title": "National auction clearance rate 44.1% versus 66.6% a year ago",
+          "url": "https://propertyupdate.com.au/this-weekends-auction-results-what-happened-in-sydney-melbourne-brisbane-adelaide-canberra/",
+          "source": "Property Update",
+          "summary": "Spring auction volumes are running about 36% below last year, with the fewest auctions for the period since 2020. Providers' figures differ."
+        },
+        {
+          "title": "RBA hike deepens housing headwinds as borrowing power shrinks",
+          "url": "https://propertyupdate.com.au/rba-rate-hike-deepens-housing-market-headwinds-as-borrowing-power-shrinks/",
+          "source": "Property Update",
+          "summary": "Analysts say repeated hikes are cutting how much buyers can borrow, while rents are expected to stay under pressure. Cotality notes market rents have outpaced the CPI rent measure."
+        }
+      ]
+    }
+  }
+}
